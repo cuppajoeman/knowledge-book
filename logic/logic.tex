@@ -1,0 +1,62 @@
+
+\chapter{First Order Logic}
+
+\begin{chapquote}{Author's name, \textit{Source of this quote}}
+``This is a quote and I don't know who said this.''
+\end{chapquote}
+
+\section{Deductions}
+
+\begin{lemma}{Universal connection to Variable Assignment Function}{forall vaf}
+    \[
+    \Sigma \vdash \theta \text { if and only if } \Sigma \vdash \forall x \theta
+    \]
+\end{lemma}
+
+Note this lemma might seem quite strange, but note it actually makes sense, \todo{finish why}
+
+\begin{tcolorbox}
+\section*{x~\xrfill[0.3ex]{1.5pt}~Proof~\xrfill[0.3ex]{1.5pt}~x}
+\begin{itemize}
+    \item $ \Rightarrow $ 
+    \begin{itemize}
+        \item Suppose that $ \Sigma \vdash \theta$, therefore we have a deduction $ \mathcal{D}$ of $ \theta$, then the proof
+            \begin{gather*}
+                \mathcal{D}\\
+                \left[ \left( \forall y \left( y =  y \right) \right) \land  \neg \left( \forall y \left( y =  y \right) \right) \right] \rightarrow \theta \tag{taut. PC}\\
+                \left[ \left( \forall y \left( y =  y \right) \right) \land  \neg \left( \forall y \left( y =  y \right) \right) \right] \rightarrow \left(  \forall  x \right)\theta \tag{QR}\\
+                \left(  \forall x \right) \theta \tag{PC}
+            \end{gather*}
+    \end{itemize}
+    \item $ \Leftarrow $
+    \begin{itemize}
+        \item Suppose that $ \Sigma \vdash \forall x \theta$, so we have a deduction of it, call it  $\mathcal{D}$, then the following deduction suffices
+        \begin{gather*}
+           \mathcal{D} \\
+           \forall x \theta\\
+           \forall x \theta \rightarrow \theta _{x}^{x}\\
+            \theta _{x}^{x}
+        \end{gather*}
+    \end{itemize}
+\end{itemize}
+
+\end{tcolorbox}
+
+
+\section{Completeness}
+
+\begin{theorem}{Completeness Theorem}{completeness}
+Suppose that $\Sigma$ is a set of $\mathcal{L}$-formulas, where $ \mathcal{L}$ is a countable langauge  and $\phi$ is an $\mathcal{L}$-formula. If $\Sigma \models \phi$, then $\Sigma \vdash \phi$.
+
+\section*{Setup}
+
+\begin{itemize}
+    \item We start by assuming that $ \Sigma \models \phi$, we must show that $ \Sigma \vdash \phi$.
+    \item If $ \phi$ is not a sentence then we can always prove $ \phi'$ which is the same as $ \phi$ with all of it's variables bound
+    \begin{itemize}
+        \item We can do that by appending $ \left( \forall  x _{f}  \right)$ where each $ x_{f}$  is a free varaible of $ \phi$ to the front of $ \phi$ 
+    \end{itemize}
+\item Therefore we will prove it for all sentences $ \phi$ \todo[inline]{justify why this is equivalent}
+\end{itemize}
+
+\end{theorem}

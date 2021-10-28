@@ -1,0 +1,7 @@
+PWD /home/ccn/stuff-I-know
+INPUT /usr/share/texmf-dist/web2c/texmf.cnf
+INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
+INPUT topology.tex
+OUTPUT topology.log
+OUTPUT topology.pdf
+INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map

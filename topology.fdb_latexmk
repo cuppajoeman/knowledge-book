@@ -1,0 +1,10 @@
+# Fdb version 3
+["pdflatex"] 1635396876 "topology.tex" "topology.pdf" "topology" 1635396876
+  "/usr/share/texmf-dist/web2c/texmf.cnf" 1617738065 39911 2da6c67557ec033436fe5418a70a8a61 ""
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1634762589 5045527 a0ef06d06af438d62994481e52c2af5f ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1634762572 2812682 f0ef48edab70fcd64f0b555d57bb3dfb ""
+  "topology.aux" 1635396876 3532 8704cf0fa8b73aa657e104a9ca2647ee ""
+  "topology.tex" 1635396773 6688 2afe094012d9e2480b2fb7735539c5c0 ""
+  (generated)
+  "topology.pdf"
+  "topology.log"
