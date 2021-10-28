@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.10.20)  28 OCT 2021 01:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.10.20)  28 OCT 2021 01:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -722,7 +722,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 86.
  (/usr/share/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) (./book.aux (./logic/logic.aux) (./topology/topology.aux))
+) (build/book.aux (build/logic/logic.aux) (build/topology/topology.aux))
 \openout1 = `book.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
@@ -791,7 +791,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 86.
 LaTeX Info: Redefining \pageref on input line 86.
 LaTeX Info: Redefining \nameref on input line 86.
- (./book.out) (./book.out)
+ (build/book.out) (build/book.out)
 \@outlinefile=\write6
 \openout6 = `book.out'.
 
@@ -873,7 +873,7 @@ File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 l.96 \end{dedication}
                       [1
 
-] (./book.toc
+] (build/book.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 3.
 )
@@ -883,19 +883,19 @@ LaTeX Font Info:    External font `lmex10' loaded for size
  [2
 
 
-] (./book.lof)
+] (build/book.lof)
 \tf@lof=\write8
 \openout8 = `book.lof'.
 
  [3
 
-] (./book.lot)
+] (build/book.lot)
 \tf@lot=\write9
 \openout9 = `book.lot'.
 
  [4
 
-] (./book.tdo)
+] (build/book.tdo)
 \tf@tdo=\write10
 \openout10 = `book.tdo'.
 
@@ -933,20 +933,20 @@ Package hyperref Info: bookmark level for unknown todo defaults to 0 on input li
 
 
 
-] [8]) [9] (./book.aux (./logic/logic.aux) (./topology/topology.aux))
+] [8]) [9] (build/book.aux (build/logic/logic.aux) (build/topology/topology.aux))
 Package rerunfilecheck Info: File `book.out' has not changed.
 (rerunfilecheck)             Checksum: F3D3DADF5D4DCC74F5B6794FE5F286F2;4115.
  ) 
 Here is how much of TeX's memory you used:
- 28830 strings out of 478994
- 555894 string characters out of 5864750
+ 28833 strings out of 478994
+ 556059 string characters out of 5864750
  914830 words of memory out of 5000000
  45640 multiletter control sequences out of 15000+600000
  529174 words of font info for 124 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  116i,12n,122p,762b,1182s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmib10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmro10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on book.pdf (15 pages, 406147 bytes).
+Output written on build/book.pdf (15 pages, 406147 bytes).
 PDF statistics:
  378 PDF objects out of 1000 (max. 8388607)
  312 compressed objects within 4 object streams
