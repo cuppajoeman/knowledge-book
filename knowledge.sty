@@ -1,0 +1,51 @@
+
+\NeedsTeXFormat{LaTeX2e}[1994/06/01]
+\ProvidesPackage{knowledge}
+  [2011/01/11 v0.01 LaTeX package for my own purpose]
+
+% For colored boxes
+\RequirePackage[most]{tcolorbox}
+\RequirePackage{amsmath,amsthm,mathtools,hyperref,xcolor}
+
+\newtcbtheorem{definition}%
+  {Definition}{fonttitle=\bfseries\upshape, fontupper=\slshape,
+  arc=0mm, colback=green!5!white,colframe=green!75!black}{definition}
+
+\newtcbtheorem{theorem}
+  {Theorem}{fonttitle=\bfseries\upshape, fontupper=\slshape,
+     arc=0mm, colback=blue!5!white,colframe=blue!75!black}{theorem}
+
+\newtcbtheorem{lemma}%
+  {Lemma}{fonttitle=\bfseries\upshape, fontupper=\slshape,
+     arc=0mm, colback=purple!5!white,colframe=purple!75!black}{lemma}
+
+\newtcbtheorem{example}%
+  {Example}{fonttitle=\bfseries\upshape, fontupper=\slshape,
+     arc=0mm, colback=yellow!5!white,colframe=yellow!75!black}{example}
+
+
+
+
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\usepackage[explicit]{titlesec}
+\RequirePackage{xhfill}
+
+%\titleformat{\section}
+%  {\normalfont\Large\bfseries\filcenter}{}{0em}{\xrfill[0.3ex]{1.5pt}~#1~\xrfill[0.3ex]{1.5pt}}
+%
+\newenvironment{pf}{\section{Proof}}{\hfill$\blacksquare$}
+
+\newenvironment{ex}{\section{Examples}}
+
+\newenvironment{rmk}{\section{Remarks}}
+
+\newenvironment{mtv}{\section{Motivation}}
+
+
+% custom url's (knowledge href)
+
+\newcommand{\kref}[2]{\href{#1}{\color{orange}{#2}}}
+
+\endinput
+
