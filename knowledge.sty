@@ -1,11 +1,115 @@
+%\NeedsTeXFormat{LaTeX2e}[1994/06/01]
+\ProvidesPackage{knowledge}[A custom package for the knowledge book]
 
-\NeedsTeXFormat{LaTeX2e}[1994/06/01]
-\ProvidesPackage{knowledge}
-  [2011/01/11 v0.01 LaTeX package for my own purpose]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Basic
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{hyperref}
+\hypersetup{
+colorlinks=true,citecolor=blue,linkcolor=blue,linktocpage=true
+}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Formatting
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{todonotes}
+\usepackage{xhfill}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Math
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{tikz}
+\usetikzlibrary{calc} 
+\usepackage{amsfonts}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Programming
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{listings}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 'dedication' environment: To add a dedication paragraph at the start of book %
+% Source: http://www.tug.org/pipermail/texhax/2010-June/015184.html            %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newenvironment{dedication}
+{
+   \cleardoublepage
+   \thispagestyle{empty}
+   \vspace*{\stretch{1}}
+   \hfill\begin{minipage}[t]{0.66\textwidth}
+   \raggedright
+}
+{
+   \end{minipage}
+   \vspace*{\stretch{3}}
+   \clearpage
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Chapter quote at the start of chapter        %
+% Source: http://tex.stackexchange.com/a/53380 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\makeatletter
+\renewcommand{\@chapapp}{}% Not necessary...
+\newenvironment{chapquote}[2][2em]
+  {\setlength{\@tempdima}{#1}%
+   \def\chapquote@author{#2}%
+   \parshape 1 \@tempdima \dimexpr\textwidth-2\@tempdima\relax%
+   \itshape}
+  {\par\normalfont\hfill--\ \chapquote@author\hspace*{\@tempdima}\par\bigskip}
+\makeatother
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% First page of book which contains 'stuff' like: %
+%  - Book title, subtitle                         %
+%  - Book author name                             %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Book's title and subtitle
+\title{\Huge \textbf{The Knowledge}}
+% Author
+\author{\textsc{Callum Cassidy-Nolan}\thanks{\url{cuppajoeman.com}}}
 
 % For colored boxes
 \RequirePackage[most]{tcolorbox}
 \RequirePackage{amsmath,amsthm,mathtools,hyperref,xcolor}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Colored Boxes
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \newtcbtheorem{definition}%
   {Definition}{fonttitle=\bfseries\upshape, fontupper=\slshape,
@@ -24,28 +128,30 @@
      arc=0mm, colback=yellow!5!white,colframe=yellow!75!black}{example}
 
 
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Proof
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \renewcommand\qedsymbol{$\blacksquare$}
 
-\usepackage[explicit]{titlesec}
-\RequirePackage{xhfill}
-
-%\titleformat{\section}
-%  {\normalfont\Large\bfseries\filcenter}{}{0em}{\xrfill[0.3ex]{1.5pt}~#1~\xrfill[0.3ex]{1.5pt}}
+%\usepackage[explicit]{titlesec}
+%\RequirePackage{xhfill}
 %
-\newenvironment{pf}{\section{Proof}}{\hfill$\blacksquare$}
-
-\newenvironment{ex}{\section{Examples}}
-
-\newenvironment{rmk}{\section{Remarks}}
-
-\newenvironment{mtv}{\section{Motivation}}
-
-
-% custom url's (knowledge href)
-
-\newcommand{\kref}[2]{\href{#1}{\color{orange}{#2}}}
+%%\titleformat{\section}
+%%  {\normalfont\Large\bfseries\filcenter}{}{0em}{\xrfill[0.3ex]{1.5pt}~#1~\xrfill[0.3ex]{1.5pt}}
+%%
+%\newenvironment{pf}{\section{Proof}}{\hfill$\blacksquare$}
+%
+%\newenvironment{ex}{\section{Examples}}
+%
+%\newenvironment{rmk}{\section{Remarks}}
+%
+%\newenvironment{mtv}{\section{Motivation}}
+%
+%
+%% custom url's (knowledge href)
+%
+%\newcommand{\kref}[2]{\href{#1}{\color{orange}{#2}}}
 
 \endinput
 
