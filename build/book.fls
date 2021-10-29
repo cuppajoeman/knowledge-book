@@ -1230,7 +1230,6 @@ INPUT /usr/share/texmf-dist/tex/latex/lm/ts1lmr.fd
 INPUT /usr/share/texmf-dist/tex/latex/lm/ts1lmr.fd
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ts1-lmr10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmtt10.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmro10.tfm
 INPUT ./linear_algebra/linear_algebra.tex
 INPUT ./linear_algebra/linear_algebra.tex
 INPUT ./linear_algebra/linear_algebra.tex
@@ -1258,6 +1257,7 @@ INPUT ./linear_algebra/definitions/algebraic_dot_product.tex
 INPUT ./linear_algebra/definitions/algebraic_dot_product.tex
 INPUT ./linear_algebra/definitions/algebraic_dot_product.tex
 INPUT linear_algebra/definitions/algebraic_dot_product.tex
+INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmro10.tfm
 INPUT /usr/share/texmf-dist/tex/latex/lm/ot1lmtt.fd
 INPUT /usr/share/texmf-dist/tex/latex/lm/ot1lmtt.fd
 INPUT /usr/share/texmf-dist/tex/latex/lm/ot1lmtt.fd

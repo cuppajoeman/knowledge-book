@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.10.20)  29 OCT 2021 15:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.10.20)  29 OCT 2021 16:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -191,8 +191,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip49
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 11.
-Package hyperref Info: Option `linktocpage' set `true' on input line 11.
+Package hyperref Info: Option `colorlinks' set `true' on input line 9.
+Package hyperref Info: Option `linktocpage' set `true' on input line 9.
  (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
  (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
@@ -854,9 +854,9 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [1
 
 
-] [2]
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 96.
- [3
+]
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 95.
+ [2
 
 ]
 \openout2 = `linear_algebra/linear_algebra.aux'.
@@ -882,50 +882,50 @@ File: pgflibrarypatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfdecorationsegmentlength=\dimen294
 )
 \tikz@lib@dec@box=\box77
-) (/usr/share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex))) (./linear_algebra/definitions/matrix_multiplication.tex) [4
+) (/usr/share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex))) (./linear_algebra/definitions/matrix_multiplication.tex) [3
 
 
 ] (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 14.
- (./linear_algebra/programs/matrix_multiplication.py [5])) [6]
+ (./linear_algebra/programs/matrix_multiplication.py [4])) [5]
 \openout2 = `logic/logic.aux'.
 
  (./logic/logic.tex
  2.
-[7
+[6
 
 
 
 
-]) [8]
+]) [7]
 \openout2 = `topology/topology.aux'.
 
  (./topology/topology.tex
  3.
-(./topology/definitions/basis.tex) (./topology/definitions/subspace_topology.tex) [9
+(./topology/definitions/basis.tex) (./topology/definitions/subspace_topology.tex) [8
 
 
 
 
-] [10] [11]) [12] (build/book.aux (build/linear_algebra/linear_algebra.aux) (build/logic/logic.aux) (build/topology/topology.aux))
+] [9] [10]) [11] (build/book.aux (build/linear_algebra/linear_algebra.aux) (build/logic/logic.aux) (build/topology/topology.aux))
 Package rerunfilecheck Info: File `book.out' has not changed.
 (rerunfilecheck)             Checksum: C699D3365B7D7A57E9F95BA9A5BAB6A0;2030.
  ) 
 Here is how much of TeX's memory you used:
- 29834 strings out of 478994
- 581599 string characters out of 5864750
- 1273345 words of memory out of 5000000
+ 29833 strings out of 478994
+ 581588 string characters out of 5864750
+ 1273341 words of memory out of 5000000
  46533 multiletter control sequences out of 15000+600000
  513998 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,12n,122p,521b,2192s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 117i,12n,122p,520b,2192s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmib10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmro10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on build/book.pdf (17 pages, 388260 bytes).
+Output written on build/book.pdf (16 pages, 387801 bytes).
 PDF statistics:
- 426 PDF objects out of 1000 (max. 8388607)
- 359 compressed objects within 4 object streams
- 134 named destinations out of 1000 (max. 500000)
+ 422 PDF objects out of 1000 (max. 8388607)
+ 356 compressed objects within 4 object streams
+ 133 named destinations out of 1000 (max. 500000)
  269 words of extra memory for PDF output out of 10000 (max. 10000000)
 
