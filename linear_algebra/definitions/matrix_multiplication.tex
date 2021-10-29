@@ -1,0 +1,30 @@
+\begin{definition}{Matrix Multiplication}{matrix_multiplication}
+If $\mathbf{A}$ is an $m \times n$ matrix and $\mathbf{B}$ is an $n \times p$ matrix,
+$$
+\mathbf{A}=\left(\begin{array}{cccc}
+a_{11} & a_{12} & \cdots & a_{1 n} \\
+a_{21} & a_{22} & \cdots & a_{2 n} \\
+\vdots & \vdots & \ddots & \vdots \\
+a_{m 1} & a_{m 2} & \cdots & a_{m n}
+\end{array}\right), \quad \mathbf{B}=\left(\begin{array}{cccc}
+b_{11} & b_{12} & \cdots & b_{1 p} \\
+b_{21} & b_{22} & \cdots & b_{2 p} \\
+\vdots & \vdots & \ddots & \vdots \\
+b_{n 1} & b_{n 2} & \cdots & b_{n p}
+\end{array}\right)
+$$
+the matrix product $\mathbf{C}=\mathbf{A B}$ (denoted without multiplication signs or dots) is defined to be the $m \times p$ matrix 
+$$
+\mathbf{C}=\left(\begin{array}{cccc}
+c_{11} & c_{12} & \cdots & c_{1 p} \\
+c_{21} & c_{22} & \cdots & c_{2 p} \\
+\vdots & \vdots & \ddots & \vdots \\
+c_{m 1} & c_{m 2} & \cdots & c_{m p}
+\end{array}\right)
+$$
+such that
+$$
+c_{i j}=a_{i 1} b_{1 j}+a_{i 2} b_{2 j}+\cdots+a_{i n} b_{n j}=\sum_{k=1}^{n} a_{i k} b_{k j}
+$$
+for $i=1, \ldots, m$ and $j=1, \ldots, p$.
+\end{definition}
