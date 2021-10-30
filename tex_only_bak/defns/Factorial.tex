@@ -1,0 +1,29 @@
+\documentclass{standalone}
+\usepackage{tikz,lmodern,amssymb}
+\usepackage{knowledge}
+
+\begin{document}
+
+\begin{defn*}{Factorial}
+  \subsubsection*{Direct}
+  Let $n \in \mathbb{N}$, then 
+  \[
+  n! \stackrel{\mathtt{D}}{=} n  \cdot  \left( n -1  \right)  \cdot  \left( n - 3 \right) \dotsb 3  \cdot 2  \cdot 1
+  \]
+  \subsubsection*{Recursive}
+  \[
+    n! = 
+    \begin{cases}
+      1 \text{ if } n = 0\\
+      n \cdot \left( n - 1 \right)! \text{ otherwise }
+    \end{cases}
+  \]
+
+  \subsubsection*{0! = 1}
+  \begin{itemize}
+    \item The definition of $n!$ as a product of no numbers at all is an example of the convention that the product of no factors is equal to the multiplicative identity 
+    \item You can see that $\frac{x!}{x} = \left( x-1 \right)!$, so $\frac{1!}{1} = 0!$ but $\frac{1!}{1} = 1$ so it makes sense for $0! = 1$ 
+  \end{itemize}
+\end{defn*}
+
+\end{document}

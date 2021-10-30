@@ -1,0 +1,64 @@
+\documentclass{standalone}
+\usepackage{tikz,lmodern,amssymb}
+\usepackage{knowledge}
+
+\usepackage{algpseudocode}% http://ctan.org/pkg/algorithmicx
+
+\begin{document}
+
+\begin{deduction*}{Tangent is a Bijection}
+    \begin{center}
+    We will prove that $ \tan : \left(  - \frac{\tau}{4}, \frac{\tau}{4} \right) \to \mathbb{R} $ is a bijection
+    \end{center}
+    \begin{pf}
+        \begin{itemize}
+            \item Injection
+            \begin{itemize}
+                \item Suppose that $ \tan  \left( x \right) =  \tan  \left( y \right)$ for $ x \neq  y$, by definition that is
+                    \[
+                    \frac{\sin  \left( x \right)}{ \cos  \left( x \right) }=  \frac{\sin \left( y \right)}{ \cos  \left( y \right)} \Leftrightarrow \sin  \left( x \right) \cos  \left( y \right) =  \sin  \left( y \right) \cos  \left( x \right) \Leftrightarrow \sin  \left( x \right) \cos  \left( y \right)  -  \sin  \left( y \right) \cos  \left( x \right) = 0
+                    \]
+                \item Then from the \kref{https://gitlab.com/cuppajoeman/knowledge-data/-/blob/master/Sine_Difference_Formula-MjQpvXxDcvzrGU66SMO.pdf}{sine difference formula}, we know that 
+                    \[
+                    \sin  \left( x  - y \right) =  \sin  \left( x \right) \cos  \left( y \right)  -  \sin  \left( y \right) \cos  \left( x \right) =  0
+                    \]
+                \item Due to the domain of $ \tan $ we can see that 
+                    \[
+                     - \frac{\tau}{2} < x  - y < \frac{\tau}{2}
+                    \]
+                \item Now $ \sin  \left( \theta \right) =  0$ only for $ \theta =  \frac{\tau}{2}  \cdot k$ for any $ k \in \mathbb{Z}$, the above inequality in combination with this tells us that $ x  -  y =  0$ therefore $ x = y$ which is a contradiction, thus $ \tan$ is an injection
+            \end{itemize}
+            \item Surjection
+            \begin{itemize}
+                \item Let $ r \in \mathbb{R}$ we will find a $ \theta$ such that $ \tan  \left( \theta \right) =  r$, let's consider the vector
+                    \[
+                        \vec{v} = \left( \sqrt{\frac{1}{1  + r ^{2}}}, r\sqrt{\frac{1}{1  +  r ^{2}}} \right)
+                    \]
+                \begin{itemize}
+                    \item Considering it's length
+                        \begin{align*}
+                            \left\Vert \vec{v} \right\Vert &=  \sqrt{ \left( \sqrt{\frac{1}{1  +  r ^2}} \right) ^{2} + \left( r \sqrt{\frac{1}{1 + r ^{2}}} \right) ^{ 2}} \\
+                                                           &= \sqrt{ \frac{1}{1  + r ^{2}}  +  r ^{2} \left( \frac{1}{1  +  r ^{2}} \right)} \\
+                                                           &= \sqrt{ 1} \\
+                                                           &= 1
+                        \end{align*}
+                    we deduce that the point is on the unit circle
+                \end{itemize}
+
+                \item Due to the \kref{https://gitlab.com/cuppajoeman/knowledge-data/-/blob/master/Unit_Circle_Connection_to_Trigonometry-Mj5O4gdy7DtQXiiUnJC.pdf}{unit circle's connection to trigonmetry}, we get $ \phi \in \left[ 0, \tau \right)$ such that 
+                    \[
+                    \vec{v} =  \left( \cos  \left( \phi \right), \sin  \left( \phi \right) \right) 
+                    \]
+                \item Recalling the original definition of $ \vec{v}$ we can see that
+                    \[
+                        \frac{\sin  \left( \phi \right)}{ \cos  \left( \phi \right)} =  r
+                    \]
+                \item We can take $ \theta =  \phi$, then we have  $ \tan  \left( \theta \right) =  r$ as needed.
+            \end{itemize}
+        \end{itemize}
+    \end{pf}
+\end{deduction*}
+
+\end{document}
+
+

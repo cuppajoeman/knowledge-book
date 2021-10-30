@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.10.20)  29 OCT 2021 16:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.10.20)  30 OCT 2021 13:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -463,33 +463,44 @@ LaTeX Info: Redefining \addtolength on input line 81.
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 Package: xhfill 2011/05/14\ v 1.01\ modify width and color of hrulefill
+) (/usr/share/texmf-dist/tex/latex/footmisc/footmisc.sty
+Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
+\FN@temptoken=\toks33
+\footnotemargin=\dimen262
+\c@pp@next@reset=\count295
+Package footmisc Info: Declaring symbol style bringhurst on input line 855.
+Package footmisc Info: Declaring symbol style chicago on input line 863.
+Package footmisc Info: Declaring symbol style wiley on input line 872.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 883.
+Package footmisc Info: Declaring symbol style lamport* on input line 903.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 924.
 ) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 ) (/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks33
+\@emptytoks=\toks34
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ) (/usr/share/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count295
+\lst@mode=\count296
 \lst@gtempboxa=\box58
-\lst@token=\toks34
-\lst@length=\count296
-\lst@currlwidth=\dimen262
-\lst@column=\count297
-\lst@pos=\count298
-\lst@lostspace=\dimen263
-\lst@width=\dimen264
-\lst@newlines=\count299
-\lst@lineno=\count300
-\lst@maxwidth=\dimen265
+\lst@token=\toks35
+\lst@length=\count297
+\lst@currlwidth=\dimen263
+\lst@column=\count298
+\lst@pos=\count299
+\lst@lostspace=\dimen264
+\lst@width=\dimen265
+\lst@newlines=\count300
+\lst@lineno=\count301
+\lst@maxwidth=\dimen266
  (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count301
-\lst@skipnumbers=\count302
+\c@lstnumber=\count302
+\lst@skipnumbers=\count303
 \lst@framebox=\box59
 ) (/usr/share/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
@@ -499,26 +510,26 @@ Package: listings 2020/03/24 1.8d (Carsten Heinz)
 Package: tcolorbox 2020/10/09 version 4.42 text color boxes
  (/usr/share/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks35
-\verbatim@line=\toks36
+\every@verbatim=\toks36
+\verbatim@line=\toks37
 \verbatim@in@stream=\read4
 ) (/usr/share/texmf-dist/tex/latex/environ/environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
  (/usr/share/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 )
-\@envbody=\toks37
+\@envbody=\toks38
 ) (/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count303
+\etb@tempcnta=\count304
 )
 \tcb@titlebox=\box60
 \tcb@upperbox=\box61
 \tcb@lowerbox=\box62
 \tcb@phantombox=\box63
-\c@tcbbreakpart=\count304
-\c@tcblayer=\count305
-\c@tcolorbox@number=\count306
+\c@tcbbreakpart=\count305
+\c@tcblayer=\count306
+\c@tcolorbox@number=\count307
 \tcb@temp=\box64
 \tcb@temp=\box65
 \tcb@temp=\box66
@@ -527,9 +538,9 @@ Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \tcb@record@out=\write5
  (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
 Library (tcolorbox): 'tcbraster.code.tex' version '4.42'
-\c@tcbrastercolumn=\count307
-\c@tcbrasterrow=\count308
-\c@tcbraster=\count309
+\c@tcbrastercolumn=\count308
+\c@tcbrasterrow=\count309
+\c@tcbraster=\count310
 ) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
 Library (tcolorbox): 'tcbskins.code.tex' version '4.42'
 \tcb@waterbox=\box68
@@ -557,64 +568,64 @@ For additional information on amsmath, use the `?' option.
 Package: amstext 2000/06/29 v2.01 AMS text
  (/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks38
-\ex@=\dimen266
+\@emptytoks=\toks39
+\ex@=\dimen267
 )) (/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen267
+\pmbraise@=\dimen268
 ) (/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count310
+\inf@bad=\count311
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count311
-\leftroot@=\count312
+\uproot@=\count312
+\leftroot@=\count313
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count313
-\DOTSCASE@=\count314
+\classnum@=\count314
+\DOTSCASE@=\count315
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
 \Mathstrutbox@=\box72
 \strutbox@=\box73
-\big@size=\dimen268
+\big@size=\dimen269
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count315
-\c@MaxMatrixCols=\count316
+\macc@depth=\count316
+\c@MaxMatrixCols=\count317
 \dotsspace@=\muskip17
-\c@parentequation=\count317
-\dspbrk@lvl=\count318
-\tag@help=\toks39
-\row@=\count319
-\column@=\count320
-\maxfields@=\count321
-\andhelp@=\toks40
-\eqnshift@=\dimen269
-\alignsep@=\dimen270
-\tagshift@=\dimen271
-\tagwidth@=\dimen272
-\totwidth@=\dimen273
-\lineht@=\dimen274
-\@envbody=\toks41
+\c@parentequation=\count318
+\dspbrk@lvl=\count319
+\tag@help=\toks40
+\row@=\count320
+\column@=\count321
+\maxfields@=\count322
+\andhelp@=\toks41
+\eqnshift@=\dimen270
+\alignsep@=\dimen271
+\tagshift@=\dimen272
+\tagwidth@=\dimen273
+\totwidth@=\dimen274
+\lineht@=\dimen275
+\@envbody=\toks42
 \multlinegap=\skip54
 \multlinetaggap=\skip55
-\mathdisplay@stack=\toks42
+\mathdisplay@stack=\toks43
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
 )) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
 Library (tcolorbox): 'tcbfitting.code.tex' version '4.42'
-\tcbfitdim=\dimen275
-\tcb@lowerfitdim=\dimen276
-\tcb@upperfitdim=\dimen277
-\tcb@cur@hbadness=\count322
+\tcbfitdim=\dimen276
+\tcb@lowerfitdim=\dimen277
+\tcb@upperfitdim=\dimen278
+\tcb@cur@hbadness=\count323
 ) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbxparse.code.tex
 Library (tcolorbox): 'tcbxparse.code.tex' version '4.42'
 (/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2021-02-18 L3 programming layer (loader) 
  (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count323
+\l__color_backend_stack_int=\count324
 \l__pdf_internal_box=\box74
 )) (/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-01.sty (/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex)))) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.tex
 Library (tcolorbox): 'tcblistingsutf8.code.tex' version '4.42'
@@ -628,7 +639,7 @@ Library (tcolorbox): 'tcbprocessing.code.tex' version '4.42'
 Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 77.
 ))
-\c@tcblisting=\count324
+\c@tcblisting=\count325
 )) (/usr/share/texmf-dist/tex/latex/listingsutf8/listingsutf8.sty
 Package: listingsutf8 2019-12-10 v1.5 Allow UTF-8 in listings input (HO)
  (/usr/share/texmf-dist/tex/generic/stringenc/stringenc.sty
@@ -643,15 +654,15 @@ Library (tcolorbox): 'tcbvignette.code.tex' version '4.42'
 Library (tcolorbox): 'tcbposter.code.tex' version '4.42'
 )) (/usr/share/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
-\thm@style=\toks43
-\thm@bodyfont=\toks44
-\thm@headfont=\toks45
-\thm@notefont=\toks46
-\thm@headpunct=\toks47
+\thm@style=\toks44
+\thm@bodyfont=\toks45
+\thm@headfont=\toks46
+\thm@notefont=\toks47
+\thm@headpunct=\toks48
 \thm@preskip=\skip56
 \thm@postskip=\skip57
 \thm@headsep=\skip58
-\dth@everypar=\toks48
+\dth@everypar=\toks49
 ) (/usr/share/texmf-dist/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2021/03/18 v1.25 mathematical typesetting tools
  (/usr/share/texmf-dist/tex/latex/mathtools/mhsetup.sty
@@ -661,22 +672,24 @@ LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
-\g_MT_multlinerow_int=\count325
-\l_MT_multwidth_dim=\dimen278
+\g_MT_multlinerow_int=\count326
+\l_MT_multwidth_dim=\dimen279
 \origjot=\skip59
-\l_MT_shortvdotswithinadjustabove_dim=\dimen279
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen280
-\l_MT_above_intertext_sep=\dimen281
-\l_MT_below_intertext_sep=\dimen282
-\l_MT_above_shortintertext_sep=\dimen283
-\l_MT_below_shortintertext_sep=\dimen284
+\l_MT_shortvdotswithinadjustabove_dim=\dimen280
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen281
+\l_MT_above_intertext_sep=\dimen282
+\l_MT_below_intertext_sep=\dimen283
+\l_MT_above_shortintertext_sep=\dimen284
+\l_MT_below_shortintertext_sep=\dimen285
 \xmathstrut@box=\box75
-\xmathstrut@dim=\dimen285
+\xmathstrut@dim=\dimen286
 )
-\c@tcb@cnt@definition=\count326
-\c@tcb@cnt@theorem=\count327
-\c@tcb@cnt@lemma=\count328
-\c@tcb@cnt@example=\count329
+\c@tcb@cnt@definition=\count327
+\c@tcb@cnt@theorem=\count328
+\c@tcb@cnt@proposition=\count329
+\c@tcb@cnt@lemma=\count330
+\c@tcb@cnt@corollary=\count331
+\c@tcb@cnt@example=\count332
 )
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 19.
  (/usr/share/texmf-dist/tex/latex/lm/t1lmr.fd
@@ -745,7 +758,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count330
+\c@section@level=\count333
 )
 LaTeX Info: Redefining \ref on input line 19.
 LaTeX Info: Redefining \pageref on input line 19.
@@ -756,24 +769,24 @@ LaTeX Info: Redefining \nameref on input line 19.
 
  (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count331
-\scratchdimen=\dimen286
+\scratchcounter=\count334
+\scratchdimen=\dimen287
 \scratchbox=\box76
-\nofMPsegments=\count332
-\nofMParguments=\count333
-\everyMPshowfont=\toks49
-\MPscratchCnt=\count334
-\MPscratchDim=\dimen287
-\MPnumerator=\count335
-\makeMPintoPDFobject=\count336
-\everyMPtoPDFconversion=\toks50
+\nofMPsegments=\count335
+\nofMParguments=\count336
+\everyMPshowfont=\toks50
+\MPscratchCnt=\count337
+\MPscratchDim=\dimen288
+\MPnumerator=\count338
+\makeMPintoPDFobject=\count339
+\everyMPtoPDFconversion=\toks51
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-\c@lstlisting=\count337
+\c@lstlisting=\count340
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 23.
  (/usr/share/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -795,4 +808,146 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 23.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 
+(Font)              <6> on input line 23.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 23.
+ (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 23.
+ (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 23.
+ (/usr/share/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 23.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 23.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 23.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 23.
+ (/usr/share/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) [1
+
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.29 \end{dedication}
+                      [1
+
+] (build/book.toc
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 3.
+)
+\tf@toc=\write7
+\openout7 = `book.toc'.
+
+ [2
+
+
+] (build/book.lof)
+\tf@lof=\write8
+\openout8 = `book.lof'.
+
+ [3
+
+] (build/book.lot)
+\tf@lot=\write9
+\openout9 = `book.lot'.
+
+ [4
+
+]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 57.
+ [1
+
+
+] [2]
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 104.
+ [3
+
+]
+\openout2 = `linear_algebra/linear_algebra.aux'.
+
+ (./linear_algebra/linear_algebra.tex
+ 1.
+(./linear_algebra/definitions/algebraic_dot_product.tex
+LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 4.
+ (/usr/share/texmf-dist/tex/latex/lm/ot1lmtt.fd
+File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)) (./linear_algebra/definitions/geometric_dot_product.tex (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypatterns.code.tex
+File: tikzlibrarypatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+ (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibrarypatterns.code.tex
+File: pgflibrarypatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen289
+\pgfdecoratedremainingdistance=\dimen290
+\pgfdecoratedinputsegmentcompleteddistance=\dimen291
+\pgfdecoratedinputsegmentremainingdistance=\dimen292
+\pgf@decorate@distancetomove=\dimen293
+\pgf@decorate@repeatstate=\count341
+\pgfdecorationsegmentamplitude=\dimen294
+\pgfdecorationsegmentlength=\dimen295
+)
+\tikz@lib@dec@box=\box77
+) (/usr/share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex))) (./linear_algebra/definitions/matrix_multiplication.tex) [4
+
+
+] (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 14.
+ (./linear_algebra/programs/matrix_multiplication.py [5])) [6]
+\openout2 = `logic/logic.aux'.
+
+ (./logic/logic.tex
+ 2.
+[7
+
+
+
+
+]) [8]
+\openout2 = `topology/topology.aux'.
+
+ (./topology/topology.tex
+ 3.
+(./topology/definitions/basis.tex) (./topology/definitions/subspace_topology.tex) [9
+
+
+
+
+] [10] [11]) [12] (build/book.aux (build/linear_algebra/linear_algebra.aux) (build/logic/logic.aux) (build/topology/topology.aux))
+Package rerunfilecheck Info: File `book.out' has not changed.
+(rerunfilecheck)             Checksum: C699D3365B7D7A57E9F95BA9A5BAB6A0;2030.
+ ) 
+Here is how much of TeX's memory you used:
+ 29981 strings out of 478994
+ 583924 string characters out of 5864750
+ 1276463 words of memory out of 5000000
+ 46671 multiletter control sequences out of 15000+600000
+ 515109 words of font info for 110 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 117i,12n,122p,520b,2192s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
+
+{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmib10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmro10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on build/book.pdf (17 pages, 400972 bytes).
+PDF statistics:
+ 435 PDF objects out of 1000 (max. 8388607)
+ 367 compressed objects within 4 object streams
+ 136 named destinations out of 1000 (max. 500000)
+ 269 words of extra memory for PDF output out of 10000 (max. 10000000)
+

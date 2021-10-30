@@ -1,0 +1,73 @@
+\documentclass{standalone}
+\usepackage{tikz,lmodern,amssymb}
+\usepackage{knowledge}
+
+\usepackage{algpseudocode}% http://ctan.org/pkg/algorithmicx
+
+\begin{document}
+
+\begin{deduction*}{Velocity after Elastic Collision between two 2 Dimensional Bodies}
+    \begin{itemize}
+        \item Given two perfectly circular bodies $ b_{1}, b_{2}$ with velocities $ \vec{v}_{1}, \vec{v}_{2}$ ,masses $ m_{1}, m_{2}$ at positions $ \vec{p}_{1}, \vec{p} _{2}$  that undergo a collision, then their new velocities are given by:
+            \[
+            \vec{v}_{1} =  \vec{v} _{1}    + \frac{2 m_{2}}{ m_{1}  +  m_{2}}  \left( \vec{u}_{n}  \cdot \left( \vec{v}_{2}  -  \vec{v}_{1} \right) \right) \vec{u}_{n} \quad \text{ and } \quad \vec{v}_{2} ^{\prime} =  \vec{v} _{2}    + \frac{2 m_{1}}{ m_{1}  +  m_{2}}  \left( \vec{u}_{n}  \cdot \left( \vec{v}_{1}  -  \vec{v}_{2} \right) \right) \vec{u}_{n}
+            \]
+    \end{itemize}
+    \begin{pf}
+        \subsubsection*{Setup}
+        \begin{itemize}
+            \item If the two bodies are colliding, then a line can be drawn that is tangent to both bodies, it passes through the single point where the two bodies are colliding, this will be denoted by the ``collision surface"
+            \item With respect to the collision surface, we now have a way to consider the normal and tangential components of $ \vec{v}_{1}$ and $ \vec{v}_{2}$ 
+            \begin{itemize}
+                \item The normal components of the velocities undergo a one dimensional elastic collision
+                \item The tangential components of the velocities are unchanged by the collision, as there is no force created along any line tangential to the collision surface from the collision
+            \end{itemize}
+        \end{itemize}
+        \subsubsection*{Derivations}
+        \begin{itemize}
+            \item Variables
+            \begin{itemize}
+                \item A vector which is normal to the collision surface can be found by finding the vector which points from the center of one body to the other is given by:
+                    \[
+                    \vec{n} \stackrel{\mathtt{D}}{=} \vec{p}_{1}  -  \vec{p}_{2}
+                    \]
+                    and note that this is the vector which points from $ \vec{p} _{ 2}$ to $ \vec{p} _{ 1}$ 
+                \begin{itemize}
+                    \item To simply computations later on, let's take the vector which is in the \kref{https://gitlab.com/cuppajoeman/knowledge-data/-/blob/master/Unit_Vector_in_the_same_Direction-MjLNl9tXbkhzKlFQZYq.pdf}{same direction, but has length one}:
+                        \[
+                        \vec{u}_{n} \stackrel{\mathtt{D}}{=} \frac{ \vec{n}}{ \left\Vert  \vec{n} \right\Vert}
+                        \]
+                \end{itemize}
+            \end{itemize}
+            \item We will compute the new velocity of $ b_{1}$, since the tangential component of it's velocity doesn't change, we will perform some operations on $ \vec{v}_{1}$ to get to it's new velocity.
+            \item To start let's zero out the component of the vector which is normal to the collision surface, to do that we will need to compute the component of $ \vec{v}_{1}$ onto the normal vector, from the  \kref{https://gitlab.com/cuppajoeman/knowledge-data/-/blob/master/Vector_Component_Formula-Mj2JQXyRzB8HZx-bUgq.pdf}{vector component formula}, thus it's equal to
+                \[
+                \operatorname{v-comp}_{ \vec{u}_{n}} \vec{v}_{1} = \left( \frac{ \vec{u} _{n}  \cdot  \vec{v}_{1}}{ \vec{u} _{n}  \cdot  \vec{u} _{n}} \right) \vec{u } _{n} =  \left( \vec{u}_{n}  \cdot  \vec{v}_{1} \right) \vec{u}_{n}
+                \]
+            \begin{itemize}
+                \item Thus $\vec{v}_{1}  -  \left( \vec{u}_{n}  \cdot \vec{v}_{1} \right) \vec{u}_{n}$ represents the component of $ \vec{v}_{1}$ that is tangential to the collision surface.
+            \end{itemize}
+        \item We have not yet accounted for the one dimensional collision that occurs along the direction of the normal vector $ \vec{u}_{n}$, but from \kref{https://gitlab.com/cuppajoeman/knowledge-data/-/blob/master/Velocity_after_Elastic_Collision_between_two_One_Dimensional_Bodies-Mj2IJDM15JCEmh72r8f.pdf}{the velocity after a one dimensional elastic collision} we see that to bring this in. We just have to take \textcolor{blue}{the scalar} from that formula, multiply it by $ \vec{u}_{n}$ (it's a unit vector so it won't change the scalar) and add it to what we have so far, that is
+            \begin{align*}
+                \vec{v}_{1} ^{\prime} &=  \vec{v} _{1}  -  \left( \vec{u}_{n}  \cdot \vec{v}_{1} \right) \vec{u}_{n} + \textcolor{blue}{\left( \frac{ \left( \vec{u}_{n}  \cdot  \vec{v}_{1} \right) \left( m_{1}  -  m_{2} \right)  + 2 m_{2} \left( \vec{u}_{n}  \cdot \vec{v} _{2} \right) }{ m_{1}  +  m_{2}} \right)} \vec{u}_{n} \\
+                &=  \vec{v} _{1}    + \left( \frac{ - \left( \vec{u}_{n}  \cdot \vec{v}_{1} \right) \left( m_{1}  +  m_{2} \right) +  \left( \vec{u}_{n}  \cdot  \vec{v}_{1} \right) \left( m_{1}  -  m_{2} \right)  + 2 m_{2} \left( \vec{u}_{n}  \cdot \vec{v} _{2} \right) }{ m_{1}  +  m_{2}} \right) \vec{u}_{n} \\
+                &=  \vec{v} _{1}    + \left( \frac{  \left( \vec{u}_{n}  \cdot \vec{v}_{1} \right) \left( - m_{1}  -  m_{2} + m_{1}  -  m_{2} \right)   + 2 m_{2} \left( \vec{u}_{n}  \cdot \vec{v} _{2} \right) }{ m_{1}  +  m_{2}} \right) \vec{u}_{n} \\
+                &=  \vec{v} _{1}    + \left( \frac{  \left( \vec{u}_{n}  \cdot \vec{v}_{1} \right) \left(  - 2 m_{2} \right)   + 2 m_{2} \left( \vec{u}_{n}  \cdot \vec{v} _{2} \right) }{ m_{1}  +  m_{2}} \right) \vec{u}_{n} \\
+                &=  \vec{v} _{1}    + \left( \frac{ 2 m_{2} \left( \vec{u}_{n}  \cdot \vec{v}_{2}  -  \vec{u}_{n}  \cdot \vec{v}_{1}  \right) }{ m_{1}  +  m_{2}} \right) \vec{u}_{n} \\
+                &=  \boxed{\vec{v} _{1}    + \frac{2 m_{2}}{ m_{1}  +  m_{2}}  \left( \vec{u}_{n}  \cdot \left( \vec{v}_{2}  -  \vec{v}_{1} \right) \right) \vec{u}_{n}}
+            \end{align*}
+        \item The setup for the second velocity is quite similar, although note that $ \vec{u}_{n}$ is pointing in the opposite direction, and thus it would invert the direction given by the one dimensional formula, thus we will flip it by multiplying it by \textcolor{red}{negative one}
+            \begin{align*}
+                \vec{v}_{2} ^{\prime} &=  \vec{v} _{2}  -  \left( \vec{u}_{n}  \cdot \vec{v}_{2} \right) \textcolor{red}{\left( - \vec{u}_{n} \right)} + \textcolor{blue}{\left( \frac{ \left( \vec{u}_{n}  \cdot  \vec{v}_{2} \right) \left( m_{2}  -  m_{1} \right)  + 2 m_{1} \left( \vec{u}_{n}  \cdot \vec{v} _{1} \right) }{ m_{1}  +  m_{2}} \right)} \textcolor{red}{\left(  -  \vec{u}_{n} \right)} \\
+                &=  \vec{v} _{2}  +  \left( \vec{u}_{n}  \cdot \vec{v}_{2} \right) \vec{u}_{n} + \left( \frac{ \left( \vec{u}_{n}  \cdot  \vec{v}_{2} \right) \left( \textcolor{red}{m_{1}  -  m_{2}} \right)  + 2 m_{1} \left( \vec{u}_{n}  \cdot \vec{v} _{1} \right) }{ m_{1}  +  m_{2}} \right) \vec{u}_{n} \\
+                &=  \vec{v} _{2}  +  \left( \vec{u}_{n}  \cdot \vec{v}_{2} \right) \vec{u}_{n} + \left( \frac{ \left( \vec{u}_{n}  \cdot  \vec{v}_{2} \right) \left( \textcolor{red}{m_{1}  -  m_{2}} \right)  + 2 m_{1} \left( \vec{u}_{n}  \cdot \vec{v} _{1} \right) }{ m_{1}  +  m_{2}} \right) \vec{u}_{n} \\
+                &= \dotsc \text{similar steps as above} \\
+                &=  \boxed{\vec{v} _{2}    + \frac{2 m_{1}}{ m_{1}  +  m_{2}}  \left( \vec{u}_{n}  \cdot \left( \vec{v}_{1}  -  \vec{v}_{2} \right) \right) \vec{u}_{n}}
+            \end{align*}
+        \end{itemize}
+    \end{pf}
+\end{deduction*}
+
+\end{document}
+
+

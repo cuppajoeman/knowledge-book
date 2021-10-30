@@ -1,0 +1,22 @@
+\documentclass{standalone}
+\usepackage{tikz,lmodern,amssymb}
+\usepackage{knowledge}
+
+\usepackage{algpseudocode}% http://ctan.org/pkg/algorithmicx
+
+\begin{document}
+
+\begin{deduction*}{Conversion from Cartesian to Polar Coordinates}
+    Given $ \left( x, y \right)$ as cartesian coordinates, the coordinate $ \left( \sqrt{x ^{2}  +  y ^{2}}, \operatorname{arctan2} \left( x, y  \right) \right)$ in polar coordinates represents the same point.
+    \begin{pf}
+        \begin{itemize}
+            \item Given $ \left( x, y \right) \in \mathbb{R} ^{2}$ the the distance from the origin is defined by $ \sqrt{ x ^{2}  +  y ^{2}}$ 
+            \item \kref{https://gitlab.com/cuppajoeman/knowledge-data/-/blob/master/The_Angle_from_e1_to_any_vector_is_given_by_arctan2-MjauFFN_u2afksm5YRM.pdf}{The angle between it and the positive component of the x axis is given by $ \operatorname{arctan2} \left( x, y \right)$} 
+        \end{itemize}
+        As needed.
+    \end{pf}
+\end{deduction*}
+
+\end{document}
+
+

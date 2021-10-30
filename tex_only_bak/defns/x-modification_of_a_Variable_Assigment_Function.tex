@@ -1,0 +1,15 @@
+\documentclass{standalone}
+\usepackage{tikz,lmodern,amssymb}
+\usepackage{knowledge}
+
+\begin{document}
+
+\begin{defn*}{x-modification of a Variable Assigment Function}
+If $s$ is a variable assignment function into $\mathfrak{A}$ and $x$ is a variable and $a \in A$, then $s[x \mid a]$ is the variable assignment function into $\mathfrak{A}$ defined as follows:
+$$
+s[x \mid a](v)= \begin{cases}s(v) & \text { if } v \text { is a variable other than } x \\ a & \text { if } v \text { is the variable } x\end{cases}
+$$
+We call the function $s[x \mid a]$ an $x$-modification of the assignment function $s$, and an $x$-modification of $s$ is just like $s$, except that the variable $x$ is assigned to a particular element of the universe.
+\end{defn*}
+
+\end{document}

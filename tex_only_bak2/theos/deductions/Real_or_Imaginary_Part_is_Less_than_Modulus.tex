@@ -1,0 +1,26 @@
+\documentclass{standalone}
+\usepackage{tikz,lmodern,amssymb}
+\usepackage{knowledge}
+
+\usepackage{algpseudocode}% http://ctan.org/pkg/algorithmicx
+
+\begin{document}
+
+\begin{deduction*}{Real or Imaginary Part is Less than Modulus}
+    We claim that
+    for any $ z \in  \mathbb{C}  $ 
+    \[
+        \Im\left( z \right) , \Re\left( z \right) \le \left| z \right| 
+    \]
+    \begin{pf}
+        \begin{itemize}
+            \item Suppose that $ z =  a + bi  $ then
+                $ \Re\left( z \right) = a \le \left| a \right| = \sqrt{ a ^{ 2 }  } \le \sqrt{ a ^{ 2 } +  b ^{ 2 }  }  = \left| z \right|  $ 
+            the same argument on $ \Im\left( z \right) = b $ shows that $ \Im\left( z \right)  \le \left| z \right| $ 
+        \end{itemize}
+    \end{pf}
+\end{deduction*}
+
+\end{document}
+
+

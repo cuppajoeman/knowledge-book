@@ -1,0 +1,52 @@
+\documentclass{standalone}
+\usepackage{tikz,lmodern,amssymb}
+\usepackage{knowledge}
+
+\begin{document}
+
+\begin{defn*}{Note Integer Notation}
+  \begin{itemize}
+   \item Is a notational system which maps the letter names for notes in the western system of music to an integer: 
+\[ 
+  \huge
+\begin{array}{ccccccccccccc}
+    C& \cdot& D& \cdot& E& F& \cdot& G& \cdot& A& \cdot& B & C \\
+    \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow \\
+    \widehat{0} & \widehat{1} & \widehat{2} & \widehat{3} & \widehat{4} & \widehat{5} & \widehat{6} & \widehat{7} & \widehat{8} & \widehat{9} & \widehat{10} & \widehat{11} & \widehat{0}\\
+\end{array} 
+\] 
+    \item The hat is added to denote that we are talking about the pitch produced by playing this note on a device which creates sound.
+    \item The notation is mainly used to refer to notes withoug having to think about which octave it lives within
+      \begin{itemize}
+      \item If required we may also denote which octave band we are within by writing
+        \[
+        \widehat{9}_{4}
+        \]
+        Which represents an $A4$, the sound generated with a frequency of $440\text{Hz}$. It will be specifically mentioned if we do this the rest of the time assume that octave is not considered.
+      \end{itemize}
+    \item We may consider elements such as $ \widehat{12},  \widehat{-1}$ by moving circularly, so that $ \widehat{12} \leftrightarrow C$ and $ \widehat{-1} \leftrightarrow B$. But you can refer to any note using the elements in the initial mapping, so it is standard to use those numbers instead. 
+      \begin{itemize}
+        \item In other words, without considering which octave a note is in, we have the following equivalence for any $k \in \mathbb{Z}$ and $x \in \left\{ 0, \ldots, 12 \right\}$ 
+        \[
+        \widehat{x} = \widehat{x  +  12  \cdot k}
+        \]
+        Which says if you add 12 semitones to any note, it will be the same note differing by an integer number of octaves. Even more concisely we can say that for any two $a, b \in \mathbb{Z}$ where $a  \equiv b \;(\bmod\; 12) $:
+        \[
+        \widehat{a} = \widehat{b}
+        \]
+       \item Specifically that means for any $j \in \mathbb{Z}$ 
+         \[
+          \widehat{j} = \widehat{j ~\%~ 12}
+         \]
+         which means that any note can be represented by one of $ \left\{ \widehat{0}, \ldots, \widehat{11} \right\}$ 
+      \end{itemize}
+  \end{itemize}
+  \subsubsection*{Examples}
+  \begin{itemize}
+    \item $ \widehat{24} = \widehat{0  +  2  \cdot 12} = \widehat{0}$ 
+    \item $ \widehat{61} = \widehat{61 ~\%~ 12} = \widehat{1}$ 
+    \item $ \widehat{-3} = \widehat{9   +  \left( -1 \right)12} = \widehat{9} $ 
+  \end{itemize}
+\end{defn*}
+
+\end{document}

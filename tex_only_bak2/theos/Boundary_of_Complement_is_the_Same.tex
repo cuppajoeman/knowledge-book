@@ -1,0 +1,30 @@
+\documentclass{standalone}
+\usepackage{tikz,lmodern,amssymb}
+\usepackage{knowledge}
+
+\begin{document}
+
+\begin{theo*}{Boundary of Complement is the Same}
+  \[
+    \partial S = \partial \left( S ^{\complement}   \right)
+  \]
+  \begin{pf}
+    \begin{itemize}
+    \item Recall that $x \in \partial S$ if and only if $ \forall \varepsilon  \in \mathbb{R}^{>0} $
+      \begin{itemize}
+        \item $ B\left(x, \varepsilon \right) \cap S \neq  \varnothing$ 
+        \item $ B\left(x, \varepsilon \right) \cap S ^{\complement} \neq \varnothing$ 
+      \end{itemize}
+    \item Since $ \left( S ^{\complement}  \right) ^{\complement} = S$, then, we can re-write the above in opposite order 
+      \begin{itemize}
+        \item $ B\left(x, \varepsilon \right) \cap S ^{\complement} \neq \varnothing$ 
+        \item $ B\left(x, \varepsilon \right) \cap \left( S ^{\complement}  \right) ^\complement  \neq  \varnothing$ 
+        \item But that's if and only if $ x \in \partial \left( S ^{\complement}  \right)$, as required. 
+      \end{itemize}
+    \end{itemize}
+  \end{pf}
+\end{theo*}
+
+\end{document}
+
+

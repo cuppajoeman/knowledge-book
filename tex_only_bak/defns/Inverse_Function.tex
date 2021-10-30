@@ -1,0 +1,26 @@
+\documentclass{standalone}
+\usepackage{tikz,lmodern,amssymb}
+\usepackage{knowledge}
+
+\begin{document}
+
+\begin{defn*}{Inverse Function}
+Inverse Function: Let $f : A \to B$ be a function. The inverse of $f$ is another function, written: 
+\[
+	f^{-1} : B \to A
+\] defined by
+
+
+\[
+	\forall x \in A, \forall y \in B, x = f^{-1}\left(y\right) \Leftrightarrow y = f\left(x\right)
+\]
+
+Assuming that $f^{-1}$ is a function.
+
+\subsubsection*{Equivalent Definition}
+\[
+	\begin{cases} \forall x \in A, & f^{-1}\left(f\left(x\right)\right)=x\\ \forall y \in B, & f\left(f^{-1}\left(y\right)\right)=y \end{cases}
+\]
+\end{defn*}
+
+\end{document}

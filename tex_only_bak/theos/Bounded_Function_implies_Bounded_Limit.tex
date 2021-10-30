@@ -1,0 +1,37 @@
+\documentclass{standalone}
+\usepackage{tikz,lmodern,amssymb}
+\usepackage{knowledge}
+
+\usepackage{algpseudocode}
+
+\begin{document}
+
+\begin{deduction*}
+{Bounded Function implies Bounded Limit}
+    Let \(f\) be a real valued function, then and \(M \) be its global minimum, then for any \(a \in \operatorname{dom} \left(f\right)\) where the limit exists, we have
+    \[
+    \lim_{x \to a} f\left(x\right) \ge M
+    \]
+    \begin{pf}
+       \begin{itemize}
+           \item Let \(L = \lim_{x \to a} f\left(x\right) \) and suppose for the sake of contradiction that $ L < M $ 
+           \item Consider $ \varepsilon =  M - L$, then it should be the case that 
+           \[
+           \exists \delta \in \mathbb{R}^{+}, \forall x \in  \operatorname{ dom }\left( f \right), \left| x - a \right| < \delta \Rightarrow \left| f\left( x \right) -  L \right| < \varepsilon 
+           \]
+           \item But for any $ \delta \in  \mathbb{R}^{+}  $ where $ \left| x - a \right| \le \delta  $ it cannot be true that
+           \[
+           \left| f\left( x \right) -  L \right| < M - L
+           \]
+           \item To see why we should note that 
+           \[
+           \left| f\left( x \right) -  L \right| \ge \left| M - L \right| =  M - L
+           \]
+           \item Which is clearly a contradiction.
+       \end{itemize}
+    \end{pf}
+\end{deduction*}
+
+\end{document}
+
+

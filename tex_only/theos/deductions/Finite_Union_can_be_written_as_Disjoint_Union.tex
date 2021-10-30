@@ -1,0 +1,53 @@
+\begin{deduction*}{Finite Union can be written as Disjoint Union}
+    Given $ S_{1} , S_{2} , \dotsc  , S_{n - 1} , S_{n} \subseteq X$ then there exists disjoint sets $ D_{1} , D_{2} , \dotsc  , D_{k - 1} , D_{k} \subseteq X$ such that 
+    \[
+    \bigcup_{i=1}^{n} S _{i} =  \bigcup_{i=1}^{k}  D_{i}
+    \]
+    \begin{pf}
+        \begin{itemize}
+            \item Intro
+            \begin{itemize}
+                \item We start by defining the following function $f : \mathcal{B} ^{n} \to \mathcal{P}\left(X\right) $ 
+                    \[
+                        f\left( \left(b_{1} , b_{2} , \dotsc  , b_{n - 1} , b_{n} \right)\right) =  \left\{ x \in X: x \in S_{1} = b_{1} \land  x \in S_{2} = b_{2} \land  \dotsb \land  x \in S_{n - 1} = b_{n - 1} \land  x \in S_{n} = b_{n} \right\} 
+                    \]
+                \item To understand this function a little better, we can see that 
+                    \[
+                    f\left( \texttt{T}, \texttt{F},  \ldots,  \texttt{F}, \texttt{F}\right) = S_{1} \setminus \left( \bigcup_{i=2}^{n} S _{i} \right)
+                    \]
+                    in english, the function is requiring all the elements of $ X$  which are only in $ S _{1}$ 
+                \item Our claim is that 
+                    \[
+                    \bigcup_{b \in \mathcal{B} ^{n} \setminus \left( \texttt{F}, \texttt{F},  \ldots,  \texttt{F}, \texttt{F} \right)} f\left(b\right) 
+                    \]
+                    is one such disjoint union
+            \end{itemize}
+            \item Disjoint
+                \begin{itemize}
+                    \item Consider $ f\left(a\right), f\left(b\right)$ for $ a, b \in \mathcal{B} ^{ n}$  with $ a \neq b$ since $ a \neq  b$  we know that there is some $ i \in \left[ n \right]$ such that $ a_{i} \neq  b_{i}$, without loss of generality assume that $ a_{i} =  \texttt{T}$ and $ b _{i } =  \texttt{F}$ in this case we know that every element of $ f\left(* a\right)$ is an element of $ S_{i}$ , and that every element of $ f\left(* b\right)$ is not an element of $ S_{i}$, thus they have no element in common, symbolically:
+                        \[
+                        f\left(a\right) \cap f\left(b\right) = \varnothing
+                        \]
+                \end{itemize}
+            \item Union
+                \begin{itemize}
+                    \item Recall that we'd like to show that
+                        \[
+                        \bigcup_{i=1}^{n} S_{i} = \bigcup_{b \in \mathcal{B} ^{n} \setminus \left( \texttt{F}, \texttt{F},  \ldots,  \texttt{F},\texttt{F}  \right)} f\left(b\right)
+                        \]
+                        \begin{itemize}
+                            \item $ \subseteq$ 
+                                \begin{itemize}
+                                    \item Suppose that $ x \in \bigcup_{i=1}^{n} S _{i}$, then for each $ S _{j}$ it's either a member of that set or or not, so we can construct the tuple $ y = \left( x \in S_{1} , x \in S_{2} , \dotsc  , x \in S_{n - 1} , x \in S_{n} \right)$ then we know that $ x \in f\left(y\right)$ by $ f$'s definition.
+                                \end{itemize}
+                            \item $ \supseteq$ 
+                                \begin{itemize}
+                                    \item Suppose that $ x \in \bigcup_{b \in \mathcal{B} ^{n} \setminus \left( \texttt{F}, \texttt{F},  \ldots,  \texttt{F},\texttt{F}  \right)} f\left(b\right) $
+                                    \item Then $ x $ is in at least one $ f\left(p\right)$ where $ p_{k} =  \texttt{T}$ for some $ k \in \left[ n \right]$, therefore $ f\left(p\right) \subseteq S _{k} $ 
+                                    \item But $ S _{k} \subseteq \bigcup_{i=1}^{n} S _{i} $ , so then $ x \in f\left(p\right) \subseteq S _{k} \subseteq \bigcup_{i=1}^{n} S _{i}$ as required.
+                                \end{itemize}
+                        \end{itemize}
+                \end{itemize}
+        \end{itemize}
+    \end{pf}
+\end{deduction*}

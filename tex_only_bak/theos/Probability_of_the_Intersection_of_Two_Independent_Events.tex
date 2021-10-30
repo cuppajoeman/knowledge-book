@@ -1,0 +1,38 @@
+\documentclass{standalone}
+\usepackage{tikz,lmodern,amssymb}
+\usepackage{knowledge}
+
+\usepackage{algpseudocode}% http://ctan.org/pkg/algorithmicx
+
+\begin{document}
+
+\begin{deduction*}{Probability of the Intersection of Two Independent Events}
+    Suppose $ E, F$ are independent events, then 
+    \[
+    P\left( E \cap F\right) =  P\left(E \right)   \cdot P\left(F\right)
+    \]
+    \begin{pf}
+        \begin{itemize}
+            \item Since $ E$ and $ F$ are independent, we have that
+                \[
+                P\left(E \mid F\right) =  P\left(E\right)
+                \]
+            \item Now from the definition of conditional probability we know that 
+                \[
+                    P\left( E \mid F\right) =  \frac{P\left(E \cap F\right)}{ P\left(F\right)}
+                \]
+            \item In combination with our original realization we have:
+                \[
+                P\left(E\right)=  \frac{P\left(E \cap F\right)}{ P\left(F\right)}
+                \]
+            \item In other words
+                \[
+                    \boxed{ P\left(E \cap F\right) =  P\left(E \right)  \cdot  P\left(F\right)}
+                \]
+        \end{itemize}
+    \end{pf}
+\end{deduction*}
+
+\end{document}
+
+

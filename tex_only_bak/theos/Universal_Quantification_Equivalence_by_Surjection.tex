@@ -1,0 +1,30 @@
+\documentclass{standalone}
+\usepackage{tikz,lmodern,amssymb}
+\usepackage{knowledge}
+
+\usepackage{algpseudocode}% http://ctan.org/pkg/algorithmicx
+
+\begin{document}
+
+\begin{deduction*}{Universal Quantification Equivalence by Surjection}
+    Suppose that $f : X \to X $ for some set $ X$ is a surjection, and that $ P : X \to \mathcal{B} $  is a predicate, then
+    \[
+    \left( \forall x_{l} \in X, P\left(x_{l}\right) \right)  \Leftrightarrow \left( \forall x_{r} \in X, P\left(f\left(x_{r}\right)\right) \right)
+    \]
+    \begin{pf}
+        \begin{itemize}
+        \item $ \Rightarrow $ 
+        \begin{itemize}
+            \item let $ x _{r} \in X$, we want to show that $ P\left(f\left(x _{r}\right)\right)$ holds, we know that $ f\left(x _{r}\right) \in X$, therefore by our assumption we know that $ P\left(f\left(x _{r}\right)\right)$ holds.
+        \end{itemize}    
+        \item $  \Leftarrow $ 
+        \begin{itemize}
+            \item Let $ x _{l} \in X$ we want to show that $ P\left(x _{l}\right)$ holds, since $ x _{l } \in X$ and $f$  is a surjection, we know that there is some $ k \in X$  such that $ f\left(k\right) =  x_{l}$, then by our assumption we know that $ P\left(f\left(k\right)\right)$ holds, but by the equality that means that $ P\left( x _{l}\right)$ holds, as needed.
+        \end{itemize}
+        \end{itemize}
+    \end{pf}
+\end{deduction*}
+
+\end{document}
+
+

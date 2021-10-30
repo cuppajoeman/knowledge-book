@@ -1,0 +1,26 @@
+\documentclass{standalone}
+\usepackage{tikz,lmodern,amssymb}
+\usepackage{knowledge}
+
+\begin{document}
+
+\begin{theo*}{Boundary Point is Half In Half Out}
+  \[
+  x \in \partial S \Leftrightarrow \forall \varepsilon \in \mathbb{R}^{>0}, B\left(x, \varepsilon\right) \cap S \neq \varnothing \text{ and } B\left(x, \varepsilon\right) \cap S ^{\complement} \neq \varnothing
+  \]
+  \begin{pf}
+    $x \in \partial S \stackrel{\mathtt{D}}{=} \overline{S} \setminus \mathring{S}$, 
+    \begin{itemize}
+      \item $x \in \overline{S} \Leftrightarrow \forall \varepsilon \in \mathbb{R}^{>0} , B\left(x, \varepsilon\right) \cap S \neq \varnothing$ 
+      \item $x \not\in \mathring{S} \Leftrightarrow \neg \left( \exists \varepsilon \in \mathbb{R}^{>0} , B\left(x, \varepsilon \right) \subseteq S  \right) $ that is
+        \[
+        \forall \varepsilon \in \mathbb{R}^{>0}, \exists a \in B\left(x, \varepsilon\right), a \not\in S \Leftrightarrow a \in B\left(x, \varepsilon\right) \cap S ^{\complement}
+        \]
+        if and only if  $ B\left(x, \varepsilon\right) \cap S ^{\complement}  \neq \varnothing$ 
+    \end{itemize}
+  \end{pf}
+\end{theo*}
+
+\end{document}
+
+

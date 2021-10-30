@@ -1,0 +1,53 @@
+\documentclass{standalone}
+\usepackage{tikz,lmodern,amssymb}
+\usepackage{knowledge}
+
+\usepackage{algpseudocode}% http://ctan.org/pkg/algorithmicx
+
+\begin{document}
+
+\begin{deduction*}{The Angle from e1 to any vector is given by arctan2}
+    \begin{center}
+        Given any vector $ \vec{x} \in \mathbb{R} ^{2} \setminus \left\{  0 \right\}$ then the angle measured counter clockwise from $ \vec{e}_{1}$ is given by $ \operatorname{arctan2}$ 
+    \end{center}
+    \subsubsection*{Motivation}
+    \begin{itemize}
+        \item First let's consider why we even need arctan2.
+        \item Recall what $ \arctan  $ does
+        \begin{itemize}
+            \item Given a ratio of the two legs of a right angle triangle then $ \arctan  \left( \frac{y}{x} \right) = \theta$, that is, it yields the angle $ \theta$ against $ x$ which creates such a triangle
+        \end{itemize}
+        \item also note $ \arctan :  \mathbb{R} \to \left( -\frac{\tau}{4}, \frac{\tau}{4} \right) $ 
+        \item Therefore it can only ever give the correct angle for points that make an angle in $ \left( -\frac{\tau}{4}, \frac{\tau}{4} \right)$ with $ \vec{e}_{1}$
+        \begin{itemize}
+            \item this corresponds with points that have positive $ x$ component 
+        \end{itemize}
+        \item Therefore for other points, we must make modifications to the function
+        \item We claim that $ \operatorname{arctan2}$ corrects the flaws of $ \arctan $ 
+    \end{itemize}
+    \begin{pf}
+        \begin{itemize}
+            \item Let $ \vec{x} \in \mathbb{R} ^{2} \setminus \left\{ 0 \right\}$. 
+            \begin{itemize}
+                \item If $x _{1} > 0$ then by the discussion in the motivation, we can see that the angle we are looking for is precisely $ \arctan  \left( \frac{x_{2}}{x_{1}} \right)$  this matches $ \operatorname{arctan2}$  precisely.
+                \item If $x_{1} < 0$, then we can see that $ \arctan$ incorrectly gives an angle in the range $ \left( -\frac{\tau}{4}, \frac{\tau}{4} \right)$
+                \begin{itemize}
+                    \item When $ x _{2} < 0$ then $ \frac{x_{2}}{x_{1}} > 0$ and so $ \arctan$ is modelling the situation in $ Q _{++}$ therefore to fix the angle given out by $ \arctan$ we must add $ \frac{\tau}{2}$ 
+                    \item When $ x_{2} > 0$ then $ \frac{x_{2}}{x_{1} } < 0$ and similar as above it's modelling the identical situation in $ Q _{+-}$ and so to correct it one may add $ \frac{\tau}{2}$ 
+                \end{itemize}
+                \item Note that the definition of $\operatorname{arctan2}$ incorporates the above corrections
+                \item If $ x_{1} =  0$ 
+                \begin{itemize}
+                    \item If $ x_{2} > 0$ then we are talking about the angle formed by the positive component of the y axis, that is $ AX_{0+}$ which creates an angle of $ \frac{\tau}{4}$ with $ \vec{e}_{1}$
+                    \item If $ x_{2} < 0$ then we are talking about the angle formed by the negative component of the y axis, that is $ AX_{0-}$ which creates an angle of $\frac{3 \tau}{4}$ with $ \vec{e}_{1}$ 
+                \end{itemize}
+                \item And $ \operatorname{arctan2}$ is defined such that the above two properties hold.
+            \end{itemize}
+            \item Therefore $ \operatorname{arctan2}$ measures the counter clockwise angle between $ \vec{e}_{1}$ to $ \vec{x}$ 
+        \end{itemize}
+    \end{pf}
+\end{deduction*}
+
+\end{document}
+
+

@@ -1,0 +1,51 @@
+\documentclass{standalone}
+\usepackage{tikz,lmodern,amssymb}
+\usepackage{knowledge}
+
+\usepackage{algpseudocode}
+
+\begin{document}
+
+\begin{deduction*}
+{The Finite Complement Topology is a Topology}
+    Let \(X\) be any set and \(\mathcal{T} _{f}\) be the finite complement topology on \(X\), we'll show that it's indeed a topology
+    \begin{pf}
+        \begin{itemize}
+            \item Note that \(\varnothing ^{\complement} = X\) which is all of \(X\) thus \(\varnothing \in \mathcal{T} _{f}\) and that \(X ^{\complement} = \varnothing\) which is finite thus \(X \in \mathcal{T} _{f}\)
+            \item Let \(U_{1}, U_{2}, \dotsc, U_{n - 1}, U_{n}\) be in \(\mathcal{T}_{f}\) we'll show that
+                \[
+                \bigcap_{i = 1}^{n} U_{i} \in \mathcal{T} _{f}
+                \]
+            \begin{itemize}
+                \item Note that by demorgan's laws we have that
+                    \[
+                    \left(\bigcap_{i = 1}^{n} U_{i}\right) ^{\complement} = \bigcup_{i = 1}^{n} \left(U_{i}\right) ^{\complement}
+                    \]
+                \item And by assumption that each \(U_{j} \in \mathcal{T} _{f} \) we know that each \(U_{j} ^{\complement}\) is either finite or all of \(X\)
+                \begin{itemize}
+                    \item If any one of the complements are \(X\) then the union is all of \(X\), if no such complement is \(X\) then they are all finite, and a finite union of finite sets is finite, so we conclude
+                        \[
+                        \bigcap_{i = 1}^{n} U_{i} \in \mathcal{T} _{f}
+                        \]
+                \end{itemize}
+            \end{itemize}
+            \item Let \(I\) be some indexing set, we will show that
+                \[
+                \bigcup_{\alpha \in I} U _{\alpha} \in \mathcal{T} _{f}
+                \]
+            \begin{itemize}
+                \item Again we leverage DeMorgan's Laws (which hold on finite or infinite sets), so we have:
+                    \[
+                   \left(\bigcup_{\alpha \in I} U _{\alpha}\right) ^{\complement} = \bigcap_{\alpha \in I} \left(U _{\alpha}\right) ^{\complement}
+                    \]
+                \begin{itemize}
+                    \item If each one of \(\left(U _{\beta}\right) ^{\complement}\) are all of \(X\) then the intersection is all of \(X\), if any one of the complements are finite, then the union is also finite, thus \(\left(\bigcup_{\alpha \in I} U _{\alpha}\right) ^{\complement} = \bigcap_{\alpha \in I} \left(U _{\alpha}\right) ^{\complement}\) as needed.
+                \end{itemize}
+            \end{itemize}
+        \end{itemize}
+    \end{pf}
+\end{deduction*}
+
+\end{document}
+
+

@@ -1,0 +1,23 @@
+\begin{deduction*}
+{Modulus of the Product of Two Complex Numbers}
+    For any \(z, w \in \mathbb{C} \)
+    \[
+    \left| z \cdot w \right| = \left| z \right| \cdot \left| w \right|
+    \]
+    \begin{pf}
+        \begin{itemize}
+            \item Supposing that \(z = a + bi \) and \(w = c + di \) then
+                \begin{align*}
+                    \left| z \cdot w \right| &= \sqrt{\left(ac - bd\right) ^{2} + \left(ad + bc\right) ^{2}} \\
+                                             &= \sqrt{\left(\left(ac\right) ^{2} - abcd - bdac + \left(bd\right) ^{2}\right) + \left(\left(ad\right) ^{2} + adbc + bcad + \left(bc\right) ^{2}\right)} \\
+                                             &= \sqrt{\left(ac\right) ^{2} - 2abcd + \left(bd\right) ^{2} + \left(ad\right) ^{2} + 2abcd + \left(bc\right) ^{2}} \\
+                                             &= \sqrt{\left(ac\right) ^{2} + \left(bd\right) ^{2} + \left(ad\right) ^{2} + \left(bc\right) ^{2}}
+                \end{align*}
+            \item On the other hand
+                \[
+                    \left| z \right| \cdot \left| w \right| = \sqrt{a ^{2} + b ^{2}} \sqrt{c ^{2} + d ^{2}} = \sqrt{\left(ac\right) ^{2} + \left(bd\right) ^{2} + \left(ad\right) ^{2} + \left(bc\right) ^{2}}
+                \]
+            \item Therefore we have that \(\left| z \cdot w \right| = \left| z \right| \cdot \left| w \right| \) as needed
+        \end{itemize}
+    \end{pf}
+\end{deduction*}

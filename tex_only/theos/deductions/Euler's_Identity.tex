@@ -1,0 +1,17 @@
+\begin{deduction*}
+{Euler's Identity}
+We have Euler's famous identity
+\[
+e^{i \theta} = \cos \theta+i \sin \theta
+\]
+\begin{pf}
+    Using the Taylor series for the exponential, and recognizing the Taylor series for sine and cosine, we have:
+    \begin{align*}
+        e^{i \theta} &= 1+i \theta+\frac{{(i \theta)}^{2}}{2!}+\frac{{(i \theta)}^{3}}{3!}+\frac{{(i \theta)}^{4}}{4!}+\frac{{(i \theta)}^{5}}{5!}+\ldots \\
+        &= 1+i \theta-\frac{\theta^{2}}{2!}-\frac{i \theta^{3}}{3!}+\frac{\theta^{4}}{4!}+\frac{i \theta^{5}}{5!}+\ldots \\
+        &= \left(1-\frac{\theta^{2}}{2!}+\frac{\theta^{4}}{4!}-\ldots\right)+i\left(\theta-\frac{\theta^{3}}{3!}+\frac{\theta^{5}}{5!}-\ldots\right) \\
+        &= \cos \theta+i \sin \theta
+    \end{align*}
+    because \(i^{2} = -1, i^{3} = -i\), and \(i^{4} = 1\). 
+\end{pf}
+\end{deduction*}

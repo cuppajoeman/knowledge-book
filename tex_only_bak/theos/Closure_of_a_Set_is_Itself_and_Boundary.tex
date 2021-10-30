@@ -1,0 +1,29 @@
+\documentclass{standalone}
+\usepackage{tikz,lmodern,amssymb}
+\usepackage{knowledge}
+
+\begin{document}
+
+\begin{prop*}{Closure of a Set is Itself and Boundary}
+  \[
+  \overline{S} = S \cup \partial S
+  \]
+  \begin{pf}
+    Let $x \in \overline{S}$, then 
+    \begin{itemize}
+      \item If $x \in S$, then $x \in S \cup \partial S$ 
+      \item If $x \not\in S$, then we have to show that $x \in \partial S \stackrel{\mathtt{D}}{=} \overline{S} \setminus \mathring{S}$, we already know that $x \in \overline{S}$ so it remains to show that $x \not\in \mathring{S}$, that is, we need to show that the following is false:
+        \[
+        \exists \varepsilon \in \mathbb{R} ^{> 0} \text{ such that } B\left(x, \varepsilon\right) \subseteq S 
+        \]
+        But $x \not\in S$, so it's impossible for $B\left(x, \varepsilon\right) \subseteq S$ to be true for any $\varepsilon$. Thus $x \not\in \mathring{S}$ and we have $x \in \partial S$ 
+    \end{itemize}
+    Let $x \in S \cup \partial S$, we need to show that $x \in \overline{S}$, so $\forall \varepsilon \in \mathbb{R} ^{> 0}, B\left(x, \varepsilon\right) \cap S \neq \varnothing$. Let $\varepsilon \in \mathbb{R} ^{ > 0}$ 
+    \begin{itemize}
+      \item If $x \in S$ then $x \in B\left(x, \varepsilon\right) $ and $x \in S$  so $B\left(x, \varepsilon\right) \cap S \neq \varnothing$ 
+      \item If $x \in \partial S \stackrel{\mathtt{D}}{=} \overline{S} \setminus \mathring{S}$, then $x \in \overline{S}$ as needed. 
+    \end{itemize}
+  \end{pf}
+\end{prop*}
+
+\end{document}

@@ -1,0 +1,25 @@
+\begin{defn*}{First Order Logic to Propositional Logic Conversion Procedure}
+Given $\beta$, an $\mathcal{L}$-formula of first-order logic, here is a procedure that will convert $\beta$ to a formula $\beta_{P}$ of propositional logic corresponding to $\beta$
+\begin{enumerate}
+    \item Find all subformulas of $\beta$ of the form $\forall x \alpha$ that are not in the scope of another quantifier. Replace them with propositional variables in a systematic fashion. This means that if $\forall y Q(y, c)$ appears twice in $\beta$, it is replaced by the same letter both times, and distinct subformulas are replaced with distinct letters.
+    \item Find all atomic formulas that remain, and replace them systematically with new propositional variables.
+    \item At this point, $\beta$ will have been replaced with a propositional formula $\beta_{P}$
+\end{enumerate}
+
+\begin{ex}
+    \begin{itemize}
+        \item Suppose that we look at the $\mathcal{L}$-formula
+$$
+(\forall x P(x) \wedge Q(c, z)) \rightarrow(Q(c, z) \vee \forall x P(x))
+$$
+For the first step of the procedure above, we replace the quantified subformulas with the propositional letter $B$ :
+$$
+(B \wedge Q(c, z)) \rightarrow(Q(c, z) \vee B)
+$$
+To finish the transformation to a propositional formula, replace the atomic formula with a propositional letter:
+$$
+(B \wedge A) \rightarrow(A \vee B)
+$$
+    \end{itemize}
+\end{ex}
+\end{defn*}

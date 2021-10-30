@@ -1,0 +1,14 @@
+\documentclass{standalone}
+\usepackage{tikz,lmodern,amssymb}
+\usepackage{knowledge}
+
+\begin{document}
+
+\begin{defn*}{Truth Assignment Function for Formulas}
+Given a truth assignment function $ v $ it may be extended for formulas of $ \mathcal{ P }  $ :
+\[
+\bar{v}(\phi)= \begin{cases}v(\phi) & \text { if } \phi \text { is a propositional variable } \\ F & \text { if } \phi: \equiv(\neg \alpha) \text { and } \bar{v}(\alpha)=T \\ F & \text { if } \phi: \equiv(\alpha \vee \beta) \text { and } \bar{v}(\alpha)=\bar{v}(\beta)=F \\ T & \text { otherwise }\end{cases}
+\]
+\end{defn*}
+
+\end{document}

@@ -1,0 +1,33 @@
+\documentclass{standalone}
+\usepackage{tikz,lmodern,amssymb}
+\usepackage{knowledge}
+
+\begin{document}
+
+\begin{theo*}{Number of K-Combinations of a Set}
+Let $X$ be a set where $\left| X \right|=n \in \mathbb{N}$, the number of $k$-combinations of $X$  is equal to 
+\[
+	{{}^{n}\!C_{k}} \stackrel{\mathtt{N}}{=} \binom{n}{k} \stackrel{\mathtt{D}}{=}\frac{n \left( n-1 \right) \dotsb \left( n -k  + 1 \right)}{k \left( k-1 \right)\dotsb 1} = \frac{n!}{(n-k)!\cdot k!} 
+\]
+\begin{pf}
+  \begin{itemize}
+   \item Recall that the number of k permutations on $n$ elements is 
+     \[
+     \frac{n!}{ \left( n-k \right)!}
+     \]
+    \item Consider $ x_{1} , x_{2} , \dotsc  , x_{k - 1} , x_{k} \in X$, then there are $k!$ different permutations of these elements, but each of these permutations only corresponds to a single $k$-combination.
+    \item This means that for each possible choice of $ x_{1} , x_{2} , \dotsc  , x_{k - 1} , x_{k}$ we are overcounting $k!$ times, that is:
+      \[
+      \frac{n!}{ \left(  n  - k \right)!} = \sum_{ \left\{ x_{1} , x_{2} , \dotsc  , x_{k - 1} , x_{k} \right\} \subseteq X} k! \Leftrightarrow \frac{n!}{ k! \left(  n  - k \right)!} = \sum_{ \left\{ x_{1} , x_{2} , \dotsc  , x_{k - 1} , x_{k} \right\} \subseteq X} 1
+      \]
+    \item And $\sum_{ \left\{ x_{1} , x_{2} , \dotsc  , x_{k - 1} , x_{k} \right\} \subseteq X} 1$ is the number of $k$-combinations of $X$ thus
+      \[
+      {{}^{n}\!C_{k}} = \frac{n!}{ k! \left(  n  - k \right)!} 
+      \]
+      as required.
+  \end{itemize}
+
+\end{pf}
+\end{theo*}
+
+\end{document}

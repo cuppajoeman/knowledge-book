@@ -1,0 +1,30 @@
+\documentclass{standalone}
+\usepackage{tikz,lmodern,amssymb}
+\usepackage{knowledge}
+
+\begin{document}
+
+\begin{theo*}{A Set is Open iff Each Point is an Interior Point}
+  \[
+   S \text{ is open } \Leftrightarrow \forall x \in S, \exists \varepsilon \in \mathbb{R}^{>0} , B\left(x, \varepsilon\right) \subseteq S 
+  \]
+  \begin{pf}
+    \begin{itemize}
+      \item $ \Rightarrow $ 
+        \begin{itemize}
+          \item Let $ x \in S$, then $ x \in \mathring{S} $ by assumption, so we have $ \varepsilon_{ \circ} \in \mathbb{R}^{>0} , B\left(x, \varepsilon _{\circ}\right) \subseteq S$. Take $ \varepsilon  =  \varepsilon _{\circ}$
+        \end{itemize}
+      \item $ \Leftarrow $ 
+        \begin{itemize}
+          \item We already know that $ \mathring{S}  \subseteq S$ therefore we must show that $ S \subseteq \mathring{S} $
+          \begin{itemize}
+            \item Let $x \in S$, thus by assumption, we have $ \varepsilon  \in \mathbb{R}^{>0} $ such that $ B\left(x, \varepsilon \right) \subseteq S$ 
+            \item Since $ \mathring{S} \stackrel{\mathtt{D}}{=} \left\{ x \in \mathbb{R}^{n} :\exists  \varepsilon \in \mathbb{R}^{>0}, B\left(x, \varepsilon \right) \subseteq S   \right\} $, then $ x \in \mathring{S} $ 
+          \end{itemize}
+        \end{itemize}
+    \end{itemize}
+    
+  \end{pf}
+\end{theo*}
+
+\end{document}

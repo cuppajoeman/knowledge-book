@@ -1,0 +1,27 @@
+\documentclass{standalone}
+\usepackage{tikz,lmodern,amssymb}
+\usepackage{knowledge}
+
+\begin{document}
+
+\begin{theo*}{S Closed iff Boundary is Subset}
+  \[
+  S \text{ is closed } \Leftrightarrow \partial S \subseteq S
+  \]
+  \begin{pf}
+    \begin{itemize}
+      \item $ \Rightarrow $ 
+      \begin{itemize}
+        \item $ \partial S \stackrel{\mathtt{D}}{=} \overline{S}  \setminus \mathring{S} $ since $ S = \overline{S} $ by assumption, that is $ \partial S = S \setminus \mathring{S} \subseteq S$ 
+      \end{itemize}
+      \item $ \Leftarrow $ 
+        \begin{itemize}
+          \item $ \overline{S} \stackrel{\mathtt{T}}{=} S \cup  \partial S $  now since we've assumed that $ \partial S \subseteq S$, $ S \cup  \partial S =  S$ and we get $ \overline{S}  =  S$ 
+        \end{itemize}
+    \end{itemize}
+  \end{pf}
+\end{theo*}
+
+\end{document}
+
+

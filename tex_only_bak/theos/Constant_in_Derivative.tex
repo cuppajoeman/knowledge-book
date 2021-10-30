@@ -1,0 +1,22 @@
+\documentclass{standalone}
+\usepackage{tikz,lmodern,amssymb}
+\usepackage{knowledge}
+
+\begin{document}
+
+\begin{property*}{Constant in Derivative}
+  For any differentiable function $f$ and constant $c \in \mathbb{R}$, we have :
+  \[
+  \left( c f\left(x\right) \right) ^{\prime} = c f ^{\prime}\left(x\right)
+  \]
+  \begin{pf}
+    It follows from the fact that we can pull the constant out of a limit:
+  \[
+    \left( c f\left(x\right) \right) ^{\prime} \stackrel{\mathtt{D}}{=} \lim_{x \to a} \frac{c f\left(x\right)  -  c f\left(a\right)}{x  -  a} = c \lim_{x \to a} \frac{f\left(x\right)  -  f\left(a\right)}{x  -  a} \stackrel{\mathtt{D}}{=} c f ^{\prime}\left(x\right)
+    \]
+  \end{pf}
+\end{property*}
+
+\end{document}
+
+

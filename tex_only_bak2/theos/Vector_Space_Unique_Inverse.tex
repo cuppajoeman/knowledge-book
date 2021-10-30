@@ -1,0 +1,20 @@
+\documentclass{standalone}
+\usepackage{tikz,lmodern,amssymb}
+\usepackage{knowledge}
+
+\begin{document}
+
+\begin{theo*}{Vector Space Unique Inverse}
+  Every element in a vector space $ V$ has a unique additive inverse.
+  \begin{pf}
+    Suppose $ V$ is a vector space, and let $  v \in V$ and supppose we have two additive inverses of $ v$, call them $ x$ and $ y$, where $ x \neq  y$. In that case
+    \[
+      x =  x  +  0 = x  +  \left( v  +  y \right) = \left( x  +  v \right)  +  y =  0  +  y =  y
+    \]
+    Thus $ x =  y$, a contradiction, so we know that there is a unique additive inverse.
+  \end{pf}
+\end{theo*}
+
+\end{document}
+
+

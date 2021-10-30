@@ -1,0 +1,18 @@
+\documentclass{standalone}
+\usepackage{tikz,lmodern,amssymb}
+\usepackage{knowledge}
+
+\begin{document}
+
+\begin{defn*}{Partition}
+A partition of a set $ X$ is a set $ P$  of non-empty subsets of $X$ such that every element $x \in X$ is in exactly one of these subsets.
+
+In other words, $P$ satisfies the following properties
+\begin{itemize}
+  \item $\emptyset \not\in P$ 
+  \item $\bigcup_{A \in P}A =X$ 
+  \item $\forall A,B \in P, A \neq B \implies A \cap B = \emptyset$
+\end{itemize}
+\end{defn*}
+
+\end{document}

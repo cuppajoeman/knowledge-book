@@ -1,0 +1,23 @@
+\documentclass{standalone}
+\usepackage{tikz,lmodern,amssymb}
+\usepackage{knowledge}
+
+\begin{document}
+
+\begin{deduction*}{Scalar Times Vector is Zero implies one of them Zero}
+  Suppose that $ a \in \mathbb{F}, v \in V$, and that $ av = 0$ we will prove that 
+  \[
+  a =  0 \in \mathbb{F} \text{ or } v = 0 \in V
+  \]
+  \begin{pf}
+    Supposing $ a \neq 0$, then by multiplying both sides by $\frac{1}{a}$ we obtain 
+    \[
+    v = \left( \frac{1}{a} \right)0 = 0 \in \mathbb{F}
+    \]
+    by compatibility of scalar multiplication, and the fact that any scalar times the identity element is still the identity. Otherwise $ a = 0$ and the proof is done.
+  \end{pf}
+\end{deduction*}
+
+\end{document}
+
+

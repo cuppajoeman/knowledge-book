@@ -1,0 +1,26 @@
+\documentclass{standalone}
+\usepackage{tikz,lmodern,amssymb}
+\usepackage{knowledge}
+
+\begin{document}
+
+\begin{theo*}{Shift Equivalence for Intervals}
+  For any $ \widehat{x}, \widehat{y} \in \mathbb{W}$ and $k \in \mathbb{Z}$ 
+  \[
+  I\left( \widehat{x}, \widehat{y}\right) = I\left( \widehat{x}  +  k, \widehat{y}  +  k\right)
+  \]
+  In other words, if we take two notes, the interval between them is the same interval between the notes you get when we shift both by the same number of semitones.
+  \begin{pf}
+
+    \begin{align*}
+      I\left( \widehat{x}  + k , \widehat{y}  + k\right) &\stackrel{\text{SIN}}{=} I\left( \widehat{x  + k}, \widehat{y  + k}\right)\\
+                                                         &\stackrel{\mathtt{D}}{=} \left( y  + k \right)  -  \left( x  + k \right)\\
+                                                         &= y  - x\\
+                                                         &\stackrel{\mathtt{D}}{=} I\left(x, y\right)
+    \end{align*}
+  \end{pf}
+\end{theo*}
+
+\end{document}
+
+

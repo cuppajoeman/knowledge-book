@@ -1,0 +1,62 @@
+\documentclass{standalone}
+\usepackage{tikz,lmodern,amssymb}
+\usepackage{knowledge}
+
+\begin{document}
+
+\begin{deduction*}{Quotient Remainder}
+  $\forall n \in \mathbb{Z}, d \in  \mathbb{N}^{\ge 1}, \exists ! q, r \in \mathbb{Z} $  such that $n =dq  + r $ \& $0 \le r < d$
+
+  \begin{pf}
+    \begin{itemize}
+      \item Let $n \in \mathbb{Z}, d \in \mathbb{N}^{\ge 1}$ and set 
+      \[
+        S =\left\{ n-dk : n -dk \in \mathbb{N} \land k \in \mathbb{Z}  \right\}
+      \]
+
+      \item Claim $\left| S \right|\ge 1$
+      \begin{itemize}
+        \item If $n \ge 0$ , them $n = n - d0 \in \mathbb{N}$, so $n \in S$
+        \item Else $n < 0$ ,$n - nd =n\left( 1-d \right) \ge 0$  
+        \begin{itemize}
+          \item Because $d \ge 1 \Leftrightarrow 0 \ge 1-d$, and $n < 0$
+          \item So $n - nd \in  S$
+        \end{itemize}
+      \end{itemize}
+
+      \item By the principle of well ordering there is a least element $r \in S $  and therefore we have $q \in \mathbb{Z} $ such that $r=n- dq \Leftrightarrow n = r  + dq \quad (\alpha)$
+
+      \item One must show that $r < d$  
+      \begin{itemize}
+        \item But if $r \ge d \quad (\beta)$, then $n - d\left( q+1 \right) =n - dq - d \stackrel{\alpha}{=} r - d \stackrel{\beta}{\ge} 0$
+        \item Then $n - d\left( q + 1 \right) \in S$ , but $n - d\left( q + 1 \right) < n - dq = r$, so then $r$ would not have been the smallest element in $S$
+        \item That is a contradiction, therefore $r < d$
+      \end{itemize}
+      
+    \end{itemize}
+
+    \subsection*{Uniqueness}
+
+    \begin{itemize}
+      \item Note without assumption on $n \in \mathbb{Z}$ by the above prove we get $q_1, r_1, q_2, r_2  \in \mathbb{Z}$ such that $n = d q_1   + r_{1}$ and $n = d q_{2}  + r_{2}$, then we obtain:
+      \[
+        r_{1} - r_{2}= d \left( q_{1}  -  q_{2} \right)
+      \] 
+      \begin{itemize}
+        \item so $q \mid \left( r_{1} - r_{2} \right)$, then since $0 \le r_{1}, r_{2} < d$ then we know that
+        \[
+          -d < r_{1}  -  r_{2} < d
+        \] 
+        \item But since $d \mid r_{1}  -  r_{2}$ then $r_{1}  -  r_{2} = 0$ and we get $r_{1}=r_{2}$, if that's the case then $d \left( q_{1}  -  q_{2} \right)=0$ but $d > 0$ so similarly we have $q_{1}=q_{2}$ 
+      \end{itemize}
+      
+    \end{itemize}
+      
+  \end{pf}
+
+
+\end{deduction*}
+
+\end{document}
+
+

@@ -16,6 +16,10 @@ colorlinks=true,citecolor=blue,linkcolor=blue,linktocpage=true
 
 \usepackage{todonotes}
 \usepackage{xhfill}
+\usepackage[symbol]{footmisc}
+
+% creates the following command: \footnote[num]{text} 
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Math
@@ -117,9 +121,17 @@ colorlinks=true,citecolor=blue,linkcolor=blue,linktocpage=true
   {Theorem}{fonttitle=\bfseries\upshape, fontupper=\slshape,
      arc=0mm, colback=blue!5!white,colframe=blue!75!black}{theorem}
 
+\newtcbtheorem{proposition}%
+  {Proposition}{fonttitle=\bfseries\upshape, fontupper=\slshape,
+     arc=0mm, colback=orange!5!white,colframe=orange!75!black}{proposition}
+
 \newtcbtheorem{lemma}%
   {Lemma}{fonttitle=\bfseries\upshape, fontupper=\slshape,
      arc=0mm, colback=purple!5!white,colframe=purple!75!black}{lemma}
+
+\newtcbtheorem{corollary}%
+  {Corollary}{fonttitle=\bfseries\upshape, fontupper=\slshape,
+     arc=0mm, colback=pink!5!white,colframe=pink!75!black}{corollary}
 
 \newtcbtheorem{example}%
   {Example}{fonttitle=\bfseries\upshape, fontupper=\slshape,

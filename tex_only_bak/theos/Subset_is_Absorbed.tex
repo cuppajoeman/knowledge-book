@@ -1,0 +1,28 @@
+\documentclass{standalone}
+\usepackage{tikz,lmodern,amssymb}
+\usepackage{knowledge}
+
+\begin{document}
+
+\begin{prop*}{Subset is Absorbed}
+  Let $ A \subseteq B$ be two sets, then
+  \[
+  A \cup  B = B
+  \]
+  \begin{pf}
+    \begin{itemize}
+      \item $ \subseteq $ 
+      \begin{itemize}
+        \item Let $ x \in A \cup  B$, if $ x \in B$ the proof is done, if $ x \in A$ then by assumption $ x \in B$ as needed.
+      \end{itemize}
+      \item $ \supseteq $ 
+        \begin{itemize}
+          \item Let $ x \in B$ then $ x \in B \cup A$ 
+        \end{itemize}
+    \end{itemize}
+  \end{pf}
+\end{prop*}
+
+\end{document}
+
+

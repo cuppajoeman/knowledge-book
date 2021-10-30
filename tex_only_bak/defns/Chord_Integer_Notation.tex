@@ -1,0 +1,27 @@
+\documentclass{standalone}
+\usepackage{tikz,lmodern,amssymb}
+\usepackage{knowledge}
+
+\begin{document}
+
+\begin{defn*}{Chord Integer Notation}
+  Is a notational system for specifying a series of notes to be played simultaneously, written as:
+  \[
+      \widehat{r} \mid x_{1} , x_{2} , \dotsc  , x_{n - 1} , x_{n}
+  \]
+  \begin{itemize}
+    \item Where $ \widehat{r} \in \mathbb{W}$ is the root tone 
+    \item  $ x_{1} , x_{2} , \dotsc  , x_{n - 1} , x_{n}$ are a series of intervals that generate the notes
+      \[
+      \widehat{r  +  x_{1}}, \widehat{r  +  x_{2}}, \ldots, \widehat{r  +  x_{n}}, 
+      \]
+      These notes form the chord.
+  \end{itemize}
+  \subsubsection*{Examples}
+  \begin{itemize}
+    \item $ \widehat{0} \mid 0, 4, 7, 11$ generates the notes $ \widehat{0}, \widehat{4}, \widehat{7}, \widehat{11} \leftrightarrow C, E, G, B$ which is a C major 7th chord.
+    \item $ \widehat{5} \mid 0, 3, 7$ generates the notes $ \widehat{5}, \widehat{8}, \widehat{0} \leftrightarrow F, Ab, C$ which is a F minor triad
+  \end{itemize}
+\end{defn*}
+
+\end{document}

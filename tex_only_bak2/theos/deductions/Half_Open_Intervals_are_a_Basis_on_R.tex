@@ -1,0 +1,34 @@
+\documentclass{standalone}
+\usepackage{tikz,lmodern,amssymb}
+\usepackage{knowledge}
+
+\usepackage{algpseudocode}% http://ctan.org/pkg/algorithmicx
+
+\begin{document}
+
+\begin{deduction*}{Half Open Intervals are a Basis on R}
+    \begin{center}
+    Let $ \mathcal{ B } \stackrel{\mathtt{D}}{=} \left\{ \left[ a, b \right): a < b \right\}  $, then $ \mathcal{ B }  $ is a basis on $ \mathbb{R}  $ 
+    \end{center}
+    \begin{pf}
+        \begin{itemize}
+            \item Let $ x \in  \mathbb{R}  $ then for any $ \varepsilon \in  \mathbb{R}^{>0}  $ then $ \left[ x - \varepsilon , x + \varepsilon  \right) $ is an element of $ \mathcal{ B }  $ such that $ x \in  \left[ x -  \varepsilon , x +  \varepsilon  \right) $ 
+            \item Let $ \left[ a, b \right) $ and $ \left[ c, d \right) $ be from $ \mathcal{ B }  $
+            \begin{itemize}
+                \item If $ \left[ a, b \right) \cap  \left[ c, d \right)  =  \varnothing $, then everything holds due to vacuous truth. 
+                \begin{itemize}
+                    \item Notice that this occurs when $ a \not\in \left[ c, d \right) $ or when $ b \not\in \left[ c, d \right)  $ 
+                \end{itemize}
+            \item Otherwise $ \left[ a, b \right) \cap  \left[ c, d \right)  \neq   \varnothing $, without loss of generality assume that $ a \in  \left[ c, d \right) $ (the other argument is the same just with symbols replaced)
+                \begin{itemize}
+                    \item If $ \left[ a, b \right) \subseteq  \left[ c, d \right) $ then $ \left[ a, b \right) \cap   \left[ c, d \right) =  \left[ a, b \right)  \in  \mathcal{ B }   $ 
+                    \item Otherwise $ b > d $ and then  $ \left[ a, b \right) \cap   \left[ c, d \right) =  \left[ a, d \right)  \in  \mathcal{ B } $ (since $ a < d $)
+                \end{itemize}
+            \end{itemize}
+        \end{itemize}
+    \end{pf}
+\end{deduction*}
+
+\end{document}
+
+

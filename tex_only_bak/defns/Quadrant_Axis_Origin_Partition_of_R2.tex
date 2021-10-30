@@ -1,0 +1,46 @@
+\documentclass{standalone}
+\usepackage{tikz,lmodern,amssymb}
+\usepackage{knowledge}
+
+\begin{document}
+
+\begin{defn*}{Quadrant Axis Origin Partition of $ \mathbb{R} ^{2}$ }
+    Given $ \mathbb{R} ^{2}$, we may partition it as follows
+    \begin{center}
+        \begin{tikzpicture}[%
+            node distance=1.4cm and 2.2cm,
+            filled/.style={circle,fill=red,text=white,minimum size=2cm,font=\Huge},
+            label distance=5pt
+        ]
+        \coordinate (O) at (0,0);
+        \node [above left=of O,filled] (1) {$ Q _{-+}$ };
+        \node [above right=of O,filled] (2) {$ Q _{++}$ };
+        \node [below left=of O,filled] (3) {$ Q _{--}$ };
+        \node [below right=of O,filled] (4) {$ Q _{+-}$ };
+
+        \draw (0,4) -- (0,-4);
+        \draw (4,0) -- (-4,0);
+        \end{tikzpicture}
+    \end{center}
+    \begin{itemize}
+        \item algebraically that is 
+            \[
+            Q_{++} =  \left\{ \vec{x} \in \mathbb{R} ^{2}: x_{1} > 0, x _{2} > 0 \right\} \quad Q_{-+} =  \left\{ \vec{x} \in \mathbb{R} ^{2}: x_{1} < 0, x _{2} > 0 \right\} \quad Q_{--} =  \left\{ \vec{x} \in \mathbb{R} ^{2}: x_{1} < 0, x _{2} < 0 \right\} \quad Q_{+-} =  \left\{ \vec{x} \in \mathbb{R} ^{2}: x_{1} > 0, x _{2} < 0 \right\} 
+            \]
+        \item Although we are still missing some of $ \mathbb{R} ^{ 2}$, namely the axis and the origin, thus we define 
+            \[
+            AX_{+0} =  \left\{ \vec{x} \in \mathbb{R} ^{2}: x_{1} > 0, x _{2} > 0 \right\} \quad AX_{-0} =  \left\{ \vec{x} \in \mathbb{R} ^{2}: x_{1} < 0, x _{2} = 0 \right\} \quad AX_{0+} =  \left\{ \vec{x} \in \mathbb{R} ^{2}: x_{1} = 0, x _{2} > 0 \right\} \quad AX_{0-} =  \left\{ \vec{x} \in \mathbb{R} ^{2}: x_{1} = 0, x _{2} < 0 \right\} 
+            \]
+        \item So the complete axis would be the following disjoint union
+            \[
+            AX =  AX_{+0} \sqcup AX_{-0} \sqcup AX_{0+} \sqcup AX_{0-} 
+            \]
+        \item The origin will simply be $ O =  \left\{ \vec{0} \right\}$ 
+        \item Finally $ $ 
+            \[
+            \mathbb{R} ^{2} =  \left\{ Q _{xy}: \text{ for some } x, y \in \left\{ +, - \right\}\right\} \sqcup AX \sqcup O
+            \]
+    \end{itemize}
+\end{defn*}
+
+\end{document}

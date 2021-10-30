@@ -1,0 +1,57 @@
+\begin{deduction*}{Number of Elements in a Finite Union}
+Let $X_{1} , X_{2} , \dotsc  , X_{n - 1} , X_{n} \subseteq  U $ let's set $N\left(S\right) = \left| S \right|$ for any set $S$, the following holds
+
+\begin{align*}
+  N\left( X_{1} \cup X_{2} \cup \dotsb  \cup X_{n - 1} \cup X_{n}\right) &= \sum_{i=1}^{n} N\left(X_{i}\right) \\ 
+                                                                                                               &- \sum_{1 \le i_{1} < i_{2} \le n} N\left(X_{i_{1}} \cap X_{i_{2}}\right)  \\
+                                                                                                               &+ \sum_{1 \le i_{1} < i_{2} < i_{3} \le n} N\left(X_{i_{1}} \cap X_{i_{2}} \cap X_{i_{3}}\right) \\
+                                                                                                               &\vdots \\
+                                                                                                               &+ \left( -1 \right) ^{r  + 1} \sum_{1 \le i_{1} < i_{2} < \ldots < i_{r} \le n} N\left(X_{i_{1}} \cap X_{i_{2}} \cap \dotsb \cap X_{i_{r-1}} \cap X_{i_{r}}\right) \\
+                                                                                                               &\vdots \\
+                                                                                                               &+ \left( -1 \right) ^{ n  +  1}   N\left( \bigcap_{i=1}^{n} X_{i} \right)
+\end{align*}
+
+
+\begin{pf}
+\begin{itemize}
+  \item To prove that these two numbers are equal, we start with the fact that the left hand side simply counts the number elements in the set $\bigcup_{i=1}^{n} X_{i}$, to show that that the number on the right hand side is equal to that, we will also show that it counts the number of elements in the set $\bigcup_{i=1}^{n} X_{i}$. That is, let $a \in  \bigcup_{i=1}^{n} X_{i}$, we know that the left hand side only counts this element once, let's show the right hand side only counts this element once.
+  \begin{itemize}
+    \item Since $a \in  \bigcup_{i=1}^{n} X_{i}$, then there exists $X_{\alpha_{1}}, X _{\alpha_{2}} \ldots X_{\alpha_{k}}, X_{\beta_{1}}, X _{\beta{_2}} \ldots X_{\beta_{o}} $ such that $a \in X_{\alpha_{1}} \cap X _{\alpha_{2}} \cap \dotsb \cap X_{\alpha_{k}}  $and $a \not\in X_{\beta_{1}} \cap X _{\beta_{2}} \cap \dotsb \cap X_{\beta_{o}}  $
+    \begin{itemize}
+      \item If this is the case then the sum $\sum_{i=1}^{n} N\left(X_{i}\right)$ over counts $a$ ${k}$ times, this is because $a$ counted for each $X_{\alpha_{j}}$, as $a \in X_{\alpha_{j}}$
+      \item We consider the following sum $\sum_{1 \le i_{1} < i_{2} \le n} N\left(X_{i_{1}} \cap X_{i_{2}}\right)$. We know that $a \in X_{\alpha_{j}} \cap X_{\alpha_{l}}$ for any $\alpha_{j}, \alpha_{l} \in \left\{ \alpha_{1} , \alpha_{2} , \dotsc  , \alpha_{k - 1} , \alpha_{k} \right\} $. We notice that the number of ways to choose two elements from the set $\left\{ \alpha_{1} , \alpha_{2} , \dotsc  , \alpha_{k - 1} , \alpha_{k} \right\}$ is simply $\binom{{k}}{2}$thus this represents the number of times that $a$ was over counted by this sum. Notice that we are subtracting this number.
+      \begin{itemize}
+        \item Also note that we must choose two elements from $\left\{ \alpha_{1} , \alpha_{2} , \dotsc  , \alpha_{k - 1} , \alpha_{k} \right\}$, as if we had chosen at least one from $\left\{ \beta_{1} , \beta_{2} , \dotsc  , \beta_{o - 1} , \beta_{o} \right\}$, then $a$ could not be in the above intersection.
+      \end{itemize}
+      \item Following the same logic, we see that if $a \in X_{\alpha_{j}} \cap X_{\alpha_{l}} \cap X_{\alpha_{m}}$ then the third summation will over count $\binom{{k}}{3}$ times.
+      \item Thus the $i$-th sum will over count $\binom{{k}}{i}$ times.
+    \end{itemize}
+  \end{itemize}
+  \item Now to see how many times the right hand side counts $a$ we will simply sum all of the ways it counts it (taking into account the subtractions and additions like in the original summation) to see that it looks like:
+
+\[
+	\sum_{i=1}^{n} \left( -1 \right) ^{i  +  1} \binom{k}{i}
+\]
+\begin{itemize}
+  \item Noting that when $i > k$ $\binom{k}{i} = 0$, so really, that is:
+\[
+	\sum_{i=1}^{k} \left( -1 \right) ^{i  +  1} \binom{k}{i}
+\]
+\end{itemize}
+  \item Recall that the binomial theorem tells us about a sum starting from $0$, namely that
+
+\[
+	\left( x  +  y \right) ^{k}= \sum_{i=0}^{k} \binom{k}{i} x ^{i} y ^{k -i} 
+\]
+  \item We attempt to manipulate this sum to answer our question about how many times the right hand side counts $a$. By letting $x = -1, y = 1$ we see that
+
+\[
+	0 = \sum_{i=0}^{k} \left( -1 \right) ^{i} \binom{k}{i} = 1  + \sum_{i=1}^{k} \left( -1 \right) ^{i} \binom{k}{i} \Leftrightarrow 1 = \sum_{i=1}^{k} \left( -1 \right) ^{i  +  1} \binom{k}{i}
+\]
+
+Therefore the right hand side of only counts $a$ once, as required.
+\end{itemize}
+\end{pf}
+
+
+\end{deduction*}

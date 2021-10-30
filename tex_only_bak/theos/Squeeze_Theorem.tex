@@ -1,0 +1,41 @@
+\documentclass{standalone}
+\usepackage{tikz,lmodern,amssymb}
+\usepackage{knowledge}
+
+\usepackage{algpseudocode}% http://ctan.org/pkg/algorithmicx
+
+\begin{document}
+
+\begin{deduction*}{Squeeze Theorem}
+    Suppose that $ \lim_{ x \to a } g\left( x \right) =  \lim_{ x \to a } h\left( x \right) = L $ and for some interval $ I \setminus \left\{ a \right\} $ we have that $ g\left( x \right) \le f\left( x \right) \le h\left( x \right) $  , then the following holds: 
+    \[
+        \lim_{ x \to a } f\left( x \right) = L
+    \]
+    \begin{pf}
+        \begin{itemize}
+            \item Let $ \varepsilon \in \mathbb{R}^{+}  $, we must find a $ \delta \in  \mathbb{R}^{+}  $ where for any $ x \in \operatorname{dom} \left( f \right)   $, where $ 0 < \left| x -  a \right| < \delta   $ 
+                \[
+                \left| f\left( x \right) - L \right| < \varepsilon \Leftrightarrow -  \varepsilon < f\left( x \right)  - L < \varepsilon 
+                \]
+            \item From the fact that both of the limits of $ g, h $ exist we know that there exists $ \delta _{ g } , \delta _{ h }  $ for our $ \varepsilon  $  such that in their respective punctured intervals we have that
+                \[
+                - \varepsilon < g\left( x \right) - L < \varepsilon  \quad \text{ and } \quad - \varepsilon < h\left( x \right) -  L < \varepsilon 
+                \]
+            \item Now we can see that
+                \begin{gather*}
+                    g\left( x \right)  \le f\left( x \right)  \le h\left( x \right) \\
+                    \Updownarrow \\
+                    g\left( x \right) - L  \le f\left( x \right) - L  \le h\left( x \right) - L \\
+                    \Updownarrow \\
+                    - \varepsilon  < g\left( x \right) - L  \le f\left( x \right) - L  \le h\left( x \right) - L < \varepsilon  \\ 
+                    \Updownarrow \\
+                    - \varepsilon  <  f\left( x \right) - L  < \varepsilon 
+                \end{gather*}
+            \item As needed.
+        \end{itemize}
+    \end{pf}
+\end{deduction*}
+
+\end{document}
+
+

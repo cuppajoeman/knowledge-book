@@ -1,0 +1,16 @@
+\begin{deduction*}{Prime Trial Division Square Root Stopping Condition}
+    One method for deducing if a number $ n$  is prime is to check all of it's divisors, if it turns out that the only divisors are one and itself, then the number is prime. \\
+    It turns out that you only have to check the if the numbers from $ 2$ up until $ \sqrt{n}$ divide $ n$ (knowing that if one does that $ n$ is not prime), and if none divide it, then the number is prime. We will prove why this is the case
+    \begin{pf}
+        \begin{itemize}
+            \item We will prove that by checking all numbers in the range $ 2$  to $ \sqrt{n}$ divides $ n$ exahausts all divisors of $ n$.
+            \item To do so we utilize the "bijection between"
+                \begin{itemize}
+                    \item For any such divisor, we get another divisor from $ \sqrt{n}$ to $ n-1$ by using the bijection
+                    \item Therefore by the time we have checked all divisors from $ 2$  to $ \sqrt{n}$ we have also checked all divisors from $ \sqrt{n}$  to $ n - 1$ 
+                \end{itemize}
+            \item If any divisor is found in the range then we know that $ n$ is not prime
+            \item If no divisor is found in the range, then it means that there is no divisor in the range $ \sqrt{n}$ to $ n - 1$, therefore the number's only divisors are one and itself, so it is prime.
+        \end{itemize}
+    \end{pf}
+\end{deduction*}

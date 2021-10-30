@@ -1,0 +1,37 @@
+\documentclass{standalone}
+\usepackage{tikz,lmodern,amssymb}
+\usepackage{knowledge}
+
+\begin{document}
+
+\begin{theo*}{S Open iff It Shares Nothing with Boundary}
+  \[
+  S \text{ is open} \Leftrightarrow S \cap \partial S = \varnothing
+  \]
+  \begin{pf}
+    \begin{itemize}
+      
+    \item $ \Rightarrow $ 
+      \begin{itemize}
+        \item Assume that $ S$ is open, that is $ S = \mathring{S}$ so we have $ S \cap \partial S = \mathring{S} \cap \partial S \stackrel{\mathtt{D}}{=} \mathring{S} \cap \left( \overline{S} \setminus \mathring{S} \right)$, thus there can be no element in this set for it would have to be in $ \mathring{S}$ but also not be in $ \mathring{S}$, thus
+      \end{itemize}
+      \[
+      S \cap \partial S =  \varnothing
+      \]
+        \item $ \Leftarrow $ 
+        \begin{itemize}
+          \item We will prove the contrapositive, that is if $ S$ is not open, then $ S \cap \partial S \neq  \varnothing$
+          \item Since $ S$  is not open, we have $ x \in S \setminus \mathring{S}$, since $ S \subseteq \overline{S}$ we know
+            \[
+            x \in S \setminus \mathring{S} \subseteq \left( \overline{S} \setminus \mathring{S} \right) \stackrel{\mathtt{D}}{=} \partial S
+            \]
+          \item So $ x \in S$ and also $ x \in \partial S$, therefore
+            \[
+            S \cap \partial S \neq \varnothing
+            \]
+        \end{itemize}
+    \end{itemize}
+  \end{pf}
+\end{theo*}
+
+\end{document}

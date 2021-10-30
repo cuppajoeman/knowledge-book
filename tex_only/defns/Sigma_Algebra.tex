@@ -1,0 +1,22 @@
+\begin{defn*}{Sigma Algebra}
+A subset $\Sigma \subseteq \mathcal{P}(X)$ is called a $\sigma$-algebra if the following properties hold:
+\begin{enumerate}
+    \item $\Sigma$ is closed under complementation in $X$, that is if $S \in \Sigma$ then $ S ^{\complement} \in \Sigma   $ (where $ X $ is the universal set)
+    \item $ X \in  \Sigma  $ 
+        \begin{itemize}
+            \item By 1. that means this condition is equivalent to checking $ \varnothing \in  \Sigma  $ 
+        \end{itemize}
+    \item $\Sigma$ is closed under countable unions: If $S_{1}, S_{2}, S_{3}, \ldots$ are elements of $\Sigma$ then so is their union $\bigcup_{i=1}^{\infty} S_{i}:=S_{1} \cup S_{2} \cup S_{3} \cup \cdots$.
+    \begin{itemize}
+        \item Assuming that 1. and 2. hold, it follows from De Morgan's laws that this condition is equivalent to $\Sigma$ being closed under countable intersections: If $S_{1}, S_{2}, S_{3}, \ldots$ are elements of $\Sigma$ then so is their intersection $\bigcap_{i=1}^{\infty} S_{i}:=S_{1} \cap S_{2} \cap S_{3} \cap \cdots$
+    \end{itemize}
+\end{enumerate}
+
+\begin{rmk}
+    \begin{itemize}
+        \item We know that for any $ \sigma  $ -algebra it's true that both $ \varnothing , X \in  \Sigma  $, since $ \left\{ \varnothing , X \right\}  $ satisfies 3. this is the smallest $ \sigma$-algebra
+        \item The largest possible $\sigma$-algebra on $X$ is $\mathcal{P}(X)$.
+        \item Elements of the $\sigma$-algebra are called measurable sets. An ordered pair $(X, \Sigma)$, where $X$ is a set and $\Sigma$ is a $\sigma$-algebra over $X$, is called a measurable space.
+    \end{itemize}
+\end{rmk}
+\end{defn*}

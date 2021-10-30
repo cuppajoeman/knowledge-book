@@ -1,0 +1,18 @@
+\documentclass{standalone}
+\usepackage{tikz,lmodern,amssymb}
+\usepackage{knowledge}
+
+\begin{document}
+
+\begin{defn*}{Limit Point}
+    Let $ S \subseteq \mathbb{R} ^{ n }  $, we say that $ \vec{a} \in  \mathbb{R} ^{ n }  $ is a limit point of $ S $ if
+    \[
+    \forall \delta \in \mathbb{R} ^{ > 0 } , \exists \vec{x} \in  S \text{ such that } 0 < \left\Vert \vec{x} - \vec{a} \right\Vert < \delta  
+    \]
+    Equivalently
+    \[
+    \forall \delta \in  \mathbb{R} ^{ >0 } , \left( B\left( \vec{a}, \delta  \right) \cap  S \right)  \setminus \left\{ \vec{a} \right\} \neq  \varnothing 
+    \]
+\end{defn*}
+
+\end{document}

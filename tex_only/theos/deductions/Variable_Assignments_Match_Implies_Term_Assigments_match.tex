@@ -1,0 +1,26 @@
+\begin{deduction*}{Variable Assignments Match Implies Term Assigments match}
+    Suppose that $s_{1}$ and $s_{2}$ are variable assignment functions into a structure $\mathfrak{A}$ such that $s_{1}(v)=s_{2}(v)$ for every variable $v$ in the term $ t $ . Then 
+    \[
+    \overline{s_{1}}(t)=\overline{s_{2}}(t)
+    \]
+    Notice that since $ t $ is a term, all of it's variables are free.
+    \begin{pf}
+    We proceed by use of induction on the complexity of the term $t$. 
+    \begin{itemize}
+        \item Base Case
+        \begin{itemize}
+            \item  If $t$ is a variable then we have that $ \overline{s _{ 1 } }\left( t \right) = s _{ 1 }\left( t \right) $ and $ \overline{s _{ 2 } }\left( t \right) = s _{ 2 }\left( t \right) $ then by our assumption they are equal
+            \item If $ t $ is a constant then $ \overline{s _{ 1 } }\left( t \right) = c ^{ \mathfrak{ A }  } $ and $ \overline{s _{ 1 } }\left( t \right) = c ^{ \mathfrak{ A }  } $, thus they are equal
+        \end{itemize}
+        \item Induction Step:
+        \begin{itemize}
+            \item Finally suppose that $t: \equiv f t_{1} t_{2} \ldots t_{n}$, then $\overline{s_{1}}\left(t_{i}\right)=\overline{s_{2}}\left(t_{i}\right)$ for $1 \leq i \leq n$ by the inductive hypothesis. 
+            \item Then from the definition of the term assigment function (\kref{https://gitlab.com/cuppajoeman/knowledge-data/-/raw/master/Term_Assigment_Function_generated_by_a_Variable_Assigment_Function-MjkCOE6TgIsxbs5RbTJ.pdf?inline=false}{$\mathfrak{K.G}$}) we know that :
+                \[
+                \overline{s _{ 1 } }\left( t \right) =  f ^{ \mathfrak{ A }  } \left( \overline{s_{ 1 } }\left( t_{ 1 }  \right), \overline{s_{ 1 } }\left( t_{ 2 }  \right), \ldots , \overline{s_{ 1 } }\left( t_{ n }  \right) \right) \quad \text{ and } \quad \overline{s _{ 2 } }\left( t \right) =  f ^{ \mathfrak{ A }  } \left( \overline{s_{ 2 } }\left( t_{ 1 }  \right), \overline{s_{ 2 } }\left( t_{ 2 }  \right), \ldots , \overline{s_{ 2 } }\left( t_{ n }  \right) \right) 
+                \]
+            \item And thus by the inductive hypothesis and the fact that $ f ^{  \mathfrak{ A }  } $ is a function we know that the above two function evaluations are equal.
+        \end{itemize}
+    \end{itemize}
+    \end{pf}
+\end{deduction*}

@@ -1,0 +1,20 @@
+\documentclass{standalone}
+\usepackage{tikz,lmodern,amssymb}
+\usepackage{knowledge}
+
+\usepackage{algpseudocode}% http://ctan.org/pkg/algorithmicx
+
+\begin{document}
+
+\begin{deduction*}{Conversion from Polar to Cartesian Coordinates}
+    \begin{center}
+    $\left( r, \phi   \right)$ in polar coordinates specifies the same point as $ \left( r \cos  \left( \phi  \right), r \sin  \left( \phi  \right) \right)$ in cartesian coordinates
+    \end{center}
+    \begin{pf}
+        Given the polar coordinate $ \left( r, \phi \right)$ we can convert it into a polar coordinate by constructing a right triangle with the point and the origin, and realizing that the $ x$ component is given by $ r \cos  \left( \phi  \right)  $ and the $ y$ component is given by $ r \sin  \left( \phi  \right)$ which should be clear by the definitions of the trigonometric functions
+    \end{pf}
+\end{deduction*}
+
+\end{document}
+
+

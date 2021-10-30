@@ -1,0 +1,35 @@
+\begin{deduction*}
+{Bijection between [-1, 1] and (-1, 1)}
+    We claim that
+    \[
+    f\left(x\right) \stackrel{\mathtt{D}}{ = }
+    \begin{cases}
+        \frac{1}{2 ^{n + 1}} &\text{if} x = \frac{1}{2 ^{n}} \text{for some} n \in \mathbb{N}\\
+        -\frac{1}{2 ^{n + 1}} &\text{if} x = -\frac{1}{2 ^{n}} \text{for some} n \in \mathbb{N}\\
+        x &\text{otherwise}
+    \end{cases}
+    \]
+    is such a bijective function.
+    \begin{pf}
+        \begin{itemize}
+            \item Surjection
+            \begin{itemize}
+                \item Let \(y \in \left(-1, 1\right)\)
+                \begin{itemize}
+                    \item If \(y = \pm \frac{1}{2 ^{k + 1}}\) for some \(k\) then \(\pm \frac{1}{2 ^{k}}\) maps to it.
+                    \item Otherwise \(y\) maps to it.
+                \end{itemize}
+            \end{itemize}
+            \item Injection
+            \begin{itemize}
+                \item Assume that we have \(a, b \in \left[ -1, 1 \right]\) with \(a \neq b\) but \(f\left(a\right) = f\left(b\right)\)
+                \begin{itemize}
+                    \item Suppose that \(f\left(a\right) = \pm \frac{1}{2 ^{k + 1}}\) for some \(k \in \mathbb{N}\), if that's the case then \(a = \pm \frac{1}{2 ^{k}}\) but due to the fact that \(f\left(a\right) = f\left(b\right)\) we get that \(b = \pm \frac{1}{2 ^{k}}\) a contradiction
+                    \item Otherwise we know that \(f\left(a\right) = a\) from the final clause of the definition and also that \(f\left(b\right) = b\) thus by the equality of the two functions we get that \(a = b\) which is our contradiction.
+                \end{itemize}
+                \item Therefore we knot that for any \(a, b \in \left[ -1, 1 \right]\) with \(a \neq b\) that \(f\left(a\right) \neq f\left(b\right)\)
+            \end{itemize}
+            \item Therefore the function is a bijection
+        \end{itemize}
+    \end{pf}
+\end{deduction*}

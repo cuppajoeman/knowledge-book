@@ -1,0 +1,30 @@
+\documentclass{standalone}
+\usepackage{tikz,lmodern,amssymb}
+\usepackage{knowledge}
+
+\begin{document}
+
+\begin{theo*}{Interior Subset Closure Superset}
+  \[
+    \mathring{S} \subseteq S \subseteq \overline{S}
+  \]
+  \begin{pf}
+    \begin{itemize}
+      \item $\mathring{S} \subseteq S$ 
+        \begin{itemize}
+          \item Let $x \in \mathring{S}$, so we have $\varepsilon \in \mathbb{R} ^{>0}$ such that $B\left(x, \varepsilon\right) \subseteq S$, therefore $x \in B\left(x, \varepsilon\right) \subseteq S$ so $x \in S$ 
+        \end{itemize}
+      \item $S \subseteq \overline{S}$ 
+        \begin{itemize}
+          \item Let $x \in S$, then $x \in S \cap B\left(x, \varepsilon\right)$ so 
+            \[
+            \left\{ x \right\} \subseteq S \cap B\left(x, \varepsilon \right) \Rightarrow S \cap B\left(x, \varepsilon \right) \neq \varnothing
+            \]
+        \end{itemize}
+    \end{itemize}
+  \end{pf}
+\end{theo*}
+
+\end{document}
+
+

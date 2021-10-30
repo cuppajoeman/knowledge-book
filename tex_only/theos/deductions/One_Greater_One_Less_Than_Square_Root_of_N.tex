@@ -1,0 +1,30 @@
+\begin{deduction*}{One Greater Ones Less Than $ \sqrt{n}$ }
+    Given that $a  \cdot b =  n$ then it must be true that
+    \[
+        \underbracket{\left( a \le \sqrt{n} \land b \ge \sqrt{n} \right)}_{\alpha} \lor \underbracket{\left( b \le \sqrt{n} \land a \ge \sqrt{n} \right)}_{\beta}
+    \]
+    That is, one is greater or equal to $ \sqrt{n}$ and the other is less than or equal to $ \sqrt{n}$ 
+    \begin{pf}
+        Suppose for the sake of contradiction that the above statement is false, therefore we have
+        \[
+            \left( a > \sqrt{n} \lor b < \sqrt{n} \right) \land  \left( b > \sqrt{n} \lor a < \sqrt{n} \right)
+        \]
+        Let's start with the left side of the conjunction
+        \begin{itemize}
+            \item \textbf{Case 1}: $ a > \sqrt{n}$
+                \begin{itemize}
+                    \item If this is the case then from the right hand side of the conjunction we know that $ b > \sqrt{n}$, this is a contradicition because $ a  \cdot b =  n$ but
+                        \begin{align*}
+                            a  \cdot b &> \sqrt{n}  \cdot b \\
+                                       &> \sqrt{n}  \cdot \sqrt{n} \\
+                                    &= n
+                        \end{align*}
+                \end{itemize}
+            \item \textbf{Case 2}: $b < \sqrt{n}$
+                \begin{itemize}
+                    \item We can see that this will cause a similar type of contradiction, in right hand side this forces $ a < \sqrt{n}$ and so $ a  \cdot b  < \sqrt{n}  \cdot \sqrt{n} =  n$ but $ a  \cdot b =  n$ 
+                \end{itemize}
+            \item We must conclude that $ a \le \sqrt{n}$ and $ b \ge \sqrt{n}$ which contradicts our initial assuption, therefore the statement we set out to prove is true.
+        \end{itemize}
+    \end{pf}
+\end{deduction*}

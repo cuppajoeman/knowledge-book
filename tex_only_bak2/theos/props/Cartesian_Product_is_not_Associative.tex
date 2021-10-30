@@ -1,0 +1,26 @@
+\documentclass{standalone}
+\usepackage{tikz,lmodern,amssymb}
+\usepackage{knowledge}
+
+\begin{document}
+
+\begin{property*}{Cartesian Product is not Associative}
+  When $A, B, C$ such that each one has at least one element, we have that
+\[
+	\left( A \times B \right) \times C \cap A \times \left( B \times C \right) = \emptyset
+\] 
+
+\begin{pf}
+  \begin{itemize}
+   \item An element from the left hand side would have the form $\left( \left( \cdot, \cdot \right), \cdot \right)$ and  the one on the right $\left( \cdot, \left( \cdot, \cdot \right) \right)$, thus there is no element in both the right hand side and left hand side.
+  \end{itemize}
+\end{pf}
+  \subsubsection*{Remark}
+   They are functionally the same if you were to ignore all inner tuples. Eg, when we talk about $R ^{3}$ it doesn't matter if we are talking about $ \left( R \times R \right) \times R$ or $ R \times \left( R \times R \right)$ we are simply talking about the set of all triples involving elements from $R$ 
+
+
+\end{property*}
+
+\end{document}
+
+

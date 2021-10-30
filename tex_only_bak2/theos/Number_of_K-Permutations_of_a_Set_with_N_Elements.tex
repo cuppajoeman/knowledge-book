@@ -1,0 +1,35 @@
+\documentclass{standalone}
+\usepackage{tikz,lmodern,amssymb}
+\usepackage{knowledge}
+
+\begin{document}
+
+\begin{theo*}{Number of K-Permutations of a Set with N Elements}
+  The number of permutations mapping $k$ elements to $k$ elements on a set $X$ with $n$ elements is 
+  \[
+  \frac{n!}{ \left( n  - k \right)!}
+  \]
+  \begin{pf}
+    \begin{itemize}
+      \item Firstly we know that $f\left(1\right) = x_1$ where $x_1 \in  \left[ n \right]$, so $f\left(1\right)$ has $n$ different options to map to
+      \item Now say $ f\left(2\right) = x_{2}$, then it could be one of $ \left[ n \right] \setminus \left\{ x_{1} \right\}$, so there are $n-2$ options for what $f\left(2\right)$ could be
+        \begin{itemize}
+          \item $x_{2}$ must be one of $ \left[ n \right] \setminus \left\{ x_{1} \right\}$ because we cannot have $f\left(2\right)= f\left(1\right)$, because a permutation is a bijective self map.
+        \end{itemize}
+      \item Then $n-3$ options for $f\left(3\right)$ and in general there will be $n  - i + 1$ options for $f\left(i\right)$
+      \item Following this, an enumeration of all the possible permutations would be:
+        \[
+        n  \cdot \left( n -1 \right)  \cdot  \left( n-2 \right) \dotsb  \left( n  - k  + 1 \right)
+        \]
+        \begin{itemize}
+          \item Notice that there are $k$ terms involved in the above product
+        \end{itemize}
+      \item Which is exactly
+        \[
+        \frac{n!}{ \left(  n  - k \right)!}
+        \]
+    \end{itemize}
+  \end{pf}
+\end{theo*}
+
+\end{document}
