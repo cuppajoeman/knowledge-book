@@ -1,0 +1,18 @@
+\begin{proposition}{Unit Vector in the same Direction}
+    Given any vector $ \vec{v}$, then the vector in the same direction as $ \vec{v}$ with length one is given by
+    \[
+    \vec{u} \stackrel{\mathtt{D}}{=} \frac{ \vec{v}}{ \left\Vert  \vec{v} \right\Vert}
+    \]
+    \begin{pf}
+        \begin{itemize}
+            \item By definition $ \vec{u}  =  \alpha \vec{v}$ therefore $ \vec{u} \in \operatorname{span}\left\{ \vec{v}\right\}$, since $ \left\Vert v \right\Vert \ge 0$ this forces it to point in the same direction as $  \vec{v}$ , as if $ \left\Vert  \vec{v} \right\Vert < 0$ it would be pointing in the opposite direction.
+            \item  Now we will show that it is a unit vector. This follows from the fact that we can \kref{https://gitlab.com/cuppajoeman/knowledge-data/-/blob/master/Scalar_Factors_out_of_Norm-MjLKJSYDfSthY-tDwuS.pdf}{pull out scalars from norms}:
+                \begin{align*}
+                    \left\Vert \vec{u} \right\Vert &=  \left\Vert \frac{ \vec{v}}{ \left\Vert  \vec{v} \right\Vert} \right\Vert \\
+                                                   &= \left| \frac{1}{ \left\Vert  \vec{v} \right\Vert} \right| \left\Vert  \vec{v} \right\Vert \\
+                                                   &= \frac{1}{ \left\Vert  \vec{v} \right\Vert}  \left\Vert  \vec{v} \right\Vert \tag{Since $ \left\Vert \vec{v} \right\Vert \ge 0$} \\
+                                                   &= 1
+                \end{align*}
+        \end{itemize}
+    \end{pf}
+\end{proposition}

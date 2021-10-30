@@ -1,0 +1,17 @@
+\begin{proposition}{Intersection of Open Sets is Open}
+    The intersection of finitely many open sets is open:
+
+    \begin{pf}
+        \begin{itemize}
+           \item Consider a point $ x $ which intersects with $ k \in \mathbb{N} $  different open sets $  S_{1} , S_{2} , \dotsc  , S_{k - 1} , S_{k}$ . If that's the case we have $ \varepsilon_{1} , \varepsilon_{2} , \dotsc  , \varepsilon_{k - 1} , \varepsilon_{k} $  such that $ \forall i \in \left\{ 1, 2,  \ldots,  k-1, k \right\} B\left(x, \varepsilon _{i}\right) \subseteq S_{i}$ 
+           \item We must show that there is $ \varepsilon \in \mathbb{R} ^{>0}$ such that $ B\left(x, \varepsilon\right) \subseteq \bigcap_{i=1}^{k} S_{i}$ 
+            \item We also know that for any $ a, b \in \mathbb{R} ^{> 0}$ with $a < b$ that $ B\left(x, a\right) \subseteq B\left(x, b\right)$ since if $p \in B\left(x, a\right)$ then $ \left\Vert x - p \right\Vert < a < b$, therefore $ x \in B\left(x, b\right)$ 
+                \begin{itemize}
+                    \item Alternatively this is visually clear since they are concentric circles with different radii
+                \end{itemize}
+            \item Thus if we take $ \varepsilon = \min\left( \varepsilon_{1} , \varepsilon_{2} , \dotsc  , \varepsilon_{k - 1} , \varepsilon_{k} \right)$, then we know that for any $ i \in \left\{ 1, 2, \ldots, k-1, k \right\}$ that $ B\left(x, \varepsilon\right) \subseteq B\left(x, \varepsilon _{i}\right) \subseteq S _{i}$ by the above bullet point.
+            \item Therefore $ B\left(x, \varepsilon \right) \subseteq \bigcap_{i=1}^{n} S_{i}$ as requried.
+        \end{itemize}
+    \end{pf}
+
+\end{proposition}

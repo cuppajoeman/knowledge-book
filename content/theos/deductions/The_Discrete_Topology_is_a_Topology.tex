@@ -1,0 +1,27 @@
+\begin{proposition}{The Discrete Topology is a Topology}
+    \begin{pf}
+       Let $ X$ be a set and recall that $ \mathcal{T} _{\text{discrete}} \stackrel{\mathtt{D}}{=} \mathcal{P}\left(X\right)$, we will verify the 3 properties of a topology on such a set
+       \begin{enumerate}
+           \item $ \varnothing \in \mathcal{P}\left(X\right)$ holds, as $ \varnothing \subseteq X$, additionally $ x \in \mathcal{P}\left(X\right)$ since $ X \subseteq X$ 
+           \item Now consider $ S_{1} , S_{2} , \dotsc  , S_{k - 1} , S_{k} \in \mathcal{P}\left(X\right)$, we want to show that $ \bigcap_{i=1}^{k} S _{i} \in \mathcal{P}\left(X\right)$ fix $ j \in \left[ k \right]$ then we know that for any set $ Y$ that $ S _{j} \cap Y \subseteq S _{j}$ using: \kref{https://gitlab.com/cuppajoeman/knowledge-data/-/blob/master/Intersection_is_Subset_of_Original-Milo1CKzqlbcc6hxAjl.pdf}{Intersection is Subset of Original}
+            \begin{itemize}
+                \item So fix $ l \in \left[ k \right]$ and then set $ Y =  \bigcap_{i \in \left[ k \right] \setminus l} S _{i}$ then we know that $ S_{l} \cap Y =  \bigcap_{i=1}^{k} S _{i}$ 
+                \item And additionally Since $ S _{l} \in \mathcal{ P}\left(X\right)$ we know that $ S _{l} \subseteq X$ 
+            \end{itemize}
+        Combining all the above facts we see that 
+        \[
+        \bigcap_{i=1}^{k} S _{i} =  S _{l} \cap Y \subseteq S _{l} \subseteq X
+        \]
+        Thus we  know that $ \bigcap_{i=1}^{k} S_{i} \in \mathcal{P}\left(X\right)$ 
+        \item Finally we want to show that $ \bigcup_{i=1}^{k} S _{i} \in \mathcal{P}\left(X\right)$
+            \begin{itemize}
+                \item We can write this set as a \kref{https://gitlab.com/cuppajoeman/knowledge-data/-/blob/master/Finite_Union_can_be_written_as_Disjoint_Union-MimOCRnKsM07toD3DBu.pdf}{disjoint union of intersections}, so we can say that for some $ B \subseteq \left[ k \right]$ that given a point $ m \in \bigcup_{i=1}^{k} S _{i}$ that $ m \in \bigcap_{b \in B} S _{b} $ 
+                \item By using the argument for (2) we see that 
+                    \[
+                    \bigcap_{b \in B} S _{b} \in \mathcal{P}\left(X\right) \Leftrightarrow \bigcap_{b \in B} S _{b} \subseteq X
+                    \]
+                \item therefore $ m \in X$, that is $ \bigcup_{i=1}^{k} S _{i} \subseteq X \Leftrightarrow \bigcup_{i=1}^{k} S _{i} \in \mathcal{P}\left(X\right)$ as needed.
+            \end{itemize}
+       \end{enumerate}
+    \end{pf}
+\end{proposition}

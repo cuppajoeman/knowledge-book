@@ -1,0 +1,28 @@
+\begin{definition}
+{Probability of an Event}
+Let \(S\) be a sample space, \(E \subseteq S\) be any event and a function \(P\) satisfying the following properties
+\begin{itemize}
+    \item \(P(E) \in [0,1]\)
+    \item \(P(S) = 1\)
+    \item For disjoint events \(E_1, E_2, E_3, \dots\)
+    \[
+    P\left(\bigcup_{i = 1}^{\infty} E_{i}\right) = \sum_{i = 1}^{\infty} P\left(E_{i}\right)
+    \]
+\end{itemize}
+
+
+Then we denote \(P(E) \) as the probability of the event \(E\)
+
+\subsubsection*{Remarks}
+\begin{itemize}
+    \item Set \(E_{1} = S\) and for every \(i \in \mathbb{N} ^{\ge 2}, E_{i} = \varnothing\), and note that any set and the empty set are disjoint, therefore by the third axiom one sees that
+    \[
+    P\left(S\right) = \sum_{i = 1}^{\infty} P\left(E_{i}\right) = P\left(S\right) + \sum_{i = 2}^{\infty} P\left(\varnothing\right)
+    \]
+    Thus \(P\left(\varnothing\right) = 0\)
+    \item Following that, the third axiom allows us to talk about a finite number of disjoint sets \(E_{1}, E_{2}, \dotsc, E_{n - 1}, E_{n}\) as well, to do so, set each each \(E_{i} = \varnothing\) for \(i > n\) to get
+    \[
+    P\left(\bigcup_{i = 1}^{n} E_{i}\right) = P\left(\bigcup_{i = 1}^{\infty} E_{i}\right) = \sum_{i = 1}^{n} P\left(E_{i}\right) + \sum_{i = n + 1}^{\infty} P\left(\varnothing\right) = \sum_{i = 1}^{n} P\left(E_{i}\right)
+    \]
+\end{itemize}
+\end{definition}

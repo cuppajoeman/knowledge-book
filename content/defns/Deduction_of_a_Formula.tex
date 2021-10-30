@@ -1,0 +1,9 @@
+\begin{definition}{Deduction of a Formula}
+Suppose that $\Sigma$ is a collection of $\mathcal{L}$-formulas and $D$ is a finite sequence $\left(\phi_{1}, \phi_{2}, \ldots, \phi_{n}\right)$ of $\mathcal{L}$-formulas. We will say that $D$ is a deduction from $\Sigma$ if for each $i, 1 \leq i \leq n$, either
+\begin{enumerate}
+    \item $\phi_{i} \in \Lambda\left(\phi_{i}\right.$ is a logical axiom), or
+    \item $\phi_{i} \in \Sigma\left(\phi_{i}\right.$ is a nonlogical axiom), or
+    \item There is a rule of inference $\left(\Gamma, \phi_{i}\right)$ such that $\Gamma \subseteq\left\{\phi_{1}, \phi_{2}, \ldots, \phi_{i-1}\right\}$.
+\end{enumerate}
+If there is a deduction from $\Sigma$, the last line of which is the formula $\phi$, we will call this a deduction from $\Sigma$ of $\phi$, and write $\Sigma \vdash \phi$.
+\end{definition}

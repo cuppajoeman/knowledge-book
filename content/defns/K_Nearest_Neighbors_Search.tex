@@ -1,0 +1,10 @@
+\begin{definition}{K Nearest Neighbors Search}
+Algorithm:
+\begin{enumerate}
+    \item Find $k$ examples $\left\{\mathbf{x}^{(i)}, t^{(i)}\right\}$ closest to the test instance $\mathbf{x}$
+    \item Classification output is majority class
+        \[
+            y=\arg \max _{t(z)} \sum_{i=1}^{k} \mathbb{I}\left(t^{(z)}=t^{(i)}\right)
+        \]
+\end{enumerate}
+\end{definition}

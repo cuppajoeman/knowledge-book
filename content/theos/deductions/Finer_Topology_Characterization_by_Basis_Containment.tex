@@ -1,0 +1,36 @@
+\begin{proposition}{Finer Topology Characterization by Basis Containment}
+Let $\mathcal{B}_{1}$ and $\mathcal{B}_{2}$ be two bases on a set $X$, then $\mathcal{T}_{\mathcal{B}_{1}} \subseteq \mathcal{T}_{\mathcal{B}_{2}}$ if and only if for every $x \in X$ and $B_{1} \in \mathcal{B}_{1}$ containing $x$, there is a $B_{2} \in \mathcal{B}_{2}$ such that $x \in B_{2} \subseteq B_{1}$.
+\begin{pf}
+    \begin{itemize}
+        \item $ \Rightarrow  $ 
+        \begin{itemize}
+            \item Suppose that $ \mathcal{ T } _{ \mathcal{ B } _{ 1 }  } \subseteq \mathcal{ T } _{ \mathcal{ B } _{ 2 }  }   $ 
+            \item Let $ x \in  X $ and $ B_{ 1 } \in  \mathcal{ B } _{ 1 }  $ where $ x \in  B_{ 1 }  $, our goal is to find $ B_{ 2 } \in  \mathcal{ B } _{ 2 }   $ such that $ x \in  B_{ 2 } \subseteq B _{ 1 }  $ 
+            \begin{itemize}
+                \item We note that $ B_{ 1 } \in \mathcal{ T } _{ \mathcal{ B } _{ 1 }  }   $, since it satisfies the definition of $ \mathcal{ T } _{ \mathcal{ B } _{ 1 }  }  $(\kref{https://gitlab.com/cuppajoeman/knowledge-data/-/raw/master/Topology_Generated_by_a_Basis_(Basis_Existance)-MjWPc0jY-slQi1c3D3S.pdf?inline=false}{$\mathfrak{K.G}$}), and thus by assumption we have that $ B_{ 1 } \in  \mathcal{ T }  _{ \mathcal{ B } _{ 2 }  }  $ 
+                \item After inspecting that same definition  \kref{https://gitlab.com/cuppajoeman/knowledge-data/-/raw/master/Topology_Generated_by_a_Basis_(Basis_Existance)-MjWPc0jY-slQi1c3D3S.pdf?inline=false}{$\mathfrak{K.G}$} we have that
+                    \[
+                    \forall x \in  B_{ 1 } , \exists B_{ 2 } \in \mathcal{ B } _{ 2 } \text{ such that }  x \in  B_{ 2 } \subseteq B_{ 1 } 
+                    \]
+                which is exactly what we wanted to prove.
+            \end{itemize}
+        \end{itemize}
+        \item $ \Leftarrow  $ 
+        \begin{itemize}
+            \item Suppose that for every $x \in X$ and $B_{1} \in \mathcal{B}_{1}$ containing $x$, there is a $B_{2} \in \mathcal{B}_{2}$ such that $x \in B_{2} \subseteq B_{1}$.
+            \item Let's show that $ \mathcal{ T } _{ \mathcal{ B } _{ 1 }  } \subseteq \mathcal{ T } _{ \mathcal{ B } _{ 2 }  }    $ 
+            \begin{itemize}
+                \item Let $ U \in  \mathcal{ T } _{ \mathcal{ B } _{ 1 }  }  $ , one must show that $ U \in \mathcal{ T } _{ \mathcal{ B } _{ 2 }  }  $ that is
+                    \[
+                        \forall x \in  U, \exists B \in  \mathcal{ B } _{ 2 }   \text{ such that } x \in  B \subseteq U \tag{$ \alpha  $}
+                    \]
+                \item Since $ U \in  \mathcal{ T } _{ \mathcal{ B } _{ 1 }  }  $ then by definition the following holds
+                    \[
+                        \forall x \in  U, \exists B \in  \mathcal{ B } _{ 1 } \text{ such that }  x \in  B \subseteq U 
+                    \]
+                \item Let $ x \in  U$, by above we have $ B_{ 1 } \in  \mathcal{ B } _{ 1 }  $ containing $ x $   therefore by our assumption we have $ B_{ 2 } \in  \mathcal{ B }  $ such that $ x \in  B_{ 2 } \subseteq B_{ 1 } $ which satisfies $ \alpha  $ as required.
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+\end{pf}
+\end{proposition}

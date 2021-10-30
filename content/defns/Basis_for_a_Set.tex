@@ -1,0 +1,12 @@
+\begin{definition}
+{Basis for a Set}
+Let \(X\) be a set. A collection of sets \(\mathcal{B} \subseteq \mathcal{P}(X)\) is called a basis on \(X\) if the following two properties hold:
+\begin{enumerate}
+    \item \(\mathcal{B}\) covers \(X\). That is: \(\forall x \in X, \exists B \in \mathcal{B}\) such that \(x \in B \). Or, more concisely, \(X = \bigcup \mathcal{B}\).
+        \begin{itemize}
+            \item The reason why \(X = \bigcup \mathcal{B} \) is that  $ \bigcup _{ x \in X } B_{ x }    $  contains every $ x \in X $ and is a subset of $ X $ since each $ B_{ x }  $ is a subset of $ X $ therefore $ \bigcup _{ x \in X } B_{ x }  = X $ 
+        \end{itemize}
+    \item \(\forall B_{1}, B_{2} \in \mathcal{B}, \forall x \in B_{1} \cap B_{2}, \exists B \in \mathcal{B}\) such that \(x \in B \subseteq B_{1} \cap B_{2}\).
+\end{enumerate}
+In words, the second property says: given a point \(x\) in the intersection of two elements of the basis, there is some element of the basis containing \(x\) and contained in this intersection.
+\end{definition}

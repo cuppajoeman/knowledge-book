@@ -1,0 +1,31 @@
+\begin{proposition}
+{Complex Multiplicative Inverse Formula}
+
+Let \(z = a + bi \in \mathbb{C} \setminus \{0\}\), then
+\[
+z^{-1} = \frac{a - bi}{a^{2} + b^{2}} = \frac{\overline{z}}{\left| z \right|^{2}}
+\]
+
+\begin{pf}
+    \begin{itemize}
+        \item \(z^{-1}\) is the element \(x + yi \in \mathbb{Z}\) which satisfies \(z \left(x + yi\right) = 1 = 1 + 0i\),
+        \[
+        \left(a + bi\right)\left(x + yi\right) = ax - by + i \left(ay + bx\right)
+        \]
+        \item We require that \(ax - by = 1\) and \(ay + bx = 0\), naively we can take \(y = - b\) and \(x = a\) to solve the second equation, but then the first equation would tell us that \(a^{2} + b^{2} = 1\) which is only true when \(z\) lies on the unit circle, otherwise we will need to take \(y = \frac{-b}{\left(a^{2} + b^{2}\right)}\) and \(x = \frac{a}{\left(a^{2} + b^{2}\right)}\), subbing this into our first equation gives \(\frac{a^{2} + b^{2}}{a^{2} + b^{2}} = 1\) which is certainly true.
+        \item Therefore we can see that
+            \[
+            z^{-1} = \frac{a - bi}{a^{2} + b^{2}}
+            \]
+    \end{itemize}
+    \subsubsection*{Remark}
+    \begin{itemize}
+        \item Also note when we have the main equality we get the following nice equation
+        \[
+        z^{-1} = \frac{\overline{z}}{\left| z \right|^{2}} \Leftrightarrow \left| z \right|^{2} = \overline{z} \cdot z \Leftrightarrow \left| \overline{z} \right| \cdot \left| z \right| \stackrel{\text{pretty}}{ = } \overline{z} \cdot z
+        \]
+    \end{itemize}
+
+\end{pf}
+
+\end{proposition}

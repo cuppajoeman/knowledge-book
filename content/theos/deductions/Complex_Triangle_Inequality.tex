@@ -1,0 +1,35 @@
+\begin{proposition}{Complex Triangle Inequality}
+    For any $ z, w \in  \mathbb{C} $ we have
+    \[
+    \left| z +  w \right| \le \left| z \right|  +  \left| w \right| 
+    \]
+    \begin{pf}
+        \begin{itemize}
+            \item First from the fact that \kref{https://gitlab.com/cuppajoeman/knowledge-data/-/raw/master/Modulus_Squared_is_Itself_times_Conjugate-MjtjzEFpWjRLr5JbUKP.pdf?inline=false}{the modulus squared is itself times the conjugate}, we know
+                \[
+                \left| z +  w \right| ^{ 2 } =  \left( z +  w \right) \left( \overline{x + w} \right)
+                \]
+            \item Continuing, we get
+                \begin{align*}
+                    \left( z + w \right) \left( \overline{z} +  \overline{w} \right) &= z \overline{z} +  z \overline{w} +  \overline{z}w +  w \overline{w}\\
+                                                                                     &= \left| z \right| ^{ 2 } +  z \overline{w} +  \overline{z} w +  \left| w \right| ^{ 2 } \tag{using modulus squared} \\
+                                                                                     &= \left| z \right| ^{ 2 }  + 2 \Re\left( z \overline{w} \right) + \left| w \right| ^{ 2 } \tag{\kref{https://gitlab.com/cuppajoeman/knowledge-data/-/raw/master/Real_Part_of_the_Product_of_Two_Complex_Numbers-Mjth1uGxU8GWFYGHrRr.pdf?inline=false}{$\mathfrak{ K. G. }$} rearranged}
+                \end{align*}
+            \item Now we can see that
+                \[
+                \left| z +  w \right| ^{ 2 }  -  \left( \left| z \right| + \left| w \right|  \right) ^{ 2 }  =  2 \left( \Re\left( z \overline{w} \right) - \left| z \right| \left| w \right|  \right)
+                \]
+            \item Then by \kref{https://gitlab.com/cuppajoeman/knowledge-data/-/raw/master/Real_or_Imaginary_Part_is_Less_than_Modulus-MjtwbEzylE_xhayKDVo.pdf?inline=false}{$\mathfrak{K.G}$} we have that
+                \[
+                    2 \left( \Re\left( z \overline{w} \right) - \left| z \right| \left| w \right|  \right) \le 2 \left( \left| z \overline{w} \right| - \left| z \right| \left| w \right|  \right) \stackrel{\kref{https://gitlab.com/cuppajoeman/knowledge-data/-/raw/master/Modulus_of_the_Product_of_Two_Complex_Numbers-MjuI_YUcB7hXvV8sOTi.pdf?inline=false}{\mathfrak{K.G}}}{=} 2 \left( \left| z \right| \left| \overline{w} \right| -  \left| z \right| \left| w \right|   \right) \stackrel{\kref{https://gitlab.com/cuppajoeman/knowledge-data/-/raw/master/Conjugate_doesn't_Change_Modulus-Mju2K_e81x1SFsvjM1f.pdf?inline=false}{\mathfrak{K.G}}}{\le} 0 
+                \]
+            \item That is 
+                \begin{gather*}
+                \left| z + w \right|  ^{ 2 }  -  \left( \left| z \right|  +  \left| w \right|  \right) ^{ 2 }  \le 0\\
+                \Updownarrow  \\
+                \left| z + w \right| \le \left| z \right| + \left| w \right| 
+                \end{gather*}
+            \item As needed.
+        \end{itemize}
+    \end{pf}
+\end{proposition}

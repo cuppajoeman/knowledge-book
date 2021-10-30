@@ -1,0 +1,32 @@
+\begin{proposition}{Constant in Limit}
+  Assume that the following limit exists $\lim_{x\to a} f\left(x\right)$ and define $\mathcal{L}$ to be it's value, then for any $c \in \mathbb{R}$ 
+  \[
+  \lim_{x \to a} \left[ c f\left(x\right) \right] = c \lim_{x\to a} f\left(x\right)
+  \]
+  \begin{pf}
+    \begin{itemize}
+      \item If $c = 0$ then using the fact that the limit of a constant is that constant itself, we have:
+        \[
+          \lim_{x \to a} \left[ 0 f\left(x\right)  \right] = \lim_{x\to a} 0 = 0 = 0 \lim_{x\to a}f\left(x\right)
+        \]
+      \item If $c \neq 0$, we must prove that for any $\varepsilon _{c} \in \mathbb{R} ^{ > 0}$ there exists $\delta_{c}$ such that for all $x_{c} \in \operatorname{dom }\left(f\right)$ 
+        \[
+        \left| x_{c}  -  a \right| \le \delta_{c} \Rightarrow \left| c f\left(x_{c}\right)  -  c \mathcal{L} \right| \le \varepsilon_{c}
+        \]
+      \item Notice that if we were to let $\varepsilon$ in the orignal definition be equal to $\frac{\varepsilon _{c}}{ \left| c \right|}$ then we could multiply the equation after the implication on both sides by $ \left| c \right|$ (so that we can absorb it into the absolute value).
+      \item Let $\varepsilon_{c} \in \mathbb{R} ^{> 0}$ since the original limit holds for any epsilon, bind $\varepsilon$ to $\frac{\varepsilon _{c}}{ \left| c \right|}$ and we get $\delta$ such that for all $x \in \operatorname{dom }\left(f\right)$, the following holds:
+        \[
+          \quad \left| x  -  a \right| \le \delta \Rightarrow \left| f\left(x\right)  -  \mathcal{L} \right| \le \frac{\varepsilon _{c}}{ \left| c \right|} \tag{$\alpha$}
+        \]
+      \item Take $\delta_{c} = \delta$, let $x_{c} \in \operatorname{dom }\left(f\right)$ and bind $x$ in the original definition to $x_{c}$, and assume that $ \left| x_{c}  -  a \right|\le \delta_{c}$, because of our choice for $\delta_{c}$ we satisfy $\alpha$'s hypothesis with $x$ replaced by $x _{c}$ and we get
+        \[
+        \left| f\left(x_{c}\right)  -  \mathcal{L} \right| \le \frac{\varepsilon_{c}}{c} \Leftrightarrow \left| c \right| \left| f\left(x\right)  -  \mathcal{L} \right| \le \varepsilon_{c}
+        \]
+        \item Since for any $a, b \in \mathbb{R}$ we have $ \left|  a b \right|= \left| a \right| \left|  b \right|$ we can conclude with distributivity in $ \mathbb{R}$ that
+          \[
+          \left| c f\left(x _{c}\right)  -  c \mathcal{L} \right| \le \varepsilon_{c}
+          \]
+         As required.
+    \end{itemize}
+  \end{pf}
+\end{proposition}

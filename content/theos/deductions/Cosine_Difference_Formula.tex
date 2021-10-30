@@ -1,0 +1,31 @@
+\begin{proposition}{Cosine Difference Formula}
+    \[
+    \cos  \left( \alpha  -  \beta \right) =  \cos  \left( \alpha \right) \cos  \left( \beta \right) + \sin  \left( \alpha \right) \sin  \left( \beta \right)
+    \]
+    \begin{pf}
+        \begin{itemize}
+            \item Let $ \alpha, \beta \in \left[ 0, \tau \right]$ and without loss of generality assume that $ \beta < \alpha$ , we know that $ \vec{\alpha} \stackrel{\mathtt{D}}{=} \left( \cos  \left( \alpha \right), \sin  \left( \alpha \right) \right)$ and $ \vec{\beta} \stackrel{\mathtt{D}}{=}  \left( \cos  \left( \beta \right), \sin  \left( \beta \right) \right)$ \kref{https://gitlab.com/cuppajoeman/knowledge-data/-/blob/master/Unit_Circle_Connection_to_Trigonometry-Mj5O4gdy7DtQXiiUnJC.pdf}{are points on the unit circle}
+            \item Because of this after  we rotate both of these points counter clockwise by $ \beta$, we obtain two different things
+                \begin{itemize}
+                    \item The first is that the new points will be $ \vec{r} \stackrel{\mathtt{D}}{=}  \left( \cos  \left( \alpha  -  \beta \right), \sin  \left( \alpha  -  \beta \right) \right)$ and $ \vec{e_{1}} =  \left( 1, 0 \right)$ 
+                    \item The second is that the distance between these points has not changed as distance is preserved through rotation
+                \end{itemize}
+            \item We use the second fact above to obtain this chain of equalities
+                \begin{gather*}
+                    \left\Vert \vec{\alpha}  -  \vec{\beta} \right\Vert =  \left\Vert \vec{r}  -  \vec{e_{1}} \right\Vert \\ 
+                    \Updownarrow \text{definitions} \\
+                    \sqrt{ \left( \cos  \left( \alpha \right)  -  \cos  \left( \beta \right)  \right) ^{2}  +  \left( \sin  \left( \alpha \right)  -  \sin  \left( \beta \right) \right) ^{2}} =  \sqrt{ \left( \cos  \left( \alpha  -  \beta \right)  -  1 \right) ^{2}  +  \left( \sin  \left( \alpha  -  \beta \right)  -  0 \right) ^{ 2}} \\
+                    \Updownarrow \text{square both sides} \\
+                     \left( \cos  \left( \alpha \right)  -  \cos  \left( \beta \right)  \right) ^{2}  +  \left( \sin  \left( \alpha \right)  -  \sin  \left( \beta \right) \right) ^{2} =   \left( \cos  \left( \alpha  -  \beta \right)  -  1 \right) ^{2}  +  \left( \sin  \left( \alpha  -  \beta \right)  -  0 \right) ^{ 2} \\
+                    \Updownarrow \text{expand squares} \\
+                    { \left( \cos ^{2} \left( \alpha \right)  -  2\cos  \left( \alpha \right)\cos  \left( \beta \right)  +  \cos ^{2}  \left( \beta \right) \right)  +  \left( \sin ^{2} \left( \alpha \right)  -  2\sin  \left( \alpha \right)\sin  \left( \beta \right)  +  \sin ^{2}  \left( \beta \right) \right)} =  { \left( \cos ^{2} \left( \alpha  -  \beta \right)  -  2 \cos  \left( \alpha  -  \beta \right)  +  1 \right)  +  \sin ^{2} \left( \alpha  -  \beta \right)} \\
+                    \Updownarrow \text{organize} \\
+                    \sin ^{2} \left( \alpha \right)  +  \cos ^{2} \left( \alpha \right)  +  \sin ^{2} \left( \beta \right)  +  \sin ^{2} \left( \alpha \right)  -  2 \cos  \left( \alpha \right)\cos  \left( \beta \right)  -  2 \sin  \left( \alpha \right)\sin  \left( \alpha \right) =  \sin ^{2} \left( \alpha  -  \beta \right)  +  \cos ^{2} \left( \alpha  -  \beta \right)  +  1   -  2\cos  \left( \alpha  -  \beta \right) \\
+                    \Updownarrow \text{\kref{https://gitlab.com/cuppajoeman/knowledge-data/-/blob/master/Fundamental_Connection_Between_sin_and_cos-Mj5TiW8YCrg4VKFVhnP.pdf}{trig identity}}\\
+                    2  -  2\cos  \left( \alpha \right)\cos  \left( \beta \right)  -  2 \sin  \left( \alpha \right) \sin   \left( \beta \right) =  2  -  2\cos  \left( \alpha  -  \beta \right) \\
+                    \Updownarrow \text{remove the 2's and reflect equality}\\
+                    \cos  \left( \alpha  -  \beta \right) =  \cos  \left( \alpha \right) \cos  \left( \beta \right)  + \sin  \left( \alpha \right) \cos  \left( \alpha \right)
+                \end{gather*}
+        \end{itemize}
+    \end{pf}
+\end{proposition}

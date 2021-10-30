@@ -1,0 +1,43 @@
+\begin{proposition}{DeMorgan's Laws}
+Let $U$ be a set, $ \forall i \in  I, X_{ i } \in  U $ for some index set $ I $ 
+
+\[
+    \left( \bigcup_{ i \in  I }  X_{i} \right) ^{\complement}  = \bigcap _{ i \in  I } X_{i}^{\complement} \qquad \text{and} \qquad \left( \bigcap _{ i \in  I }  X_{i}  \right)^{\complement} = \bigcup _{ i \in I }  X_{i} ^{\complement}
+\]
+
+\begin{pf}
+    \begin{itemize}
+        \item We'll start with the first.
+        \begin{itemize}
+            \item $ \subseteq$ 
+            \begin{itemize}
+                \item Let $x \in  \left( \bigcup _{ i \in I }  X_{i} \right)^{\complement} $ then $x \not\in \bigcup _{ i \in  I }  X_{i}$ thus $\forall i \in  I, x \not\in X_{i}$ so $x \in X_{i} ^ {\complement}$ for each $i$ in other words $x \in \bigcap _{ i \in  I }  X_{i} ^ {\complement}$
+            \end{itemize}
+            \item $ \supseteq$ 
+                \begin{itemize}
+                    \item Let $x \in \bigcap _{ i \in I }  X_{i} ^ {\complement}$ now our goal is to show that $x  \in\left(   \bigcup _{ i \in I }  X_{i} \right)^{\complement}$.
+                \item We know that $\forall i \in I, x \in X_{i}^{\complement}$ in other words $x \not\in X_{i}$ for each $i$, therefore $x \not\in \bigcap _{ i \in  I }  X_{i}$ which means $x \in \left( \bigcup _{ i \in  I }  X_{i} \right)^{\complement}$
+                \end{itemize}
+        \end{itemize}
+        \item To go about the second, we use the first law. 
+        \begin{itemize}
+            \item Since the first part was proven for arbitrary $X_{i}$ we now apply it to the sets $X_{i}^{\complement}, i \in  I$, then it says
+                \[
+                    \left( \bigcup _{  i \in  I }  X_{i}^ {\complement} \right)^{\complement} = \bigcap _{  i \in  I }  \left( X_{i} ^ {\complement} \right)^{\complement} 
+                \]
+            \item But by simplying the right hand side to
+                \[
+                \bigcap _{ i \in  I }  \left( X_{i} ^ {\complement} \right)^{\complement}  =  \bigcup _{  i \in  I }  X _{i}
+                \]
+                by using the fact that \kref{https://gitlab.com/cuppajoeman/knowledge-data/-/blob/master/Complement_Cancels-MjRlfOMoYmeAfRaPcc2.pdf}{complement cancels} and then taking the complement of both sides and using this fact again, one obtains
+            \[
+            \bigcup _{  i \in  I }  X_{i} ^{\complement} = \left( \bigcap _{  i \in  I }  X_{i} \right) ^{\complement}
+            \]
+            as required.
+        \end{itemize}
+    \end{itemize}
+    
+\end{pf}
+
+
+\end{proposition}
