@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.10.20)  30 OCT 2021 14:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.10.20)  30 OCT 2021 14:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -695,7 +695,7 @@ Package: amsthm 2020/05/29 v2.20.6
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 19.
  (/usr/share/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) (build/book.aux (build/linear_algebra/linear_algebra.aux) (build/logic/logic.aux) (build/topology/topology.aux))
+) (build/book.aux (build/preface/preface.aux) (build/linear_algebra/linear_algebra.aux) (build/logic/logic.aux) (build/topology/topology.aux))
 \openout1 = `book.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
@@ -864,14 +864,18 @@ LaTeX Font Info:    External font `lmex10' loaded for size
  [4
 
 ]
+\openout2 = `preface/preface.aux'.
+
+ (./preface/preface.tex
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 57.
+(Font)              <9> on input line 13.
  [1
 
 
+
 ] [2]
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 104.
- [3
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 60.
+) [3
 
 ]
 \openout2 = `linear_algebra/linear_algebra.aux'.
@@ -905,6 +909,8 @@ Overfull \hbox (44.50621pt too wide) detected at line 16
 ) [4
 
 
+
+
 ] (./linear_algebra/definitions/matrix_multiplication.tex) (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
@@ -929,15 +935,15 @@ Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on in
 
 
 
-] [11] [12]) [13] (build/book.aux (build/linear_algebra/linear_algebra.aux) (build/logic/logic.aux) (build/topology/topology.aux))
+] [11] [12]) [13] (build/book.aux (build/preface/preface.aux) (build/linear_algebra/linear_algebra.aux) (build/logic/logic.aux) (build/topology/topology.aux))
 Package rerunfilecheck Info: File `book.out' has not changed.
 (rerunfilecheck)             Checksum: C699D3365B7D7A57E9F95BA9A5BAB6A0;2030.
  ) 
 Here is how much of TeX's memory you used:
- 30430 strings out of 478994
- 589111 string characters out of 5864750
- 1382154 words of memory out of 5000000
- 47111 multiletter control sequences out of 15000+600000
+ 30442 strings out of 478994
+ 589336 string characters out of 5864750
+ 1382855 words of memory out of 5000000
+ 47114 multiletter control sequences out of 15000+600000
  515109 words of font info for 110 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  117i,12n,116p,628b,2213s stack positions out of 5000i,500n,10000p,200000b,80000s
