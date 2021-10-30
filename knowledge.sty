@@ -16,7 +16,12 @@ colorlinks=true,citecolor=blue,linkcolor=blue,linktocpage=true
 
 \usepackage{todonotes}
 \usepackage{xhfill}
+\usepackage{xcolor}
 \usepackage[symbol]{footmisc}
+
+% For colored boxes
+\usepackage{tcolorbox}
+\tcbuselibrary{most}
 
 % creates the following command: \footnote[num]{text} 
 \renewcommand{\thefootnote}{\fnsymbol{footnote}}
@@ -28,6 +33,12 @@ colorlinks=true,citecolor=blue,linkcolor=blue,linktocpage=true
 \usepackage{tikz}
 \usetikzlibrary{calc} 
 \usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathtools}
+
+\usepackage{amsthm}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Programming
@@ -105,9 +116,6 @@ colorlinks=true,citecolor=blue,linkcolor=blue,linktocpage=true
 % Author
 \author{\textsc{Callum Cassidy-Nolan}\thanks{\url{cuppajoeman.com}}}
 
-% For colored boxes
-\RequirePackage[most]{tcolorbox}
-\RequirePackage{amsmath,amsthm,mathtools,hyperref,xcolor}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Colored Boxes
@@ -142,10 +150,34 @@ colorlinks=true,citecolor=blue,linkcolor=blue,linktocpage=true
 % Proof
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\renewcommand\qedsymbol{$\blacksquare$}
+% If the class defines either a macro or an environment called proof, add the instructions \let\proof\relax and \let\endproof\relax before loading amsthm.
+\let\proof\relax 
+\let\endproof\relax
+
+\AtEndEnvironment{proof}{\null\hfill\textcolor{black}{$\blacksquare$}}%
+
+\newtcolorbox{proof}{
+  fonttitle=\bfseries,
+  enhanced,
+  top=0mm,
+  boxrule=0pt,frame empty,
+  borderline west={4pt}{0pt}{black},
+  coltitle=black,
+  colback=white,
+  sharp corners,
+  title=Proof
+}
+
+%\renewcommand\qedsymbol{$\blacksquare$}
+
+
+%\RequirePackage{xhfill}
+
+%\renewenvironment{proof}{{\bfseries Proof \xrfill $ $\par\nobreak\ignorespaces}}{}
+
+
 
 %\usepackage[explicit]{titlesec}
-%\RequirePackage{xhfill}
 %
 %%\titleformat{\section}
 %%  {\normalfont\Large\bfseries\filcenter}{}{0em}{\xrfill[0.3ex]{1.5pt}~#1~\xrfill[0.3ex]{1.5pt}}
