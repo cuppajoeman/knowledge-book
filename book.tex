@@ -3,16 +3,13 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \documentclass[a4paper,11pt,oneside]{book}
+\usepackage[math]{iwona}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
-\usepackage{lmodern}
 \usepackage{geometry}
 % \usepackage{showframe}
 
-%\newgeometry{vmargin={15mm}, hmargin={12mm,17mm}}   % set the margins
-\geometry{left=2cm}
-\geometry{right=2cm}
-\setlength{\marginparwidth}{2cm}
+\newgeometry{vmargin={15mm}, hmargin={12mm}}  % set the margins
 
 \usepackage{knowledge}
 
@@ -32,15 +29,17 @@ Dedicated to the proofs that were left as exercises to the readers
 % Auto-generated table of contents, list of figures and list of tables %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \tableofcontents
-\listoffigures
-\listoftables
+%\listoffigures
+%\listoftables
 %\listoftodos
 
 \mainmatter
 
 \include{preface/preface}
+\include{analysis/analysis}
 \include{linear_algebra/linear_algebra}
 \include{logic/logic}
 \include{topology/topology}
+\include{computer_science/computer_science}
 
 \end{document}

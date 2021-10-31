@@ -1,0 +1,50 @@
+\begin{proposition}{Little O and Differentiability Equivalence}{little_o_and_differentiability_equivalence}
+  A function $f$ is differentiable at the point $\overline{x}$ if and only if there is a number $ \alpha \in \mathbb{R}$ for any $h \in \mathbb{R}$ we have 
+  \[
+  f\left(\overline{x}  +  h\right) = f\left(\overline{x}\right)  +  h \alpha  +  l\left(h\right)
+  \]
+  Where $l \in o\left(h\right) $ 
+
+\end{proposition}
+
+\begin{proof}
+    \begin{itemize}
+      \item $\Rightarrow$ 
+        \begin{itemize}
+          \item Assume that $f$ is differentiable, therefore we have
+              \[
+              f ^{ \prime } \left( \overline{x} \right) =  \lim_{ h \to 0 } \frac{f\left( \overline{x} +  h \right) -  f\left( x \right) }{h}
+              \]
+            \item Equivalently:
+              \[
+               \lim_{ h \to 0 } \frac{f\left( \overline{x} +  h \right) -  f\left( x \right) }{h} -  f ^{ \prime } \left( \overline{x} \right) = 0
+              \]
+            \item Since $ \lim_{ h \to 0 } f ^{ \prime } \left( \overline{x} \right) = f ^{ \prime } \left( \overline{x} \right)  $ as it's a constant, we may use the limit law to deduce:
+            \[
+            \lim_{ h \to 0 } \left( \frac{f\left( \overline{x} + h \right) - f\left( x \right) }{h} - f ^{ \prime } \left( \overline{x} \right) \right) = 0 \Leftrightarrow \lim_{ h \to 0 } \frac{f\left( \overline{x} + h \right) - f\left( \overline{x} \right) - h f ^{ \prime } \left( \overline{x} \right) }{h}= 0
+            \]
+            \item That is to say that $ f\left( \overline{x} + h \right) - f\left( \overline{x} \right) - h f ^{ \prime } \left( \overline{x} \right) \in o\left( h \right)  $, set $ l\left( h \right) = f\left( \overline{x} + h \right) - f\left( \overline{x} \right) - h f ^{ \prime } \left( \overline{x} \right)  $ then we have that
+            \[
+            f\left( \overline{x} + h \right) =  f\left( \overline{x} \right) +  h f ^{ \prime } \left( \overline{x} \right) +  l\left( h \right) 
+            \]
+            where we've taken $ \alpha = f ^{ \prime } \left( \overline{x} \right)  $ 
+        \end{itemize}
+      \item $\Leftarrow$ 
+        \begin{itemize}
+          \item Assume that there is a number $\alpha \in \mathbb{R}$ and $l \in o\left(h\right)$, so that for any $h \in \mathbb{R}$  we have:
+            \[
+            f\left(\overline{x}  +  h\right) = f\left(\overline{x}\right)  +  h \alpha+  l\left(h\right) \Leftrightarrow l\left(h\right) = f\left(\overline{x}  +  h\right)  -  f\left(\overline{x}\right)  -  h \alpha
+            \]
+            thus $f\left(\overline{x}  +  h\right)  -  f\left(\overline{x}\right)  -  h \alpha \in o\left(h\right)$.
+            \item So then by definition of little-o, we get:
+            \[
+           \lim_{h\to0} \frac{f\left(\overline{x}  +  h\right)  -  f\left(\overline{x}\right)  -  h \alpha }{h} = 0
+            \]
+            \item Since $ \lim_{ h \to 0 } \alpha = \alpha $ we may add it to both sides using the limit law on the left to obtain:
+            \[
+            \lim_{ h \to 0 } \left( \frac{f\left( \overline{x} +  h \right) -  f\left( \overline{x} \right) -  h \alpha }{h} + \alpha  \right)= \alpha \Leftrightarrow \lim_{ h \to 0 } \frac{f\left( \overline{x} + h \right) -  f\left( \overline{x} \right) }{h} = \alpha 
+            \]
+            Meaning that $ \alpha = f ^{ \prime } \left( \overline{x} \right)  $ and that $ f $ is differentiable
+        \end{itemize}
+    \end{itemize}
+\end{proof}

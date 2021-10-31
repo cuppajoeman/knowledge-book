@@ -1,0 +1,43 @@
+\begin{theorem}{Chain Rule}{chain_rule}
+    Given two functions $ f $ and $ g $ where $ g $ is differentiable at the point $ \overline{x}  $  and $ f $ differentiable at the point $ \overline{y} =  g\left( \overline{x}  \right)  $ then
+    \[
+    \left( f \circ g \right) ^{ \prime }  \left( \overline{x}  \right) =  f ^{ \prime } \left( g\left( \overline{x}  \right)  \right) \cdot g\left( \overline{x}  \right) 
+    \]
+\end{theorem}
+
+\begin{proof}
+    \begin{itemize}
+        \item We define the following two new functions
+            \[
+            v\left( h \right) =  \frac{g\left( \overline{x} +  h \right) - g\left( \overline{x} \right) }{h} -  g ^{ \prime } \left( \overline{x} \right)  \text{ and } w\left( k \right) =  \frac{f\left( \overline{y}  +  k \right) -  f\left( \overline{y}  \right) }{k} -  f ^{ \prime } \left( \overline{y}  \right) 
+            \]
+        \item[$ \alpha: $] Note that $ \lim_{ h \to 0 } v\left( h \right) = 0 $ and $ \lim_{ k \to 0 } w\left( k \right)  = 0 $, and that we can re-arrange the above to:
+
+            \[
+            \left( v\left( h \right) +  g ^{ \prime } \left( \overline{x}  \right)  \right) \cdot h +  g\left( \overline{x}  \right) = g\left( \overline{x} + h \right) \text{ and } \left( w\left( k \right) +  f ^{ \prime } \left( \overline{y}  \right)  \right) \cdot k +  f\left( \overline{y}  \right) = f\left( \overline{y} + k \right) 
+            \]
+        \item Now it follows that
+            \begin{align*}
+                f\left( g\left( \overline{x} + h \right)  \right) &= f\left( \left( v\left( h \right) +  g ^{ \prime } \left( \overline{x}  \right)  \right) \cdot h +  g\left( \overline{x}  \right) \right) \\
+&= f\left(g\left( \overline{x}  \right) + \left(    v\left( h \right) +  g ^{ \prime } \left( \overline{x}  \right)  \right) \cdot h  \right) \\
+&= f\left( \overline{y}  + \left(    v\left( h \right) +  g ^{ \prime } \left( \overline{x}  \right)  \right) \cdot h  \right) \\
+&= \left( w\left( \left(    v\left( h \right) +  g ^{ \prime } \left( \overline{x}  \right)  \right) \cdot h \right) +  f ^{ \prime } \left( \overline{y}  \right)  \right) \cdot \left(    v\left( h \right) +  g ^{ \prime } \left( \overline{x}  \right)  \right) \cdot h +  f\left( \overline{y}  \right)
+            \end{align*}
+        \item Now recall that we are interested in $ \left( f \circ g \right)' \left( \overline{x}  \right) $, so we're going to have to look at:
+            \[
+            \lim_{ h \to 0 } \frac{f\left( g\left( \overline{x} +  h \right)  \right)-  f\left( g\left( \overline{x}  \right)  \right)   }{h}
+            \]
+        \item Notice that the term on the left of the sum in the numerator is something we already know, and therefore it becomes:
+        \[
+        \lim_{ h \to 0 } \frac{\left( w\left( \left(    v\left( h \right) +  g ^{ \prime } \left( \overline{x}  \right)  \right) \cdot h \right) +  f ^{ \prime } \left( \overline{y}  \right)  \right) \cdot \left(    v\left( h \right) +  g ^{ \prime } \left( \overline{x}  \right)  \right) \cdot h +  f\left( \overline{y}  \right)-  f\left( g\left( \overline{x}  \right)  \right)   }{h}
+        \]
+        \item By noting that $ f\left( \overline{y}  \right) = f\left( g\left( \overline{x}  \right)  \right)  $, then cancelling out the $ h $ we can see that the above simplifies to 
+        \[
+        \lim_{ h \to 0 } \left( w\left( \left(    v\left( h \right) +  g ^{ \prime } \left( \overline{x}  \right)  \right) \cdot h \right) +  f ^{ \prime } \left( \overline{y}  \right)  \right) \cdot \left(    v\left( h \right) +  g ^{ \prime } \left( \overline{x}  \right)  \right) 
+        \]
+        \item By $ \alpha  $ on $ v $ and $ w $ with $ k =  g\left( \overline{x}  \right) \cdot h  $, we have that the above limit is:
+        \[
+        \lim_{ h \to 0 } \left( w\left( \left( g ^{ \prime } \left( \overline{x}  \right)  \right) \cdot h \right) +  f ^{ \prime } \left( \overline{y}  \right)  \right) \cdot \left(     g ^{ \prime } \left( \overline{x}  \right)  \right)  =  \lim_{ h \to 0 } f ^{ \prime } \left( \overline{y}  \right) \cdot g ^{ \prime } \left( \overline{x}  \right) = \boxed{ f ^{  \prime } \left( g\left( \overline{x}  \right)  \right)  \cdot  g ^{ \prime } \left( \overline{x}  \right) }
+        \]
+    \end{itemize}
+\end{proof}

@@ -14,10 +14,12 @@ colorlinks=true,citecolor=blue,linkcolor=blue,linktocpage=true
 % Formatting
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\usepackage{todonotes}
+%\usepackage{todonotes}
 \usepackage{xhfill}
 \usepackage{xcolor}
 \usepackage[symbol]{footmisc}
+% Custom font
+%\renewcommand{\familydefault}{\sfdefault}
 
 % For colored boxes
 \usepackage{tcolorbox}
@@ -36,8 +38,10 @@ colorlinks=true,citecolor=blue,linkcolor=blue,linktocpage=true
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{mathtools}
-
 \usepackage{amsthm}
+% Automatically resize parenthses
+% https://tex.stackexchange.com/a/36296/164825
+\delimitershortfall=-1pt
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -158,13 +162,11 @@ colorlinks=true,citecolor=blue,linkcolor=blue,linktocpage=true
 
 \newtcolorbox{proof}{
   fonttitle=\bfseries,
+  breakable,
   enhanced,
-  top=0mm,
-  boxrule=0pt,frame empty,
-  borderline west={4pt}{0pt}{black},
-  coltitle=black,
-  colback=white,
-  sharp corners,
+  colback=black!5!white,
+  colframe=black!75!black,
+  coltitle=white,
   title=Proof
 }
 

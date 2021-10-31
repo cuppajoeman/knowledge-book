@@ -1,0 +1,23 @@
+\begin{proposition}{Sum of Limits}{sum_of_limits}
+If $\lim _{x \rightarrow a} f(x)=L$ and $\lim _{x \rightarrow a} g(x)=M$ both exist then
+$$
+\lim _{x \rightarrow a}[f(x)+g(x)]=L+M
+$$
+\end{proposition}
+\begin{proof}
+    \begin{itemize}
+        \item Suppose antecedent holds, so we have existsance of the limits $\lim _{x \rightarrow a} f(x)=L$ and $\lim _{x \rightarrow a} g(x)=M$, now we'd like to show that the limit $\lim _{x \rightarrow a}[f(x)+g(x)]$ equals $L+M$ 
+        \item Let $ \varepsilon \in \mathbb{R} ^{ +  }$, now from the fact that the two prior limits exist we can substitute in $ \frac{\varepsilon}{2}  $ into them, to get $ \delta _{ L }  $ and $ \delta _{ M }  $ respectively, such that 
+        \[
+        \forall x \in  \operatorname{ dom  }\left( f \right) , 0 < \left| x -  a \right| < \delta _{ L }  \Rightarrow \left| f\left( x \right) - L \right| < \frac{\varepsilon}{2}\\
+        \]
+        and
+        \[
+        \forall x \in  \operatorname{ dom  }\left( g \right) , 0 < \left| x -  a \right| < \delta _{ M }  \Rightarrow \left| g\left( x \right) - M \right| < \frac{\varepsilon}{2}\\
+        \]
+        \item Take $ \delta =  \min\left( \delta _{ L }  , \delta _{ M }  \right)  $, so that we may utilize the above inequalities as we assume that $ \forall x \in  \operatorname{ dom  }\left( f +  g \right)  $ that $ 0 < \left| x -  a \right| < \delta  $, and proceed to show that $ \left| \left( f\left( x \right) +  g\left( x \right)  \right) -  \left( L +  M \right) \right| < \varepsilon  $, since our $ x $ is bounded by the min of the two deltas from the other limits, we utilize the inequalities in tandem with the triangle equality to obtain: 
+        \[
+        \left| \left( f\left( x \right)  +  g\left( x \right)  \right) -  \left( M +  L \right) \right| =  \left| \left( f\left( x \right) -  L \right) +  \left( g\left( x \right) -  M \right) \right| \le \left| f\left( x \right) -  L \right| + \left| g\left( x \right) -  M \right| < \frac{\varepsilon }{2} +  \frac{\varepsilon }{2} =  \varepsilon 
+        \]
+    \end{itemize}
+\end{proof}
