@@ -1247,6 +1247,7 @@ INPUT ./preface/preface.tex
 INPUT preface/preface.tex
 INPUT ./preface/preface.tex
 INPUT preface/preface.tex
+INPUT /usr/share/texmf-dist/fonts/tfm/jknappen/ec/ectt1095.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/nowacki/iwona/ec-iwonar.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/nowacki/iwona/ec-iwonab.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/nowacki/iwona/ts1-iwonar.tfm
@@ -1260,7 +1261,6 @@ INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/nowacki/iwona/ec-iwonar.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/nowacki/iwona/ts1-iwonar.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/jknappen/ec/ectt0900.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/jknappen/ec/ectt1095.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/nowacki/iwona/ec-iwonari.tfm
 OUTPUT build/book.listing
 INPUT /usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -1693,8 +1693,8 @@ INPUT /usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 INPUT /usr/share/texmf-dist/fonts/enc/dvips/iwona/rm-iwona.enc
 INPUT /usr/share/texmf-dist/fonts/enc/dvips/iwona/ex-iwona.enc
 INPUT /usr/share/texmf-dist/fonts/enc/dvips/iwona/sy-iwona.enc
-INPUT /usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc
 INPUT /usr/share/texmf-dist/fonts/enc/dvips/iwona/ec-iwona.enc
+INPUT /usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc
 INPUT /usr/share/texmf-dist/fonts/enc/dvips/iwona/ts1-iwona.enc
 INPUT /usr/share/texmf-dist/fonts/enc/dvips/iwona/ec-iwona-sc.enc
 INPUT /usr/share/texmf-dist/fonts/type1/nowacki/iwona/iwonab.pfb
