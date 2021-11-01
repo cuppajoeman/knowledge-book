@@ -10,6 +10,9 @@ It differs from a normal textbook in that it is open source and will
 fall under more continuous development rather than having editions that
 periodically come out.
 
+Here is a link to the book:
+<https://github.com/cuppajoeman/knowledge-book/blob/main/build/book.pdf>
+
 ## Structure of book {#structure-of-book .unnumbered}
 
 The book is partitioned into different sections based on the domain it
