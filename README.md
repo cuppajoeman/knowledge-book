@@ -6,6 +6,10 @@ someone who has never touched the subject may be able to understand it.
 It will focus on conveying the ideas that are involved in synthesizing
 the new knowledge with less of a focus on the results themselves.
 
+It differs from a normal textbook in that it is open source and will
+fall under more continuous development rather than having editions that
+periodically come out.
+
 ## Structure of book {#structure-of-book .unnumbered}
 
 The book is partitioned into different sections based on the domain it
@@ -44,14 +48,17 @@ The website[^2] for this file contains:
 
 -   A link to (freely downlodable) latest version of this document.
 
--   Link to download LaTeX source for this document.
+-   Link to download LaTeXsource for this document.
 
 ## Acknowledgements {#acknowledgements .unnumbered}
 
 -   A special word of thanks to professors who wanted to make sure I
     understood and learned as much as possible Alfonso Gracia-Saz[^3],
-    Jean-Baptiste Campesato[^4], Z-Module, riv, PlanckWalk, franciman,
-    qergle from #math on <https://libera.chat/>.
+    Jean-Baptiste Campesato[^4], Valentine Chiche-Lapierre and Gal
+    Gross[^5]
+
+-   Thanks to Z-Module, riv, PlanckWalk, franciman, qergle from #math on
+    <https://libera.chat/>.
 
 # Contributing {#contributing .unnumbered}
 
@@ -87,7 +94,34 @@ contribution will fall into one of the following categories
 
 ## Content Based {#content-based .unnumbered}
 
-If you're looking to add content to the project
+If you want to add a new top level structure, the best thing to do is to
+verify with other members of the project if it warrants it's own top
+level structure, otherwise it can be added as a substructure of an
+existing one.
+
+Supposing that you are on linux, the easiest way to make a new structure
+and start working on it:
+
+::: term
+cp -r structure new_structure cd new_structure mv content.tex
+new_structure.tex nvim new_structure.tex
+:::
+
+Otherwise if you're adding a new theorem, it could be:
+
+::: term
+cd existing_structure/theorems cp theorem.tex my_new_theorem.tex nvim
+my_new_theorem.tex \... git add -A && git commit -m \"add my new
+theorem\" && git push
+:::
+
+### Creating Files {#creating-files .unnumbered}
+
+For example if want to create a new definition for topology we would go
+into the definition folder for topology and create a new file using
+pothole case and don't include any extraneous words, for example it is
+better not to append "the\" to the front of your file names when not
+specifically required.
 
 [^1]: But sometimes they escape, as their usage becomes more than just
     an intermediate step, as Zorn's or Fatou's Lemmas did
@@ -97,3 +131,5 @@ If you're looking to add content to the project
 [^3]: <https://www.math.toronto.edu/cms/alfonso-memorial/>
 
 [^4]: <https://math.univ-angers.fr/~campesato/>
+
+[^5]: <https://www.galgr.com/>
