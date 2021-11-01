@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.10.20)  1 NOV 2021 12:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.10.20)  1 NOV 2021 14:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -721,7 +721,7 @@ LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
 \c@tcb@cnt@lemma=\count330
 \c@tcb@cnt@corollary=\count331
 \c@tcb@cnt@example=\count332
-) (build/book.aux (build/preface/preface.aux) (build/analysis/analysis.aux) (build/linear_algebra/linear_algebra.aux) (build/logic/logic.aux) (build/topology/topology.aux) (build/computer_science/computer_science.aux))
+) (build/book.aux (build/preface/preface.aux) (build/analysis/analysis.aux) (build/linear_algebra/linear_algebra.aux) (build/logic/logic.aux) (build/topology/topology.aux) (build/computer_science/computer_science.aux) (build/programming/programming.aux))
 \openout1 = `book.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
@@ -1296,16 +1296,53 @@ LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
 
 
 
-] (build/book.aux (build/preface/preface.aux) (build/analysis/analysis.aux) (build/linear_algebra/linear_algebra.aux) (build/logic/logic.aux) (build/topology/topology.aux) (build/computer_science/computer_science.aux))
+]
+\openout2 = `programming/programming.aux'.
+
+ (./programming/programming.tex
+ 6.
+\openout4 = `book.listing'.
+
+(/usr/share/texmf-dist/tex/latex/base/latin1.def
+File: latin1.def 2020/08/01 v1.3d Input encoding file
+)
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 1.
+
+LaTeX Font Info:    Font shape `OT1/iwona/bx/n' in size <10> not available
+(Font)              Font shape `OT1/iwona/b/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `OT1/iwona/bx/n' in size <7> not available
+(Font)              Font shape `OT1/iwona/b/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `OT1/iwona/bx/n' in size <5> not available
+(Font)              Font shape `OT1/iwona/b/n' tried instead on input line 1.
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 1.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 1.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/bx/n' instead on input line 1.
+
+) [20
+
+
+
+
+] (build/book.aux (build/preface/preface.aux) (build/analysis/analysis.aux) (build/linear_algebra/linear_algebra.aux) (build/logic/logic.aux) (build/topology/topology.aux) (build/computer_science/computer_science.aux) (build/programming/programming.aux))
 Package rerunfilecheck Info: File `book.out' has not changed.
-(rerunfilecheck)             Checksum: 7C65DDAA24B758C174B7F46A3A89AE42;2584.
+(rerunfilecheck)             Checksum: 326D1E4B046A2FAB22C6CA97EE57BD11;2683.
  ) 
 Here is how much of TeX's memory you used:
- 30503 strings out of 478994
- 588905 string characters out of 5864750
- 1278767 words of memory out of 5000000
- 47070 multiletter control sequences out of 15000+600000
- 516948 words of font info for 119 fonts, out of 8000000 for 9000
+ 30544 strings out of 478994
+ 589609 string characters out of 5864750
+ 1279436 words of memory out of 5000000
+ 47096 multiletter control sequences out of 15000+600000
+ 526014 words of font info for 122 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  101i,18n,108p,695b,2230s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exist, replaced by a fixed one
@@ -1319,10 +1356,10 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist,
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 {/usr/share/texmf-dist/fonts/enc/dvips/iwona/mi-iwona.enc}{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/iwona/rm-iwona.enc}{/usr/share/texmf-dist/fonts/enc/dvips/iwona/ex-iwona.enc}{/usr/share/texmf-dist/fonts/enc/dvips/iwona/sy-iwona.enc}{/usr/share/texmf-dist/fonts/enc/dvips/iwona/ec-iwona.enc}{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/iwona/ts1-iwona.enc}{/usr/share/texmf-dist/fonts/enc/dvips/iwona/ec-iwona-sc.enc}</usr/share/texmf-dist/fonts/type1/nowacki/iwona/iwonab.pfb></usr/share/texmf-dist/fonts/type1/nowacki/iwona/iwonabi.pfb></usr/share/texmf-dist/fonts/type1/nowacki/iwona/iwonar.pfb></usr/share/texmf-dist/fonts/type1/nowacki/iwona/iwonari.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texmf-dist/fonts/type1/public/txfonts/t1xbtt.pfb></usr/share/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb>
-Output written on build/book.pdf (27 pages, 282388 bytes).
+Output written on build/book.pdf (28 pages, 285306 bytes).
 PDF statistics:
- 557 PDF objects out of 1000 (max. 8388607)
- 487 compressed objects within 5 object streams
- 177 named destinations out of 1000 (max. 500000)
- 309 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 571 PDF objects out of 1000 (max. 8388607)
+ 500 compressed objects within 5 object streams
+ 181 named destinations out of 1000 (max. 500000)
+ 317 words of extra memory for PDF output out of 10000 (max. 10000000)
 

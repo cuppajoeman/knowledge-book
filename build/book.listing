@@ -1,5 +1,1 @@
-cd existing_structure/theorems
-cp theorem.tex my_new_theorem.tex
-nvim my_new_theorem.tex
-...
-git add -A && git commit -m "add my new theorem" && git push
+for f in `find`; do mv -v "$f" "`echo $f | tr '[A-Z]' '[a-z]'`"; done
