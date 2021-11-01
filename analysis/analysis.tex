@@ -17,7 +17,22 @@ Notice that in the above proof that we didn't use our hypothesis in the proof of
 \section{Differentiation}
 
 \input{analysis/theorems/chain_rule}
+
+The chain rule is sometimes written as $ \frac{df }{dx} \left( x \right) = \frac{df}{dg} \left( x \right) \frac{dg}{dx} \left( x \right)  $, but notice that this extends liebniz notation as we only know that $ \frac{df}{dx} = f ^{ \prime  } \left( x \right)   $, and it is not defined for when we take the derivative with respect to another function. This motivates the definition
+\[
+\frac{df}{dg} \left( x \right) =  \frac{df}{dx} \left( g\left( x \right)  \right)
+\]
 \input{analysis/propositions/little_oh_and_differentiability_equivalence}
-Notice that the number $ \alpha $ is equal to a limit and that limits are unique, therefore the solution $ \alpha =  f ^{ \prime } \left( \overline{x} \right)  $ is the unique solution to the above proposition.
+Notice that the number $ \alpha $ is equal to a limit and that limits are unique, therefore the solution $ \alpha =  f ^{ \prime } \left( \overline{x} \right)  $ is the unique solution to the above proposition. Also since this it the unique solution, we know that there is no other real besides $ f ^{ \prime } \left( \overline{x} \right)  $ where this holds, therefore $ f ^{ \prime } \left( \overline{x} \right)  $ is the best linear approximation to $ f $ at the point $ \overline{x} $. 
+
+Finally notice that if you solve for $ E\left( h \right) $ and then recall that $ E\left( h \right) \in o\left( h \right)  $ we have:
+\[
+\lim_{ h \to 0 } \frac{ \overbracket{\overbracket{f\left( \overline{x} +  h \right)}^{~\text{actual value}~ } -  \overbracket{\left( f\left( \overline{x}  \right)  +  h f ^{ \prime  } \left( \overline{x}  \right) \right)}^{~\text{linear estimation}~  }}^{~\text{error}~  } }{h}= 0
+\]
+
+the error is going to zero at a rate which is faster than linear, as if the error were decreasing at a linear rate the limit would evaluate to some non-zero constant.
 
 
+\section{Multi Variable}
+
+\input{analysis/definitions/directional_derivative}

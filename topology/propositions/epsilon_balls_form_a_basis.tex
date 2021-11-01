@@ -1,0 +1,9 @@
+\begin{proposition}{Epsilon Balls Form A Basis}{epsilon_balls_form_a_basis}
+The collection $ \mathcal{ B }   $ of all $\epsilon$-balls $B_{d}(x, \epsilon)$, for $x \in X$ and $\epsilon>0$, is a basis for a topology on $X$
+\end{proposition}
+\begin{proof}
+    \begin{itemize}
+        \item Let $ x \in  X $ then clearly $ x \in  B _{ d }  \left( x, \varepsilon    \right)  $ works for any $ \varepsilon  \in  \mathbb{R} ^{ +  }   $ 
+        \item Let $  B _{ 1 } , B _{ 2 } \in  \mathcal{ B }    $ and and let $ y \in  B _{ 1 } \cap B _{ 2 }  $, for each of $ B _{ 1 }  $ and $ B _{ 2 }  $ \hyperref[lemma:epsilon_ball_contains_another]{we have} $ \delta _{ 1 }  $ and $ \delta _{ 2 }  $ respectively with $ B\left( y, \delta _{ 1 }  \right) \subseteq B _{ 1 }  $ and $ B\left( y, \delta _{ 2 }  \right) \subseteq B _{ 2 }  $, by taking $ \delta =  \min\left( \delta _{ 1 }  , \delta _{ 2 }   \right)  $ then we have $ B\left( y, \delta  \right) \subseteq B _{ 1 } \cap  B _{ 2 }   $ as needed.
+    \end{itemize}
+\end{proof}

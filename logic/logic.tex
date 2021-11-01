@@ -1,9 +1,4 @@
-
 \chapter{First Order Logic}
-
-\begin{chapquote}{Author's name, \textit{Source of this quote}}
-``This is a quote and I don't know who said this.''
-\end{chapquote}
 
 \section{Deductions}
 
@@ -13,34 +8,32 @@
     \]
 \end{lemma}
 
-Note this lemma might seem quite strange, but note it actually makes sense, %todo{finish why}
+%Note this lemma might seem quite strange, but note it actually makes sense, %todo{finish why}
 
-\begin{tcolorbox}
-\section*{x~\xrfill[0.3ex]{1.5pt}~Proof~\xrfill[0.3ex]{1.5pt}~x}
-\begin{itemize}
-    \item $ \Rightarrow $ 
+\begin{proof}
     \begin{itemize}
-        \item Suppose that $ \Sigma \vdash \theta$, therefore we have a deduction $ \mathcal{D}$ of $ \theta$, then the proof
+        \item $ \Rightarrow $ 
+        \begin{itemize}
+            \item Suppose that $ \Sigma \vdash \theta$, therefore we have a deduction $ \mathcal{D}$ of $ \theta$, then the proof
+                \begin{gather*}
+                    \mathcal{D}\\
+                    \left[ \left( \forall y \left( y =  y \right) \right) \land  \neg \left( \forall y \left( y =  y \right) \right) \right] \rightarrow \theta \tag{taut. PC}\\
+                    \left[ \left( \forall y \left( y =  y \right) \right) \land  \neg \left( \forall y \left( y =  y \right) \right) \right] \rightarrow \left(  \forall  x \right)\theta \tag{QR}\\
+                    \left(  \forall x \right) \theta \tag{PC}
+                \end{gather*}
+        \end{itemize}
+        \item $ \Leftarrow $
+        \begin{itemize}
+            \item Suppose that $ \Sigma \vdash \forall x \theta$, so we have a deduction of it, call it  $\mathcal{D}$, then the following deduction suffices
             \begin{gather*}
-                \mathcal{D}\\
-                \left[ \left( \forall y \left( y =  y \right) \right) \land  \neg \left( \forall y \left( y =  y \right) \right) \right] \rightarrow \theta \tag{taut. PC}\\
-                \left[ \left( \forall y \left( y =  y \right) \right) \land  \neg \left( \forall y \left( y =  y \right) \right) \right] \rightarrow \left(  \forall  x \right)\theta \tag{QR}\\
-                \left(  \forall x \right) \theta \tag{PC}
+               \mathcal{D} \\
+               \forall x \theta\\
+               \forall x \theta \rightarrow \theta _{x}^{x}\\
+                \theta _{x}^{x}
             \end{gather*}
+        \end{itemize}
     \end{itemize}
-    \item $ \Leftarrow $
-    \begin{itemize}
-        \item Suppose that $ \Sigma \vdash \forall x \theta$, so we have a deduction of it, call it  $\mathcal{D}$, then the following deduction suffices
-        \begin{gather*}
-           \mathcal{D} \\
-           \forall x \theta\\
-           \forall x \theta \rightarrow \theta _{x}^{x}\\
-            \theta _{x}^{x}
-        \end{gather*}
-    \end{itemize}
-\end{itemize}
-
-\end{tcolorbox}
+\end{proof}
 
 
 \section{Completeness}

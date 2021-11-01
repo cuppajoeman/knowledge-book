@@ -24,6 +24,7 @@ colorlinks=true,citecolor=blue,linkcolor=blue,linktocpage=true
 % For colored boxes
 \usepackage{tcolorbox}
 \tcbuselibrary{most}
+\tcbuselibrary{listings}
 
 % creates the following command: \footnote[num]{text} 
 \renewcommand{\thefootnote}{\fnsymbol{footnote}}
@@ -48,20 +49,40 @@ colorlinks=true,citecolor=blue,linkcolor=blue,linktocpage=true
 % Programming
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\usepackage{listings}
+% Python Code
+
+% Default fixed font does not support bold face
+\DeclareFixedFont{\ttb}{T1}{txtt}{bx}{n}{8} % for bold
+\DeclareFixedFont{\ttm}{T1}{txtt}{m}{n}{8}  % for normal
+
+% Custom colors
+\usepackage{color}
+\definecolor{deepblue}{rgb}{0,0,0.5}
+\definecolor{deepred}{rgb}{0.6,0,0}
+\definecolor{deepgreen}{rgb}{0,0.5,0}
 
 \definecolor{codegreen}{rgb}{0,0.6,0}
 \definecolor{codegray}{rgb}{0.5,0.5,0.5}
 \definecolor{codepurple}{rgb}{0.58,0,0.82}
 \definecolor{backcolour}{rgb}{0.95,0.95,0.92}
 
-\lstdefinestyle{mystyle}{
-    backgroundcolor=\color{backcolour},   
+\usepackage{listings}
+
+% Python style for highlighting
+\newcommand\pythonstyle{\lstset{
+    language=Python,
+    basicstyle=\ttm,
+    morekeywords={self},              % Add keywords here
+    keywordstyle=\ttb\color{deepblue},
     commentstyle=\color{codegreen},
-    keywordstyle=\color{magenta},
-    numberstyle=\tiny\color{codegray},
     stringstyle=\color{codepurple},
-    basicstyle=\ttfamily\footnotesize,
+    emph={MyClass,__init__},          % Custom highlighting
+    emphstyle=\ttb\color{deepred},    % Custom highlighting style
+    stringstyle=\color{deepgreen},
+    frame=tb,                         % Any extra options here
+    showstringspaces=false
+    backgroundcolor=\color{backcolour},   
+    numberstyle=\tiny\color{codegray},
     breakatwhitespace=false,         
     breaklines=true,                 
     captionpos=b,                    
@@ -72,9 +93,38 @@ colorlinks=true,citecolor=blue,linkcolor=blue,linktocpage=true
     showstringspaces=false,
     showtabs=false,                  
     tabsize=2
-}
+}}
 
-\lstset{style=mystyle}
+
+% Python environment
+\lstnewenvironment{python}[1][]
+{
+\pythonstyle
+\lstset{#1}
+}
+{}
+
+% Python for external files
+\newcommand\pythonexternal[2][]{{
+\pythonstyle
+\lstinputlisting[#1]{#2}}}
+
+% Python for inline
+\newcommand\pythoninline[1]{{\pythonstyle\lstinline!#1!}}
+
+% Terminal
+
+\newtcblisting{term}{colback=black!50!black,
+colupper=white,
+colframe=gray!65!black,
+listing only,
+listing options={style=tcblatex,language=sh,escapeinside=||,},
+every listing line={\textcolor{lime}{\small\ttfamily\bfseries user@machine{\textcolor{white}:}\textcolor{cyan!60}{\url{~}}{\textcolor{white}\#} }}}
+
+\newlength{\Lind}
+\setbox0\hbox{\small\ttfamily\bfseries root@}
+\setlength{\Lind}{\the\dimexpr\wd0+1pt}
+\newcommand{\LR}{\\\hspace*{-\Lind}}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -125,27 +175,27 @@ colorlinks=true,citecolor=blue,linkcolor=blue,linktocpage=true
 % Colored Boxes
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\newtcbtheorem{definition}%
+\newtcbtheorem[auto counter, number within=section,list inside=definitions]{definition}%
   {Definition}{fonttitle=\bfseries\upshape, fontupper=\slshape,
   arc=0mm, colback=green!5!white,colframe=green!75!black}{definition}
 
-\newtcbtheorem{theorem}
+\newtcbtheorem[auto counter, number within=section,list inside=theorems]{theorem}
   {Theorem}{fonttitle=\bfseries\upshape, fontupper=\slshape,
      arc=0mm, colback=blue!5!white,colframe=blue!75!black}{theorem}
 
-\newtcbtheorem{proposition}%
+\newtcbtheorem[auto counter, number within=section,list inside=propositions]{proposition}%
   {Proposition}{fonttitle=\bfseries\upshape, fontupper=\slshape,
      arc=0mm, colback=orange!5!white,colframe=orange!75!black}{proposition}
 
-\newtcbtheorem{lemma}%
+\newtcbtheorem[auto counter, number within=section,list inside=lemmas]{lemma}%
   {Lemma}{fonttitle=\bfseries\upshape, fontupper=\slshape,
      arc=0mm, colback=purple!5!white,colframe=purple!75!black}{lemma}
 
-\newtcbtheorem{corollary}%
+\newtcbtheorem[auto counter, number within=section,list inside=corollaries]{corollary}%
   {Corollary}{fonttitle=\bfseries\upshape, fontupper=\slshape,
      arc=0mm, colback=pink!5!white,colframe=pink!75!black}{corollary}
 
-\newtcbtheorem{example}%
+\newtcbtheorem[auto counter, number within=section,list inside=examples]{example}%
   {Example}{fonttitle=\bfseries\upshape, fontupper=\slshape,
      arc=0mm, colback=yellow!5!white,colframe=yellow!75!black}{example}
 

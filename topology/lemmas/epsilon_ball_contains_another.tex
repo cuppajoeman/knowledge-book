@@ -1,0 +1,12 @@
+\begin{lemma}{Epsilon Ball Contains Another}{epsilon_ball_contains_another}
+    Let $ x \in X $ then for every $ B\left( x, \varepsilon  \right)  $ there is $ y \in B\left( x, \varepsilon  \right)  $ and $ \delta \in  \mathbb{R} ^{ +  }  $ such that 
+    \[
+    B\left( y, \delta  \right) \subseteq B\left( x, \varepsilon  \right) 
+    \]
+\end{lemma}
+\begin{proof}
+    \begin{itemize}
+        \item Let $ y \in  B\left( x, \varepsilon \right)  $ we claim  $ B\left( y, \delta  \right)  $ where $ \delta =  \varepsilon -  d\left( x,y \right)  $ works.
+        \item Note $ B\left( y, \delta  \right) \subseteq B\left( x, \varepsilon  \right)  $, since given any $ z \in B\left( y, \delta  \right)  $ we have that $ d\left( y, z \right) < \varepsilon  - d\left( x,y \right)$, re-arranging gives us $ d\left( x,y \right) +  d\left( y, z \right) < \varepsilon   $ and by the triangle inequality we get $ d\left( x, z  \right) < \varepsilon  $ therefore $ z \in  B\left( x, \varepsilon  \right)  $
+    \end{itemize}
+\end{proof}
