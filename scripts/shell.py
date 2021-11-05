@@ -7,7 +7,9 @@ import constants
 import subprocess
 
 
-def create_new_content_file(title: str, type: str, target_dir: str) -> str:
+def create_new_content_file(
+    title: str, type: str, target_dir: str, dry_run: bool
+) -> str:
     """
     Given the title , bootstrap a new content file as a tex file naming it correctly and
     filling in any boilerplate content required.
@@ -22,13 +24,14 @@ def create_new_content_file(title: str, type: str, target_dir: str) -> str:
     potholecase_title = title.replace(" ", "_").lower()
     bootstrap_file = constants.STRUCTURE_BOOTSTRAP_DIR + type_dir + full_type + ".tex"
     new_file_name = target_dir + "/" + potholecase_title + ".tex"
-    copyfile(bootstrap_file, new_file_name)
-    subprocess.run(
-        ["sed", "-i", f"s/Title/{title}/g", new_file_name],
-    )
-    subprocess.run(
-        ["sed", "-i", f"s/label/{potholecase_title}/g", new_file_name],
-    )
+    if not dry_run:
+        copyfile(bootstrap_file, new_file_name)
+        subprocess.run(
+            ["sed", "-i", f"s/Title/{title}/g", new_file_name],
+        )
+        subprocess.run(
+            ["sed", "-i", f"s/label/{potholecase_title}/g", new_file_name],
+        )
     return new_file_name
 
 

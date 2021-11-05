@@ -24,7 +24,21 @@ def setup_parser():
     )
 
     parser.add_argument(
-        "-n", help="opens the created file with neovim", action="store_true"
+        "-n", "--neovim", help="opens the created file with neovim", action="store_true"
+    )
+
+    parser.add_argument(
+        "-d",
+        "--dry-run",
+        help="Does everything except for actually creating the files",
+        action="store_true",
+    )
+
+    parser.add_argument(
+        "-c",
+        "--copy",
+        help="copies the created filename to the clipboard (starting from the root of the project) ",
+        action="store_true",
     )
 
     return parser
