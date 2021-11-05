@@ -21,6 +21,8 @@ colorlinks=true,citecolor=blue,linkcolor=blue,linktocpage=true
 % Custom font
 %\renewcommand{\familydefault}{\sfdefault}
 
+%\usepackage{unicode-math} % lowercase and uppercase cursive
+
 % For colored boxes
 \usepackage{tcolorbox}
 \tcbuselibrary{most}
@@ -118,7 +120,7 @@ colorlinks=true,citecolor=blue,linkcolor=blue,linktocpage=true
 colupper=white,
 colframe=gray!65!black,
 listing only,
-listing options={style=tcblatex,language=sh,escapeinside=||,},
+listing options={style=tcblatex,language=sh,escapeinside=||,showstringspaces=false},
 every listing line={\textcolor{lime}{\small\ttfamily\bfseries user@machine{\textcolor{white}:}\textcolor{cyan!60}{\url{~}}{\textcolor{white}\#} }}}
 
 \newlength{\Lind}

@@ -10,14 +10,14 @@ def create_new_content_file(title: str, target_dir: str):
     :param title: the title of the content file
     :return:
     """
-    underscored_definition_title = definition_title.replace(" ", "_")
-    definition_bootstrap_file = constants.ROOT_DIR + "defn.tex"
-    new_definition_file = underscored_definition_title + ".tex"
-    copyfile(definition_bootstrap_file, new_definition_file)
+    underscored_title = title.replace(" ", "_")
+    bootstrap_file = constants.ROOT_DIR + "defn.tex"
+    new_file = underscored_title + ".tex"
+    copyfile(bootstrap_file, new_file)
     subprocess.run(
-        ["sed", "-i", f"s/TITLE/{definition_title}/g", new_definition_file],
+        ["sed", "-i", f"s/TITLE/{title}/g", new_file],
     )
-    print(f"successfully bootstrapped {new_definition_file}")
+    print(f"successfully bootstrapped {new_file}")
 
 def create_new_latex_definition(definition_title: str):
     """
