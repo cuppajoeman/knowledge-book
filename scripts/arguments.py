@@ -20,7 +20,7 @@ def setup_parser():
     parser.add_argument(
         "title",
         type=str,
-        help="the title of the content",
+        help="the title of the content file",
     )
 
     parser.add_argument(

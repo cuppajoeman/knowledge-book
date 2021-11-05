@@ -7,25 +7,29 @@ import constants
 import subprocess
 
 
-def create_new_content_file(title: str, type: str, target_dir: str):
+def create_new_content_file(title: str, type: str, target_dir: str) -> str:
     """
     Given the title , bootstrap a new content file as a tex file naming it correctly and
     filling in any boilerplate content required.
 
+    Type is the short form i.e. one of d t l p c
+
     :param title: the title of the content file
-    :return:
+    :return: the new file's name
     """
-    underscored_title = title.replace(" ", "_")
-    bootstrap_file = constants.STRUCTURE_BOOTSTRAP_DIR + type + ".tex"
-    new_file = underscored_title + ".tex"
-    copyfile(bootstrap_file, new_file)
+    full_type = constants.TYPE_TO_FULL_TYPE[type]
+    type_dir = constants.TYPE_TO_DIRECTORY[type] + "/"
+    potholecase_title = title.replace(" ", "_").lower()
+    bootstrap_file = constants.STRUCTURE_BOOTSTRAP_DIR + type_dir + full_type + ".tex"
+    new_file_name = target_dir + "/" + potholecase_title + ".tex"
+    copyfile(bootstrap_file, new_file_name)
     subprocess.run(
-        ["sed", "-i", f"s/Title/{title}/g", new_file],
+        ["sed", "-i", f"s/Title/{title}/g", new_file_name],
     )
     subprocess.run(
-        ["sed", "-i", f"s/label/{underscored_title}/g", new_file],
+        ["sed", "-i", f"s/label/{potholecase_title}/g", new_file_name],
     )
-    print(f"successfully bootstrapped {new_file}")
+    return new_file_name
 
 
 def get_file(directory: str) -> str:
