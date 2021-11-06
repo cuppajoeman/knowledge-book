@@ -108,7 +108,13 @@ To be able to \LaTeX up and running, it is dependent on the operating system you
     \end{itemize}
 \end{enumerate}
 
-Once you've obtained an editor, if it has some type of built-in compiler then you will want to change the output directory to be the build directory. This makes sure that when you compile the document that the root directory of the project isn't filled with irrelevant files. For each editor it will be different, but the general setup will be to get to some sort of configuration panel (or file) and to change the editors compile command to this: \lstinline{pdflatex --output-directory=build}
+Once you've obtained an editor, if it has some type of built-in compiler then you will want to change the output directory to be the build directory. This makes sure that when you compile the document that the root directory of the project isn't filled with irrelevant files. For each editor it will be different, but the general setup will be to get to some sort of configuration panel (or file) and to change the editors compile command to this: \texttt{pdflatex --output-directory=build}. Some editors might have a built in mode for this, for example with tex maker one can tick the ``use build directory for output files", for users who use vim, there is a built in option for vimtex like so:
+
+\begin{lstlisting}
+let g:vimtex_compiler_latexmk = {
+            \ 'build_dir' : 'build',
+            \}
+\end{lstlisting}
 
  
 \section*{Communication}

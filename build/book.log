@@ -1,14 +1,12 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.10.20)  6 NOV 2021 10:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.11.6)  6 NOV 2021 13:09
 entering extended mode
- restricted \write18 enabled.
- file:line:error style messages enabled.
- %&-line parsing enabled.
-**book.tex
-(./book.tex
+**./book.tex
+(book.tex
 LaTeX2e <2020-10-01> patch level 4
-L3 programming layer <2021-02-18> (/usr/share/texmf-dist/tex/latex/base/book.cls
+L3 programming layer <2021-02-18> xparse <2020-03-03>
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
 Document Class: book 2020/04/10 v1.4m Standard LaTeX document class
-(/usr/share/texmf-dist/tex/latex/base/bk11.clo
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/base\bk11.clo
 File: bk11.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
 \c@part=\count179
@@ -23,20 +21,26 @@ File: bk11.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
-) (/usr/share/texmf-dist/tex/latex/base/fontenc.sty
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
-) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2020/08/01 v1.3d Input encoding file
 \inpenc@prehook=\toks15
 \inpenc@posthook=\toks16
-) (/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
- (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
-) (/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
- (/usr/share/texmf-dist/tex/generic/iftex/iftex.sty
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
 \Gm@cnth=\count188
@@ -51,7 +55,8 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \Gm@layouthoffset=\dimen145
 \Gm@layoutvoffset=\dimen146
 \Gm@dimlist=\toks18
-)
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: 
 * paper: a4paper
@@ -84,52 +89,73 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- (./knowledge.sty
+
+(knowledge.sty
 Package: knowledge A custom package for the knowledge book
- (/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2021-02-27 v7.00k Hypertext links for LaTeX
- (/usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2021-02-10 v7.00j Hypertext links for LaTeX
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-) (/usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (/usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.s
+ty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-) (/usr/share/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
-) (/usr/share/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefineke
+ys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (/usr/share/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-) (/usr/share/texmf-dist/tex/latex/hycolor/hycolor.sty
+) (C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (/usr/share/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro.s
+ty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-) (/usr/share/texmf-dist/tex/latex/auxhook/auxhook.sty
+) (C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-) (/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
 \@linkdim=\dimen147
 \Hy@linkcounter=\count191
 \Hy@pagecounter=\count192
- (/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2021-02-27 v7.00k Hyperref: PDFDocEncoding definition (HO)
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2021-02-10 v7.00j Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-) (/usr/share/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def
-File: hyperref-langpatches.def 2021-02-27 v7.00k Hyperref: patches for babel languages
-) (/usr/share/texmf-dist/tex/generic/intcalc/intcalc.sty
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref-langpat
+ches.def
+File: hyperref-langpatches.def 2021-02-10 v7.00j Hyperref: patches for babel la
+nguages
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
-) (/usr/share/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count193
- (/usr/share/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2021-02-10 v7.00j Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
@@ -141,16 +167,21 @@ Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
 \c@Hy@tempcnt=\count194
- (/usr/share/texmf-dist/tex/latex/url/url.sty
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4804.
 \XeTeXLinkMargin=\dimen148
- (/usr/share/texmf-dist/tex/generic/bitset/bitset.sty
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
- (/usr/share/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.s
+ty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
 ))
 \Fld@menulength=\count195
 \Field@Width=\dimen149
@@ -164,8 +195,10 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6100.
 Package hyperref Info: PDF/A mode OFF on input line 6105.
 LaTeX Info: Redefining \ref on input line 6145.
 LaTeX Info: Redefining \pageref on input line 6149.
- (/usr/share/texmf-dist/tex/latex/base/atbegshi-ltx.sty
-Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi package
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
+ge
 with kernel methods
 )
 \Hy@abspage=\count196
@@ -173,63 +206,86 @@ with kernel methods
 \c@Hfootnote=\count198
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
- (/usr/share/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2021-02-27 v7.00k Hyperref driver for pdfTeX
- (/usr/share/texmf-dist/tex/latex/base/atveryend-ltx.sty
-Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery package
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2021-02-10 v7.00j Hyperref driver for pdfTeX
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
+e
 with kernel methods
 )
 \Fld@listcount=\count199
 \c@bookmark@seq@number=\count266
- (/usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilec
+heck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
- (/usr/share/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecou
+nter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
 )
 \Hy@SectionHShift=\skip49
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 9.
 Package hyperref Info: Option `linktocpage' set `true' on input line 9.
- (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
- (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
- (/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
- (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
+ (C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen151
 \Gin@req@width=\dimen152
-) (/usr/share/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2021/03/24 3.56 The Babel package
- (/usr/share/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2021/03/24 3.56 Babel common definitions
+) (C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2021/01/26 3.53 The Babel package
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
+File: babel.def 2021/01/26 3.53 Babel common definitions
 \babel@savecnt=\count267
 \U@D=\dimen153
-\l@babelnohyphens=\language87
- (/usr/share/texmf-dist/tex/generic/babel/txtbabel.def)
+\l@babelnohyphens=\language79
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
 )
 \bbl@dirlevel=\count268
- (/usr/share/texmf-dist/tex/generic/babel-english/english.ldf
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: \l@canadian = using hyphenrules for english
 (babel)             (\language0) on input line 102.
 Package babel Info: \l@australian = using hyphenrules for ukenglish
-(babel)             (\language21) on input line 105.
+(babel)             (\language73) on input line 105.
 Package babel Info: \l@newzealand = using hyphenrules for ukenglish
-(babel)             (\language21) on input line 108.
-)) (/usr/share/texmf-dist/tex/latex/xhfill/xhfill.sty (/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
+(babel)             (\language73) on input line 108.
+)) (C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/xhfill\xhfill.sty
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
- (/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -242,7 +298,8 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-) (/usr/share/texmf-dist/tex/latex/tools/calc.sty
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count269
 \calc@Bcount=\count270
@@ -254,11 +311,13 @@ LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count271
 \calc@Cskip=\skip52
-) (/usr/share/texmf-dist/tex/latex/tools/xspace.sty
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 Package: xhfill 2011/05/14\ v 1.01\ modify width and color of hrulefill
-) (/usr/share/texmf-dist/tex/latex/footmisc/footmisc.sty
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/footmisc\footmisc.sty
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
 \FN@temptoken=\toks19
 \footnotemargin=\dimen156
@@ -267,26 +326,50 @@ Package footmisc Info: Declaring symbol style bringhurst on input line 855.
 Package footmisc Info: Declaring symbol style chicago on input line 863.
 Package footmisc Info: Declaring symbol style wiley on input line 872.
 Package footmisc Info: Declaring symbol style lamport-robust on input line 883.
+
 Package footmisc Info: Declaring symbol style lamport* on input line 903.
-Package footmisc Info: Declaring symbol style lamport*-robust on input line 924.
-) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
+.
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcolorbox.sty
 Package: tcolorbox 2020/10/09 version 4.42 text color boxes
- (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-c
+ommon.tex
 \pgfutil@everybye=\toks20
 \pgfutil@tempdima=\dimen157
 \pgfutil@tempdimb=\dimen158
- (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-c
+ommon-lists.tex))
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-l
+atex.def
 \pgfutil@abb=\box47
-) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/share/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.co
+de.tex
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
 Package: pgfrcs 2020/12/27 v3.1.8b (3.1.8b)
 ))
 Package: pgf 2020/12/27 v3.1.8b (3.1.8b)
- (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/share/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.st
+y
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.st
+y
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.
+code.tex
 Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
- (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.c
+ode.tex
 \pgfkeys@pathtoks=\toks21
 \pgfkeys@temptoks=\toks22
- (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeysfi
+ltered.code.tex
 \pgfkeys@tmptoks=\toks23
 ))
 \pgf@x=\dimen159
@@ -309,33 +392,75 @@ Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
 \t@pgf@tokb=\toks25
 \t@pgf@tokc=\toks26
 \pgf@sys@id@count=\count277
- (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
 File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
 )
 Driver file for pgf: pgfsys-pdftex.def
- (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-
+pdftex.def
 File: pgfsys-pdftex.def 2020/12/27 v3.1.8b (3.1.8b)
- (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-
+common-pdf.def
 File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
-))) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+)))
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsyss
+oftpath.code.tex
 File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfsyssoftpath@smallbuffer@items=\count278
 \pgfsyssoftpath@bigbuffer@items=\count279
-) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsysp
+rotocol.code.tex
 File: pgfsysprotocol.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-)) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+))
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.
+code.tex
 Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
- (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
-(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.t
+ex
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.co
+de.tex
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.co
+de.tex)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser.
+code.tex
 \pgfmath@dimen=\dimen169
 \pgfmath@count=\count280
 \pgfmath@box=\box48
 \pgfmath@toks=\toks27
 \pgfmath@stack@operand=\toks28
 \pgfmath@stack@operation=\toks29
-) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctio
+ns.code.tex
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctio
+ns.basic.code.tex)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctio
+ns.trigonometric.code.tex)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctio
+ns.random.code.tex)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctio
+ns.comparison.code.tex)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctio
+ns.base.code.tex)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctio
+ns.round.code.tex)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctio
+ns.misc.code.tex)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctio
+ns.integerarithmetics.code.tex)))
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.c
+ode.tex
 \c@pgfmathroundto@lastzeros=\count281
-)) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+))
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.te
+x)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorep
+oints.code.tex
 File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@picminx=\dimen170
 \pgf@picmaxx=\dimen171
@@ -351,79 +476,120 @@ File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@yy=\dimen181
 \pgf@zx=\dimen182
 \pgf@zy=\dimen183
-) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorep
+athconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@path@lastx=\dimen184
 \pgf@path@lasty=\dimen185
-) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorep
+athusage.code.tex
 File: pgfcorepathusage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@shorten@end@additional=\dimen186
 \pgf@shorten@start@additional=\dimen187
-) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcores
+copes.code.tex
 File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfpic=\box49
 \pgf@hbox=\box50
 \pgf@layerbox@main=\box51
 \pgf@picture@serial@count=\count282
-) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreg
+raphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgflinewidth=\dimen188
-) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoret
+ransformations.code.tex
 File: pgfcoretransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@pt@x=\dimen189
 \pgf@pt@y=\dimen190
 \pgf@pt@temp=\dimen191
-) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreq
+uick.code.tex
 File: pgfcorequick.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreo
+bjects.code.tex
 File: pgfcoreobjects.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorep
+athprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorea
+rrows.code.tex
 File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfarrowsep=\dimen192
-) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcores
+hade.code.tex
 File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@max=\dimen193
 \pgf@sys@shading@range@num=\count283
 \pgf@shadingcount=\count284
-) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorei
+mage.code.tex
 File: pgfcoreimage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 
-(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoree
+xternal.code.tex
 File: pgfcoreexternal.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfexternal@startupbox=\box52
-)) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+))
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorel
+ayers.code.tex
 File: pgfcorelayers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoret
+ransparency.code.tex
 File: pgfcoretransparency.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorep
+atterns.code.tex
 File: pgfcorepatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorer
+df.code.tex
 File: pgfcorerdf.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-))) (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+)))
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulesh
+apes.code.tex
 File: pgfmoduleshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfnodeparttextbox=\box53
-) (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulepl
+ot.code.tex
 File: pgfmoduleplot.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-) (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp
+-version-0-65.sty
 Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@nodesepstart=\dimen194
 \pgf@nodesepend=\dimen195
-) (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp
+-version-1-18.sty
 Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
-)) (/usr/share/texmf-dist/tex/latex/tools/verbatim.sty
+))
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\verbatim.sty
 Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks30
 \verbatim@line=\toks31
 \verbatim@in@stream=\read4
-) (/usr/share/texmf-dist/tex/latex/environ/environ.sty
+) (C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
- (/usr/share/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 )
 \@envbody=\toks32
-) (/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+) (C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count285
 )
@@ -440,23 +606,45 @@ Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \tcb@temp=\box61
 \tcb@out=\write4
 \tcb@record@out=\write5
-) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbraster.code.
+tex
 Library (tcolorbox): 'tcbraster.code.tex' version '4.42'
 \c@tcbrastercolumn=\count289
 \c@tcbrasterrow=\count290
 \c@tcbraster=\count291
-) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbskins.code.t
+ex
 Library (tcolorbox): 'tcbskins.code.tex' version '4.42'
-(/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/share/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.st
+y
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.sty
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.c
+ode.tex))
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.t
+ex))
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.co
+de.tex
 Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
- (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.t
+ex)
 \pgffor@iter=\dimen196
 \pgffor@skip=\dimen197
 \pgffor@stack=\toks33
 \pgffor@toks=\toks34
-)) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+))
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz\
+tikz.code.tex
 Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
- (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibrar
+yplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@plot@mark@count=\count292
 \pgfplotmarksize=\dimen198
@@ -477,47 +665,62 @@ File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \tikznumberofchildren=\count294
 \tikznumberofcurrentchild=\count295
 \tikz@fig@count=\count296
- (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulema
+trix.code.tex
 File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfmatrixcurrentrow=\count297
 \pgfmatrixcurrentcolumn=\count298
 \pgf@matrix@numberofcolumns=\count299
 )
 \tikz@expandcount=\count300
- (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/
+libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )))
 \tcb@waterbox=\box66
- (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbskinsjigsaw.
+code.tex
 Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '4.42'
-)) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
+))
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbbreakable.co
+de.tex
 Library (tcolorbox): 'tcbbreakable.code.tex' version '4.42'
-(/usr/share/texmf-dist/tex/generic/oberdiek/pdfcol.sty
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/oberdiek\pdfcol.sty
 Package: pdfcol 2019/12/29 v1.6 Handle new color stacks for pdfTeX (HO)
 )
 Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
 \tcb@testbox=\box67
 \tcb@totalupperbox=\box68
 \tcb@totallowerbox=\box69
-) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbhooks.code.tex
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbhooks.code.t
+ex
 Library (tcolorbox): 'tcbhooks.code.tex' version '4.42'
-) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbtheorems.cod
+e.tex
 Library (tcolorbox): 'tcbtheorems.code.tex' version '4.42'
-(/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2020/09/23 v2.17i AMS math features
 \@mathmargin=\skip53
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
- (/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks35
 \ex@=\dimen263
-)) (/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+))
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen264
-) (/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count301
@@ -557,25 +760,41 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \mathdisplay@stack=\toks39
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
-)) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
+))
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbfitting.code
+.tex
 Library (tcolorbox): 'tcbfitting.code.tex' version '4.42'
 \tcbfitdim=\dimen272
 \tcb@lowerfitdim=\dimen273
 \tcb@upperfitdim=\dimen274
 \tcb@cur@hbadness=\count313
-) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbxparse.code.tex
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbxparse.code.
+tex
 Library (tcolorbox): 'tcbxparse.code.tex' version '4.42'
-(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.
+sty (C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2021-02-18 L3 programming layer (loader) 
- (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdfte
+x.def
+File: l3backend-pdftex.def 2021-02-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count314
 \l__pdf_internal_box=\box72
-)) (/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-01.sty (/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex)))) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.tex
+))
+Package: xparse 2020-10-27 L3 Experimental document command parser
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse-
+generic.tex)))
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcblistingsutf8
+.code.tex
 Library (tcolorbox): 'tcblistingsutf8.code.tex' version '4.42'
-(/usr/share/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcblistings.cod
+e.tex
 Library (tcolorbox): 'tcblistings.code.tex' version '4.42'
-(/usr/share/texmf-dist/tex/latex/listings/listings.sty
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
 \lst@mode=\count315
 \lst@gtempboxa=\box73
 \lst@token=\toks40
@@ -588,54 +807,82 @@ Library (tcolorbox): 'tcblistings.code.tex' version '4.42'
 \lst@newlines=\count319
 \lst@lineno=\count320
 \lst@maxwidth=\dimen278
- (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 \c@lstnumber=\count321
 \lst@skipnumbers=\count322
 \lst@framebox=\box74
-) (/usr/share/texmf-dist/tex/latex/listings/listings.cfg
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
 Package: listings 2020/03/24 1.8d (Carsten Heinz)
- (/usr/share/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.tex
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcblistingscore
+.code.tex
 Library (tcolorbox): 'tcblistingscore.code.tex' version '4.42'
-(/usr/share/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbprocessing.c
+ode.tex
 Library (tcolorbox): 'tcbprocessing.code.tex' version '4.42'
-(/usr/share/texmf-dist/tex/latex/tools/shellesc.sty
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\shellesc.sty
 Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 77.
 ))
 \c@tcblisting=\count323
-)) (/usr/share/texmf-dist/tex/latex/listingsutf8/listingsutf8.sty
+))
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/listingsutf8\listingsutf8
+.sty
 Package: listingsutf8 2019-12-10 v1.5 Allow UTF-8 in listings input (HO)
- (/usr/share/texmf-dist/tex/generic/stringenc/stringenc.sty
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
-))) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbexternal.code.tex
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)))
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbexternal.cod
+e.tex
 Library (tcolorbox): 'tcbexternal.code.tex' version '4.42'
-) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbmagazine.code.tex
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbmagazine.cod
+e.tex
 Library (tcolorbox): 'tcbmagazine.code.tex' version '4.42'
-) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbvignette.code.tex
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbvignette.cod
+e.tex
 Library (tcolorbox): 'tcbvignette.code.tex' version '4.42'
-(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfadings.code.tex
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/
+libraries\tikzlibraryfadings.code.tex
 File: tikzlibraryfadings.code.tex 2020/12/27 v3.1.8b (3.1.8b)
- (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibrar
+yfadings.code.tex
 File: pgflibraryfadings.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-))) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbposter.code.tex
+)))
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbposter.code.
+tex
 Library (tcolorbox): 'tcbposter.code.tex' version '4.42'
-) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/
+libraries\tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-) (/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-) (/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-) (/usr/share/texmf-dist/tex/latex/mathtools/mathtools.sty
-Package: mathtools 2021/03/18 v1.25 mathematical typesetting tools
- (/usr/share/texmf-dist/tex/latex/mathtools/mhsetup.sty
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.sty
+Package: mathtools 2021/04/12 v1.27 mathematical typesetting tools
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
 LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
@@ -653,7 +900,8 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
 \l_MT_below_shortintertext_sep=\dimen285
 \xmathstrut@box=\box75
 \xmathstrut@dim=\dimen286
-) (/usr/share/texmf-dist/tex/latex/amscls/amsthm.sty
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks41
 \thm@bodyfont=\toks42
@@ -665,13 +913,17 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@headsep=\skip59
 \dth@everypar=\toks46
 )
-LaTeX Font Info:    Trying to load font information for T1+txtt on input line 57.
- (/usr/share/texmf-dist/tex/latex/txfonts/t1txtt.fd
+LaTeX Font Info:    Trying to load font information for T1+txtt on input line 5
+7.
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\t1txtt.fd
 File: t1txtt.fd 2000/12/15 v3.1
 )
 \Lind=\skip60
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 127.
- (/usr/share/texmf-dist/tex/latex/base/t1cmtt.fd
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
+27.
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
@@ -682,7 +934,12 @@ LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
 \c@tcb@cnt@lemma=\count328
 \c@tcb@cnt@corollary=\count329
 \c@tcb@cnt@example=\count330
-) (build/book.aux (build/preface/preface.aux) (build/analysis/analysis.aux) (build/linear_algebra/linear_algebra.aux) (build/logic/logic.aux) (build/topology/topology.aux) (build/computer_science/computer_science.aux) (build/probability/probability.aux) (build/programming/programming.aux))
+)
+(C:\Users\cjm\Documents\GitHub\knowledge-book\build\book.aux
+(preface/preface.aux) (analysis/analysis.aux)
+(linear_algebra/linear_algebra.aux) (logic/logic.aux) (topology/topology.aux)
+(computer_science/computer_science.aux) (probability/probability.aux)
+(programming/programming.aux))
 \openout1 = `book.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
@@ -739,11 +996,14 @@ LaTeX Font Info:    ... okay on input line 16.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring ON on input line 16.
-(/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
- (/usr/share/texmf-dist/tex/latex/refcount/refcount.sty
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-) (/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitle
+string.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count331
@@ -751,11 +1011,13 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 16.
 LaTeX Info: Redefining \pageref on input line 16.
 LaTeX Info: Redefining \nameref on input line 16.
- (build/book.out) (build/book.out)
+ (C:\Users\cjm\Documents\GitHub\knowledge-book\build\book.out)
+(C:\Users\cjm\Documents\GitHub\knowledge-book\build\book.out)
 \@outlinefile=\write6
 \openout6 = `book.out'.
 
- (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count332
 \scratchdimen=\dimen287
@@ -768,63 +1030,76 @@ LaTeX Info: Redefining \nameref on input line 16.
 \MPnumerator=\count336
 \makeMPintoPDFobject=\count337
 \everyMPtoPDFconversion=\toks48
-) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-bas
+e.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+)
 \c@lstlisting=\count338
 LaTeX Font Info:    Trying to load font information for U+msa on input line 20.
- (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+
+ (C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 20.
- (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+)
+[1
 
 
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
+{C:/Users/cjm/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]pdfTeX warning (ex
+t4): destination with the same identifier (name{page.i}) has been already used,
+ duplicate ignored
 <to be read again> 
                    \relax 
 l.24 \end{dedication}
                       [1
 
-] (build/book.toc)
+]
+(C:\Users\cjm\Documents\GitHub\knowledge-book\build\book.toc)
 \tf@toc=\write7
 \openout7 = `book.toc'.
 
  [2
 
 
-] (build/book.theorems)
+]
+(C:\Users\cjm\Documents\GitHub\knowledge-book\build\book.theorems)
 \tf@theorems=\write8
 \openout8 = `book.theorems'.
 
  [3
 
-] (build/book.propositions)
+]
+(C:\Users\cjm\Documents\GitHub\knowledge-book\build\book.propositions)
 \tf@propositions=\write9
 \openout9 = `book.propositions'.
 
  [4
 
-] (build/book.lemmas)
+]
+(C:\Users\cjm\Documents\GitHub\knowledge-book\build\book.lemmas)
 \tf@lemmas=\write10
 \openout10 = `book.lemmas'.
 
  [5
 
-] (build/book.definitions)
+]
+(C:\Users\cjm\Documents\GitHub\knowledge-book\build\book.definitions)
 \tf@definitions=\write11
 \openout11 = `book.definitions'.
 
  [6
 
-] (build/book.examples)
+]
+(C:\Users\cjm\Documents\GitHub\knowledge-book\build\book.examples)
 \tf@examples=\write12
 \openout12 = `book.examples'.
 
@@ -833,80 +1108,121 @@ l.24 \end{dedication}
 ]
 \openout2 = `preface/preface.aux'.
 
- (./preface/preface.tex [1
+
+(preface/preface.tex [1
 
 
 
 ] [2]
 \openout4 = `book.listing'.
 
- (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
-) (/usr/share/texmf-dist/tex/latex/listings/lstlang2.sty
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
 File: lstlang2.sty 2020/03/24 1.8d listings language file
-) (/usr/share/texmf-dist/tex/latex/listings/lstlang3.sty
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
 File: lstlang3.sty 2020/03/24 1.8d listings language file
-) (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
-) (/usr/share/texmf-dist/tex/latex/listings/lstlang2.sty
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
 File: lstlang2.sty 2020/03/24 1.8d listings language file
-) (/usr/share/texmf-dist/tex/latex/listings/lstlang3.sty
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
 File: lstlang3.sty 2020/03/24 1.8d listings language file
-) (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
-) (/usr/share/texmf-dist/tex/latex/listings/lstlang2.sty
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
 File: lstlang2.sty 2020/03/24 1.8d listings language file
-) (/usr/share/texmf-dist/tex/latex/listings/lstlang3.sty
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
 File: lstlang3.sty 2020/03/24 1.8d listings language file
-) (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-) (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
-) (/usr/share/texmf-dist/tex/latex/base/latin1.def
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
 File: latin1.def 2020/08/01 v1.3d Input encoding file
-) (/usr/share/texmf-dist/tex/generic/stringenc/se-utf8.def
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\se-utf8.def
 File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
-) (/usr/share/texmf-dist/tex/generic/stringenc/se-iso-8859-1.def
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\se-iso-8859-1
+.def
 File: se-iso-8859-1.def 2019/11/29 v1.12 stringenc: ISO-8859-1
 )
 \openout4 = `book.listing'.
 
- (/usr/share/texmf-dist/tex/latex/base/latin1.def
+ (C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
 File: latin1.def 2020/08/01 v1.3d Input encoding file
-) [3
+)
+[3
 
 ]
 \openout4 = `book.listing'.
 
- (/usr/share/texmf-dist/tex/latex/base/latin1.def
+ (C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
 File: latin1.def 2020/08/01 v1.3d Input encoding file
 )
 \openout4 = `book.listing'.
 
- (/usr/share/texmf-dist/tex/latex/base/latin1.def
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
 File: latin1.def 2020/08/01 v1.3d Input encoding file
-)) [4] [5]
+) [4])
+[5]
 \openout2 = `analysis/analysis.aux'.
 
- (./analysis/analysis.tex
+ (analysis/analysis.tex
  1.
-(./analysis/theorems/triangle_inequality.tex
-Package hyperref Info: bookmark level for unknown tcolorbox defaults to 0 on input line 1.
-) (./analysis/lemmas/absolute_value_is_equal_to_max.tex) (./analysis/propositions/limit_of_constant.tex [6
+(analysis/theorems/triangle_inequality.tex
+Package hyperref Info: bookmark level for unknown tcolorbox defaults to 0 on in
+put line 1.
+)
+(analysis/lemmas/absolute_value_is_equal_to_max.tex)
+(analysis/propositions/limit_of_constant.tex [6
 
 
 
 
-]) (./analysis/definitions/real_valued_limit.tex) (./analysis/propositions/constant_in_limit.tex) (./analysis/propositions/sum_of_limits.tex [7]) [8] (./analysis/theorems/chain_rule.tex) [9] (./analysis/propositions/little_oh_and_differentiability_equivalence.tex) [10] [11] (./analysis/definitions/bounded_sequence.tex) (./analysis/definitions/directional_derivative.tex)) [12]
+])
+(analysis/definitions/real_valued_limit.tex)
+(analysis/propositions/constant_in_limit.tex)
+(analysis/propositions/sum_of_limits.tex [7]) [8]
+(analysis/theorems/chain_rule.tex) [9]
+(analysis/propositions/little_oh_and_differentiability_equivalence.tex)
+[10] [11] (analysis/definitions/bounded_sequence.tex)
+(analysis/definitions/directional_derivative.tex)) [12]
 \openout2 = `linear_algebra/linear_algebra.aux'.
 
- (./linear_algebra/linear_algebra.tex
+
+(linear_algebra/linear_algebra.tex
  2.
-(./linear_algebra/definitions/algebraic_dot_product.tex) (./linear_algebra/definitions/geometric_dot_product.tex (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypatterns.code.tex
+(linear_algebra/definitions/algebraic_dot_product.tex)
+(linear_algebra/definitions/geometric_dot_product.tex
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/
+libraries\tikzlibrarypatterns.code.tex
 File: tikzlibrarypatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
- (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibrarypatterns.code.tex
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibrar
+ypatterns.code.tex
 File: pgflibrarypatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-)) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
+))
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/
+libraries\tikzlibrarydecorations.pathreplacing.code.tex
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/
+libraries\tikzlibrarydecorations.code.tex
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulede
+corations.code.tex
 \pgfdecoratedcompleteddistance=\dimen289
 \pgfdecoratedremainingdistance=\dimen290
 \pgfdecoratedinputsegmentcompleteddistance=\dimen291
@@ -917,45 +1233,81 @@ File: pgflibrarypatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfdecorationsegmentlength=\dimen295
 )
 \tikz@lib@dec@box=\box77
-) (/usr/share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex))) (./linear_algebra/propositions/algebraic_def_implies_geometric_def_of_dot_product.tex [13
+)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decoratio
+ns\pgflibrarydecorations.pathreplacing.code.tex)))
+(linear_algebra/propositions/algebraic_def_implies_geometric_def_of_dot_product
+.tex [13
 
 
 
 
-]) (./linear_algebra/definitions/matrix_multiplication.tex) (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+]) (linear_algebra/definitions/matrix_multiplication.tex)
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 22.
- (./linear_algebra/programs/matrix_multiplication.py [14])) [15]
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 22.
+
+(linear_algebra/programs/matrix_multiplication.py [14])) [15]
 \openout2 = `logic/logic.aux'.
 
- (./logic/logic.tex
+ (logic/logic.tex
  3.
-(./logic/definitions/first_order_language.tex) (./logic/definitions/a_term's_variable_replaced_by_a_term.tex) (./logic/definitions/a_term_is_substitutable_for_a_variable.tex) [16
+(logic/definitions/first_order_language.tex)
+(logic/definitions/a_term's_variable_replaced_by_a_term.tex)
+(logic/definitions/a_term_is_substitutable_for_a_variable.tex) [16
 
 
 
 
-] (./logic/definitions/free_variable_in_a_formula.tex) (./logic/definitions/deduction_of_a_formula.tex) [17] (./logic/definitions/logical_axioms.tex) (./logic/definitions/consistent_set_of_l_formulas.tex) [18] (./logic/propositions/contradiction_has_no_model.tex
+]
+(logic/definitions/free_variable_in_a_formula.tex)
+(logic/definitions/deduction_of_a_formula.tex) [17]
+(logic/definitions/logical_axioms.tex)
+(logic/definitions/consistent_set_of_l_formulas.tex) [18]
+(logic/propositions/contradiction_has_no_model.tex
 LaTeX Font Info:    Trying to load font information for U+euf on input line 3.
- (/usr/share/texmf-dist/tex/latex/amsfonts/ueuf.fd
+
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
-)) (./logic/propositions/implying_a_contradiction_means_no_model.tex) (./logic/propositions/logical_contradiction.tex) (./logic/lemmas/constant_extension_still_consistent.tex [19]) (./logic/definitions/representable_set.tex) (./logic/definitions/weakly_representable_set.tex) (./logic/definitions/total_function.tex [20]) (./logic/definitions/partial_function.tex) (./logic/definitions/representable_function.tex) (./logic/definitions/definable_set.tex) (./logic/corollaries/definable_by_delta_formula_implies_representable.tex)) [21]
+))
+(logic/propositions/implying_a_contradiction_means_no_model.tex)
+(logic/propositions/logical_contradiction.tex)
+(logic/lemmas/constant_extension_still_consistent.tex [19])
+(logic/definitions/representable_set.tex)
+(logic/definitions/weakly_representable_set.tex)
+(logic/definitions/total_function.tex [20])
+(logic/definitions/partial_function.tex)
+(logic/definitions/representable_function.tex)
+(logic/definitions/definable_set.tex)
+(logic/corollaries/definable_by_delta_formula_implies_representable.tex))
+[21]
 \openout2 = `topology/topology.aux'.
 
- (./topology/topology.tex
+ (topology/topology.tex
  4.
-(./topology/definitions/basis.tex) (./topology/definitions/subspace_topology.tex) (./topology/definitions/box_topology.tex) [22
+(topology/definitions/basis.tex) (topology/definitions/subspace_topology.tex)
+(topology/definitions/box_topology.tex) [22
 
 
 
 
-] [23] (./topology/lemmas/epsilon_ball_contains_another.tex) (./topology/propositions/epsilon_balls_form_a_basis.tex) (./topology/definitions/metric_topology.tex) [24] (./topology/examples/function_on_R_omega.tex) (./topology/definitions/connected.tex) [25] (./topology/examples/R_omega_connected_in_diff_topos.tex) (./topology/propositions/connected_implies_closure_connected.tex [26]) (./topology/definitions/totally_disconnected.tex)) [27]
+] [23]
+(topology/lemmas/epsilon_ball_contains_another.tex)
+(topology/propositions/epsilon_balls_form_a_basis.tex)
+(topology/definitions/metric_topology.tex) [24]
+(topology/examples/function_on_R_omega.tex) (topology/definitions/connected.tex
+) [25] (topology/examples/R_omega_connected_in_diff_topos.tex)
+(topology/propositions/connected_implies_closure_connected.tex [26])
+(topology/definitions/totally_disconnected.tex)) [27]
 \openout2 = `computer_science/computer_science.aux'.
 
- (./computer_science/computer_science.tex
+
+(computer_science/computer_science.tex
  5.
-(./computer_science/definitions/big_o.tex) (./computer_science/definitions/little_o.tex)) [28
+(computer_science/definitions/big_o.tex)
+(computer_science/definitions/little_o.tex)) [28
 
 
 
@@ -963,9 +1315,9 @@ File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 ]
 \openout2 = `probability/probability.aux'.
 
- (./probability/probability.tex
+ (probability/probability.tex
  6.
-(./probability/definitions/conditional_independence.tex)) [29
+(probability/definitions/conditional_independence.tex)) [29
 
 
 
@@ -973,45 +1325,93 @@ File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 ]
 \openout2 = `programming/programming.aux'.
 
- (./programming/programming.tex
+
+(programming/programming.tex
  7.
 \openout4 = `book.listing'.
 
-(/usr/share/texmf-dist/tex/latex/base/latin1.def
+(C:\Users\cjm\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
 File: latin1.def 2020/08/01 v1.3d Input encoding file
-)) [30
+))
+[30
 
 
 
 
-] (build/book.aux (build/preface/preface.aux) (build/analysis/analysis.aux) (build/linear_algebra/linear_algebra.aux) (build/logic/logic.aux) (build/topology/topology.aux) (build/computer_science/computer_science.aux) (build/probability/probability.aux) (build/programming/programming.aux))
+] (C:\Users\cjm\Documents\GitHub\knowledge-book\build\book.aux
+(preface/preface.aux) (analysis/analysis.aux)
+(linear_algebra/linear_algebra.aux) (logic/logic.aux) (topology/topology.aux)
+(computer_science/computer_science.aux) (probability/probability.aux)
+(programming/programming.aux))
 Package rerunfilecheck Info: File `book.out' has not changed.
 (rerunfilecheck)             Checksum: CB9928E72A1BBCAB7ADE3FF8FBCAED0B;3270.
  ) 
 Here is how much of TeX's memory you used:
- 30490 strings out of 478994
- 591325 string characters out of 5864750
- 1272692 words of memory out of 5000000
- 46839 multiletter control sequences out of 15000+600000
- 438184 words of font info for 119 fonts, out of 8000000 for 9000
+ 30506 strings out of 479334
+ 606073 string characters out of 2858034
+ 1273194 words of memory out of 3000000
+ 46803 multiletter control sequences out of 15000+200000
+ 438184 words of font info for 119 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 101i,18n,108p,780b,2222s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exist, replaced by a fixed one
+ 101i,18n,108p,782b,2222s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exi
+st, replaced by a fixed one
 
-pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist, replaced by a fixed one
+pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist
+, replaced by a fixed one
 
-pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist, replaced by a fixed one
+pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist
+, replaced by a fixed one
 
-pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist, replaced by a fixed one
+pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
+, replaced by a fixed one
 
-pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
+, replaced by a fixed one
 
-{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsl1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt090
-0.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texmf-dist/fonts/type1/public/txfonts/t1xbtt.pfb></usr/share/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb>
-Output written on build/book.pdf (38 pages, 587007 bytes).
+ <C:\Users\cjm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074
+.pk> <C:\Users\cjm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx
+0800.pk> <C:\Users\cjm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
+ecbx1200.pk> <C:\Users\cjm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi
+600\ecrm0600.pk> <C:\Users\cjm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\ecsl1095.pk> <C:\Users\cjm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappe
+n/ec/dpi600\ectt0900.pk> <C:\Users\cjm\AppData\Local\MiKTeX\fonts/pk/ljfour/jkn
+appen/ec/dpi600\ecrm0900.pk> <C:\Users\cjm\AppData\Local\MiKTeX\fonts/pk/ljfour
+/jknappen/ec/dpi600\tcrm0600.pk> <C:\Users\cjm\AppData\Local\MiKTeX\fonts/pk/lj
+four/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\cjm\AppData\Local\MiKTeX\fonts/p
+k/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\cjm\AppData\Local\MiKTeX\fon
+ts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\cjm\AppData\Local\MiKTeX
+\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\cjm\AppData\Local\Mi
+KTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\cjm\AppData\Loca
+l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\cjm\AppData\
+Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1000.pk> <C:\Users\cjm\AppD
+ata\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0700.pk> <C:\Users\cjm\
+AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\
+cjm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0800.pk> <C:\Us
+ers\cjm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C
+:\Users\cjm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk
+><C:/Users/cjm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmb
+x10.pfb><C:/Users/cjm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmex10.pfb><C:/Users/cjm/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmmi10.pfb><C:/Users/cjm/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmmi6.pfb><C:/Users/cjm/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmmi8.pfb><C:/Users/cjm/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/cjm/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/cjm/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/cjm/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/cjm/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/cjm
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb><C:/Use
+rs/cjm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eufm10.p
+fb><C:/Users/cjm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symb
+ols/msam10.pfb><C:/Users/cjm/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/symbols/msbm10.pfb><C:/Users/cjm/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/txfonts/t1xbtt.pfb><C:/Users/cjm/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/txfonts/t1xtt.pfb>
+Output written on C:\Users\cjm\Documents\GitHub\knowledge-book\build\book.pdf (
+38 pages, 523650 bytes).
 PDF statistics:
- 846 PDF objects out of 1000 (max. 8388607)
- 741 compressed objects within 8 object streams
- 272 named destinations out of 1000 (max. 500000)
+ 1369 PDF objects out of 1440 (max. 8388607)
+ 276 named destinations out of 1000 (max. 500000)
  357 words of extra memory for PDF output out of 10000 (max. 10000000)
 
