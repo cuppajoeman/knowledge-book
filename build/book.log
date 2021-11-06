@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.10.20)  6 NOV 2021 18:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.10.20)  6 NOV 2021 19:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -907,19 +907,19 @@ File: latin1.def 2020/08/01 v1.3d Input encoding file
 
  (/usr/share/texmf-dist/tex/latex/base/latin1.def
 File: latin1.def 2020/08/01 v1.3d Input encoding file
-)) [4]
+) [4]) [5]
 \openout2 = `analysis/analysis.aux'.
 
  (./analysis/analysis.tex
 Chapter 1.
 (./analysis/theorems/triangle_inequality.tex
 Package hyperref Info: bookmark level for unknown tcolorbox defaults to 0 on input line 1.
-) (./analysis/lemmas/absolute_value_is_equal_to_max.tex) (./analysis/propositions/limit_of_constant.tex) (./analysis/definitions/real_valued_limit.tex [5
+) (./analysis/lemmas/absolute_value_is_equal_to_max.tex) (./analysis/propositions/limit_of_constant.tex) (./analysis/definitions/real_valued_limit.tex [6
 
 
 
 
-]) (./analysis/propositions/constant_in_limit.tex) (./analysis/propositions/sum_of_limits.tex [6]) [7] (./analysis/theorems/chain_rule.tex) [8] (./analysis/propositions/little_oh_and_differentiability_equivalence.tex) [9] [10] (./analysis/definitions/bounded_sequence.tex) (./analysis/definitions/directional_derivative.tex)) [11]
+]) (./analysis/propositions/constant_in_limit.tex) (./analysis/propositions/sum_of_limits.tex [7]) [8] (./analysis/theorems/chain_rule.tex) [9] (./analysis/propositions/little_oh_and_differentiability_equivalence.tex) [10] [11] (./analysis/definitions/bounded_sequence.tex) (./analysis/definitions/directional_derivative.tex)) [12]
 \openout2 = `linear_algebra/linear_algebra.aux'.
 
  (./linear_algebra/linear_algebra.tex
@@ -939,7 +939,7 @@ File: pgflibrarypatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfdecorationsegmentlength=\dimen300
 )
 \tikz@lib@dec@box=\box78
-) (/usr/share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex))) (./linear_algebra/propositions/algebraic_def_implies_geometric_def_of_dot_product.tex) (./linear_algebra/definitions/matrix_multiplication.tex) [12
+) (/usr/share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex))) (./linear_algebra/propositions/algebraic_def_implies_geometric_def_of_dot_product.tex) (./linear_algebra/definitions/matrix_multiplication.tex) [13
 
 
 
@@ -948,36 +948,36 @@ File: pgflibrarypatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 22.
- (./linear_algebra/programs/matrix_multiplication.py [13])) [14]
+ (./linear_algebra/programs/matrix_multiplication.py [14])) [15]
 \openout2 = `logic/logic.aux'.
 
  (./logic/logic.tex
 Chapter 3.
-(./logic/definitions/first_order_language.tex) (./logic/definitions/a_term's_variable_replaced_by_a_term.tex) (./logic/definitions/a_term_is_substitutable_for_a_variable.tex) [15
+(./logic/definitions/first_order_language.tex) (./logic/definitions/a_term's_variable_replaced_by_a_term.tex) (./logic/definitions/a_term_is_substitutable_for_a_variable.tex) [16
 
 
 
 
-] (./logic/definitions/free_variable_in_a_formula.tex) (./logic/definitions/deduction_of_a_formula.tex) [16] (./logic/definitions/logical_axioms.tex) (./logic/definitions/consistent_set_of_l_formulas.tex) [17] (./logic/propositions/contradiction_has_no_model.tex
+] (./logic/definitions/free_variable_in_a_formula.tex) (./logic/definitions/deduction_of_a_formula.tex) [17] (./logic/definitions/logical_axioms.tex) (./logic/definitions/consistent_set_of_l_formulas.tex) [18] (./logic/propositions/contradiction_has_no_model.tex
 LaTeX Font Info:    Trying to load font information for U+euf on input line 3.
  (/usr/share/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
-)) (./logic/propositions/implying_a_contradiction_means_no_model.tex) (./logic/propositions/logical_contradiction.tex) (./logic/lemmas/constant_extension_still_consistent.tex [18]) (./logic/definitions/representable_set.tex) (./logic/definitions/weakly_representable_set.tex) (./logic/definitions/total_function.tex [19]) (./logic/definitions/partial_function.tex) (./logic/definitions/representable_function.tex) (./logic/definitions/definable_set.tex) (./logic/corollaries/definable_by_delta_formula_implies_representable.tex)) [20]
+)) (./logic/propositions/implying_a_contradiction_means_no_model.tex) (./logic/propositions/logical_contradiction.tex) (./logic/lemmas/constant_extension_still_consistent.tex [19]) (./logic/definitions/representable_set.tex) (./logic/definitions/weakly_representable_set.tex) (./logic/definitions/total_function.tex [20]) (./logic/definitions/partial_function.tex) (./logic/definitions/representable_function.tex) (./logic/definitions/definable_set.tex) (./logic/corollaries/definable_by_delta_formula_implies_representable.tex)) [21]
 \openout2 = `topology/topology.aux'.
 
  (./topology/topology.tex
 Chapter 4.
-(./topology/definitions/basis.tex) (./topology/definitions/subspace_topology.tex) (./topology/definitions/box_topology.tex) [21
+(./topology/definitions/basis.tex) (./topology/definitions/subspace_topology.tex) (./topology/definitions/box_topology.tex) [22
 
 
 
 
-] [22] (./topology/lemmas/epsilon_ball_contains_another.tex) (./topology/propositions/epsilon_balls_form_a_basis.tex) (./topology/definitions/metric_topology.tex) [23] (./topology/examples/function_on_R_omega.tex) (./topology/definitions/connected.tex) [24] (./topology/examples/R_omega_connected_in_diff_topos.tex) (./topology/propositions/connected_implies_closure_connected.tex [25]) (./topology/definitions/totally_disconnected.tex)) [26]
+] [23] (./topology/lemmas/epsilon_ball_contains_another.tex) (./topology/propositions/epsilon_balls_form_a_basis.tex) (./topology/definitions/metric_topology.tex) [24] (./topology/examples/function_on_R_omega.tex) (./topology/definitions/connected.tex) [25] (./topology/examples/R_omega_connected_in_diff_topos.tex) (./topology/propositions/connected_implies_closure_connected.tex [26]) (./topology/definitions/totally_disconnected.tex)) [27]
 \openout2 = `computer_science/computer_science.aux'.
 
  (./computer_science/computer_science.tex
 Chapter 5.
-(./computer_science/definitions/big_o.tex) (./computer_science/definitions/little_o.tex)) [27
+(./computer_science/definitions/big_o.tex) (./computer_science/definitions/little_o.tex)) [28
 
 
 
@@ -987,7 +987,7 @@ Chapter 5.
 
  (./probability/probability.tex
 Chapter 6.
-(./probability/definitions/conditional_independence.tex)) [28
+(./probability/definitions/conditional_independence.tex)) [29
 
 
 
@@ -1001,7 +1001,7 @@ Chapter 7.
 
 (/usr/share/texmf-dist/tex/latex/base/latin1.def
 File: latin1.def 2020/08/01 v1.3d Input encoding file
-)) [29
+)) [30
 
 
 
@@ -1011,9 +1011,9 @@ Package rerunfilecheck Info: File `book.out' has not changed.
 (rerunfilecheck)             Checksum: CB9928E72A1BBCAB7ADE3FF8FBCAED0B;3270.
  ) 
 Here is how much of TeX's memory you used:
- 30791 strings out of 478994
- 595252 string characters out of 5864750
- 1308291 words of memory out of 5000000
+ 30792 strings out of 478994
+ 595259 string characters out of 5864750
+ 1308796 words of memory out of 5000000
  47139 multiletter control sequences out of 15000+600000
  439756 words of font info for 124 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1030,10 +1030,10 @@ pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist,
 
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfit1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsl109
 5.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texmf-dist/fonts/type1/public/txfonts/t1xbtt.pfb></usr/share/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb>
-Output written on build/book.pdf (37 pages, 613233 bytes).
+Output written on build/book.pdf (38 pages, 614391 bytes).
 PDF statistics:
- 840 PDF objects out of 1000 (max. 8388607)
- 735 compressed objects within 8 object streams
- 262 named destinations out of 1000 (max. 500000)
+ 844 PDF objects out of 1000 (max. 8388607)
+ 738 compressed objects within 8 object streams
+ 263 named destinations out of 1000 (max. 500000)
  357 words of extra memory for PDF output out of 10000 (max. 10000000)
 
