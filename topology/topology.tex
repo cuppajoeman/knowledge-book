@@ -105,17 +105,36 @@ for every pair of points $ a_{ 1 } , a_{ 2 } \in  A $
 \end{definition}
 
 
+\input{topology/examples/function_on_R_omega}
+
+
+
 \section{Connectedness and Compactness}
 
-\begin{example}{Closed and Bounded, not Compact}{}
+
+\input{topology/definitions/connected}
+
+Notice that $ U, V $ are actually clopen, as $ X \setminus  U =  V $ and $ X \setminus  V = U $ stating that $ V $ and $ U $ are closed as well.
+
+\begin{example}{Closed and Bounded, not Compact}{closed_and_bounded_not_compact}
 A metric space $X$  and a closed and bounded subspace $Y$ of  $X$  that is not compact.
 \end{example}
+
 
 \begin{itemize}
     \item Consider the set $ X =  \left\{ \frac{1}{n}: n \in  \mathbb{N} ^{ +  }  \right\}  $, with the \hyperref[example:discrete_metric]{discrete metric}, it is bounded because the for any two points $ a, b \in X, d\left( a, b \right)  \le 1 $  %todo{closed and bounded proof}
     \item Let $ X $ be an infinite set and let consider the discrete metric on that set,  the metric topology which it induces (call it $ \mathcal{ T }  $)  is the discrete topology of $ X $. Therefore if we consider any subset $ Y $ of $ X $ it is closed, as $ X \setminus Y \in  \mathcal{ T }  $ (remember it's the discrete topology). But the open covering $ \left\{ \left\{ x \right\} : x \in  X \right\}  $ has no finite subcollection which also covers $ X $.
 \end{itemize}
 
+\input{topology/examples/R_omega_connected_in_diff_topos}
+
+\input{topology/propositions/connected_implies_closure_connected}
+
+\input{topology/definitions/totally_disconnected}
+
+Consider $ \mathbb{R} _{ \ell } $ if we have $ \left\{ a \right\}  $ and $ \left\{ b \right\}  $ then the open sets $ \left( - \infty , b \right) $ and $ \left[ b, \infty  \right) $ is a separation of $ \mathbb{R} _{ \ell }  $, therefore it's disconnected. Similarly for any two points $ a, b $  in $ \mathbb{Q}  $ we have some irrational number $ r $ between the two, and thus $ \left( - \infty , r \right) _{ \mathbb{Q}  } , \left( r, \infty  \right) _{ \mathbb{Q}  }  $ is a separation thus $ \mathbb{Q}  $ is totally disconnected under this topology. 
+
+Let's look at $ \mathbb{R}  $ with the fite complement topology. Right off the bat, we note that if a set is finite in $ \mathbb{R}  $ it's complement must be infinite therefore if $ \mathbb{R}  $ was completely disconnected it would mean for any singleton sets, we have a separation $ U, V $, but that means that $ U $ and $ V $ must be infinite, but we then get a contraditiction as $ \mathbb{R} =  U \cup V $ so $ R \setminus U = V $, now since $ U $ was open this implies that $ V $ is finite, which is a contradiction. This idea may be extended to $ \mathbb{R} ^{ 2 }  $.
 
 
 \subsection{Compact Spaces}

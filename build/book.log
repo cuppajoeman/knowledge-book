@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.10.20)  1 NOV 2021 14:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.10.20)  5 NOV 2021 11:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -700,28 +700,28 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@headsep=\skip59
 \dth@everypar=\toks46
 )
-LaTeX Font Info:    Trying to load font information for T1+txtt on input line 55.
+LaTeX Font Info:    Trying to load font information for T1+txtt on input line 57.
  (/usr/share/texmf-dist/tex/latex/txfonts/t1txtt.fd
 File: t1txtt.fd 2000/12/15 v3.1
 )
 \Lind=\skip60
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 125.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 127.
  (/usr/share/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 
 LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
-(Font)              using `T1/cmtt/bx/n' instead on input line 125.
+(Font)              using `T1/cmtt/bx/n' instead on input line 127.
 
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 125.
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 127.
 \c@tcb@cnt@definition=\count327
 \c@tcb@cnt@theorem=\count328
 \c@tcb@cnt@proposition=\count329
 \c@tcb@cnt@lemma=\count330
 \c@tcb@cnt@corollary=\count331
 \c@tcb@cnt@example=\count332
-) (build/book.aux (build/preface/preface.aux) (build/analysis/analysis.aux) (build/linear_algebra/linear_algebra.aux) (build/logic/logic.aux) (build/topology/topology.aux) (build/computer_science/computer_science.aux) (build/programming/programming.aux))
+) (build/book.aux (build/preface/preface.aux) (build/analysis/analysis.aux) (build/linear_algebra/linear_algebra.aux) (build/logic/logic.aux) (build/topology/topology.aux) (build/computer_science/computer_science.aux) (build/probability/probability.aux) (build/programming/programming.aux))
 \openout1 = `book.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
@@ -985,6 +985,11 @@ LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
 ) [3
 
 ]
+
+LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
+(Font)              using `T1/iwona/m/it' instead on input line 43.
+
+[4]
 \openout2 = `analysis/analysis.aux'.
 
  (./analysis/analysis.tex
@@ -1011,7 +1016,7 @@ LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
 LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
 (Font)              using `T1/iwona/m/it' instead on input line 1.
 
-[4
+[5
 
 
 
@@ -1030,7 +1035,7 @@ LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
 LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
 (Font)              using `T1/iwona/m/it' instead on input line 33.
 
-[5]) (./analysis/propositions/sum_of_limits.tex
+[6]) (./analysis/propositions/sum_of_limits.tex
 
 LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
 (Font)              using `T1/iwona/m/it' instead on input line 1.
@@ -1040,7 +1045,7 @@ LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
 LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
 (Font)              using `T1/iwona/m/it' instead on input line 15.
 
-[6] (./analysis/theorems/chain_rule.tex
+[7] (./analysis/theorems/chain_rule.tex
 
 LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
 (Font)              using `T1/iwona/m/it' instead on input line 1.
@@ -1050,7 +1055,7 @@ LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
 LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
 (Font)              using `T1/iwona/m/it' instead on input line 22.
 
-[7] (./analysis/propositions/little_oh_and_differentiability_equivalence.tex
+[8] (./analysis/propositions/little_oh_and_differentiability_equivalence.tex
 
 LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
 (Font)              using `T1/iwona/m/it' instead on input line 1.
@@ -1060,7 +1065,17 @@ LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
 LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
 (Font)              using `T1/iwona/m/it' instead on input line 27.
 
-[8] (./analysis/definitions/directional_derivative.tex
+[9]
+
+LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
+(Font)              using `T1/iwona/m/it' instead on input line 35.
+
+[10] (./analysis/definitions/bounded_sequence.tex
+
+LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
+(Font)              using `T1/iwona/m/it' instead on input line 1.
+
+) (./analysis/definitions/directional_derivative.tex
 
 LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
 (Font)              using `T1/iwona/m/it' instead on input line 1.
@@ -1073,7 +1088,7 @@ File: ot1iwona.fd 2008/07/22 v0.995 font definition file for OT1/iwona (MW)
 LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
 (Font)              using `T1/iwona/m/it' instead on input line 44.
 
-[9]
+[11]
 \openout2 = `linear_algebra/linear_algebra.aux'.
 
  (./linear_algebra/linear_algebra.tex
@@ -1113,7 +1128,7 @@ Overfull \hbox (48.54323pt too wide) detected at line 16
 [] \OMS/iwona/m/n/10.95 ^^A [] \OT1/iwona/m/n/10.95 = [] [] [] [] [] [] + [] [] [] [] [] [] = [] [] []
  []
 
-[10
+[12
 
 
 
@@ -1138,7 +1153,7 @@ Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on in
 LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
 (Font)              using `T1/iwona/m/it' instead on input line 27.
 
-[11]
+[13]
 LaTeX Info: Symbol \textminus not provided by
             font family iwona in TS1 encoding.
             Default family used instead on input line 41.
@@ -1147,30 +1162,132 @@ LaTeX Info: Symbol \textminus not provided by
 LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
 (Font)              using `T1/iwona/m/it' instead on input line 45.
 
-[12]
+[14]
 \openout2 = `logic/logic.aux'.
 
  (./logic/logic.tex
  3.
+(./logic/definitions/first_order_language.tex
 
 LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
-(Font)              using `T1/iwona/m/it' instead on input line 5.
+(Font)              using `T1/iwona/m/it' instead on input line 1.
+
+) (./logic/definitions/a_term's_variable_replaced_by_a_term.tex
+
+LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
+(Font)              using `T1/iwona/m/it' instead on input line 1.
+
+) (./logic/definitions/a_term_is_substitutable_for_a_variable.tex
+
+LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
+(Font)              using `T1/iwona/m/it' instead on input line 1.
+
+) [15
+
+
+
+
+] (./logic/definitions/free_variable_in_a_formula.tex
+
+LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
+(Font)              using `T1/iwona/m/it' instead on input line 1.
+
+) (./logic/definitions/deduction_of_a_formula.tex
+
+LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
+(Font)              using `T1/iwona/m/it' instead on input line 1.
+
+)
+
+LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
+(Font)              using `T1/iwona/m/it' instead on input line 53.
+
+[16] (./logic/definitions/logical_axioms.tex
+
+LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
+(Font)              using `T1/iwona/m/it' instead on input line 1.
+
+)
+
+LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
+(Font)              using `T1/iwona/m/it' instead on input line 56.
 
 
 LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
-(Font)              using `T1/iwona/m/it' instead on input line 41.
+(Font)              using `T1/iwona/m/it' instead on input line 87.
 
-) [13
+[17] (./logic/definitions/consistent_set_of_l_formulas.tex
+
+LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
+(Font)              using `T1/iwona/m/it' instead on input line 1.
+
+) (./logic/propositions/contradiction_has_no_model.tex
+
+LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
+(Font)              using `T1/iwona/m/it' instead on input line 1.
+
+LaTeX Font Info:    Trying to load font information for U+euf on input line 3.
+(/usr/share/texmf-dist/tex/latex/amsfonts/ueuf.fd
+File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
+)) (./logic/lemmas/constant_extension_still_consistent.tex
+
+LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
+(Font)              using `T1/iwona/m/it' instead on input line 1.
+
+)
+
+LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
+(Font)              using `T1/iwona/m/it' instead on input line 100.
 
 
+LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
+(Font)              using `T1/iwona/m/it' instead on input line 115.
+
+[18] (./logic/definitions/representable_set.tex
+
+LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
+(Font)              using `T1/iwona/m/it' instead on input line 1.
+
+) (./logic/definitions/weakly_representable_set.tex
+
+LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
+(Font)              using `T1/iwona/m/it' instead on input line 1.
+
+) (./logic/definitions/total_function.tex
+
+LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
+(Font)              using `T1/iwona/m/it' instead on input line 1.
+
+) (./logic/definitions/partial_function.tex
+
+LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
+(Font)              using `T1/iwona/m/it' instead on input line 1.
+
+) (./logic/definitions/representable_function.tex
+
+LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
+(Font)              using `T1/iwona/m/it' instead on input line 1.
+
+) (./logic/definitions/definable_set.tex
+
+LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
+(Font)              using `T1/iwona/m/it' instead on input line 1.
+
+) (./logic/corollaries/definable_by_delta_formula_implies_representable.tex
+
+LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
+(Font)              using `T1/iwona/m/it' instead on input line 2.
 
 
-]
+LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
+(Font)              using `T1/iwona/m/it' instead on input line 3.
+
+[19]))
 
 LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
 (Font)              using `T1/iwona/m/it' instead on input line 46.
 
-[14]
+[20]
 \openout2 = `topology/topology.aux'.
 
  (./topology/topology.tex
@@ -1195,7 +1312,7 @@ LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
 LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
 (Font)              using `T1/iwona/m/it' instead on input line 1.
 
-) [15
+) [21
 
 
 
@@ -1225,7 +1342,7 @@ LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
 LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
 (Font)              using `T1/iwona/m/it' instead on input line 82.
 
-[16]
+[22]
 
 LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
 (Font)              using `T1/iwona/m/it' instead on input line 84.
@@ -1254,29 +1371,64 @@ LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
 LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
 (Font)              using `T1/iwona/m/it' instead on input line 106.
 
-[17]
+[23] (./topology/examples/function_on_R_omega.tex
 
 LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
-(Font)              using `T1/iwona/m/it' instead on input line 110.
+(Font)              using `T1/iwona/m/it' instead on input line 1.
+
+) (./topology/definitions/connected.tex
+
+LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
+(Font)              using `T1/iwona/m/it' instead on input line 1.
+
+)
+
+LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
+(Font)              using `T1/iwona/m/it' instead on input line 116.
+
+[24]
+
+LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
+(Font)              using `T1/iwona/m/it' instead on input line 119.
+
+(./topology/examples/R_omega_connected_in_diff_topos.tex
+
+LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
+(Font)              using `T1/iwona/m/it' instead on input line 1.
 
 
 LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
-(Font)              using `T1/iwona/m/it' instead on input line 123.
+(Font)              using `T1/iwona/m/it' instead on input line 32.
+
+[25]) (./topology/propositions/connected_implies_closure_connected.tex
+
+LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
+(Font)              using `T1/iwona/m/it' instead on input line 1.
+
+) (./topology/definitions/totally_disconnected.tex
+
+LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
+(Font)              using `T1/iwona/m/it' instead on input line 1.
+
+)
+
+LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
+(Font)              using `T1/iwona/m/it' instead on input line 142.
 
 
 LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
-(Font)              using `T1/iwona/m/it' instead on input line 127.
+(Font)              using `T1/iwona/m/it' instead on input line 146.
 
 
 LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
-(Font)              using `T1/iwona/m/it' instead on input line 131.
+(Font)              using `T1/iwona/m/it' instead on input line 150.
 
 )
 
 LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
 (Font)              using `T1/iwona/m/it' instead on input line 47.
 
-[18]
+[26]
 \openout2 = `computer_science/computer_science.aux'.
 
  (./computer_science/computer_science.tex
@@ -1291,7 +1443,22 @@ LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
 LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
 (Font)              using `T1/iwona/m/it' instead on input line 1.
 
-)) [19
+)) [27
+
+
+
+
+]
+\openout2 = `probability/probability.aux'.
+
+ (./probability/probability.tex
+ 6.
+(./probability/definitions/conditional_independence.tex
+
+LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
+(Font)              using `T1/iwona/m/it' instead on input line 1.
+
+)) [28
 
 
 
@@ -1300,7 +1467,7 @@ LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
 \openout2 = `programming/programming.aux'.
 
  (./programming/programming.tex
- 6.
+ 7.
 \openout4 = `book.listing'.
 
 (/usr/share/texmf-dist/tex/latex/base/latin1.def
@@ -1314,8 +1481,6 @@ LaTeX Font Info:    Font shape `OT1/iwona/bx/n' in size <10> not available
 (Font)              Font shape `OT1/iwona/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `OT1/iwona/bx/n' in size <7> not available
 (Font)              Font shape `OT1/iwona/b/n' tried instead on input line 1.
-LaTeX Font Info:    Font shape `OT1/iwona/bx/n' in size <5> not available
-(Font)              Font shape `OT1/iwona/b/n' tried instead on input line 1.
 
 LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
 (Font)              using `T1/cmtt/bx/n' instead on input line 1.
@@ -1328,23 +1493,23 @@ LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
 LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
 (Font)              using `T1/cmtt/bx/n' instead on input line 1.
 
-) [20
+) [29
 
 
 
 
-] (build/book.aux (build/preface/preface.aux) (build/analysis/analysis.aux) (build/linear_algebra/linear_algebra.aux) (build/logic/logic.aux) (build/topology/topology.aux) (build/computer_science/computer_science.aux) (build/programming/programming.aux))
+] (build/book.aux (build/preface/preface.aux) (build/analysis/analysis.aux) (build/linear_algebra/linear_algebra.aux) (build/logic/logic.aux) (build/topology/topology.aux) (build/computer_science/computer_science.aux) (build/probability/probability.aux) (build/programming/programming.aux))
 Package rerunfilecheck Info: File `book.out' has not changed.
-(rerunfilecheck)             Checksum: 326D1E4B046A2FAB22C6CA97EE57BD11;2683.
+(rerunfilecheck)             Checksum: CB9928E72A1BBCAB7ADE3FF8FBCAED0B;3270.
  ) 
 Here is how much of TeX's memory you used:
- 30544 strings out of 478994
- 589609 string characters out of 5864750
- 1279436 words of memory out of 5000000
- 47096 multiletter control sequences out of 15000+600000
- 526014 words of font info for 122 fonts, out of 8000000 for 9000
+ 30803 strings out of 478994
+ 596404 string characters out of 5864750
+ 1281686 words of memory out of 5000000
+ 47192 multiletter control sequences out of 15000+600000
+ 527430 words of font info for 128 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 101i,18n,108p,695b,2230s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,18n,108p,780b,2232s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist, replaced by a fixed one
@@ -1355,11 +1520,11 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist,
 
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
-{/usr/share/texmf-dist/fonts/enc/dvips/iwona/mi-iwona.enc}{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/iwona/rm-iwona.enc}{/usr/share/texmf-dist/fonts/enc/dvips/iwona/ex-iwona.enc}{/usr/share/texmf-dist/fonts/enc/dvips/iwona/sy-iwona.enc}{/usr/share/texmf-dist/fonts/enc/dvips/iwona/ec-iwona.enc}{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/iwona/ts1-iwona.enc}{/usr/share/texmf-dist/fonts/enc/dvips/iwona/ec-iwona-sc.enc}</usr/share/texmf-dist/fonts/type1/nowacki/iwona/iwonab.pfb></usr/share/texmf-dist/fonts/type1/nowacki/iwona/iwonabi.pfb></usr/share/texmf-dist/fonts/type1/nowacki/iwona/iwonar.pfb></usr/share/texmf-dist/fonts/type1/nowacki/iwona/iwonari.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texmf-dist/fonts/type1/public/txfonts/t1xbtt.pfb></usr/share/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb>
-Output written on build/book.pdf (28 pages, 285306 bytes).
+{/usr/share/texmf-dist/fonts/enc/dvips/iwona/mi-iwona.enc}{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/iwona/rm-iwona.enc}{/usr/share/texmf-dist/fonts/enc/dvips/iwona/ex-iwona.enc}{/usr/share/texmf-dist/fonts/enc/dvips/iwona/sy-iwona.enc}{/usr/share/texmf-dist/fonts/enc/dvips/iwona/ec-iwona.enc}{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/iwona/ts1-iwona.enc}{/usr/share/texmf-dist/fonts/enc/dvips/iwona/ec-iwona-sc.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texmf-dist/fonts/type1/nowacki/iwona/iwonab.pfb></usr/share/texmf-dist/fonts/type1/nowacki/iwona/iwonabi.pfb></usr/share/texmf-dist/fonts/type1/nowacki/iwona/iwonar.pfb></usr/share/texmf-dist/fonts/type1/nowacki/iwona/iwonari.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texmf-dist/fonts/type1/public/txfonts/t1xbtt.pfb></usr/share/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb>
+Output written on build/book.pdf (37 pages, 322956 bytes).
 PDF statistics:
- 571 PDF objects out of 1000 (max. 8388607)
- 500 compressed objects within 5 object streams
- 181 named destinations out of 1000 (max. 500000)
- 317 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 740 PDF objects out of 1000 (max. 8388607)
+ 657 compressed objects within 7 object streams
+ 254 named destinations out of 1000 (max. 500000)
+ 357 words of extra memory for PDF output out of 10000 (max. 10000000)
 

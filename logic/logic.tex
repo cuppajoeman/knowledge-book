@@ -1,6 +1,57 @@
 \chapter{First Order Logic}
 
+\section{Languages}
+
+\input{logic/definitions/first_order_language}
+
+\input{logic/definitions/a_term's_variable_replaced_by_a_term}
+
+\begin{itemize}
+    \item  In the fourth clause of the definition above and in the first two clauses of the next definition, the parentheses are not really there. Because $u_{1}{ }_{t}^{x}$ is hard to read so the parentheses have been added in the interest of readability.
+    \item If we let $t$ be $g(c)$ and we let $u$ be $f(x, y)+h(z, x, g(x))$, then $u_{t}^{x}$ is
+        \[
+        f(g(c), y)+h(z, g(c), g(g(c)))
+        \]
+\end{itemize}
+
+
+\input{logic/definitions/a_term_is_substitutable_for_a_variable.tex}
+
+To understand the motivation behind the fourth clause, consider the formula:
+\[
+\phi :\equiv \left( \forall x \right) \left( \forall y \right) x = y
+\]
+
+Then one might want to say that $ \left( \left( \forall y \right) x = y \right) _{ t }^{ x }   $  where $ t $ is any term
+
+\input{logic/definitions/free_variable_in_a_formula.tex}
+
+\subsubsection*{Examples}
+\begin{itemize}
+    \item Thus, if we look at the formula
+    $$
+    \forall v_{2} \neg\left(\forall v_{3}\right)\left(v_{1}=S\left(v_{2}\right) \vee v_{3}=v_{2}\right)
+    $$
+    the variable $v_{1}$ is free whereas the variables $v_{2}$ and $v_{3}$ are not free. 
+    \item A slightly more complicated example is
+        \[
+        \left(\forall v_{1} \forall v_{2}\left(v_{1}+v_{2}=0\right)\right) \vee v_{1}=S(0)
+        \]
+        \begin{itemize}
+            \item In this formula, $v_{1}$ is free whereas $v_{2}$ is not free. Especially when a formula is presented informally, you must be careful about the scope of the quantifiers and the placement of parentheses.
+        \end{itemize}
+\end{itemize}
+\subsubsection*{Notes}
+\begin{itemize}
+    \item We will have occasion to use the informal notation $\forall x \phi(x)$. This will mean that $\phi$ is a formula and $x$ is among the free variables of $\phi$. 
+    \item If we then write $\phi(t)$, where $t$ is an $\mathcal{L}$-term, that will denote the formula obtained by taking $\phi$ and replacing each occurrence of the variable $x$ with the term $t$. 
+\end{itemize}
+
+
 \section{Deductions}
+\input{logic/definitions/deduction_of_a_formula}
+
+\input{logic/definitions/logical_axioms}
 
 \begin{lemma}{Universal connection to Variable Assignment Function}{forall vaf}
     \[
@@ -38,6 +89,14 @@
 
 \section{Completeness}
 
+\input{logic/definitions/consistent_set_of_l_formulas}
+
+\input{logic/propositions/contradiction_has_no_model}
+
+\input{logic/lemmas/constant_extension_still_consistent}
+
+Notice that if we write $ \Sigma \models \bot $ it means that for any $\mathcal{L}$-Structure $ \mathfrak{ A }   $ if $ \mathfrak{ A } \models \Sigma   $ then $ \mathfrak{ A } \models \bot  $ by the above discussion that forces $ \mathfrak{ A } \models \Sigma   $ to be false, and therefore $ \Sigma  $ has no model.
+
 \begin{theorem}{Completeness Theorem}{completeness}
 Suppose that $\Sigma$ is a set of $\mathcal{L}$-formulas, where $ \mathcal{L}$ is a countable langauge  and $\phi$ is an $\mathcal{L}$-formula. If $\Sigma \models \phi$, then $\Sigma \vdash \phi$.
 
@@ -53,3 +112,14 @@ Suppose that $\Sigma$ is a set of $\mathcal{L}$-formulas, where $ \mathcal{L}$ i
 \end{itemize}
 
 \end{theorem}
+
+
+\section{Incompleteness}
+
+\input{logic/definitions/representable_set}
+\input{logic/definitions/weakly_representable_set}
+\input{logic/definitions/total_function}
+\input{logic/definitions/partial_function}
+\input{logic/definitions/representable_function}
+\input{logic/definitions/definable_set}
+\input{logic/corollaries/definable_by_delta_formula_implies_representable}

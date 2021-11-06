@@ -6,51 +6,38 @@ def setup_parser():
     Setup and return a parser for this program
     :return: An argument parser object
     """
-    parser = argparse.ArgumentParser()
-
-    parser.add_argument(
-        "-v",
-        "--create-vertex",
-        help="create a vertex in the knowledge graph",
-        action="store_true",
+    parser = argparse.ArgumentParser(
+        description="Script which bootstraps new latex content files"
     )
 
-    # some of these need to be mutually exclusive
+    parser.add_argument(
+        "-t",
+        "--type",
+        choices=["d", "t", "l", "p", "c"],
+        help="the type of content you want to create, can be  a definition, theorem, lemma, proposition or corollary",
+    )
 
     parser.add_argument(
-        "-f",
-        "--new-definition",
-        metavar="title",
-        help="create and a new LaTeX definition with the given title",
+        "title",
         type=str,
+        help="the title of the content file",
+    )
+
+    parser.add_argument(
+        "-n", "--neovim", help="opens the created file with neovim", action="store_true"
     )
 
     parser.add_argument(
         "-d",
-        "--new-deduction",
-        metavar="title",
-        help="create and a new LaTeX deduction with the given title",
-        type=str,
-    )
-
-    parser.add_argument(
-        "-s",
-        "--display",
-        help="display information about the knowledge graph",
-        action="store_true",
-    )
-
-    parser.add_argument(
-        "-u",
-        "--upload-files",
-        help="cleans up files and pushes them to github",
+        "--dry-run",
+        help="Does everything except for actually creating the files",
         action="store_true",
     )
 
     parser.add_argument(
         "-c",
-        "--clean-files",
-        help="clean excess files produced by latex compliation",
+        "--copy",
+        help="copies the created filename to the clipboard (starting from the root of the project) ",
         action="store_true",
     )
 
