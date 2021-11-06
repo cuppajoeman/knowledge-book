@@ -1,0 +1,9 @@
+# Fdb version 3
+["pdflatex"] 1635882380 "conditional_independence.tex" "build/conditional_independence.pdf" "conditional_independence" 1635882380
+  "/usr/share/texmf-dist/web2c/texmf.cnf" 1617738065 39911 2da6c67557ec033436fe5418a70a8a61 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1634762572 2812682 f0ef48edab70fcd64f0b555d57bb3dfb ""
+  "build/conditional_independence.aux" 1635882380 8 a94a2480d3289e625eea47cd1b285758 ""
+  "conditional_independence.tex" 1635882282 171 3a7d6d70aeb00e5151ffe3a969f510e9 ""
+  (generated)
+  "build/conditional_independence.log"
+  "build/conditional_independence.pdf"

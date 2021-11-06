@@ -1,0 +1,13 @@
+\begin{definition}{A Term is Substitutable for a Variable}{a_term_is_substitutable_for_a_variable}
+Suppose that \(\phi\) is an \(\mathcal{L}\)-formula, \(t\) is a term, and \(x\) is a variable. We say that \(t\) is substitutable for \(x\) in \(\phi\) if
+\begin{enumerate}
+    \item \(\phi\) is atomic, or
+    \item \(\phi: \equiv \neg(\alpha)\) and \(t\) is substitutable for \(x\) in \(\alpha\), or
+    \item \(\phi: \equiv(\alpha \vee \beta)\) and \(t\) is substitutable for \(x\) in both \(\alpha\) and \(\beta\), or
+    \item \(\phi: \equiv(\forall y)(\alpha)\) and either
+    \begin{itemize}
+        \item \(x\) is not free in \(\phi\), or
+        \item \(y\) does not occur in \(t\) and \(t\) is substitutable for \(x\) in \(\alpha\).
+    \end{itemize}
+\end{enumerate}
+\end{definition}

@@ -1,0 +1,16 @@
+\begin{proposition}{Logical Contradiction}{logical_contradiction}
+    Let $ \Sigma $ be a set of sentences, and let $ \phi  $ be a sentence, then
+    \[
+    \Sigma \models \phi ~\text{implies}~ \Sigma \cup \left\{ \neg \phi  \right\} \models \bot  
+    \]
+\end{proposition}
+\begin{proof}
+    \begin{itemize}
+        \item Suppose that $ \Sigma \models \phi  $ that means for any $\mathcal{L}$-Structure $ \mathfrak{ A }   $ if $ \mathfrak{ A } \models \Sigma   $ then $ \mathfrak{ A } \models \phi   $ we want to show that $ \Sigma \cup \left\{ \neg \phi  \right\} \models \bot  $, recall that by the previous theorem that means that $ \Sigma \cup \left\{ \neg \phi  \right\}  $ has no model.
+        \item Suppose for the sake of contradiction that $ \Sigma \cup \left\{ \neg \phi  \right\}  $ has a model $ \mathfrak{ B }   $ then certainly $ \mathfrak{ B } \models \Sigma   $ and by assuption we have that $ \mathfrak{ B } \models \phi   $ but also we know that $ \mathfrak{ B } \models \neg \phi   $ which is a contradiction, so therefore $ \Sigma  \cup \left\{ \neg \phi  \right\}  $ has no model and therefore
+            \[
+            \Sigma \cup \left\{ \neg \phi  \right\} \models \bot 
+            \]
+            as needed.
+    \end{itemize}
+\end{proof}

@@ -1,0 +1,9 @@
+\begin{definition}{A Term's Variable Replaced by a Term}{a_term's_variable_replaced_by_a_term}
+    Suppose that $u$ is a term, $x$ is a variable, and $t$ is a term. We define the term $u_{t}^{x}$ (read ``$u$ with $x$ replaced by $\left.t "\right)$ as follows:
+    \begin{enumerate}
+        \item If $u$ is a variable not equal to $x$, then $u_{t}^{x}$ is $u$.
+        \item If $u$ is $x$, then $u_{t}^{x}$ is $t$.
+        \item If $u$ is a constant symbol, then $u_{t}^{x}$ is $u$.
+        \item If $u: \equiv f u_{1} u_{2} \ldots u_{n}$, where $f$ is an $n$-ary function symbol and the $u_{i}$ are terms, then $u_{t}^{x}$ is $f\left(u_{1}\right)_{t}^{x}\left(u_{2}\right)_{t}^{x} \ldots\left(u_{n}\right)_{t}^{x}$
+    \end{enumerate}
+\end{definition}

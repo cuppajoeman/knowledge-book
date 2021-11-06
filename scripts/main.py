@@ -13,11 +13,11 @@ if __name__ == "__main__":
         args.title, args.type, target_dir, args.dry_run
     )
 
-    if args.neovim:
-        subprocess.call(["nvim", new_file_name])
-
-    if args.copy:
+    if args.copy or args.fast:
         modified_file_name = new_file_name.replace(constants.ROOT_DIR, "")
         modified_file_name = modified_file_name.replace(".tex", "")
         tex_input_file_name = f"\input{{{modified_file_name}}}"
         pyperclip.copy(tex_input_file_name)
+
+    if args.neovim or args.fast:
+        subprocess.call(["nvim", new_file_name])

@@ -1,0 +1,10 @@
+\begin{definition}{Definable Set}{definable_set}
+We will say that a set $A \subseteq \mathbb{N}^{k}$ is definable if there is a formula $\phi(x)$ such that
+$$
+\begin{array}{ll}
+\forall a \in A & \mathfrak{N} \models \phi(\bar{a}) \\
+\forall \underline{\downarrow b} \notin A & \mathfrak{N} \models \neg \phi(\bar{b})
+\end{array}
+$$
+In this case, we will say that $\phi$ defines the set $A$.
+\end{definition}

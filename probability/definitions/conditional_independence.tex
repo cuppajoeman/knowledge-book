@@ -1,0 +1,16 @@
+\begin{definition}{Conditional Independence}{conditional_independence}
+Suppose $ A $ and $ B $ are independent events, then we would want $ P\left( A \mid C  \right) =  P\left( A \mid B \cap C  \right)  $:
+\[
+P\left( A \mid C \right) = \frac{P\left( A \cap C \right) }{P\left( C \right) } ~\text{and}~  P\left( A \mid B \cap  C \right) =  \frac{P\left( A \cap  B \cap  C \right) }{P\left( B \cap  C \right) }
+\]
+So then we want:
+\begin{gather*}
+    P\left( A \mid C \right) =  P\left( A \mid B \cap  C \right)  \\
+    \Updownarrow \\
+\frac{P\left( A \cap C \right) }{P\left( C \right) } =  \frac{P\left( A \cap  B \cap  C \right) }{P\left( B \cap  C \right) }\\
+    \Updownarrow \\
+    \frac{P\left( A \cap B \cap  C \right) }{P\left( C \right) } =  \frac{P\left( A \cap  C \right) P\left( B \cap  C \right)  }{ P\left( C \right) P\left( C \right)  }\\
+    \Updownarrow \\
+    P\left( A \cap B \mid C \right)  =  P\left( A \mid C \right) P\left( B \mid C \right) 
+\end{gather*}
+\end{definition}
