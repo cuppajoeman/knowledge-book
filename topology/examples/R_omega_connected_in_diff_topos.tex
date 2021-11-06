@@ -1,0 +1,33 @@
+\begin{example}{R omega Connected?}{r_omega_connected?}
+Consider the product, uniform, and box topologies on $\mathbb{R} ^{\omega}$. In which topologies is $\mathbb{R} ^{\omega}$ connected?
+\end{example}
+\begin{proof}
+    \begin{enumerate}
+        \item 
+        \begin{itemize}
+            \item Consider the product topology, we will show that $ \mathbb{R} ^{ \omega  }  $ is not connected. Consider the set $ A $ of \hyperref[definition:bounded_sequence]{bounded sequences} in $ \mathbb{R} ^{ \omega  }  $ , and the complement of $ A $, namely the unbounded sequence of $ \mathbb{R} ^{ \omega  }  $ let's label this set as $ B =  \mathbb{R}  ^{ \omega  } \setminus  A  $.
+            \begin{itemize}
+                \item Note that $ A $ is open in the box topology as if we fix any $ \varepsilon > 0 $ we may define for any $ \vec{x}  \in  \mathbb{R} ^{ \omega  }  $ 
+                    \[
+                    U _{ \vec{x}  }  \stackrel{\mathtt{D}}{=} \left( x _{ 1 } -  \varepsilon , x _{ 1 } +  \varepsilon  \right) \times \left( x _{ 2 } -  \varepsilon , x _{ 2 } +  \varepsilon  \right) \times \ldots
+                    \]
+                \item If $ \vec{a}  $ is a bounded sequence then $ U $ is a set of bounded sequences, as it only ever adds constants to the terms of $ \vec{a}  $, therefore $ \vec{a}  \in  U _{ \vec{a}  } $ and $ U _{ \vec{a}  }  \subseteq A $, therefore $ A $ is open.
+                \item If $ \vec{b}  $ is an unbounded sequence then $ U $ is a set of unbounded sequences, as adding a constant to every element to an unbounded sequence yields an unbounded sequence. So for every $ \vec{b} \in  B  $ there we have $ \vec{b} \in  U _{ \vec{b}  }  $ and $ U _{ \vec{b}  } \subseteq B $ so $ B $ is open.
+            \end{itemize}
+            \item Therefore $ A $ non-trivial set which is both open and closed in $ \mathbb{R} ^{ \omega  }  $ and so it is disconnected.
+        \end{itemize}
+        \item Note that $ \mathbb{R} ^{ \omega  }  $ is closed with the uniform topology by following the same proof with $ \varepsilon = 1 $ 
+        \item 
+        \begin{itemize}
+            \item Now if we consider $ \mathbb{R} ^{ \omega  }  $ with the product topology we will see that $ \mathbb{R} ^{ \omega  }  $ is connected.
+            \item Let $ \mathbb{R} _{ 0 }^{ n } \stackrel{\mathtt{D}}{=} \left\{ \left( x _{ 1 } , x _{ 2 } , \ldots \right): ~\text{where for}~  i > n  ~\text{we have that}~   x _{ i } = 0   \right\}    $ 
+            \item $ \mathbb{R} _{ 0 }^{ n }   $ is homeomorphic to $ \mathbb{R} ^{ n }  $ and since $ \mathbb{R}  $ is connected, and the finite cartesian product of connected spaces is connected, we get that $ \mathbb{R} _{ 0 }^{ n }  $ is connected.
+            \item We now will show that the closure of $ \mathbb{R} ^{ \infty  }  $ is equal to $ \mathbb{R} ^{ \omega  }  $ and then by the fact that the closure of a connected set is closed we obtain that $ \mathbb{R} ^{  \omega  }  $ is connected.
+            \item To show that $ R ^{ \omega  }  $ is equal to the closure of $ \mathbb{R} ^{ \infty  }  $ we proceed by using the fact that a point is part of the closure of a set if and only if every basis element intersects it:
+            \begin{itemize}
+                \item Let $ \vec{a} \in \mathbb{R} ^{ \omega  }   $ and let $ B =  \prod _{ i \in \mathbb{N}   }  B _{ i }  $ be some basis element for the product topology with $ \vec{a}  \in  U $, now we have to show this set intersects $ \mathbb{R} ^{ \infty  }  $. Since only finitely many of the $ B _{ i }  $ are equal to basis elements and the rest are equal to $ \mathbb{R}  $ that means there is some $ N \in  \mathbb{N}  $ such that $ \forall j \in  \mathbb{N} ^{ \ge N }, B _{ j } = \mathbb{R}   $, therefore the point $ \vec{b} = \left( a_{1} , a_{2} , \dotsc  , a_{N - 1} , a_{N}, 0, 0, 0, \ldots \right) \in B \cap \mathbb{R} ^{ \infty  }  $
+            \end{itemize}
+        \end{itemize}
+    \end{enumerate}
+\end{proof}
+

@@ -1,0 +1,42 @@
+\begin{example}{Function on R omega}{function_on_r_omega}
+    Consider a function $ h : \mathbb{R} ^{ \omega  }  \to \mathbb{R} ^{ \omega  }  $ defined by 
+    \[
+    h\left( x_{1} , x_{2} , \ldots \right) = \left( \alpha _{ 1 } x _{ 1 } , \alpha _{ 2 } x _{ 2 }, \ldots  \right)
+    \]
+    with $ \alpha _{ 1 } , \alpha _{ 2 } , \ldots  \in  \mathbb{R} \setminus \left\{ 0 \right\}  $ 
+    \begin{enumerate}
+        \item Is $ h $  continuous, when $ \mathbb{R} ^{ \omega  }  $  is given the product topology?
+
+        \item Is $ h $  continuous, when $ \mathbb{R} ^{ \omega  }  $ is given the box topology?
+
+        \item Is $ h $  continuous, when $ \mathbb{R} ^{ \omega  }  $ is given the uniform topology?
+    \end{enumerate}
+\end{example}
+\begin{proof}
+    \begin{enumerate}
+        \item 
+        \begin{itemize}
+            \item Take an arbitrary basis element from the product topology, that is: 
+            \[
+            \prod_{\alpha \in \mathcal{ J } } B_{\alpha}
+            \]
+            where $B_{\alpha} \in \mathcal{ B } _{\mathbb{R} }$ for finitely many indices $\alpha$ and $B_{\alpha}=\mathbb{R} $ for all the remaining indices.
+        \item[$ \alpha:$]  Now note the following
+            \begin{itemize}
+                \item The inverse image of each of these intervals is a scaled version of itself therefore it is still an interval of $ \mathbb{R}  $, and it is therefore still open with respect to $ \mathbb{R}$ 
+                \item The inverse image of $ \mathbb{R}  $ under any scaling is still $ \mathbb{R}  $ 
+            \end{itemize}
+            \item Therefore $ h ^{-1} \left( \prod _{ \alpha  \in \mathcal{ J }   } B _{ \alpha  }  \right)  $ is a product of finitely many intervals, and infinitely many $ \mathbb{R}  $'s and so it is open with respect to $ \mathbb{R} ^{ \omega  }  $ as needed.
+        \end{itemize}
+        \item 
+        \begin{itemize}
+            \item Given an arbitrary basis element of the box topology we have
+            \[
+            \prod_{\alpha \in \mathcal{ J } } B_{\alpha}
+            \]
+            where $B_{\alpha} \in \mathcal{B}_{ \mathbb{R} }$ for each $\alpha$
+            \item Due to $ \alpha  $ we know that each of the intervals become new scaled intervals and so $ h ^{-1} \left( \prod _{ \alpha \in \mathcal{ J } B _{ \alpha  }   }  \right)  $ is a product of open intervals and is therefore open in with respect $ \mathbb{R} ^{ \omega  }  $ equipped with the box topology 
+        \end{itemize}
+        \item Recall that a basis for the uniform topology are epsilon balls with radius less then $ 1 $ if that's the case, then so long as every $ \alpha _{ i }  $ is greater than $ 1 $ then the inverse image scales them to be even smaller, resulting in an open set, otherwise the function $ h $ wouldn't be continuous, since all the $ \alpha _{ i }  $'s are greater than one, it is continouous.
+    \end{enumerate}
+\end{proof}

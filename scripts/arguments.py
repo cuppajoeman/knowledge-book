@@ -11,8 +11,7 @@ def setup_parser():
     )
 
     parser.add_argument(
-        "-t",
-        "--type",
+        "type",
         choices=["d", "t", "l", "p", "c"],
         help="the type of content you want to create, can be  a definition, theorem, lemma, proposition or corollary",
     )
@@ -38,6 +37,13 @@ def setup_parser():
         "-c",
         "--copy",
         help="copies the created filename to the clipboard (starting from the root of the project) ",
+        action="store_true",
+    )
+
+    parser.add_argument(
+        "-f",
+        "--fast",
+        help="uses the flags -c and -n so that operations may be done quickly",
         action="store_true",
     )
 

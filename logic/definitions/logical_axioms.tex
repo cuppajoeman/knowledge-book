@@ -1,0 +1,11 @@
+\begin{definition}{Logical Axioms}{logical_axioms}
+ Given a first order language $ \mathcal{ L }   $ the set $\Lambda$ of logical axioms is the collection of all $ \mathcal{ L }-$formulas that fall into one of the following categories:
+\begin{gather*}
+    x=x  \text { for each variable } x \\
+    \left[\left(x_{1}=y_{1}\right) \wedge\left(x_{2}=y_{2}\right) \wedge \cdots \wedge\left(x_{n}=y_{n}\right)\right] \rightarrow \left(f\left(x_{1}, x_{2}, \ldots, x_{n}\right)=f\left(y_{1}, y_{2}, \ldots, y_{n}\right)\right) \\
+    \left[\left(x_{1}=y_{1}\right) \wedge\left(x_{2}=y_{2}\right) \wedge \cdots \wedge\left(x_{n}=y_{n}\right)\right] \rightarrow \left(R\left(x_{1}, x_{2}, \ldots, x_{n}\right) \rightarrow R\left(y_{1}, y_{2}, \ldots, y_{n}\right)\right)\\
+    \left( \forall x \phi  \right) \rightarrow \phi _{ t }^{ x } ~\text{if $ t $ is substitutable for $ x $ in $ \phi  $ }~  \\
+    \phi _{ t }^{ x } \to \left( \exists x \phi \right) ~\text{if $ t $ is substitutable for $ x $ in $ \phi  $ }~  
+\end{gather*}
+To refer to them easily we label them by  moving down the above list E1, E2, E3, Q1, Q2 
+\end{definition}

@@ -1,0 +1,9 @@
+\begin{definition}{Free Variable in a Formula}{free_variable_in_a_formula}
+    Suppose that $v$ is a variable and $\phi$ is a formula. We will say that $v$ is free in $\phi$ if
+    \begin{enumerate}
+        \item $\phi$ is atomic and $v$ occurs in (is a symbol in) $\phi$, or                               
+        \item $\phi: \equiv(\neg \alpha)$ and $v$ is free in $\alpha$, or
+        \item $\phi: \equiv(\alpha \vee \beta)$ and $v$ is free in at least one of $\alpha$ or $\beta$, or
+        \item $\phi: \equiv(\forall u)(\alpha)$ and $v$ is not $u$ and $v$ is free in $\alpha$.
+    \end{enumerate}
+\end{definition}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.10.20)  5 NOV 2021 11:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.10.20)  5 NOV 2021 16:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1229,7 +1229,21 @@ LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
 LaTeX Font Info:    Trying to load font information for U+euf on input line 3.
 (/usr/share/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
-)) (./logic/lemmas/constant_extension_still_consistent.tex
+)) (./logic/propositions/implying_a_contradiction_means_no_model.tex
+
+LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
+(Font)              using `T1/iwona/m/it' instead on input line 1.
+
+) (./logic/propositions/logical_contradiction.tex
+
+LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
+(Font)              using `T1/iwona/m/it' instead on input line 1.
+
+
+LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
+(Font)              using `T1/iwona/m/it' instead on input line 16.
+
+[18]) (./logic/lemmas/constant_extension_still_consistent.tex
 
 LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
 (Font)              using `T1/iwona/m/it' instead on input line 1.
@@ -1237,13 +1251,9 @@ LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
 )
 
 LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
-(Font)              using `T1/iwona/m/it' instead on input line 100.
+(Font)              using `T1/iwona/m/it' instead on input line 104.
 
-
-LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
-(Font)              using `T1/iwona/m/it' instead on input line 115.
-
-[18] (./logic/definitions/representable_set.tex
+(./logic/definitions/representable_set.tex
 
 LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
 (Font)              using `T1/iwona/m/it' instead on input line 1.
@@ -1253,7 +1263,11 @@ LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
 LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
 (Font)              using `T1/iwona/m/it' instead on input line 1.
 
-) (./logic/definitions/total_function.tex
+
+LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
+(Font)              using `T1/iwona/m/it' instead on input line 10.
+
+[19]) (./logic/definitions/total_function.tex
 
 LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
 (Font)              using `T1/iwona/m/it' instead on input line 1.
@@ -1278,11 +1292,7 @@ LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
 LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
 (Font)              using `T1/iwona/m/it' instead on input line 2.
 
-
-LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
-(Font)              using `T1/iwona/m/it' instead on input line 3.
-
-[19]))
+))
 
 LaTeX Font Warning: Font shape `T1/iwona/m/sl' undefined
 (Font)              using `T1/iwona/m/it' instead on input line 46.
@@ -1503,10 +1513,10 @@ Package rerunfilecheck Info: File `book.out' has not changed.
 (rerunfilecheck)             Checksum: CB9928E72A1BBCAB7ADE3FF8FBCAED0B;3270.
  ) 
 Here is how much of TeX's memory you used:
- 30803 strings out of 478994
- 596404 string characters out of 5864750
- 1281686 words of memory out of 5000000
- 47192 multiletter control sequences out of 15000+600000
+ 30820 strings out of 478994
+ 597004 string characters out of 5864750
+ 1281834 words of memory out of 5000000
+ 47201 multiletter control sequences out of 15000+600000
  527430 words of font info for 128 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  101i,18n,108p,780b,2232s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1521,10 +1531,10 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist,
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 {/usr/share/texmf-dist/fonts/enc/dvips/iwona/mi-iwona.enc}{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/iwona/rm-iwona.enc}{/usr/share/texmf-dist/fonts/enc/dvips/iwona/ex-iwona.enc}{/usr/share/texmf-dist/fonts/enc/dvips/iwona/sy-iwona.enc}{/usr/share/texmf-dist/fonts/enc/dvips/iwona/ec-iwona.enc}{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/iwona/ts1-iwona.enc}{/usr/share/texmf-dist/fonts/enc/dvips/iwona/ec-iwona-sc.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texmf-dist/fonts/type1/nowacki/iwona/iwonab.pfb></usr/share/texmf-dist/fonts/type1/nowacki/iwona/iwonabi.pfb></usr/share/texmf-dist/fonts/type1/nowacki/iwona/iwonar.pfb></usr/share/texmf-dist/fonts/type1/nowacki/iwona/iwonari.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texmf-dist/fonts/type1/public/txfonts/t1xbtt.pfb></usr/share/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb>
-Output written on build/book.pdf (37 pages, 322956 bytes).
+Output written on build/book.pdf (37 pages, 325051 bytes).
 PDF statistics:
- 740 PDF objects out of 1000 (max. 8388607)
- 657 compressed objects within 7 object streams
- 254 named destinations out of 1000 (max. 500000)
+ 744 PDF objects out of 1000 (max. 8388607)
+ 661 compressed objects within 7 object streams
+ 256 named destinations out of 1000 (max. 500000)
  357 words of extra memory for PDF output out of 10000 (max. 10000000)
 

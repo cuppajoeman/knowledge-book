@@ -1,0 +1,11 @@
+\begin{lemma}{Constant Extension still Consistent}{constant_extension_still_consistent}
+If $\Sigma$ is a consistent set of $\mathcal{L}$-sentences and $\mathcal{L}^{\prime}$ is an extension by constants of $\mathcal{L}$, then $\Sigma$ is consistent when viewed as a set of $\mathcal{L}^{\prime}$-sentences.
+\end{lemma}
+\begin{proof}
+    \begin{itemize}
+        \item Suppose for the sake of contradiction that $ \Sigma  $ is not consistent when viewed as a set of $\mathcal{L}^{\prime}$-sentences, so $ \Sigma \vdash \bot $, considering the set of all deductions of $ \bot  $ from $ \Sigma  $ we may find a deduction $ \mathcal{ D }   $  which uses the least number of the newly added constants by the well ordering principle, let this number be $ n \in  \mathbb{N} $ and that $ n > 0 $ or else we would have a deduction from $ \mathcal{ L }   $ of $ \bot  $ which would be a contradiction.
+        \item Let $ v $ be a variable that isn't used in $ \mathcal{ D }   $ and let $ c $ be one of the newly added constants which is used in $ \mathcal{ D }   $ and let $ \mathcal{ D } _{ v }   $ be created where for each line $ \phi \in  \mathcal{ D }  $ we create $ \phi _{ v }  $ by replacing all occurances of $ c $ in $ \phi  $ with $ v $, and note that the last line of $ \mathcal{ D } _{ v }   $ is still $ \bot  $, at this point we don't know if $ \mathcal{ D } _{ v }   $ is a deduction, so we have to check that it is.
+        \item If $ \phi  $ is an equality axiom or an element of $ \Sigma $ then $ \phi _{ v } :\equiv \phi  $ because equality axioms only contain variables and not constants, also $ \Sigma  $ is a set of $ \mathcal{ L }   $ sentences and so it can't contain any of the new constants, and so $ \phi _{ v }  $ is a valid step in the deduction since it is still an equality axiom or an element of $ \Sigma  $ 
+        \item If $ \phi  $ is $ \left( \forall x \right) \theta \rightarrow \theta _{ t }^{ x }  $ then $ \phi _{ v }  $ is $ \left( \forall x \right)\theta _{ v } \rightarrow \left( \theta _{ v }  \right) _{ t _{ v }  }^{ x  }  $, to see why we use $ t _{ v }  $ as well as $ \theta _{ v }  $ try $ \theta :\equiv c =  x $ and $ t :\equiv   c + 3 $ 
+    \end{itemize}
+\end{proof}
