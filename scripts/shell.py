@@ -5,6 +5,7 @@ This file contains tools that allow us to interact with shell programs
 from shutil import copyfile
 import constants
 import subprocess
+import os
 
 
 def create_new_content_file(
@@ -128,6 +129,10 @@ def get_file(directory_name: str = "", extension: str = "") -> str:
         .strip()
     )
     return dir_name
+
+
+def remove_file(file_name):
+    os.remove(file_name)
 
 
 def clean_files():

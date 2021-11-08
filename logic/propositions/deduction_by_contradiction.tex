@@ -1,0 +1,10 @@
+\begin{proposition}{Deduction by Contradiction}{deduction_by_contradiction}
+Let $ \theta  $ be a sentence, and let $ T $ be a set of formulas, then 
+\[
+T \vdash \theta ~\text{if and only if }~ T \cup  \left\{ \neg \theta  \right\}  \vdash \bot 
+\]
+\end{proposition}
+\begin{proof}
+    $ \Rightarrow  $ Suppose that $ T \vdash \theta  $ then we have a deduction $ \mathcal{ D }   $ of $ \theta  $ note that that same proof works using the set of non-logical axioms $ \Sigma \cup \left\{ \neg \phi  \right\}  $ and therefore $ \Sigma \cup \left\{ \neg \phi  \right\}  \vdash \phi $, but then since $ \neg \phi  $ part of our axioms, we can also deduce $ \neg \phi  $ and then by adding the line $ \left( \neg \phi \land  \phi  \right) \rightarrow \bot  $ we can deduce $ \bot  $. \\ 
+    $ \Leftarrow  $ If we know that $ T \cup \left\{ \neg \phi  \right\} \vdash \bot   $ then by the deduction theorem we know that $ \Sigma \vdash \neg \phi \rightarrow \bot  $ but note that the only way for that statement to be true in the realm of propositional logic is if $ \neg \phi _{ P }   $ is false, namely that $ \phi _{ P }   $ is true, so we can see that $ \phi _{ P }  $ is a propositional consequence and so we may write $ \phi  $ to show that $ \Sigma \vdash \phi  $ 
+\end{proof}
