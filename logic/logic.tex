@@ -41,11 +41,16 @@ Then one might want to say that $ \left( \left( \forall y \right) x = y \right) 
             \item In this formula, $v_{1}$ is free whereas $v_{2}$ is not free. Especially when a formula is presented informally, you must be careful about the scope of the quantifiers and the placement of parentheses.
         \end{itemize}
 \end{itemize}
+
 \subsubsection*{Notes}
 \begin{itemize}
     \item We will have occasion to use the informal notation $\forall x \phi(x)$. This will mean that $\phi$ is a formula and $x$ is among the free variables of $\phi$. 
     \item If we then write $\phi(t)$, where $t$ is an $\mathcal{L}$-term, that will denote the formula obtained by taking $\phi$ and replacing each occurrence of the variable $x$ with the term $t$. 
 \end{itemize}
+
+\input{logic/definitions/l-structure}
+
+\input{logic/definitions/restricted_l-structure}
 
 
 \section{Deductions}
@@ -99,7 +104,9 @@ Then one might want to say that $ \left( \left( \forall y \right) x = y \right) 
 
 \input{logic/lemmas/constant_extension_still_consistent}
 
+
 Notice that if we write $ \Sigma \models \bot $ it means that for any $\mathcal{L}$-Structure $ \mathfrak{ A }   $ if $ \mathfrak{ A } \models \Sigma   $ then $ \mathfrak{ A } \models \bot  $ by the above discussion that forces $ \mathfrak{ A } \models \Sigma   $ to be false, and therefore $ \Sigma  $ has no model.
+
 
 \begin{theorem}{Completeness Theorem}{completeness}
 Suppose that $\Sigma$ is a set of $\mathcal{L}$-formulas, where $ \mathcal{L}$ is a countable langauge  and $\phi$ is an $\mathcal{L}$-formula. If $\Sigma \models \phi$, then $\Sigma \vdash \phi$.

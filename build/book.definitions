@@ -8,28 +8,30 @@
 \contentsline {tcolorbox}{\numberline {3.1.2}A Term's Variable Replaced by a Term}{16}{tcb@cnt@definition.3.1.2}%
 \contentsline {tcolorbox}{\numberline {3.1.3}A Term is Substitutable for a Variable}{17}{tcb@cnt@definition.3.1.3}%
 \contentsline {tcolorbox}{\numberline {3.1.4}Free Variable in a Formula}{17}{tcb@cnt@definition.3.1.4}%
+\contentsline {tcolorbox}{\numberline {3.1.5}L-Structure}{18}{tcb@cnt@definition.3.1.5}%
+\contentsline {tcolorbox}{\numberline {3.1.6}Restricted L-Structure}{18}{tcb@cnt@definition.3.1.6}%
 \contentsline {tcolorbox}{\numberline {3.2.1}Deduction of a Formula}{18}{tcb@cnt@definition.3.2.1}%
 \contentsline {tcolorbox}{\numberline {3.2.2}Logical Axioms}{18}{tcb@cnt@definition.3.2.2}%
 \contentsline {tcolorbox}{\numberline {3.3.1}Consistent Set of L Formulas}{19}{tcb@cnt@definition.3.3.1}%
-\contentsline {tcolorbox}{\numberline {3.4.1}Representable Set}{20}{tcb@cnt@definition.3.4.1}%
+\contentsline {tcolorbox}{\numberline {3.4.1}Representable Set}{21}{tcb@cnt@definition.3.4.1}%
 \contentsline {tcolorbox}{\numberline {3.4.2}Weakly Representable Set}{21}{tcb@cnt@definition.3.4.2}%
 \contentsline {tcolorbox}{\numberline {3.4.3}Total Function}{21}{tcb@cnt@definition.3.4.3}%
 \contentsline {tcolorbox}{\numberline {3.4.4}Partial Function}{21}{tcb@cnt@definition.3.4.4}%
 \contentsline {tcolorbox}{\numberline {3.4.5}Representable Function}{21}{tcb@cnt@definition.3.4.5}%
-\contentsline {tcolorbox}{\numberline {3.4.6}Definable Set}{21}{tcb@cnt@definition.3.4.6}%
-\contentsline {tcolorbox}{\numberline {4.1.1}Basis}{22}{tcb@cnt@definition.4.1.1}%
-\contentsline {tcolorbox}{\numberline {4.1.2}Subspace Topology}{22}{tcb@cnt@definition.4.1.2}%
-\contentsline {tcolorbox}{\numberline {4.1.3}Product Topology}{22}{tcb@cnt@definition.4.1.3}%
-\contentsline {tcolorbox}{\numberline {4.1.4}Box Topology}{23}{tcb@cnt@definition.4.1.4}%
-\contentsline {tcolorbox}{\numberline {4.1.5}R Omega}{23}{tcb@cnt@definition.4.1.5}%
-\contentsline {tcolorbox}{\numberline {4.1.6}A metric}{23}{tcb@cnt@definition.4.1.6}%
-\contentsline {tcolorbox}{\numberline {4.1.7}Epsilon Ball}{24}{tcb@cnt@definition.4.1.7}%
-\contentsline {tcolorbox}{\numberline {4.1.8}Metric Topology}{24}{tcb@cnt@definition.4.1.8}%
-\contentsline {tcolorbox}{\numberline {4.1.9}Bounded Subset of a Metric Space}{25}{tcb@cnt@definition.4.1.9}%
-\contentsline {tcolorbox}{\numberline {4.2.1}Connected Space}{26}{tcb@cnt@definition.4.2.1}%
-\contentsline {tcolorbox}{\numberline {4.2.2}Totally Disconnected}{27}{tcb@cnt@definition.4.2.2}%
-\contentsline {tcolorbox}{\numberline {4.2.3}Covering}{27}{tcb@cnt@definition.4.2.3}%
-\contentsline {tcolorbox}{\numberline {4.2.4}Compact Space}{27}{tcb@cnt@definition.4.2.4}%
-\contentsline {tcolorbox}{\numberline {5.0.1}Big-O}{28}{tcb@cnt@definition.5.0.1}%
-\contentsline {tcolorbox}{\numberline {5.0.2}Little-o}{28}{tcb@cnt@definition.5.0.2}%
-\contentsline {tcolorbox}{\numberline {6.0.1}Conditional Independence}{29}{tcb@cnt@definition.6.0.1}%
+\contentsline {tcolorbox}{\numberline {3.4.6}Definable Set}{22}{tcb@cnt@definition.3.4.6}%
+\contentsline {tcolorbox}{\numberline {4.1.1}Basis}{23}{tcb@cnt@definition.4.1.1}%
+\contentsline {tcolorbox}{\numberline {4.1.2}Subspace Topology}{23}{tcb@cnt@definition.4.1.2}%
+\contentsline {tcolorbox}{\numberline {4.1.3}Product Topology}{23}{tcb@cnt@definition.4.1.3}%
+\contentsline {tcolorbox}{\numberline {4.1.4}Box Topology}{24}{tcb@cnt@definition.4.1.4}%
+\contentsline {tcolorbox}{\numberline {4.1.5}R Omega}{24}{tcb@cnt@definition.4.1.5}%
+\contentsline {tcolorbox}{\numberline {4.1.6}A metric}{24}{tcb@cnt@definition.4.1.6}%
+\contentsline {tcolorbox}{\numberline {4.1.7}Epsilon Ball}{25}{tcb@cnt@definition.4.1.7}%
+\contentsline {tcolorbox}{\numberline {4.1.8}Metric Topology}{25}{tcb@cnt@definition.4.1.8}%
+\contentsline {tcolorbox}{\numberline {4.1.9}Bounded Subset of a Metric Space}{26}{tcb@cnt@definition.4.1.9}%
+\contentsline {tcolorbox}{\numberline {4.2.1}Connected Space}{27}{tcb@cnt@definition.4.2.1}%
+\contentsline {tcolorbox}{\numberline {4.2.2}Totally Disconnected}{28}{tcb@cnt@definition.4.2.2}%
+\contentsline {tcolorbox}{\numberline {4.2.3}Covering}{28}{tcb@cnt@definition.4.2.3}%
+\contentsline {tcolorbox}{\numberline {4.2.4}Compact Space}{28}{tcb@cnt@definition.4.2.4}%
+\contentsline {tcolorbox}{\numberline {5.0.1}Big-O}{29}{tcb@cnt@definition.5.0.1}%
+\contentsline {tcolorbox}{\numberline {5.0.2}Little-o}{29}{tcb@cnt@definition.5.0.2}%
+\contentsline {tcolorbox}{\numberline {6.0.1}Conditional Independence}{30}{tcb@cnt@definition.6.0.1}%

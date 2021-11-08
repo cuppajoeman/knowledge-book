@@ -106,8 +106,6 @@ def get_file(directory_name: str = "", extension: str = "") -> str:
     else:  # they are both empty
         find_name_arguments = []
 
-    print(find_name_arguments)
-
     find_result = subprocess.run(
         [
             "find",

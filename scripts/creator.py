@@ -19,3 +19,7 @@ if __name__ == "__main__":
 
     if args.neovim or args.fast:
         subprocess.call(["nvim", new_file_name])
+
+    # Copy it after as well, in case the user copies something new while editing.
+    if args.copy:
+        pyperclip.copy(tex_input_file_name)
