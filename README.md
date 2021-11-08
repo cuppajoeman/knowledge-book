@@ -8,7 +8,8 @@ the new knowledge with less of a focus on the results themselves.
 
 It differs from a normal textbook in that it is open source and will
 fall under more continuous development rather than having editions that
-periodically come out.
+periodically come out. It also differs in the sense that it welcomes
+other users to improve the book.
 
 Here is a link to the book:
 <https://github.com/cuppajoeman/knowledge-book/blob/main/build/book.pdf>
@@ -94,6 +95,42 @@ contribution will fall into one of the following categories
     -   Getting others involved
 
     -   Creating infrastructure to support users (Github discussions)
+
+## Setup for Contributing {#setup-for-contributing .unnumbered}
+
+In order to contribute to this project you will need to understand the
+basics of git, LaTeXand the structure of the project works.
+
+### Git {#git .unnumbered}
+
+If you aren't familiar with what git is, I recommend you watch the
+videos on the following page <https://git-scm.com/doc>, and remember the
+link to the docs for future reference. To download the project you can
+start by cloning the project onto your computer.
+
+If you have access to a terminal then you can do the following:
+
+::: term
+git clone git\@github.com:cuppajoeman/knowledge-book.git
+:::
+
+From here on out you will make changes to the project and make commits
+using git. Eventually you will want to upload online so that other users
+can see your changes, in this case you will run
+
+::: term
+git push
+:::
+
+Otherwise you can download <https://desktop.github.com/>. And after
+you've made edits to the book, you can push, then finally then go to
+your forked version of the project and make a pull request into the main
+project.
+
+## Communication {#communication .unnumbered}
+
+All communication will occur through github disccusions. You can access
+it here:
 
 ## Content Based {#content-based .unnumbered}
 
