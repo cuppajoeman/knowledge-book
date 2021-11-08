@@ -123,10 +123,14 @@ listing only,
 listing options={style=tcblatex,language=sh,escapeinside=||,showstringspaces=false},
 every listing line={\textcolor{lime}{\small\ttfamily\bfseries user@machine{\textcolor{white}:}\textcolor{cyan!60}{\url{~}}{\textcolor{white}\#} }}}
 
+
 \newlength{\Lind}
 \setbox0\hbox{\small\ttfamily\bfseries root@}
 \setlength{\Lind}{\the\dimexpr\wd0+1pt}
 \newcommand{\LR}{\\\hspace*{-\Lind}}
+
+
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -148,18 +152,14 @@ every listing line={\textcolor{lime}{\small\ttfamily\bfseries user@machine{\text
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Chapter quote at the start of chapter        %
-% Source: http://tex.stackexchange.com/a/53380 %
+% Chapter styling                              %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\makeatletter
-\renewcommand{\@chapapp}{}% Not necessary...
-\newenvironment{chapquote}[2][2em]
-  {\setlength{\@tempdima}{#1}%
-   \def\chapquote@author{#2}%
-   \parshape 1 \@tempdima \dimexpr\textwidth-2\@tempdima\relax%
-   \itshape}
-  {\par\normalfont\hfill--\ \chapquote@author\hspace*{\@tempdima}\par\bigskip}
-\makeatother
+
+\usepackage{titlesec}
+
+\titleformat{\chapter}[hang]  
+{\normalfont\huge\bfseries\centering}{\chaptertitlename\ \thechapter:}{.5em}{}  
+\titlespacing{\chapter}{0pt}{-32pt}{1cm}% <-- CHANGE DONE HERE!!
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % First page of book which contains 'stuff' like: %
