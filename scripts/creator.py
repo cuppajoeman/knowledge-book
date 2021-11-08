@@ -5,10 +5,8 @@ import subprocess
 import pyperclip
 
 if __name__ == "__main__":
-    args = arguments.get_args()
-    target_dir = shell.get_dir(
-        constants.ROOT_DIR, constants.TYPE_TO_DIRECTORY[args.type]
-    )
+    args = arguments.get_args(arguments.setup_creator_parser)
+    target_dir = shell.get_dir(constants.TYPE_TO_DIRECTORY[args.type])
     new_file_name = shell.create_new_content_file(
         args.title, args.type, target_dir, args.dry_run
     )

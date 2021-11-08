@@ -57,22 +57,65 @@ def get_file(directory: str) -> str:
     return file_name
 
 
-def get_dir(base_directory: str, directory_name: str) -> str:
+def get_dir(directory_name: str = "") -> str:
     """
     Uses fzf to get a directory from the given directiory
     :return: the name of the file
     """
+    if directory_name != "":
+        find_name_arguments = ["-name", directory_name]
+    else:
+        find_name_arguments = []
     find_result = subprocess.run(
         [
             "find",
-            base_directory,
-            "-name",
-            directory_name,
+            constants.ROOT_DIR,
+            *find_name_arguments,
             "-type",
             "d",
             "-not",
             "-path",
-            f"{base_directory}build/*",
+            f"{constants.ROOT_DIR}build/*",
+        ],
+        check=True,
+        capture_output=True,
+    )
+    dir_name = (
+        subprocess.run(
+            ["fzf"],
+            stdout=subprocess.PIPE,
+            input=find_result.stdout,
+        )
+        .stdout.decode("utf-8")
+        .strip()
+    )
+    return dir_name
+
+
+def get_file(directory_name: str = "", extension: str = "") -> str:
+    """
+    Uses fzf to get a directory from the given directiory
+    :return: the name of the file
+    """
+    if directory_name != "" or extension != "":
+        find_name_arguments = [
+            "-name",
+            (directory_name + "/" if directory_name else "")
+            + (f"*.{extension}" if extension else ""),
+        ]
+    else:  # they are both empty
+        find_name_arguments = []
+
+    print(find_name_arguments)
+
+    find_result = subprocess.run(
+        [
+            "find",
+            constants.ROOT_DIR,
+            *find_name_arguments,
+            "-not",
+            "-path",
+            f"{constants.ROOT_DIR}build/*",
         ],
         check=True,
         capture_output=True,
