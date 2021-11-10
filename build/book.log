@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.6.13)  9 NOV 2021 19:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.6.13)  10 NOV 2021 12:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -857,62 +857,7 @@ l.25 \end{dedication}
 
  [5
 
-] (build/book.definitions
-Overfull \hbox (2.7858pt too wide) detected at line 17
-\T1/cmr/m/n/10.95 3.1.10 
- []
-
-
-Overfull \hbox (2.7858pt too wide) detected at line 18
-\T1/cmr/m/n/10.95 3.1.11 
- []
-
-
-Overfull \hbox (2.7858pt too wide) detected at line 19
-\T1/cmr/m/n/10.95 3.1.12 
- []
-
-
-Overfull \hbox (2.7858pt too wide) detected at line 20
-\T1/cmr/m/n/10.95 3.1.13 
- []
-
-
-Overfull \hbox (2.7858pt too wide) detected at line 21
-\T1/cmr/m/n/10.95 3.1.14 
- []
-
-
-Overfull \hbox (2.7858pt too wide) detected at line 22
-\T1/cmr/m/n/10.95 3.1.15 
- []
-
-
-Overfull \hbox (2.7858pt too wide) detected at line 23
-\T1/cmr/m/n/10.95 3.1.16 
- []
-
-
-Overfull \hbox (2.7858pt too wide) detected at line 24
-\T1/cmr/m/n/10.95 3.1.17 
- []
-
-
-Overfull \hbox (2.7858pt too wide) detected at line 25
-\T1/cmr/m/n/10.95 3.1.18 
- []
-
-
-Overfull \hbox (2.7858pt too wide) detected at line 26
-\T1/cmr/m/n/10.95 3.1.19 
- []
-
-
-Overfull \hbox (2.7858pt too wide) detected at line 27
-\T1/cmr/m/n/10.95 3.1.20 
- []
-
-[6
+] (build/book.definitions [6
 
 ])
 \tf@definitions=\write11
@@ -1001,37 +946,9 @@ Package hyperref Info: bookmark level for unknown tcolorbox defaults to 0 on inp
 
 
 
-]) (./analysis/definitions/real_valued_limit.tex) (./analysis/propositions/constant_in_limit.tex [9]) (./analysis/propositions/sum_of_limits.tex
-Overfull \hbox (105.47594pt too wide) detected at line 21
-[] \OT1/cmr/m/n/10.95 = [] \OMS/cmsy/m/n/10.95 ^^T [] \OT1/cmr/m/n/10.95 + [] \OML/cmm/m/it/10.95 < [] \OT1/cmr/m/n/10.95 + [] = \OML/cmm/m/it/10.95 "
- []
+]) (./analysis/definitions/real_valued_limit.tex) (./analysis/propositions/constant_in_limit.tex [9]) (./analysis/propositions/sum_of_limits.tex [10]) [11] (./analysis/theorems/chain_rule.tex [12]) (./analysis/propositions/little_oh_and_differentiability_equivalence.tex [13] [14]) [15
 
-[10]) [11] (./analysis/theorems/chain_rule.tex
-Overfull \hbox (12.64557pt too wide) detected at line 18
-[] \OMS/cmsy/m/n/10.95 ^^A \OML/cmm/m/it/10.95 h \OT1/cmr/m/n/10.95 + \OML/cmm/m/it/10.95 g [] \OT1/cmr/m/n/10.95 = \OML/cmm/m/it/10.95 g [] [] [] \OMS/cmsy/m/n/10.95 ^^A \OML/cmm/m/it/10.95 k \OT1/cmr/m/n/10.95 + \OML/cmm/m/it/10.95 f [] \OT1/cmr/m/n/10.95 = \OML/cmm/m/it/10.95 f []
- []
-
-
-Overfull \hbox (17.61607pt too wide) detected at line 25
-[]
- []
-
-
-Overfull \hbox (8.2389pt too wide) detected at line 33
-[] []
- []
-
-
-Overfull \hbox (20.9378pt too wide) detected at line 41
-[] [] \OMS/cmsy/m/n/10.95 ^^A [] \OT1/cmr/m/n/10.95 = [] \OML/cmm/m/it/10.95 f[] [] \OMS/cmsy/m/n/10.95 ^^A \OML/cmm/m/it/10.95 g[] [] \OT1/cmr/m/n/10.95 = []
- []
-
-[12]) (./analysis/propositions/little_oh_and_differentiability_equivalence.tex
-Overfull \hbox (26.4512pt too wide) detected at line 25
-[] [] \OT1/cmr/m/n/10.95 = 0 \OMS/cmsy/m/n/10.95 , [] [] \OT1/cmr/m/n/10.95 = 0
- []
-
-[13]) [14] [15] (./analysis/definitions/bounded_sequence.tex) (./analysis/definitions/directional_derivative.tex)) [16]
+] (./analysis/definitions/bounded_sequence.tex) (./analysis/definitions/directional_derivative.tex)) [16]
 \openout2 = `linear_algebra/linear_algebra.aux'.
 
  (./linear_algebra/linear_algebra.tex
@@ -1074,12 +991,7 @@ Chapter 3.
 LaTeX Font Info:    Trying to load font information for U+euf on input line 2.
  (/usr/share/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
-)) (./logic/definitions/formula.tex) (./logic/definitions/formulas_of_a_language.tex) (./logic/definitions/subformula.tex) (./logic/definitions/scope.tex) (./logic/definitions/a_term's_variable_replaced_by_a_term.tex) [22] (./logic/definitions/a_formulas_variable_replaced_by_a_term.tex) (./logic/definitions/a_term_is_substitutable_for_a_variable.tex) [23] (./logic/definitions/free_variable_in_a_formula.tex) [24] (./logic/definitions/variable_assignment_function.tex) (./logic/definitions/term_assignment_function.tex) (./logic/definitions/interpretation_of_a_term.tex) (./logic/definitions/satisfaction.tex) [25] (./logic/definitions/l-structure.tex) (./logic/definitions/equivalent_formulas.tex) (./logic/propositions/double_negation_equivalence.tex [26]) (./logic/definitions/a_literal_structure.tex) (./logic/definitions/restricted_l-structure.tex) (./logic/definitions/deduction_of_a_formula.tex) [27] (./logic/definitions/logical_axioms.tex
-Overfull \hbox (11.16965pt too wide) detected at line 9
-[]
- []
-
-) [28] (./logic/definitions/consistent_set_of_l_formulas.tex) (./logic/propositions/contradiction_has_no_model.tex) (./logic/propositions/implying_a_contradiction_means_no_model.tex [29]) (./logic/propositions/logical_contradiction.tex) (./logic/lemmas/constant_replacement_removes_it.tex [30]) (./logic/lemmas/constant_extension_still_consistent.tex [31]) [32] (./logic/definitions/bounded_quantifier_abbreviations.tex) (./logic/definitions/sigma_formula.tex) [33] (./logic/definitions/pi_formula.tex) (./logic/propositions/negation_of_a_sigma_formula_is_a_pi_formula.tex
+)) (./logic/definitions/formula.tex) (./logic/definitions/formulas_of_a_language.tex) (./logic/definitions/subformula.tex) (./logic/definitions/scope.tex) (./logic/definitions/a_term's_variable_replaced_by_a_term.tex) [22] (./logic/definitions/a_formulas_variable_replaced_by_a_term.tex) (./logic/definitions/a_term_is_substitutable_for_a_variable.tex) [23] (./logic/definitions/free_variable_in_a_formula.tex) [24] (./logic/definitions/variable_assignment_function.tex) (./logic/definitions/term_assignment_function.tex) (./logic/definitions/interpretation_of_a_term.tex) (./logic/definitions/satisfaction.tex) [25] (./logic/definitions/l-structure.tex) (./logic/definitions/equivalent_formulas.tex) (./logic/propositions/double_negation_equivalence.tex [26]) (./logic/definitions/a_literal_structure.tex) (./logic/definitions/restricted_l-structure.tex) (./logic/definitions/deduction_of_a_formula.tex) [27] (./logic/definitions/logical_axioms.tex) [28] (./logic/definitions/consistent_set_of_l_formulas.tex) (./logic/propositions/contradiction_has_no_model.tex) (./logic/propositions/implying_a_contradiction_means_no_model.tex [29]) (./logic/propositions/logical_contradiction.tex) (./logic/lemmas/constant_replacement_removes_it.tex [30]) (./logic/lemmas/constant_extension_still_consistent.tex [31]) [32] (./logic/definitions/bounded_quantifier_abbreviations.tex) (./logic/definitions/sigma_formula.tex) [33] (./logic/definitions/pi_formula.tex) (./logic/propositions/negation_of_a_sigma_formula_is_a_pi_formula.tex
 Underfull \hbox (badness 1221) in paragraph at lines 35--46
 []$\OML/cmm/m/it/10.95 ^^^ \OT1/cmr/m/n/10.95 :\OMS/cmsy/m/n/10.95 ^^Q [] \OML/cmm/m/it/10.95 $\T1/cmr/m/n/10.95 , then it's nega-tion is $[] []$ by
  []
@@ -1168,13 +1080,13 @@ Package rerunfilecheck Info: File `book.out' has not changed.
 (rerunfilecheck)             Checksum: CF2FE1E280443F4A64260B821EA6DD9E;3545.
  ) 
 Here is how much of TeX's memory you used:
- 32591 strings out of 478994
- 628630 string characters out of 5864751
- 1375245 words of memory out of 5000000
- 48717 multiletter control sequences out of 15000+600000
+ 32600 strings out of 478994
+ 628846 string characters out of 5864751
+ 1375296 words of memory out of 5000000
+ 48726 multiletter control sequences out of 15000+600000
  439756 words of font info for 124 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,18n,155p,915b,2366s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 128i,18n,155p,780b,2364s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist, replaced by a fixed one
@@ -1187,7 +1099,7 @@ pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist,
 
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfit1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm120
 0.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsl1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texmf-dist/fonts/type1/public/txfonts/t1xbtt.pfb></usr/share/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb>
-Output written on build/book.pdf (58 pages, 670984 bytes).
+Output written on build/book.pdf (58 pages, 671088 bytes).
 PDF statistics:
  1043 PDF objects out of 1200 (max. 8388607)
  914 compressed objects within 10 object streams

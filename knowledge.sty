@@ -177,6 +177,21 @@ every listing line={\textcolor{lime}{\small\ttfamily\bfseries user@machine{\text
 % Colored Boxes
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+
+\makeatletter
+\tcbset{
+  % definition
+  list level/.store in=\kvtcb@listlevel,
+  list indent/.store in=\kvtcb@listindent,
+  list numwidth/.store in=\kvtcb@listnumwidth,
+  % init
+  list level=1, list indent=1.5em, list numwidth=2.3em
+}
+
+\renewcommand*\l@tcolorbox{%
+  \@dottedtocline{\kvtcb@listlevel}{\kvtcb@listindent}{\kvtcb@listnumwidth}}
+\makeatother
+
 \newtcbtheorem[auto counter, number within=section,list inside=definitions]{definition}%
   {Definition}{fonttitle=\bfseries\upshape, fontupper=\slshape,
   arc=0mm, colback=green!5!white,colframe=green!75!black}{definition}
