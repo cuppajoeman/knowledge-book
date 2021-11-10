@@ -1,0 +1,16 @@
+\begin{proposition}{Set Equality Subset Characterization}{set_equality_subset_characterization}
+    Two sets \( A, B \) are equal if and only if \( A \subseteq B \land B
+    \subseteq A \)
+\end{proposition}
+\begin{proof}
+    Suppose \( A \subseteq B \land  B \subseteq A \), then for the sake of
+    contradiction assume without loss of generality that there is an element \(
+    x \in  A\) but that \( x \not\in B \), we assumed \( A \subseteq B \) so
+    since \( x \in  A \) it implies that \( x \in  B \) which is a
+    contradiction.\\
+    Now suppose that \( A = B \) but that it's false that \( A \subseteq B \land
+    B \subseteq A\) without loss of generality we assume that \( A \subseteq B
+    \) is false, which by definition means that there is some \( a \in  A \)
+    such that \( a \not\in B \), but then \( A \neq B \) which is a
+    contradiction.
+\end{proof}

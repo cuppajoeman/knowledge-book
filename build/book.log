@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.6.13)  10 NOV 2021 12:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.10.20)  10 NOV 2021 17:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -722,27 +722,27 @@ Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \c@tcb@cnt@lemma=\count332
 \c@tcb@cnt@corollary=\count333
 \c@tcb@cnt@example=\count334
-) (build/book.aux (build/preface/preface.aux) (build/analysis/analysis.aux) (build/linear_algebra/linear_algebra.aux) (build/logic/logic.aux) (build/topology/topology.aux) (build/computer_science/computer_science.aux) (build/graph_theory/graph_theory.aux) (build/probability/probability.aux) (build/programming/programming.aux))
+) (build/book.aux (build/preface/preface.aux) (build/set_theory/set_theory.aux) (build/analysis/analysis.aux) (build/linear_algebra/linear_algebra.aux) (build/logic/logic.aux) (build/topology/topology.aux) (build/computer_science/computer_science.aux) (build/graph_theory/graph_theory.aux) (build/probability/probability.aux) (build/programming/programming.aux))
 \openout1 = `book.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -753,14 +753,14 @@ LaTeX Font Info:    ... okay on input line 17.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(89.62709pt, 418.25368pt, 89.6271pt)
-* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
+* v-part:(T,H,B)=(36.135pt, 772.77686pt, 36.135pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=418.25368pt
-* \textheight=591.5302pt
+* \textheight=772.77686pt
 * \oddsidemargin=17.3571pt
 * \evensidemargin=17.3571pt
-* \topmargin=-2.73714pt
+* \topmargin=-68.00879pt
 * \headheight=12.0pt
 * \headsep=19.8738pt
 * \topskip=11.0pt
@@ -797,7 +797,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring ON on input line 17.
+Package hyperref Info: Link coloring ON on input line 18.
  (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/share/texmf-dist/tex/latex/refcount/refcount.sty
@@ -807,19 +807,19 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count341
 )
-LaTeX Info: Redefining \ref on input line 17.
-LaTeX Info: Redefining \pageref on input line 17.
-LaTeX Info: Redefining \nameref on input line 17.
+LaTeX Info: Redefining \ref on input line 18.
+LaTeX Info: Redefining \pageref on input line 18.
+LaTeX Info: Redefining \nameref on input line 18.
  (build/book.out) (build/book.out)
 \@outlinefile=\write6
 \openout6 = `book.out'.
 
 \c@lstlisting=\count342
-LaTeX Font Info:    Trying to load font information for U+msa on input line 21.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 22.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 21.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 22.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
@@ -829,7 +829,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.25 \end{dedication}
+l.26 \end{dedication}
                       [1
 
 ] (build/book.toc)
@@ -876,9 +876,7 @@ l.25 \end{dedication}
 
 
 
-] [2] [3
-
-]
+] [2]
 \openout4 = `book.listing'.
 
  (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -914,7 +912,9 @@ File: se-iso-8859-1.def 2019/11/29 v1.12 stringenc: ISO-8859-1
 
  (/usr/share/texmf-dist/tex/latex/base/latin1.def
 File: latin1.def 2020/08/01 v1.3d Input encoding file
-) [4] [5]
+) [3
+
+] [4]
 \openout4 = `book.listing'.
 
  (/usr/share/texmf-dist/tex/latex/base/latin1.def
@@ -934,25 +934,33 @@ File: latin1.def 2020/08/01 v1.3d Input encoding file
 
  (/usr/share/texmf-dist/tex/latex/base/latin1.def
 File: latin1.def 2020/08/01 v1.3d Input encoding file
-) [6]) [7]
+) [5]) [6]
+\openout2 = `set_theory/set_theory.aux'.
+
+ (./set_theory/set_theory.tex
+Chapter 1.
+(./set_theory/definitions/set_equality.tex
+Package hyperref Info: bookmark level for unknown tcolorbox defaults to 0 on input line 1.
+) (./set_theory/propositions/set_equality_subset_characterization.tex)) [7
+
+
+
+
+]
 \openout2 = `analysis/analysis.aux'.
 
  (./analysis/analysis.tex
-Chapter 1.
-(./analysis/theorems/triangle_inequality.tex
-Package hyperref Info: bookmark level for unknown tcolorbox defaults to 0 on input line 1.
-) (./analysis/lemmas/absolute_value_is_equal_to_max.tex) (./analysis/propositions/limit_of_constant.tex [8
+Chapter 2.
+(./analysis/theorems/triangle_inequality.tex) (./analysis/lemmas/absolute_value_is_equal_to_max.tex) (./analysis/propositions/limit_of_constant.tex [8
 
 
 
 
-]) (./analysis/definitions/real_valued_limit.tex) (./analysis/propositions/constant_in_limit.tex [9]) (./analysis/propositions/sum_of_limits.tex [10]) [11] (./analysis/theorems/chain_rule.tex [12]) (./analysis/propositions/little_oh_and_differentiability_equivalence.tex [13] [14]) [15
-
-] (./analysis/definitions/bounded_sequence.tex) (./analysis/definitions/directional_derivative.tex)) [16]
+]) (./analysis/definitions/real_valued_limit.tex) (./analysis/propositions/constant_in_limit.tex) (./analysis/propositions/sum_of_limits.tex [9]) [10] (./analysis/theorems/chain_rule.tex [11]) (./analysis/propositions/little_oh_and_differentiability_equivalence.tex [12]) [13] (./analysis/definitions/bounded_sequence.tex) (./analysis/definitions/directional_derivative.tex)) [14]
 \openout2 = `linear_algebra/linear_algebra.aux'.
 
  (./linear_algebra/linear_algebra.tex
-Chapter 2.
+Chapter 3.
 (./linear_algebra/definitions/algebraic_dot_product.tex) (./linear_algebra/definitions/geometric_dot_product.tex (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypatterns.code.tex
 File: tikzlibrarypatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
  (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibrarypatterns.code.tex
@@ -968,30 +976,30 @@ File: pgflibrarypatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfdecorationsegmentlength=\dimen314
 )
 \tikz@lib@dec@box=\box81
-) (/usr/share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex))) (./linear_algebra/propositions/algebraic_def_implies_geometric_def_of_dot_product.tex [17
+) (/usr/share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex))) (./linear_algebra/propositions/algebraic_def_implies_geometric_def_of_dot_product.tex) (./linear_algebra/definitions/matrix_for_a_linear_transformation.tex) [15
 
 
 
 
-]) (./linear_algebra/definitions/matrix_for_a_linear_transformation.tex) (./linear_algebra/definitions/matrix_multiplication.tex) [18] (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+] (./linear_algebra/definitions/matrix_multiplication.tex) (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 26.
- (./linear_algebra/programs/matrix_multiplication.py [19])) [20]
+ (./linear_algebra/programs/matrix_multiplication.py [16])) [17]
 \openout2 = `logic/logic.aux'.
 
  (./logic/logic.tex
-Chapter 3.
-(./logic/definitions/first_order_language.tex) (./logic/definitions/language_of_number_theory.tex) (./logic/definitions/term.tex) [21
-
-
-
-
-] (./logic/definitions/terms_of_a_language.tex
+Chapter 4.
+(./logic/definitions/first_order_language.tex) (./logic/definitions/language_of_number_theory.tex) (./logic/definitions/term.tex) (./logic/definitions/terms_of_a_language.tex
 LaTeX Font Info:    Trying to load font information for U+euf on input line 2.
  (/usr/share/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
-)) (./logic/definitions/formula.tex) (./logic/definitions/formulas_of_a_language.tex) (./logic/definitions/subformula.tex) (./logic/definitions/scope.tex) (./logic/definitions/a_term's_variable_replaced_by_a_term.tex) [22] (./logic/definitions/a_formulas_variable_replaced_by_a_term.tex) (./logic/definitions/a_term_is_substitutable_for_a_variable.tex) [23] (./logic/definitions/free_variable_in_a_formula.tex) [24] (./logic/definitions/variable_assignment_function.tex) (./logic/definitions/term_assignment_function.tex) (./logic/definitions/interpretation_of_a_term.tex) (./logic/definitions/satisfaction.tex) [25] (./logic/definitions/l-structure.tex) (./logic/definitions/equivalent_formulas.tex) (./logic/propositions/double_negation_equivalence.tex [26]) (./logic/definitions/a_literal_structure.tex) (./logic/definitions/restricted_l-structure.tex) (./logic/definitions/deduction_of_a_formula.tex) [27] (./logic/definitions/logical_axioms.tex) [28] (./logic/definitions/consistent_set_of_l_formulas.tex) (./logic/propositions/contradiction_has_no_model.tex) (./logic/propositions/implying_a_contradiction_means_no_model.tex [29]) (./logic/propositions/logical_contradiction.tex) (./logic/lemmas/constant_replacement_removes_it.tex [30]) (./logic/lemmas/constant_extension_still_consistent.tex [31]) [32] (./logic/definitions/bounded_quantifier_abbreviations.tex) (./logic/definitions/sigma_formula.tex) [33] (./logic/definitions/pi_formula.tex) (./logic/propositions/negation_of_a_sigma_formula_is_a_pi_formula.tex
+)) [18
+
+
+
+
+] (./logic/definitions/formula.tex) (./logic/definitions/formulas_of_a_language.tex) (./logic/definitions/subformula.tex) (./logic/definitions/scope.tex) (./logic/definitions/a_term's_variable_replaced_by_a_term.tex) (./logic/definitions/a_formulas_variable_replaced_by_a_term.tex) [19] (./logic/definitions/a_term_is_substitutable_for_a_variable.tex) (./logic/definitions/free_variable_in_a_formula.tex) [20] (./logic/definitions/variable_assignment_function.tex) (./logic/definitions/term_assignment_function.tex) (./logic/definitions/interpretation_of_a_term.tex) (./logic/definitions/satisfaction.tex) [21] (./logic/definitions/l-structure.tex) (./logic/definitions/equivalent_formulas.tex) (./logic/propositions/double_negation_equivalence.tex) (./logic/definitions/a_literal_structure.tex) [22] (./logic/definitions/restricted_l-structure.tex) (./logic/definitions/deduction_of_a_formula.tex) (./logic/definitions/logical_axioms.tex) [23] (./logic/definitions/consistent_set_of_l_formulas.tex) (./logic/propositions/contradiction_has_no_model.tex) (./logic/propositions/implying_a_contradiction_means_no_model.tex [24]) (./logic/propositions/logical_contradiction.tex) (./logic/lemmas/constant_replacement_removes_it.tex [25]) (./logic/lemmas/constant_extension_still_consistent.tex [26]) (./logic/definitions/bounded_quantifier_abbreviations.tex) (./logic/definitions/sigma_formula.tex) (./logic/definitions/pi_formula.tex) [27] (./logic/propositions/negation_of_a_sigma_formula_is_a_pi_formula.tex
 Underfull \hbox (badness 1221) in paragraph at lines 35--46
 []$\OML/cmm/m/it/10.95 ^^^ \OT1/cmr/m/n/10.95 :\OMS/cmsy/m/n/10.95 ^^Q [] \OML/cmm/m/it/10.95 $\T1/cmr/m/n/10.95 , then it's nega-tion is $[] []$ by
  []
@@ -1021,22 +1029,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--73
 []$\OML/cmm/m/it/10.95 ^^^ \OT1/cmr/m/n/10.95 :\OMS/cmsy/m/n/10.95 ^^Q [] \OML/cmm/m/it/10.95 $ \T1/cmr/m/n/10.95 the nega-tion is equiv-a-lent to
  []
 
-[34]) (./logic/definitions/representable_set.tex) (./logic/definitions/weakly_representable_set.tex) (./logic/definitions/total_function.tex [35]) (./logic/definitions/partial_function.tex) (./logic/definitions/representable_function.tex) (./logic/definitions/definable_set.tex) (./logic/corollaries/definable_by_delta_formula_implies_representable.tex)) [36]
+[28]) (./logic/definitions/representable_set.tex) (./logic/definitions/weakly_representable_set.tex) (./logic/definitions/total_function.tex) (./logic/definitions/partial_function.tex) (./logic/definitions/representable_function.tex) (./logic/definitions/definable_set.tex) (./logic/corollaries/definable_by_delta_formula_implies_representable.tex)) [29]
 \openout2 = `topology/topology.aux'.
 
  (./topology/topology.tex
-Chapter 4.
-(./topology/definitions/basis.tex) (./topology/definitions/subspace_topology.tex) [37
+Chapter 5.
+(./topology/definitions/topology_on_a_set.tex) (./topology/definitions/open_subset.tex) (./topology/definitions/topological_space.tex) (./topology/definitions/basis_for_a_set.tex) (./topology/definitions/topology_generated_by_a_basis_(basis_existance).tex) (./topology/lemmas/intersection_of_two_elements_from_the_topology_generated_by_a_basis_(basis_existance)_is_closed.tex [30
 
 
 
 
-] (./topology/definitions/box_topology.tex) [38] [39] (./topology/lemmas/epsilon_ball_contains_another.tex) (./topology/propositions/epsilon_balls_form_a_basis.tex) (./topology/definitions/metric_topology.tex) [40] (./topology/examples/function_on_R_omega.tex [41]) (./topology/definitions/connected.tex) (./topology/examples/R_omega_connected_in_diff_topos.tex [42] [43]) (./topology/propositions/connected_implies_closure_connected.tex) (./topology/definitions/totally_disconnected.tex) [44]) [45]
+]) (./topology/propositions/topology_generated_by_a_basis_(basis_existance)_is_a_topology.tex [31]) (./topology/definitions/topology_generated_by_a_basis_(union).tex) (./topology/propositions/topology_generated_by_a_basis_(union)_is_a_topology.tex
+Overfull \hbox (9.59912pt too wide) detected at line 33
+[] \OML/cmm/m/it/10.95 V[] \OT1/cmr/m/n/10.95 = [] [] = [] [] = [] \OML/cmm/m/it/10.95 X \OT1/cmr/m/n/10.95 = [] []
+ []
+
+[32]) (./topology/propositions/generating_by_basis_existance_or_union_yields_same_topology.tex) (./topology/lemmas/basis_criterion.tex [33]) (./topology/definitions/subspace_topology.tex) (./topology/definitions/box_topology.tex) [34] [35] (./topology/lemmas/epsilon_ball_contains_another.tex) (./topology/propositions/epsilon_balls_form_a_basis.tex) (./topology/definitions/metric_topology.tex) [36] (./topology/examples/function_on_R_omega.tex) (./topology/definitions/connected.tex) [37] (./topology/examples/R_omega_connected_in_diff_topos.tex [38]) (./topology/propositions/connected_implies_closure_connected.tex) (./topology/definitions/totally_disconnected.tex) [39]) [40]
 \openout2 = `computer_science/computer_science.aux'.
 
  (./computer_science/computer_science.tex
-Chapter 5.
-(./computer_science/definitions/big_o.tex) (./computer_science/definitions/little_o.tex)) [46
+Chapter 6.
+(./computer_science/definitions/big_o.tex) (./computer_science/definitions/little_o.tex)) [41
 
 
 
@@ -1045,8 +1058,8 @@ Chapter 5.
 \openout2 = `graph_theory/graph_theory.aux'.
 
  (./graph_theory/graph_theory.tex
-Chapter 6.
-(./graph_theory/propositions/maximum_number_of_edges.tex)) [47
+Chapter 7.
+(./graph_theory/propositions/maximum_number_of_edges.tex)) [42
 
 
 
@@ -1055,8 +1068,8 @@ Chapter 6.
 \openout2 = `probability/probability.aux'.
 
  (./probability/probability.tex
-Chapter 7.
-(./probability/definitions/conditional_independence.tex)) [48
+Chapter 8.
+(./probability/definitions/conditional_independence.tex)) [43
 
 
 
@@ -1065,25 +1078,25 @@ Chapter 7.
 \openout2 = `programming/programming.aux'.
 
  (./programming/programming.tex
-Chapter 8.
+Chapter 9.
 \openout4 = `book.listing'.
 
 (/usr/share/texmf-dist/tex/latex/base/latin1.def
 File: latin1.def 2020/08/01 v1.3d Input encoding file
-)) [49
+)) [44
 
 
 
 
-] (build/book.aux (build/preface/preface.aux) (build/analysis/analysis.aux) (build/linear_algebra/linear_algebra.aux) (build/logic/logic.aux) (build/topology/topology.aux) (build/computer_science/computer_science.aux) (build/graph_theory/graph_theory.aux) (build/probability/probability.aux) (build/programming/programming.aux))
+] (build/book.aux (build/preface/preface.aux) (build/set_theory/set_theory.aux) (build/analysis/analysis.aux) (build/linear_algebra/linear_algebra.aux) (build/logic/logic.aux) (build/topology/topology.aux) (build/computer_science/computer_science.aux) (build/graph_theory/graph_theory.aux) (build/probability/probability.aux) (build/programming/programming.aux))
 Package rerunfilecheck Info: File `book.out' has not changed.
-(rerunfilecheck)             Checksum: CF2FE1E280443F4A64260B821EA6DD9E;3545.
+(rerunfilecheck)             Checksum: 2C13CE54D823A03B554DDA0E1AED58F3;3699.
  ) 
 Here is how much of TeX's memory you used:
- 32600 strings out of 478994
- 628846 string characters out of 5864751
- 1375296 words of memory out of 5000000
- 48726 multiletter control sequences out of 15000+600000
+ 32706 strings out of 478994
+ 633212 string characters out of 5864750
+ 1370195 words of memory out of 5000000
+ 48773 multiletter control sequences out of 15000+600000
  439756 words of font info for 124 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,18n,155p,780b,2364s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1097,12 +1110,12 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist,
 
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
-{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfit1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm120
-0.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsl1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texmf-dist/fonts/type1/public/txfonts/t1xbtt.pfb></usr/share/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb>
-Output written on build/book.pdf (58 pages, 671088 bytes).
+{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfit1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sf
+rm1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsl1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texmf-dist/fonts/type1/public/txfonts/t1xbtt.pfb></usr/share/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb>
+Output written on build/book.pdf (53 pages, 696945 bytes).
 PDF statistics:
- 1043 PDF objects out of 1200 (max. 8388607)
- 914 compressed objects within 10 object streams
- 343 named destinations out of 1000 (max. 500000)
- 373 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1065 PDF objects out of 1200 (max. 8388607)
+ 940 compressed objects within 10 object streams
+ 355 named destinations out of 1000 (max. 500000)
+ 389 words of extra memory for PDF output out of 10000 (max. 10000000)
 

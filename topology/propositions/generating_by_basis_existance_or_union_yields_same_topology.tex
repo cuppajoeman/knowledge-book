@@ -1,0 +1,24 @@
+\begin{proposition}
+{Generating by Basis Existance or Union Yields Same
+Topology}{generating_by_basis_existance_or_union_yields_same_topology}
+\[
+\left\{U \subseteq X: \forall x \in U, \exists B \in \mathcal{B}
+~\text{such that} x \in B \subseteq U \right\} = \left\{\bigcup \mathcal{C} :
+\mathcal{C} \subseteq \mathcal{B} \right\}
+\]
+\end{proposition}
+\begin{proof}
+    \begin{itemize}
+        \item \(\subseteq \) Let \(U \) be an element of the left hand side,
+        we'd like to show it's an element of the right hand side. For each point
+        \( x \in  U \) we have \( B _{ x } \in \mathcal{ B }   \) such that \( x
+        \in B _{ x } \subseteq U\), therefore \( U = \bigcup _{ x \in  U } B _{
+        x}  \) and so \( U \) is an element of the right hand side.
+        \item \(\supseteq \) Suppose that \(\mathcal{C} \subseteq \mathcal{B} \)
+        then for any \(C \in \mathcal{C} \) we know that \(C \in \mathcal{
+        B} \) (it's a basis element) and therefore we know that \(C \) is an
+        element of the left hand side since we can take \(B = C \). Then since
+        the left hand side is a topology \(\bigcup \mathcal{C} \) is also a
+        part of the left hand side as it's an arbitrary union.
+    \end{itemize}
+\end{proof}
