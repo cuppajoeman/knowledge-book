@@ -1,0 +1,39 @@
+\begin{proposition}{Maximum Number of Edges}{maximum_number_of_edges}
+Let $ G = \left( V, E \right)  $ be a simple graph such that $ \left| V \right|
+= n$ and $ \left| E  \right| = m $, then we have:
+\[
+m \le \binom{n}{2}
+\]
+\end{proposition}
+\begin{proof}
+    Given $ V = \left\{ v_{1} , v_{2} , \dotsc  , v_{n - 1} , v_{n} \right\}  $
+    an edge could exist between any two vertices. Since there are $ \binom{n}{2}
+    $ distinct subsets of $ V $ of size $ 2 $ we can see that $ \binom{n}{2} $
+    is an upper bound on the edges, thus we have
+    \[
+    m \le \binom{n}{2}
+    \]
+\end{proof}
+\begin{proof}
+    Consider the adjacency matrix of $ G $ at most the matrix could be 
+    \[
+        \boldsymbol{ A }  = 
+        \begin{bmatrix}
+                0 & 1 & \ldots & 1 & 1    \\
+                1 & 0 & \ldots & 1 & 1    \\
+            \vdots &    & \ddots &    & \vdots\\
+                1 & 1 & \ldots & 0 & 1 \\
+                1 & 1 & \ldots & 1 & 0 
+        \end{bmatrix}
+    \]
+    which is an $ n \times n $ matrix. The reason why is that this means that
+    every two nodes are connected aside from loops (the graph is simple). And
+    note that each $ 1 $ in the matrix accounts for edge between two verticies
+    so that $ \boldsymbol{ a } _{ i,j } = 1 \Leftrightarrow v _{ i } v _{ j }
+    \in  E  $ . Also note that $ \boldsymbol{ A }   $ symmetrically overcounds
+    each edges twice as the edge $ v _{ i } v _{ j }  $ and $ v _{ j } v _{ i }
+    $ a the same, therefore sine there are $ n ^{ 2 } -  n $ 1's in the matrix,
+    the maximum number of edges is $ \frac{n \left( n - 1 \right) }{2} =
+    \binom{n}{2} $ .
+\end{proof}
+

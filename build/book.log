@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.10.20)  8 NOV 2021 16:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.6.13)  9 NOV 2021 19:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -136,40 +136,7 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \gincltex@box=\box49
 ) (/usr/share/texmf-dist/tex/latex/filemod/filemod-expmin.sty
 Package: filemod-expmin 2011/09/19 v1.2 Get and compare file modification times (expandable; minimal)
-))
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: 
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(34.1433pt, 529.22128pt, 34.1433pt)
-* v-part:(T,H,B)=(42.67912pt, 759.6886pt, 42.67912pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=529.22128pt
-* \textheight=759.6886pt
-* \oddsidemargin=-38.1267pt
-* \evensidemargin=-38.1267pt
-* \topmargin=-61.46466pt
-* \headheight=12.0pt
-* \headsep=19.8738pt
-* \topskip=11.0pt
-* \footskip=27.46295pt
-* \marginparwidth=53.0pt
-* \marginparsep=7.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
- (./knowledge.sty
+)) (./knowledge.sty
 Package: knowledge A custom package for the knowledge book
  (/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2021-02-27 v7.00k Hypertext links for LaTeX
@@ -755,11 +722,7 @@ Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \c@tcb@cnt@lemma=\count332
 \c@tcb@cnt@corollary=\count333
 \c@tcb@cnt@example=\count334
-) (build/book.aux (build/preface/preface.aux) (build/analysis/analysis.aux) (build/linear_algebra/linear_algebra.aux) (build/logic/logic.aux
-
-LaTeX Warning: Label `definition:restricted_l-structure' multiply defined.
-
-) (build/topology/topology.aux) (build/computer_science/computer_science.aux) (build/probability/probability.aux) (build/programming/programming.aux))
+) (build/book.aux (build/preface/preface.aux) (build/analysis/analysis.aux) (build/linear_algebra/linear_algebra.aux) (build/logic/logic.aux) (build/topology/topology.aux) (build/computer_science/computer_science.aux) (build/graph_theory/graph_theory.aux) (build/probability/probability.aux) (build/programming/programming.aux))
 \openout1 = `book.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
@@ -789,15 +752,15 @@ LaTeX Font Info:    ... okay on input line 17.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(34.1433pt, 529.22128pt, 34.1433pt)
-* v-part:(T,H,B)=(42.67912pt, 759.6886pt, 42.67912pt)
+* h-part:(L,W,R)=(89.62709pt, 418.25368pt, 89.6271pt)
+* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=529.22128pt
-* \textheight=759.6886pt
-* \oddsidemargin=-38.1267pt
-* \evensidemargin=-38.1267pt
-* \topmargin=-61.46466pt
+* \textwidth=418.25368pt
+* \textheight=591.5302pt
+* \oddsidemargin=17.3571pt
+* \evensidemargin=17.3571pt
+* \topmargin=-2.73714pt
 * \headheight=12.0pt
 * \headsep=19.8738pt
 * \topskip=11.0pt
@@ -863,7 +826,6 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 
-
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -896,61 +858,71 @@ l.25 \end{dedication}
  [5
 
 ] (build/book.definitions
-Overfull \hbox (2.7858pt too wide) detected at line 16
+Overfull \hbox (2.7858pt too wide) detected at line 17
 \T1/cmr/m/n/10.95 3.1.10 
  []
 
 
-Overfull \hbox (2.7858pt too wide) detected at line 17
+Overfull \hbox (2.7858pt too wide) detected at line 18
 \T1/cmr/m/n/10.95 3.1.11 
  []
 
 
-Overfull \hbox (2.7858pt too wide) detected at line 18
+Overfull \hbox (2.7858pt too wide) detected at line 19
 \T1/cmr/m/n/10.95 3.1.12 
  []
 
 
-Overfull \hbox (2.7858pt too wide) detected at line 19
+Overfull \hbox (2.7858pt too wide) detected at line 20
 \T1/cmr/m/n/10.95 3.1.13 
  []
 
 
-Overfull \hbox (2.7858pt too wide) detected at line 20
+Overfull \hbox (2.7858pt too wide) detected at line 21
 \T1/cmr/m/n/10.95 3.1.14 
  []
 
 
-Overfull \hbox (2.7858pt too wide) detected at line 21
+Overfull \hbox (2.7858pt too wide) detected at line 22
 \T1/cmr/m/n/10.95 3.1.15 
  []
 
 
-Overfull \hbox (2.7858pt too wide) detected at line 22
+Overfull \hbox (2.7858pt too wide) detected at line 23
 \T1/cmr/m/n/10.95 3.1.16 
  []
 
 
-Overfull \hbox (2.7858pt too wide) detected at line 23
+Overfull \hbox (2.7858pt too wide) detected at line 24
 \T1/cmr/m/n/10.95 3.1.17 
  []
 
 
-Overfull \hbox (2.7858pt too wide) detected at line 24
+Overfull \hbox (2.7858pt too wide) detected at line 25
 \T1/cmr/m/n/10.95 3.1.18 
  []
 
-)
+
+Overfull \hbox (2.7858pt too wide) detected at line 26
+\T1/cmr/m/n/10.95 3.1.19 
+ []
+
+
+Overfull \hbox (2.7858pt too wide) detected at line 27
+\T1/cmr/m/n/10.95 3.1.20 
+ []
+
+[6
+
+])
 \tf@definitions=\write11
 \openout11 = `book.definitions'.
 
- [6
-
-] (build/book.examples)
+ [7] (build/book.examples)
 \tf@examples=\write12
 \openout12 = `book.examples'.
 
- [7
+ [8
 
 ]
 \openout2 = `preface/preface.aux'.
@@ -958,6 +930,8 @@ Overfull \hbox (2.7858pt too wide) detected at line 24
  (./preface/preface.tex [1
 
 
+
+] [2] [3
 
 ]
 \openout4 = `book.listing'.
@@ -995,9 +969,7 @@ File: se-iso-8859-1.def 2019/11/29 v1.12 stringenc: ISO-8859-1
 
  (/usr/share/texmf-dist/tex/latex/base/latin1.def
 File: latin1.def 2020/08/01 v1.3d Input encoding file
-) [2
-
-] [3]
+) [4] [5]
 \openout4 = `book.listing'.
 
  (/usr/share/texmf-dist/tex/latex/base/latin1.def
@@ -1017,19 +989,49 @@ File: latin1.def 2020/08/01 v1.3d Input encoding file
 
  (/usr/share/texmf-dist/tex/latex/base/latin1.def
 File: latin1.def 2020/08/01 v1.3d Input encoding file
-) [4]) [5]
+) [6]) [7]
 \openout2 = `analysis/analysis.aux'.
 
  (./analysis/analysis.tex
 Chapter 1.
 (./analysis/theorems/triangle_inequality.tex
 Package hyperref Info: bookmark level for unknown tcolorbox defaults to 0 on input line 1.
-) (./analysis/lemmas/absolute_value_is_equal_to_max.tex) (./analysis/propositions/limit_of_constant.tex) (./analysis/definitions/real_valued_limit.tex [6
+) (./analysis/lemmas/absolute_value_is_equal_to_max.tex) (./analysis/propositions/limit_of_constant.tex [8
 
 
 
 
-]) (./analysis/propositions/constant_in_limit.tex) (./analysis/propositions/sum_of_limits.tex [7]) [8] (./analysis/theorems/chain_rule.tex) [9] (./analysis/propositions/little_oh_and_differentiability_equivalence.tex) [10] [11] (./analysis/definitions/bounded_sequence.tex) (./analysis/definitions/directional_derivative.tex)) [12]
+]) (./analysis/definitions/real_valued_limit.tex) (./analysis/propositions/constant_in_limit.tex [9]) (./analysis/propositions/sum_of_limits.tex
+Overfull \hbox (105.47594pt too wide) detected at line 21
+[] \OT1/cmr/m/n/10.95 = [] \OMS/cmsy/m/n/10.95 ^^T [] \OT1/cmr/m/n/10.95 + [] \OML/cmm/m/it/10.95 < [] \OT1/cmr/m/n/10.95 + [] = \OML/cmm/m/it/10.95 "
+ []
+
+[10]) [11] (./analysis/theorems/chain_rule.tex
+Overfull \hbox (12.64557pt too wide) detected at line 18
+[] \OMS/cmsy/m/n/10.95 ^^A \OML/cmm/m/it/10.95 h \OT1/cmr/m/n/10.95 + \OML/cmm/m/it/10.95 g [] \OT1/cmr/m/n/10.95 = \OML/cmm/m/it/10.95 g [] [] [] \OMS/cmsy/m/n/10.95 ^^A \OML/cmm/m/it/10.95 k \OT1/cmr/m/n/10.95 + \OML/cmm/m/it/10.95 f [] \OT1/cmr/m/n/10.95 = \OML/cmm/m/it/10.95 f []
+ []
+
+
+Overfull \hbox (17.61607pt too wide) detected at line 25
+[]
+ []
+
+
+Overfull \hbox (8.2389pt too wide) detected at line 33
+[] []
+ []
+
+
+Overfull \hbox (20.9378pt too wide) detected at line 41
+[] [] \OMS/cmsy/m/n/10.95 ^^A [] \OT1/cmr/m/n/10.95 = [] \OML/cmm/m/it/10.95 f[] [] \OMS/cmsy/m/n/10.95 ^^A \OML/cmm/m/it/10.95 g[] [] \OT1/cmr/m/n/10.95 = []
+ []
+
+[12]) (./analysis/propositions/little_oh_and_differentiability_equivalence.tex
+Overfull \hbox (26.4512pt too wide) detected at line 25
+[] [] \OT1/cmr/m/n/10.95 = 0 \OMS/cmsy/m/n/10.95 , [] [] \OT1/cmr/m/n/10.95 = 0
+ []
+
+[13]) [14] [15] (./analysis/definitions/bounded_sequence.tex) (./analysis/definitions/directional_derivative.tex)) [16]
 \openout2 = `linear_algebra/linear_algebra.aux'.
 
  (./linear_algebra/linear_algebra.tex
@@ -1049,45 +1051,90 @@ File: pgflibrarypatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfdecorationsegmentlength=\dimen314
 )
 \tikz@lib@dec@box=\box81
-) (/usr/share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex))) (./linear_algebra/propositions/algebraic_def_implies_geometric_def_of_dot_product.tex) (./linear_algebra/definitions/matrix_multiplication.tex) [13
+) (/usr/share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex))) (./linear_algebra/propositions/algebraic_def_implies_geometric_def_of_dot_product.tex [17
 
 
 
 
-] (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+]) (./linear_algebra/definitions/matrix_for_a_linear_transformation.tex) (./linear_algebra/definitions/matrix_multiplication.tex) [18] (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 22.
- (./linear_algebra/programs/matrix_multiplication.py [14])) [15]
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 26.
+ (./linear_algebra/programs/matrix_multiplication.py [19])) [20]
 \openout2 = `logic/logic.aux'.
 
  (./logic/logic.tex
 Chapter 3.
-(./logic/definitions/first_order_language.tex) (./logic/definitions/term.tex) (./logic/definitions/terms_of_a_language.tex
+(./logic/definitions/first_order_language.tex) (./logic/definitions/language_of_number_theory.tex) (./logic/definitions/term.tex) [21
+
+
+
+
+] (./logic/definitions/terms_of_a_language.tex
 LaTeX Font Info:    Trying to load font information for U+euf on input line 2.
  (/usr/share/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
-)) (./logic/definitions/formula.tex) (./logic/definitions/formulas_of_a_language.tex) [16
+)) (./logic/definitions/formula.tex) (./logic/definitions/formulas_of_a_language.tex) (./logic/definitions/subformula.tex) (./logic/definitions/scope.tex) (./logic/definitions/a_term's_variable_replaced_by_a_term.tex) [22] (./logic/definitions/a_formulas_variable_replaced_by_a_term.tex) (./logic/definitions/a_term_is_substitutable_for_a_variable.tex) [23] (./logic/definitions/free_variable_in_a_formula.tex) [24] (./logic/definitions/variable_assignment_function.tex) (./logic/definitions/term_assignment_function.tex) (./logic/definitions/interpretation_of_a_term.tex) (./logic/definitions/satisfaction.tex) [25] (./logic/definitions/l-structure.tex) (./logic/definitions/equivalent_formulas.tex) (./logic/propositions/double_negation_equivalence.tex [26]) (./logic/definitions/a_literal_structure.tex) (./logic/definitions/restricted_l-structure.tex) (./logic/definitions/deduction_of_a_formula.tex) [27] (./logic/definitions/logical_axioms.tex
+Overfull \hbox (11.16965pt too wide) detected at line 9
+[]
+ []
+
+) [28] (./logic/definitions/consistent_set_of_l_formulas.tex) (./logic/propositions/contradiction_has_no_model.tex) (./logic/propositions/implying_a_contradiction_means_no_model.tex [29]) (./logic/propositions/logical_contradiction.tex) (./logic/lemmas/constant_replacement_removes_it.tex [30]) (./logic/lemmas/constant_extension_still_consistent.tex [31]) [32] (./logic/definitions/bounded_quantifier_abbreviations.tex) (./logic/definitions/sigma_formula.tex) [33] (./logic/definitions/pi_formula.tex) (./logic/propositions/negation_of_a_sigma_formula_is_a_pi_formula.tex
+Underfull \hbox (badness 1221) in paragraph at lines 35--46
+[]$\OML/cmm/m/it/10.95 ^^^ \OT1/cmr/m/n/10.95 :\OMS/cmsy/m/n/10.95 ^^Q [] \OML/cmm/m/it/10.95 $\T1/cmr/m/n/10.95 , then it's nega-tion is $[] []$ by
+ []
 
 
+Underfull \hbox (badness 3735) in paragraph at lines 35--46
+\T1/cmr/m/n/10.95 our in-duc-tion hy-poth-e-sis we know that $\OMS/cmsy/m/n/10.95 :\OML/cmm/m/it/10.95 $ \T1/cmr/m/n/10.95 is equiv-a-lent
+ []
 
 
-] (./logic/definitions/subformula.tex) (./logic/definitions/scope.tex) (./logic/definitions/a_term's_variable_replaced_by_a_term.tex) (./logic/definitions/a_term_is_substitutable_for_a_variable.tex) (./logic/definitions/free_variable_in_a_formula.tex) [17] (./logic/definitions/variable_assignment_function.tex) (./logic/definitions/term_assignment_function.tex) (./logic/definitions/interpretation_of_a_term.tex) (./logic/definitions/satisfaction.tex) [18] (./logic/definitions/restricted_l-structure.tex) (./logic/definitions/l-structure.tex) (./logic/definitions/a_literal_structure.tex) (./logic/definitions/restricted_l-structure.tex) [19] (./logic/definitions/deduction_of_a_formula.tex) (./logic/definitions/logical_axioms.tex) [20] (./logic/definitions/consistent_set_of_l_formulas.tex) (./logic/propositions/contradiction_has_no_model.tex) (./logic/propositions/implying_a_contradiction_means_no_model.tex) (./logic/propositions/logical_contradiction.tex [21]) (./logic/lemmas/constant_extension_still_consistent.tex) [22] (./logic/definitions/representable_set.tex) (./logic/definitions/weakly_representable_set.tex) (./logic/definitions/total_function.tex) (./logic/definitions/partial_function.tex) (./logic/definitions/representable_function.tex) (./logic/definitions/definable_set.tex) (./logic/corollaries/definable_by_delta_formula_implies_representable.tex [23])) [24]
+Underfull \hbox (badness 1742) in paragraph at lines 35--46
+\T1/cmr/m/n/10.95 to some $\OT1/cmr/m/n/10.95 ^^E$\T1/cmr/m/n/10.95 -formula $\OML/cmm/m/it/10.95 ^^Y[]$ \T1/cmr/m/n/10.95 so $[] []$is equiv-a-lent to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--58
+[]\T1/cmr/m/n/10.95 Suppose $\OML/cmm/m/it/10.95 ^^^ \OT1/cmr/m/n/10.95 :\OMS/cmsy/m/n/10.95 ^^Q []$ \T1/cmr/m/n/10.95 then $\OMS/cmsy/m/n/10.95 :\OML/cmm/m/it/10.95 ^^^$ \T1/cmr/m/n/10.95 is equiv-a-lent to
+ []
+
+
+Underfull \hbox (badness 3907) in paragraph at lines 46--58
+[] \OMS/cmsy/m/n/10.95 : [] \OT1/cmr/m/n/10.95 :\OMS/cmsy/m/n/10.95 ^^Q [] : []$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--73
+[]$\OML/cmm/m/it/10.95 ^^^ \OT1/cmr/m/n/10.95 :\OMS/cmsy/m/n/10.95 ^^Q [] \OML/cmm/m/it/10.95 $ \T1/cmr/m/n/10.95 the nega-tion is equiv-a-lent to
+ []
+
+[34]) (./logic/definitions/representable_set.tex) (./logic/definitions/weakly_representable_set.tex) (./logic/definitions/total_function.tex [35]) (./logic/definitions/partial_function.tex) (./logic/definitions/representable_function.tex) (./logic/definitions/definable_set.tex) (./logic/corollaries/definable_by_delta_formula_implies_representable.tex)) [36]
 \openout2 = `topology/topology.aux'.
 
  (./topology/topology.tex
 Chapter 4.
-(./topology/definitions/basis.tex) (./topology/definitions/subspace_topology.tex) (./topology/definitions/box_topology.tex) [25
+(./topology/definitions/basis.tex) (./topology/definitions/subspace_topology.tex) [37
 
 
 
 
-] [26] (./topology/lemmas/epsilon_ball_contains_another.tex) (./topology/propositions/epsilon_balls_form_a_basis.tex) (./topology/definitions/metric_topology.tex) [27] (./topology/examples/function_on_R_omega.tex) (./topology/definitions/connected.tex) [28] (./topology/examples/R_omega_connected_in_diff_topos.tex) (./topology/propositions/connected_implies_closure_connected.tex [29]) (./topology/definitions/totally_disconnected.tex)) [30]
+] (./topology/definitions/box_topology.tex) [38] [39] (./topology/lemmas/epsilon_ball_contains_another.tex) (./topology/propositions/epsilon_balls_form_a_basis.tex) (./topology/definitions/metric_topology.tex) [40] (./topology/examples/function_on_R_omega.tex [41]) (./topology/definitions/connected.tex) (./topology/examples/R_omega_connected_in_diff_topos.tex [42] [43]) (./topology/propositions/connected_implies_closure_connected.tex) (./topology/definitions/totally_disconnected.tex) [44]) [45]
 \openout2 = `computer_science/computer_science.aux'.
 
  (./computer_science/computer_science.tex
 Chapter 5.
-(./computer_science/definitions/big_o.tex) (./computer_science/definitions/little_o.tex)) [31
+(./computer_science/definitions/big_o.tex) (./computer_science/definitions/little_o.tex)) [46
+
+
+
+
+]
+\openout2 = `graph_theory/graph_theory.aux'.
+
+ (./graph_theory/graph_theory.tex
+Chapter 6.
+(./graph_theory/propositions/maximum_number_of_edges.tex)) [47
 
 
 
@@ -1096,8 +1143,8 @@ Chapter 5.
 \openout2 = `probability/probability.aux'.
 
  (./probability/probability.tex
-Chapter 6.
-(./probability/definitions/conditional_independence.tex)) [32
+Chapter 7.
+(./probability/definitions/conditional_independence.tex)) [48
 
 
 
@@ -1106,31 +1153,28 @@ Chapter 6.
 \openout2 = `programming/programming.aux'.
 
  (./programming/programming.tex
-Chapter 7.
+Chapter 8.
 \openout4 = `book.listing'.
 
 (/usr/share/texmf-dist/tex/latex/base/latin1.def
 File: latin1.def 2020/08/01 v1.3d Input encoding file
-)) [33
+)) [49
 
 
 
 
-] (build/book.aux (build/preface/preface.aux) (build/analysis/analysis.aux) (build/linear_algebra/linear_algebra.aux) (build/logic/logic.aux) (build/topology/topology.aux) (build/computer_science/computer_science.aux) (build/probability/probability.aux) (build/programming/programming.aux))
-
-LaTeX Warning: There were multiply-defined labels.
-
+] (build/book.aux (build/preface/preface.aux) (build/analysis/analysis.aux) (build/linear_algebra/linear_algebra.aux) (build/logic/logic.aux) (build/topology/topology.aux) (build/computer_science/computer_science.aux) (build/graph_theory/graph_theory.aux) (build/probability/probability.aux) (build/programming/programming.aux))
 Package rerunfilecheck Info: File `book.out' has not changed.
-(rerunfilecheck)             Checksum: CB9928E72A1BBCAB7ADE3FF8FBCAED0B;3270.
+(rerunfilecheck)             Checksum: CF2FE1E280443F4A64260B821EA6DD9E;3545.
  ) 
 Here is how much of TeX's memory you used:
- 32456 strings out of 478994
- 625057 string characters out of 5864750
- 1347031 words of memory out of 5000000
- 48667 multiletter control sequences out of 15000+600000
+ 32591 strings out of 478994
+ 628630 string characters out of 5864751
+ 1375245 words of memory out of 5000000
+ 48717 multiletter control sequences out of 15000+600000
  439756 words of font info for 124 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,18n,155p,780b,2366s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 128i,18n,155p,915b,2366s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist, replaced by a fixed one
@@ -1143,10 +1187,10 @@ pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist,
 
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfit1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm120
 0.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsl1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texmf-dist/fonts/type1/public/txfonts/t1xbtt.pfb></usr/share/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb>
-Output written on build/book.pdf (41 pages, 636424 bytes).
+Output written on build/book.pdf (58 pages, 670984 bytes).
 PDF statistics:
- 915 PDF objects out of 1000 (max. 8388607)
- 804 compressed objects within 9 object streams
- 299 named destinations out of 1000 (max. 500000)
- 357 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1043 PDF objects out of 1200 (max. 8388607)
+ 914 compressed objects within 10 object streams
+ 343 named destinations out of 1000 (max. 500000)
+ 373 words of extra memory for PDF output out of 10000 (max. 10000000)
 

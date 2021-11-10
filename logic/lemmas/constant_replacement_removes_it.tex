@@ -1,0 +1,36 @@
+\begin{lemma}{Constant Replacement Removes It}{constant_replacement_removes_it}
+Let $ \phi  $ be an $ \mathcal{ L }   $ formula, then for any $ c \in  \phi \cap  \mathcal{ C }  $ and any $ t \in  \mathfrak{ T } \left( \mathcal{ L }   \right)   $ where $ c \not\in t $ then 
+\[
+ c \not\in \phi _{ t }^{ c } 
+\]
+\end{lemma}
+\begin{proof}
+    The proof is by structural induction on $ \phi  $. Since formulas are constructed from terms, it must be shown on terms first:
+    \begin{itemize}
+        \item Base Case
+        \begin{itemize}
+            \item Suppose $ u :\equiv x $ where $ x $ is some variable, then $ x _{ u }^{ c } :\equiv x $ and so $ c \not\in x $, because $ \mathcal{ C } \cap \mathcal{ V } = \varnothing    $ 
+            \item If $ u $ is a constant but $ c \not\in u $ then the subtitution doesn't change anything as above, but if $ u :\equiv  c $ then $ u _{ t }^{ c } :\equiv t   $ and so $ c \not\in u _{ t }^{ c }  $ 
+        \end{itemize}
+        \item Induction Step
+        \begin{itemize}
+            \item Let $ t_{1} , t_{2} , \dotsc  , t_{n - 1} , t_{n} $ be terms where the claim holds, we will show the claim holds on 
+            \[
+            f  t_{1} , t_{2} , \dotsc  , t_{n - 1} , t_{n} 
+            \]
+            \item Note that  $ \left(  f  t_{1} , t_{2} , \dotsc  , t_{n - 1} , t_{n}   \right) _{ t }^{ c } :\equiv f \left( t_{1} \right) _{ t }^{ c }, \left( t_{2} \right) _{ t }^{ c }, \ldots, \left( t_{n-1} \right) _{ t }^{ c }, \left( t_{n} \right) _{ t }^{ c }   $, and that $ c \not\in f $, therefore $ c \not\in f \left( t_{1} \right) _{ t }^{ c }, \left( t_{2} \right) _{ t }^{ c }, \ldots, \left( t_{n-1} \right) _{ t }^{ c }, \left( t_{n} \right) _{ t }^{ c }  :\equiv  f \left( t_{1} \right) _{ t }^{ c }, \left( t_{2} \right) _{ t }^{ c }, \ldots, \left( t_{n-1} \right) _{ t }^{ c }, \left( t_{n} \right) _{ t }^{ c }     $ as needed.
+        \end{itemize}
+    \end{itemize}
+    Now for the formulas
+    \begin{itemize}
+        \item Base Case
+        \begin{itemize}
+            \item For atomic formulas, we know that they are created out of terms, and symbols which don't change under replacement (namely $ = $ and relation symbols)   therefore since the claim holds on terms, and that the newly added symbols don't change and our induction hypothesis holds for $ \alpha  $ , $ \beta  $ the claim holds.
+        \end{itemize}
+        \item Induction Step
+        \begin{itemize}
+            \item Suppose that the claim holds on formulas $ \alpha, \beta  $ then it also holds for $ \neg \alpha  $ and $ \alpha \lor \beta  $ since the new characters added to the strings are $ \lor  $ and $ \neg  $ which don't change under replacement
+            \item When we have $ \left( \forall x \right) \phi  $ we can be sure that $ x  :\not\equiv c  $ as $ x \in  \mathcal{ V }   $ and $ c \in  \mathcal{ C }   $ and therefore by the definition of replacement we have that $ \left( \left( \forall x \right) \alpha \right) _{ t }^{ c }  :\equiv \left( \forall x \right) \alpha _{ t }^{ c }  $  and then by the induction hypothesis we have that $ c \not\in \left( \forall x \right) \alpha  $ 
+        \end{itemize}
+    \end{itemize}
+\end{proof}

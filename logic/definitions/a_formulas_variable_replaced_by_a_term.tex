@@ -1,0 +1,13 @@
+\begin{definition}{A Formulas Variable Replaced by a Term}{a_formulas_variable_replaced_by_a_term}
+Suppose that $\phi$ is an $\mathcal{L}$-formula, $t$ is a term, and $x$ is a variable. We define the formula $\phi_{t}^{x}$ (read " $\phi$ with $x$ replaced by $t$ ") as follows:
+\begin{enumerate}
+    \item If $\phi: \equiv=u_{1} u_{2}$, then $\phi_{t}^{x}$ is $=\left(u_{1}\right)_{t}^{x}\left(u_{2}\right)_{t}^{x}$.
+    \item If $\phi: \equiv R u_{1} u_{2} \ldots u_{n}$, then $\phi_{t}^{x}$ is $R\left(u_{1}\right)_{t}^{x}\left(u_{2}\right)_{t}^{x} \ldots\left(u_{n}\right)_{t}^{x}$.
+    \item If $\phi: \equiv \neg(\alpha)$, then $\phi_{t}^{x}$ is $\neg\left(\alpha_{t}^{x}\right)$.
+    \item If $\phi: \equiv(\alpha \vee \beta)$, then $\phi_{t}^{x}$ is $\left(\alpha_{t}^{x} \vee \beta_{t}^{x}\right)$.
+    \item If $\phi: \equiv(\forall y)(\alpha)$, then
+\end{enumerate}
+$$
+\phi_{t}^{x}= \begin{cases}\phi & \text { if } x \text { is } y \\ (\forall y)\left(\alpha_{t}^{x}\right) & \text { otherwise }\end{cases}
+$$
+\end{definition}

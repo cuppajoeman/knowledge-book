@@ -1,49 +1,55 @@
-\contentsline {tcolorbox}{\numberline {1.1.1}Real Valued Limit}{7}{tcb@cnt@definition.1.1.1}%
-\contentsline {tcolorbox}{\numberline {1.3.1}Bounded Sequence}{12}{tcb@cnt@definition.1.3.1}%
-\contentsline {tcolorbox}{\numberline {1.4.1}Directional Derivative}{12}{tcb@cnt@definition.1.4.1}%
-\contentsline {tcolorbox}{\numberline {2.1.1}Algebraic Dot Product}{13}{tcb@cnt@definition.2.1.1}%
-\contentsline {tcolorbox}{\numberline {2.1.2}Geometric Dot Product}{13}{tcb@cnt@definition.2.1.2}%
-\contentsline {tcolorbox}{\numberline {2.2.1}Matrix Multiplication}{14}{tcb@cnt@definition.2.2.1}%
-\contentsline {tcolorbox}{\numberline {3.1.1}First-Order Language}{16}{tcb@cnt@definition.3.1.1}%
-\contentsline {tcolorbox}{\numberline {3.1.2}Term}{16}{tcb@cnt@definition.3.1.2}%
-\contentsline {tcolorbox}{\numberline {3.1.3}Terms of a Language}{16}{tcb@cnt@definition.3.1.3}%
-\contentsline {tcolorbox}{\numberline {3.1.4}Formula}{16}{tcb@cnt@definition.3.1.4}%
-\contentsline {tcolorbox}{\numberline {3.1.5}Formulas of a Language}{17}{tcb@cnt@definition.3.1.5}%
-\contentsline {tcolorbox}{\numberline {3.1.6}Subformula}{17}{tcb@cnt@definition.3.1.6}%
-\contentsline {tcolorbox}{\numberline {3.1.7}Scope}{17}{tcb@cnt@definition.3.1.7}%
-\contentsline {tcolorbox}{\numberline {3.1.8}A Term's Variable Replaced by a Term}{17}{tcb@cnt@definition.3.1.8}%
-\contentsline {tcolorbox}{\numberline {3.1.9}A Term is Substitutable for a Variable}{17}{tcb@cnt@definition.3.1.9}%
-\contentsline {tcolorbox}{\numberline {3.1.10}Free Variable in a Formula}{18}{tcb@cnt@definition.3.1.10}%
-\contentsline {tcolorbox}{\numberline {3.1.11}Variable Assignment Function}{18}{tcb@cnt@definition.3.1.11}%
-\contentsline {tcolorbox}{\numberline {3.1.12}Term Assignment Function}{18}{tcb@cnt@definition.3.1.12}%
-\contentsline {tcolorbox}{\numberline {3.1.13}Interpretation of a Term}{18}{tcb@cnt@definition.3.1.13}%
-\contentsline {tcolorbox}{\numberline {3.1.14}Satisfaction}{19}{tcb@cnt@definition.3.1.14}%
-\contentsline {tcolorbox}{\numberline {3.1.15}Restricted L-Structure}{19}{tcb@cnt@definition.3.1.15}%
-\contentsline {tcolorbox}{\numberline {3.1.16}L-Structure}{19}{tcb@cnt@definition.3.1.16}%
-\contentsline {tcolorbox}{\numberline {3.1.17}A Literal Structure}{19}{tcb@cnt@definition.3.1.17}%
-\contentsline {tcolorbox}{\numberline {3.1.18}Restricted L-Structure}{20}{tcb@cnt@definition.3.1.18}%
-\contentsline {tcolorbox}{\numberline {3.2.1}Deduction of a Formula}{20}{tcb@cnt@definition.3.2.1}%
-\contentsline {tcolorbox}{\numberline {3.2.2}Logical Axioms}{20}{tcb@cnt@definition.3.2.2}%
-\contentsline {tcolorbox}{\numberline {3.3.1}Consistent Set of L Formulas}{21}{tcb@cnt@definition.3.3.1}%
-\contentsline {tcolorbox}{\numberline {3.4.1}Representable Set}{23}{tcb@cnt@definition.3.4.1}%
-\contentsline {tcolorbox}{\numberline {3.4.2}Weakly Representable Set}{23}{tcb@cnt@definition.3.4.2}%
-\contentsline {tcolorbox}{\numberline {3.4.3}Total Function}{23}{tcb@cnt@definition.3.4.3}%
-\contentsline {tcolorbox}{\numberline {3.4.4}Partial Function}{23}{tcb@cnt@definition.3.4.4}%
-\contentsline {tcolorbox}{\numberline {3.4.5}Representable Function}{23}{tcb@cnt@definition.3.4.5}%
-\contentsline {tcolorbox}{\numberline {3.4.6}Definable Set}{24}{tcb@cnt@definition.3.4.6}%
-\contentsline {tcolorbox}{\numberline {4.1.1}Basis}{25}{tcb@cnt@definition.4.1.1}%
-\contentsline {tcolorbox}{\numberline {4.1.2}Subspace Topology}{25}{tcb@cnt@definition.4.1.2}%
-\contentsline {tcolorbox}{\numberline {4.1.3}Product Topology}{25}{tcb@cnt@definition.4.1.3}%
-\contentsline {tcolorbox}{\numberline {4.1.4}Box Topology}{26}{tcb@cnt@definition.4.1.4}%
-\contentsline {tcolorbox}{\numberline {4.1.5}R Omega}{26}{tcb@cnt@definition.4.1.5}%
-\contentsline {tcolorbox}{\numberline {4.1.6}A metric}{26}{tcb@cnt@definition.4.1.6}%
-\contentsline {tcolorbox}{\numberline {4.1.7}Epsilon Ball}{27}{tcb@cnt@definition.4.1.7}%
-\contentsline {tcolorbox}{\numberline {4.1.8}Metric Topology}{27}{tcb@cnt@definition.4.1.8}%
-\contentsline {tcolorbox}{\numberline {4.1.9}Bounded Subset of a Metric Space}{28}{tcb@cnt@definition.4.1.9}%
-\contentsline {tcolorbox}{\numberline {4.2.1}Connected Space}{29}{tcb@cnt@definition.4.2.1}%
-\contentsline {tcolorbox}{\numberline {4.2.2}Totally Disconnected}{30}{tcb@cnt@definition.4.2.2}%
-\contentsline {tcolorbox}{\numberline {4.2.3}Covering}{30}{tcb@cnt@definition.4.2.3}%
-\contentsline {tcolorbox}{\numberline {4.2.4}Compact Space}{30}{tcb@cnt@definition.4.2.4}%
-\contentsline {tcolorbox}{\numberline {5.0.1}Big-O}{31}{tcb@cnt@definition.5.0.1}%
-\contentsline {tcolorbox}{\numberline {5.0.2}Little-o}{31}{tcb@cnt@definition.5.0.2}%
-\contentsline {tcolorbox}{\numberline {6.0.1}Conditional Independence}{32}{tcb@cnt@definition.6.0.1}%
+\contentsline {tcolorbox}{\numberline {1.1.1}Real Valued Limit}{9}{tcb@cnt@definition.1.1.1}%
+\contentsline {tcolorbox}{\numberline {1.3.1}Bounded Sequence}{16}{tcb@cnt@definition.1.3.1}%
+\contentsline {tcolorbox}{\numberline {1.4.1}Directional Derivative}{16}{tcb@cnt@definition.1.4.1}%
+\contentsline {tcolorbox}{\numberline {2.1.1}Algebraic Dot Product}{17}{tcb@cnt@definition.2.1.1}%
+\contentsline {tcolorbox}{\numberline {2.1.2}Geometric Dot Product}{17}{tcb@cnt@definition.2.1.2}%
+\contentsline {tcolorbox}{\numberline {2.2.1}Matrix for a Linear Transformation}{18}{tcb@cnt@definition.2.2.1}%
+\contentsline {tcolorbox}{\numberline {2.3.1}Matrix Multiplication}{19}{tcb@cnt@definition.2.3.1}%
+\contentsline {tcolorbox}{\numberline {3.1.1}First-Order Language}{21}{tcb@cnt@definition.3.1.1}%
+\contentsline {tcolorbox}{\numberline {3.1.2}Language of Number Theory}{21}{tcb@cnt@definition.3.1.2}%
+\contentsline {tcolorbox}{\numberline {3.1.3}Term}{22}{tcb@cnt@definition.3.1.3}%
+\contentsline {tcolorbox}{\numberline {3.1.4}Terms of a Language}{22}{tcb@cnt@definition.3.1.4}%
+\contentsline {tcolorbox}{\numberline {3.1.5}Formula}{22}{tcb@cnt@definition.3.1.5}%
+\contentsline {tcolorbox}{\numberline {3.1.6}Formulas of a Language}{22}{tcb@cnt@definition.3.1.6}%
+\contentsline {tcolorbox}{\numberline {3.1.7}Subformula}{22}{tcb@cnt@definition.3.1.7}%
+\contentsline {tcolorbox}{\numberline {3.1.8}Scope}{22}{tcb@cnt@definition.3.1.8}%
+\contentsline {tcolorbox}{\numberline {3.1.9}A Term's Variable Replaced by a Term}{23}{tcb@cnt@definition.3.1.9}%
+\contentsline {tcolorbox}{\numberline {3.1.10}A Formulas Variable Replaced by a Term}{23}{tcb@cnt@definition.3.1.10}%
+\contentsline {tcolorbox}{\numberline {3.1.11}A Term is Substitutable for a Variable}{24}{tcb@cnt@definition.3.1.11}%
+\contentsline {tcolorbox}{\numberline {3.1.12}Free Variable in a Formula}{24}{tcb@cnt@definition.3.1.12}%
+\contentsline {tcolorbox}{\numberline {3.1.13}Variable Assignment Function}{25}{tcb@cnt@definition.3.1.13}%
+\contentsline {tcolorbox}{\numberline {3.1.14}Term Assignment Function}{25}{tcb@cnt@definition.3.1.14}%
+\contentsline {tcolorbox}{\numberline {3.1.15}Interpretation of a Term}{25}{tcb@cnt@definition.3.1.15}%
+\contentsline {tcolorbox}{\numberline {3.1.16}Satisfaction}{26}{tcb@cnt@definition.3.1.16}%
+\contentsline {tcolorbox}{\numberline {3.1.17}L-Structure}{26}{tcb@cnt@definition.3.1.17}%
+\contentsline {tcolorbox}{\numberline {3.1.18}Equivalent Formulas}{26}{tcb@cnt@definition.3.1.18}%
+\contentsline {tcolorbox}{\numberline {3.1.19}A Literal Structure}{27}{tcb@cnt@definition.3.1.19}%
+\contentsline {tcolorbox}{\numberline {3.1.20}Restricted L-Structure}{27}{tcb@cnt@definition.3.1.20}%
+\contentsline {tcolorbox}{\numberline {3.2.1}Deduction of a Formula}{28}{tcb@cnt@definition.3.2.1}%
+\contentsline {tcolorbox}{\numberline {3.2.2}Logical Axioms}{28}{tcb@cnt@definition.3.2.2}%
+\contentsline {tcolorbox}{\numberline {3.3.1}Consistent Set of L Formulas}{29}{tcb@cnt@definition.3.3.1}%
+\contentsline {tcolorbox}{\numberline {3.4.1}Bounded Quantifier Abbreviations}{33}{tcb@cnt@definition.3.4.1}%
+\contentsline {tcolorbox}{\numberline {3.4.2}Sigma Formula}{34}{tcb@cnt@definition.3.4.2}%
+\contentsline {tcolorbox}{\numberline {3.4.3}Pi Formula}{34}{tcb@cnt@definition.3.4.3}%
+\contentsline {tcolorbox}{\numberline {3.4.4}Representable Set}{35}{tcb@cnt@definition.3.4.4}%
+\contentsline {tcolorbox}{\numberline {3.4.5}Weakly Representable Set}{36}{tcb@cnt@definition.3.4.5}%
+\contentsline {tcolorbox}{\numberline {3.4.6}Total Function}{36}{tcb@cnt@definition.3.4.6}%
+\contentsline {tcolorbox}{\numberline {3.4.7}Partial Function}{36}{tcb@cnt@definition.3.4.7}%
+\contentsline {tcolorbox}{\numberline {3.4.8}Representable Function}{36}{tcb@cnt@definition.3.4.8}%
+\contentsline {tcolorbox}{\numberline {3.4.9}Definable Set}{36}{tcb@cnt@definition.3.4.9}%
+\contentsline {tcolorbox}{\numberline {4.1.1}Basis}{37}{tcb@cnt@definition.4.1.1}%
+\contentsline {tcolorbox}{\numberline {4.1.2}Subspace Topology}{37}{tcb@cnt@definition.4.1.2}%
+\contentsline {tcolorbox}{\numberline {4.1.3}Product Topology}{38}{tcb@cnt@definition.4.1.3}%
+\contentsline {tcolorbox}{\numberline {4.1.4}Box Topology}{38}{tcb@cnt@definition.4.1.4}%
+\contentsline {tcolorbox}{\numberline {4.1.5}R Omega}{39}{tcb@cnt@definition.4.1.5}%
+\contentsline {tcolorbox}{\numberline {4.1.6}A metric}{39}{tcb@cnt@definition.4.1.6}%
+\contentsline {tcolorbox}{\numberline {4.1.7}Epsilon Ball}{40}{tcb@cnt@definition.4.1.7}%
+\contentsline {tcolorbox}{\numberline {4.1.8}Metric Topology}{41}{tcb@cnt@definition.4.1.8}%
+\contentsline {tcolorbox}{\numberline {4.1.9}Bounded Subset of a Metric Space}{41}{tcb@cnt@definition.4.1.9}%
+\contentsline {tcolorbox}{\numberline {4.2.1}Connected Space}{42}{tcb@cnt@definition.4.2.1}%
+\contentsline {tcolorbox}{\numberline {4.2.2}Totally Disconnected}{44}{tcb@cnt@definition.4.2.2}%
+\contentsline {tcolorbox}{\numberline {4.2.3}Covering}{45}{tcb@cnt@definition.4.2.3}%
+\contentsline {tcolorbox}{\numberline {4.2.4}Compact Space}{45}{tcb@cnt@definition.4.2.4}%
+\contentsline {tcolorbox}{\numberline {5.0.1}Big-O}{46}{tcb@cnt@definition.5.0.1}%
+\contentsline {tcolorbox}{\numberline {5.0.2}Little-o}{46}{tcb@cnt@definition.5.0.2}%
+\contentsline {tcolorbox}{\numberline {7.0.1}Conditional Independence}{48}{tcb@cnt@definition.7.0.1}%

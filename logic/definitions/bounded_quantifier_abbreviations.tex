@@ -1,0 +1,10 @@
+\begin{definition}{Bounded Quantifier Abbreviations}{bounded_quantifier_abbreviations}
+If $x$ is a variable that does not occur in the term $t$, let us agree to use the following abbreviations:
+\begin{gather*}
+(\forall x<t) \phi \text { means } \forall x(x<t \rightarrow \phi) \\
+(\forall x \leq t) \phi \text { means } \forall x((x<t \vee x=t) \rightarrow \phi) \\
+(\exists x<t) \phi \text { means } \exists x(x<t \wedge \phi) \\
+(\exists x \leq t) \phi \text { means } \exists x((x<t \vee x=t) \wedge \phi)
+\end{gather*}
+These abbreviations will constitute the set of bounded quantifiers.
+\end{definition}

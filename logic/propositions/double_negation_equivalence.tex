@@ -1,0 +1,13 @@
+\begin{proposition}{Double Negation Equivalence}{double_negation_equivalence}
+Let $ \phi  $ be a formula, then $ \phi  $ is equivalent to $ \neg \left( \neg \phi  \right)  $ 
+\end{proposition}
+\begin{proof}
+    Let $ \mathfrak{ A }   $ be $\mathcal{L}$-Structure, and let $ s $ be an assignment function, let's consider what it means for $ \mathfrak{ A } \models \neg \left( \neg \phi  \right)   $ 
+    \begin{align*}
+        \mathfrak{ A } \models \neg \left( \neg \phi  \right)  &\Leftrightarrow  ~\text{it's false that}~  \mathfrak{ A } \models \neg \phi  \\
+                                                               &\Leftrightarrow ~\text{it's false that, it's false that}~ \mathfrak{ A } \models \phi  \\
+                                                               &\Leftrightarrow ~\text{it's true that}~  \mathfrak{ A } \models \phi \\
+                                                               &\Leftrightarrow  \mathfrak{ A } \models \phi  
+    \end{align*}
+    And we know that if it's false that it's false, then it's true, because something is either true or false. Thus we've shown that $ \mathfrak{ A } \models \neg \left( \neg \phi  \right)   $ if and only if $ \mathfrak{ A } \models \phi   $ .
+\end{proof}
