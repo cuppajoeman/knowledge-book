@@ -1,0 +1,48 @@
+\begin{proposition}
+{Finer is Equivalent to Basis Containment}{finer_is_equivalent_to_basis_containment}
+Let \(\mathcal{B}_{1}\) and \(\mathcal{B}_{2}\) be two bases on a set \(X\),
+then \(\mathcal{T}_{\mathcal{B}_{1}} \subseteq \mathcal{T}_{\mathcal{B}_{2}}\)
+if and only if for every \(x \in X\) and \(B_{1} \in \mathcal{B}_{1}\)
+containing \(x\), there is a \(B_{2} \in \mathcal{B}_{2}\) such that \(x \in
+B_{2} \subseteq B_{1}\)
+\end{proposition}
+\begin{proof}
+\begin{itemize}
+    \item \( \Rightarrow  \) 
+    \begin{itemize}
+        \item Suppose \( \mathcal{ T } _{ \mathcal{ B } _{ 1 }    } \subseteq
+        \mathcal{ T } _{ \mathcal{ B } _{ 2 }   }    \). Now let \( x \in  X \)
+        and \( B _{ 1 } \in  \mathcal{ B } _{ 1 }   \) where \( x \in B _{ 1 }  \)
+        (Note that we can do this because any basis covers \( X \)),
+        \hyperref[corollary:basis_is_a_subset_of_the_topology_it_generates]{additionally
+        we have that every basis is a subset of the topology it generates}
+        therefore \( B _{ 1 } \in \mathcal{ T } _{ \mathcal{ B } _{ 1 } }     \) and
+        so by assumption we have that \( B _{ 1 } \in \mathcal{ T } _{ \mathcal{
+        B} _{ 2 }   }   \) which by definition means that \( \forall x \in B _{
+        1} , \exists B _{ 2 } \in  \mathcal{ B } _{ 2 }, \) such that \( x \in B
+        _{ 2 } \subseteq B _{ 1 } \) which is exactly what we wanted to show.
+    \end{itemize}
+    \item \( \Leftarrow  \) 
+    \begin{itemize}
+        \item Suppose the reverse, so let \( U \in \mathcal{ T } _{ \mathcal{ B
+        } _{ 1 }   }   \) we must show that \( U \in  \mathcal{ T } _{ \mathcal{
+        B } _{ 2 } }  \). Since \( U \in \mathcal{ T } _{ \mathcal{ B } _{ 1 }
+        }    \)  this means that \( \forall x \in  U, \exists B _{ 1 } \in
+        \mathcal{ B } _{ 1 }    \) such that \( x \in  B _{ 1 } \subseteq U \)
+        is a true statement. Recall that we'd like to prove that \( U \in
+        \mathcal{ T } _{ \mathcal{ B } _{ 2 }   }   \), namely that \( \forall x
+        \in U\) we have \( B _{ 2 } \in \mathcal{ B } _{ 2 }   \) such that \( x
+        \in  B _{ 2 }  \subseteq U\) 
+        \item Therefore let \( x \in  U \) by the fact that \( U \in  \mathcal{
+        T} _{ \mathcal{ B } _{ 1 }   }   \) we have \( B _{ 1  } \in \mathcal{ B
+        } _{ 1 }   \) such that \( x \in \mathcal{ B } _{ 1 } \subseteq U  \). 
+        \item By our original assumption (which is \( \forall x \in  X \) and \(
+        B _{ 1 }  \in \mathcal{ B } _{ 1 }  \) containing \( x \) we have  \( B
+        _{ 2 } \in  \mathcal{ B } _{ 2 }  \) with \( x \in B _{ 2 } \subseteq B
+        _{ 1 } \)), we get \( B _{ 2 } \in  \mathcal{ B } _{ 2 }  \) such that
+        \( x \in  B _{ 2 } \subseteq B _{ 1 } \) and recall that \( B _{ 1 }
+        \subseteq U \) so we have \( x \in B _{ 2 } \subseteq U \) as needed,
+        thus \( U \in  \mathcal{ T } _{ \mathcal{ B } _{ 2 }   }   \) 
+    \end{itemize}
+\end{itemize} 
+\end{proof}

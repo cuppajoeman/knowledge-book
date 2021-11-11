@@ -1,0 +1,81 @@
+\begin{proposition}{Field Sequences form a Vector Space}{field_sequences_form_a_vector_space}
+    \begin{center}
+        \( \mathbb{F} ^{ \infty  }  \) is a vector space
+    \end{center}
+\end{proposition}
+\begin{proof}
+Let \( u, v, w \in  \mathbb{F} ^{ \infty  }  \) and \( \alpha , \beta \in \mathbb{F} \) 
+\begin{enumerate}
+    \item Commutativity
+        \begin{align*}
+            u +  v &= \left( u _{ 1 } , u _{ 2 } , \ldots \right) + \left( v _{
+            1 } , v _{ 2 } , \ldots \right) \\
+                   &= \left( u _{ 1 }  +  v _{ 1 } , u _{ 2 }  +  v _{ 2 } ,
+                   \ldots \right) \\
+                   &= \left( v _{ 1 }  +  u _{ 1 } , v _{ 2 }  +  u _{ 2 } ,
+                   \ldots \right) \\
+                   &=  v +  u
+        \end{align*}
+    \item associativity
+        \begin{align*}
+           \left( u +  v \right) +  w   &= \left( u _{ 1 }  +  v _{ 1 } , u _{ 2
+           }  +  v _{ 2 } , \ldots \right) +  \left( w _{ 1 } , w _{ 2 } ,
+           \ldots \right) \\
+           &= \left( \left( u _{ 1 }  +  v _{ 1 } \right)  +  w _{ 1 }  , \left(  u
+           _{ 2 }  +  v _{ 2 } \right)  +  w _{ 2 }  , \ldots \right)\\
+           &= \left(  u _{ 1 }  + \left( v _{ 1 }   +  w _{ 1 }\right)  ,   u
+           _{ 2 }  +  \left( v _{ 2 }   +  w _{ 2 } \right)  , \ldots \right)\\
+           &= \left( u _{ 1 } , u _{ 2 } , \ldots \right) +  \left( v _{ 1 }  +
+           w _{ 1 } , v _{ 2 }  +  w _{ 2 } , \ldots \right)\\
+           &=  u +  \left( v +  w \right) 
+        \end{align*}
+        and for the scalars
+        \begin{align*}
+            \left( \alpha \beta  \right) v &= \left( \alpha \beta  \right)
+            \left( v _{ 1 } , v _{ 2 } , \ldots \right) \\
+            &=  \left( \left( \alpha \beta \right) v _{ 1 } , \left( \alpha
+            \beta  \right) v _{ 2 } , \ldots  \right) \\
+            &= \left( \alpha \left( \beta v _{ 1 }  \right) , \alpha \left(
+            \beta v _{ 2 }  \right) , \ldots \right) \\
+            &= \alpha \left( \beta v \right) 
+        \end{align*}
+        \item The additive identity is \( \left( 0, 0, \ldots \right)  \) as
+            \[
+            v +  0 =  \left( v _{ 1 } +  0 , v _{ 2 } +  0 , \ldots  \right) =
+            \left( v _{ 1 } , v _{ 2 } , \ldots  \right) =  v
+            \]
+        \item The inverse of \( v \) is \( - v _{ 1 } , -  v _{ 2 } , \ldots
+        \) since 
+        \begin{align*}
+             v +  \left( - v _{  1 } , -  v _{ 2 } , \ldots \right) &= \left( v
+             _{ 1 } , v _{  2 } , \ldots \right)   +  \left( - v _{  1 } , -  v
+             _{ 2 } , \ldots \right) \\
+             &= \left( v _{ 1 }  -  v _{ 1 } , v _{  2 } -  v _{ 2 } , \ldots
+             \right) \\
+             &= \left( 0, 0, \ldots \right) 
+        \end{align*}
+        \item Distributive properties
+        \begin{align*}
+            \alpha \left( u +  v \right) &= \alpha \left( u _{ 1 } +  v _{ 1 } ,
+            u _{  2 }  +  v  _{ 2 } , \ldots\right)  \\
+            &= \left( \alpha \left( u _{ 1 }  +  v _{ 1 }  \right) , \alpha
+            \left( u _{ 2 }  +  v _{ 2 }  \right) , \ldots \right) \\
+            &= \left( \alpha u _{ 1 } +  \alpha  v _{ 1 }  \right) \\
+            &= \left( \alpha u _{ 1 } , \alpha u _{ 2 } , \ldots \right)  +
+            \left( \alpha v _{ 1 } , \alpha  v _{ 2 } , \ldots \right) \\
+            &= \alpha u +  \alpha v
+        \end{align*}
+        \begin{align*}
+            \left( \alpha  +  \beta  \right) u &= \left( \left( \alpha +  \beta
+            \right) u _{ 1 } , \left( \alpha +  \beta  \right) u _{ 2 } , \ldots
+            \right) \\
+            &= \left( \alpha u _{ 1 } +  \beta u_{ 1 }, \alpha u _{ 2 } +  \beta u
+            _{ 2 } \right) \\
+            &= \left( \alpha u _{ 1 } , \alpha u _{ 2 } , \ldots \right) + \left(
+            \beta v _{ 1 } , \beta v _{ 2 } , \ldots \right)\\
+            &= \alpha u +  \beta v
+        \end{align*}
+\end{enumerate}
+Note that in each one of the proofs we use the corresponding property about the
+underlying field.
+\end{proof}

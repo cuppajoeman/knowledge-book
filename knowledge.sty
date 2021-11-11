@@ -130,9 +130,6 @@ every listing line={\textcolor{lime}{\small\ttfamily\bfseries user@machine{\text
 \newcommand{\LR}{\\\hspace*{-\Lind}}
 
 
-
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % 'dedication' environment: To add a dedication paragraph at the start of book %
 % Source: http://www.tug.org/pipermail/texhax/2010-June/015184.html            %
@@ -237,32 +234,15 @@ every listing line={\textcolor{lime}{\small\ttfamily\bfseries user@machine{\text
   title=Proof
 }
 
-%\renewcommand\qedsymbol{$\blacksquare$}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Custom Symbols
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\makeatletter
+\newcommand{\superimpose}[2]{%
+  {\ooalign{$#1\@firstoftwo#2$\cr\hfil$#1\@secondoftwo#2$\hfil\cr}}}
+\makeatother
 
-%\RequirePackage{xhfill}
-
-%\renewenvironment{proof}{{\bfseries Proof \xrfill $ $\par\nobreak\ignorespaces}}{}
-
-
-
-%\usepackage[explicit]{titlesec}
-%
-%%\titleformat{\section}
-%%  {\normalfont\Large\bfseries\filcenter}{}{0em}{\xrfill[0.3ex]{1.5pt}~#1~\xrfill[0.3ex]{1.5pt}}
-%%
-%\newenvironment{pf}{\section{Proof}}{\hfill$\blacksquare$}
-%
-%\newenvironment{ex}{\section{Examples}}
-%
-%\newenvironment{rmk}{\section{Remarks}}
-%
-%\newenvironment{mtv}{\section{Motivation}}
-%
-%
-%% custom url's (knowledge href)
-%
-%\newcommand{\kref}[2]{\href{#1}{\color{orange}{#2}}}
-
-\endinput
+% Distinct in
+\newcommand{\din}{\mathrel{\mathpalette\superimpose{{\sqsubset}{-}}}}
 
