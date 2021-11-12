@@ -1,0 +1,21 @@
+\begin{proposition}{Finite Subsets having a Model implies Original Set
+does}{finite_subsets_having_a_model_implies_original_set_does}
+Let \( \Sigma  \) be a set of sentences, then if every finite subset of \(
+\Sigma  \) has a model, then \( \Sigma  \) has a model
+\end{proposition}
+\begin{proof}
+    Suppose for the sake of contradiction that every finite subset of \(
+    \Sigma  \)  has a model, but \( \Sigma  \) doesn't have a model, by
+    \hyperref[propositions:implying_a_contradiction_means_no_model]{the fact
+    that \( \Sigma \models \bot  \) if and only if \( \Sigma  \) has no model},
+    we can see that \( \Sigma \models \bot  \), by completeness \( \Sigma \vdash
+    \bot \) and thus there is a finite deduction \( \mathcal{ D }   \) of \(
+    \bot  \), consider \( \Sigma _{ \mathcal{ D }   }  \) the set of all
+    elements of \( \Sigma \) which are used in the deduction of \( \bot  \), we
+    can see that \( \Sigma _{ \mathcal{ D }   } \vdash \bot \) thus by soundness
+    \( \Sigma _{ \mathcal{ D}   } \models \bot  \) which means that \( \Sigma _{
+    \mathcal{ D }   }  \) has no model, but \( \Sigma _{ \mathcal{ D }   }  \)
+    is a finite subset of \( \Sigma  \) and by assumption must have a model,
+    thus we've arrived at a contradiction and so \( \Sigma  \) must have a
+    model.
+\end{proof}

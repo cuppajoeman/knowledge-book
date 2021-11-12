@@ -1,0 +1,32 @@
+\begin{proposition}
+{Lower Limit and K-Topology are Strictly Finer than the
+Standard Topology on
+R}{lower_limit_and_k-topology_are_strictly_finer_than_the_standard_topology_on_r}
+Let \(\mathcal{T} _{\ell} \) be the lower limit topology, \(\mathcal{T
+} _{\mathcal{K}} \) be the \(\mathcal{K} \)-topology and \(
+\mathcal{T} \) the standard topology on \(\mathbb{R} \), then
+\[
+\mathcal{T} \subset \mathcal{T} _{\ell} \enspace \text{and} \enspace
+ \mathcal{T} \subset \mathcal{T} _{\mathcal{K}}
+\]
+\end{proposition}
+\begin{proof}
+    We show this by using
+    \hyperref[proposition:finer_is_equivalent_to_basis_containment]{this}. So
+    let \(x \in X \) and \(\left(a, b\right) \) be a basis element for
+    \(\mathcal{T} \) then \(\left[ x, b\right) \) is a basis element of
+    \(\mathcal{T} _{\ell} \) with \(\left[ x, b\right) \subseteq \left(
+    a, b\right) \). Now see that \(\left[ x, d\right) \) is an element of \(
+    \mathcal{T} _{\ell} \) (it is a basis element) for which there is no
+    basis element of \(\mathcal{T} \) that contains \(x \) and is a subset
+    of \(\left[ x, d\right) \) because they are open intervals, therefore \(
+    \mathcal{T} \subset \mathcal{T} _{\ell} \).\\
+    As for the \(\mathcal{K} \) topology we can see that for any basis
+    element \(\left(a, b\right) \) of \(\mathcal{T} \) we can use that
+    same basis element in \(\mathcal{T} _{\mathcal{K}} \) and thus we
+    trivially get that \(\mathcal{T} \subseteq \mathcal{T} _{\mathcal{K}} \), we
+    also note that for the basis element \( \left( -1, 1 \right) \setminus
+    \mathcal{ K }   \) of \( \mathcal{ T } _{ \mathcal{ K }   }   \) and \( x =
+    0\) there is no basis element of \( \mathcal{ T }   \) that contains \( 0 \)
+    and is a subset of \( \left( -1, 1  \right) \setminus \mathcal{ K }   \) 
+\end{proof}
