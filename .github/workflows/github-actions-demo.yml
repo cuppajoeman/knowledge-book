@@ -10,3 +10,12 @@ jobs:
         uses: dante-ev/latex-action@latest
         with:
           root_file: book.tex
+
+  move_built_latex:
+    needs: build_latex
+    runs-on: ubuntu-latest
+    steps:
+      - shell: bash
+        run: |
+          value=``
+          mv book.pdf ./public
