@@ -1,16 +1,25 @@
-\begin{proposition}{Implying a Contradiction Means no Model}{implying_a_contradiction_means_no_model}
-Let $ \Sigma  $ be a set of sentences, then if 
+\begin{proposition}
+{Implying a Contradiction Means no Model}{implying_a_contradiction_means_no_model}
+Let \(\Sigma \) be a set of sentences, then
 \[
-\Sigma \models \bot 
+\Sigma \models \bot
 \]
-then $ \Sigma  $ has no model
+if and only if \(\Sigma \) has no model
 \end{proposition}
 \begin{proof}
     \begin{itemize}
-        \item Recall that $ \Sigma \models \bot  $ means that for any $\mathcal{L}$-Structure $ \mathfrak{ A }   $ we have that 
+        \item Recall that \(\Sigma \models \bot \) means that for any
+            \(\mathcal{L}\)-Structure \(\mathfrak{A} \) we have that
             \[
-            \mathfrak{ A } \models \Sigma ~\text{implies}~ \mathfrak{ A } \models \bot    
+            \mathfrak{A} \models \Sigma \enspace \text{implies} \enspace
+            \mathfrak{A} \models \bot
             \]
-            but recall that $ \mathfrak{ A } \models \bot   $ is always false, therefore for the implication to hold we require that $ \mathfrak{ A } \models \Sigma   $ to be false, which means $ \Sigma  $ has no model as $ \mathfrak{ A }   $ was arbitrary.
+            but recall that \(\mathfrak{A} \models \bot \) is always false,
+            therefore for the implication to hold we require that \(\mathfrak{A}
+            \models \Sigma \) to be false, which means \(\Sigma \) has no model
+            as \(\mathfrak{A} \) was arbitrary.
+        \item Suppose that \(\Sigma \) has no model, then that means for any
+        \(\mathcal{L}\)-Structure \(\mathfrak{A} \) we have that \(\mathfrak{A}
+        \not \models \Sigma \), so \( \Sigma \models \bot  \) vacuously holds.
     \end{itemize}
 \end{proof}
