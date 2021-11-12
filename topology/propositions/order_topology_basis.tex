@@ -1,0 +1,24 @@
+\begin{proposition}
+{Order Topology Basis}{order_topology_basis}
+The set \(\mathcal{B} \) specified by~\ref{definition:order_topology} is a
+basis.
+\end{proposition}
+\begin{proof}
+Let \(x \in X \) if \(x \) is the smallest or largest element of \(X \) then
+sets \(\left[ x, x + \varepsilon\right) \) or \(\left(x - \varepsilon,
+x \right] \) respectively will work. Otherwise \(\left(x - \varepsilon, x
++ \varepsilon\right) \) will work.\\
+Now we take two elements from \(\mathcal{B} \) and find a third contained
+within both.
+\begin{itemize}
+    \item \(\left(a, b\right) \cap \left(c, d\right) = \left(x, y\right)
+    \) for some \(x, y \)
+    \item \(\left(a, M \right] \cap \left(b, M \right] = \left(\max\left(a, b\right),M \right] \)
+    \item \(\left[m, a\right) \cap \left[m, b\right) = \left[m, \min\left(
+    a, b\right)\right) \)
+    \item \(\left(a, b\right) \cap \left(d, M \right] = \left(\max\left(a, d\right), b\right) \) and \(\left(a, b\right) \cap \left[ m, d
+\right) = \left(a, \min\left(b, d\right)\right) \)
+\end{itemize}
+Therefore the second condition of a basis is satisfied so \(\mathcal{B} \)
+is a basis.
+\end{proof}

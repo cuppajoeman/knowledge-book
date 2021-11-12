@@ -1,0 +1,48 @@
+\begin{proposition}
+{Subbasis for the Product Topology of two Topological
+Spaces}{subbasis_for_the_product_topology_of_two_topological_spaces}
+The set
+\[
+\mathcal{S} = \left\{\pi _{1} ^{-1} \left(U\right) : U \enspace
+\text{open in} \enspace X \right\} \cup \left\{\pi _{2} ^{-1} \left(V
+\right) : V \enspace \text{open in} \enspace Y \right\}
+\]
+is a subbasis for the product topology on \(X \times Y \).
+\end{proposition}
+\begin{proof}
+    We will show \(\mathcal{T} _ \mathcal{S} \subseteq \mathcal{T} _{X
+    \times Y} \) directly and to show that \(\mathcal{T} _{X \times Y}
+    \subseteq \mathcal{T} _ \mathcal{S} \) we use~\ref{proposition:finer_is_equivalent_to_basis_containment}. Recall that
+    from~\ref{proposition:inverse_image_of_the_projection_mapping},
+    \begin{gather*}
+    \left\{\pi _{1} ^{-1} \left(U\right) : U \enspace
+    \text{open in} \enspace X \right\} \cup \left\{\pi _{2} ^{-1} \left(V
+\right) : V \enspace \text{open in} \enspace Y \right\}\\
+    \verteq\\
+    \left\{U \times Y: U \text{open in} \enspace X \right\} \cup \left\{X
+    \times V: V \enspace \text{open in} \enspace Y \right\}
+    \end{gather*}
+    So any element of \(\mathcal{S} \) is an element of the topology on \(
+    X \times Y\) because every element of \(\mathcal{S} \) is of the form \(A
+    \times B \) where \(A \) is open in \(X \) and \(B \) is open in \(Y \)
+    so that they (any element of \(\mathcal{S} \)) are basis elements of the
+    basis which generates \(X \times Y \), therefore arbitrary unions of finite
+    intersections of elements of \(\mathcal{S} \) are still part of the
+    topology (by the definition of topology), thus we have directly shown that
+    \(\mathcal{T} _{\mathcal{S}} \subseteq \mathcal{T} _{X \times Y
+} \). \\
+    Now let \(U \times V \) be a basis element of \(\mathcal{T} _{X \times
+    Y} \) but note that
+    \begin{align*}
+        U \times V &= \left(U \times Y\right) \cap \left(X \times V\right)
+        \\
+                   &= \pi _{1} ^{-1} \left(U\right) \cap \pi _{2} ^{-1}
+                   \left(V\right)
+    \end{align*}
+    that is to say that \(U \times V \) is equal to a basis element of \(
+    \mathcal{T} _{\mathcal{S}} \) and therefore
+    from~\ref{proposition:finer_is_equivalent_to_basis_containment} it follows
+    trivally that \(\mathcal{T} _{X \times Y} \subseteq \mathcal{T} _{
+    \mathcal{S}} \), hence \( \mathcal{ T } _{ \mathcal{ S }   } = \mathcal{ T }
+    _{ X \times Y } \) 
+\end{proof}
