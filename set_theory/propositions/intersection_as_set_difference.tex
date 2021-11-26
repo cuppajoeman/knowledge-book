@@ -1,0 +1,24 @@
+\begin{proposition}{Intersection as Set
+Difference}{intersection_as_set_difference}
+\[
+Y \setminus \left( Y \cap  \left( X \setminus U \right)  \right) =  U \cap  Y
+\]
+\end{proposition}
+\begin{proof}
+    First of all intuitively we can see that the left hand side is everything in
+    \( Y \) that's not in the complement of \( U \), which is exactly everything
+    in \( Y \) which is also in \( U \), formally:
+    \begin{gather*}
+        x \in  Y \setminus \left( Y \cap  \left( X \setminus Y \right)  \right)
+        \\
+        \Updownarrow \\
+        x \in  Y \enspace \land  x \not\in \left( Y \cap \left( X \setminus U
+        \right)  \right) \\
+        \Updownarrow \\
+        x \in  Y \land x \not\in X \setminus U\\
+        \Updownarrow \\
+        x \in  Y \land  x \in  U\\
+        \Updownarrow \\
+        x \in  U \cap  Y
+    \end{gather*}
+\end{proof}

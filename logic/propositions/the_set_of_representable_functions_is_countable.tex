@@ -1,0 +1,25 @@
+\begin{proposition}{The Set of Representable Functions is
+Countable}{the_set_of_representable_functions_is_countable}
+The set of representable functions from \( \mathbb{N} \to \mathbb{N}  \) is
+countable
+\end{proposition}
+\begin{proof}
+    Recall that there are countably many formulas of a language, therefore given
+    any function that would be a na\"ive upperbound for the number of formulas \(
+    \phi  \) which could represent it. 
+    Consider two distinct functions \( f, g : \mathbb{N} ^{ k }  \to \mathbb{N}
+    \), that means that there is at least one \( k \) tuple \( \undervec{a} \)
+    where \( m = f\left( \undervec{a} \right) \neq g\left( \undervec{a} \right)  \),
+    so that if \( \phi  \) represents \( f \) then since \( \left( \undervec{a},
+    m\right)  \) is in the graph of \( f \) then \( N \vdash \phi \left(
+    \undervec{a}, m \right)  \), but \( \left( \undervec{a}, m \right)  \) is
+    not in the graph of \( g \) so if this \( \phi  \) also represents \( g \)
+    then we would have \( N \vdash \neg \phi \left( \undervec{a}, m \right)  \)
+    which would imply that \( N \) is inconsistent which is a contradiction.\\
+    Therefore if we assume for the sake of contradiction that there are
+    uncountably many representable functions, that would mean that there are
+    uncountably many formulas of \( \mathcal{ L } _{ NT }   \) since given two
+    functions they will they will each have at least one formula which is
+    different representing it, this is a contradiction since there are countably
+    many \( \mathcal{ L } _{ NT }   \) formulas.
+\end{proof}

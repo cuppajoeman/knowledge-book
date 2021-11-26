@@ -1,0 +1,111 @@
+\begin{proposition}
+{Representable Function
+Criterion}{representable_function_criterion}
+ \(f: \mathbf{N} \rightarrow \mathbf{N}\) is representable if, and only if,
+ there exists a formula \(\psi(x, y)\) such that for every natural number \(a\),
+ we have that \(N \vdash(\forall y)(\psi(\bar{a}, y) \leftrightarrow y =
+ f(\bar{a}))\).
+\end{proposition}
+\begin{proof}
+    Suppose that \( f \) is representable via \( \phi  \), we will consider the
+    formula \( \psi \left( x, y \right)   \) defined as
+    \[
+        \phi \left( x, y \right) \land  (\forall z<y)(\neg \phi(x, z))
+    \]
+    will satisfy:
+    \[
+    N \vdash \left( \forall y \right) \left( \psi \left( \overline{a} , y
+    \right) \leftrightarrow y =  f\left( \overline{a}  \right)  \right) 
+    \]
+    for any \(  a \in  \mathbb{N}  \). In a first step towards this end, we will
+    show that \( \psi  \) also represents \( f \), so let \( a, b \in  \mathbb{N}  \)
+    \begin{itemize}
+        \item If \( f\left( a \right) = b \) then we know that \( N \vdash \phi
+        \left( a, b \right) \) and thus we just have to check if 
+        \[ 
+            N \vdash \left( \forall z < \overline{b}  \right) \left( \neg \phi
+            \left( \overline{a} , z \right)  \right) :\equiv \left( \forall z
+        \right) \left( z < \overline{b} \rightarrow \neg \phi \left(
+    \overline{a} , z \right)  \right) 
+        \]  
+        \item Combining the fact that we may remove quantifiers and the
+            deduction theorem, all we have to show is
+            \[
+            N \cup  \left\{ z < \overline{b} \right\}  \vdash \neg \phi \left( \overline{a} , z \right) 
+            \]
+            This can be proven by first knowing that \( N \vdash z =
+            \overline{0} \lor \ldots \lor z = \overline{b - 1}  \) and then
+            subbing in the value for \( z \) which is not equal to \(
+            \overline{b}  \) then after subbing the true value in we will see
+            that since \( \phi  \) represents \( f \) that \( N \vdash  \neg
+            \phi \left( \overline{a} , z \right)  \) 
+        \item Then again, we could have that  \( f\left( a \right) \neq b \) and
+        here since \( \phi  \) represents \( f \) we have that \( N \vdash  \neg
+        \phi \left( \overline{a} , \overline{b}  \right) \), this is simpler as
+        then \( N \vdash  \neg \phi \left( \overline{a} , \overline{b}  \right)
+        \) since it follows in one step by PC.
+    \end{itemize}
+    Now we will prove 
+    \[
+    N \vdash \left( \forall y \right) \left( \psi \left( \overline{a} ,y \right)
+    \right) \leftarrow y =  \overline{f\left( a \right) } 
+    \]
+    simplified by the deduction theorem and the fact that we may remove
+    quantifiers we end up having to prove that 
+    \[
+    N \cup \left\{ y = \overline{f\left( a \right) }  \right\}  \vdash \psi
+    \left( \overline{a}, y  \right) 
+    \]
+    which is equivalent to proving \( N \vdash \psi \left( \overline{a} ,
+    \overline{f\left( a \right) }  \right)  \) which is true since \( \psi  \)
+    represents \( f \) and clearly \( f\left( a \right) = f\left( a \right)  \).
+    Finally for 
+    \[
+    N \vdash \left( \forall y \right) \left( \psi \left( \overline{a} ,y \right)
+    \right) \rightarrow y =  \overline{f\left( a \right) } 
+    \]
+    we use the deduction theorem to equivalently show that
+    \[
+    N \cup \left\{ \psi \left( \overline{a} , y \right)   \right\}  \vdash  y =
+    \overline{f\left( a \right) } 
+    \]
+    that is:
+    \[
+    N \cup \left\{ \phi \left( \overline{a} , y \right) \land  (\forall
+    z<y)(\neg \phi(\overline{a} , z))    \right\}  \vdash  y = \overline{f\left(
+    a \right) } 
+    \]
+    We will find deductions of \( \neg \left[ y < \overline{f\left( a \right) }
+    \right]  \) and \( \neg \left[ \overline{f\left( a \right) } < y \right]  \)
+    then by the axiom of \( N \) which is 
+    \[
+    \left( \forall x \right) \left( \forall y \right) \left[ \left( x < y
+    \right) \lor \left( x = y \right) \lor \left( y < x \right)  \right] 
+    \]
+    we will be able to deduce that \( y =  \overline{f\left( a \right) }  \).
+    Here's the deduction for \( \neg \left[ \overline{f\left( a \right) } < y
+    \right]  \), first write \( \left( \forall z \right) \left( z < y
+    \rightarrow \neg \phi \left( \overline{a}, y  \right)  \right)  \) and by our
+    first quantifier axiom we may write 
+    \[ 
+        \overline{f\left( a \right)} < y \rightarrow \neg \phi \left(
+        \overline{a} , \overline{f\left( a \right) } \right)  
+    \] 
+     so that if \( N \vdash \overline{f\left( a \right) } < y \) \( N \) becomes
+     inconsistent, since \( N \vdash \phi \left( \overline{a} ,
+     \overline{f\left( a \right) }  \right)  \) thus \( N \vdash \neg \left[
+     \overline{f\left( a \right) } < y  \right]  \). For the other we recall
+     that 
+     \[
+     N \vdash \overline{x} < \overline{y}  \leftrightarrow \overline{x} =
+     \overline{0} \lor \ldots \lor  \overline{x} = \overline{y - 1}  
+     \]
+     but also that for any \( x , f\left( a \right)  \lin  \mathbb{N}  \) (this
+     notation means \( x, f\left( a \right)  \in  \mathbb{N}  \) and \( x <
+     f\left( a \right)  \))  we have \( N \vdash \neg \phi \left( \overline{a} ,
+     \overline{x}  \right)   \) which allows us to deduce \( N \vdash y <
+     \overline{f\left( a \right) } \rightarrow \neg \phi \left( \overline{a} ,y
+     \right)  \) but then similarly to above if \( N \vdash y <
+     \overline{f\left( a \right) }  \) we get a contradiction so that \( N
+     \vdash \neg \left[ y < \overline{f\left( a \right) }  \right]  \) 
+\end{proof}

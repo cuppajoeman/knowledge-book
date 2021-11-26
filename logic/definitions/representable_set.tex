@@ -1,10 +1,13 @@
-\begin{definition}{Representable Set}{representable_set}
-A set $A \subseteq \mathbb{N}^{k}$ is said to be representable (in $N$) if there is an $\mathcal{L}_{N T}$-formula $\phi(\underline{x})$ such that
-$$
-\begin{array}{ll}
-\forall a \in A & N \vdash \phi(\bar{a}) \\
-\forall \underline{b} \notin A & N \vdash \neg \phi(\bar{b})
+\begin{definition}
+{Representable Set}{representable_set}
+A set \(A \subseteq \mathbb{N}^{k}\) is said to be representable (in \(N\)) if
+there is an \(\mathcal{L}_{N T}\)-formula \(\phi(\undervec{x})\) such that
+\[
+\begin{array}
+{ll}
+\forall \undervec{a} \in A & N \vdash \phi(\overline{\undervec{a}}) \\
+\forall \undervec{b} \notin A & N \vdash \neg \phi(\overline{\undervec{b}})
 \end{array}
-$$
-In this case we will say that the formula $\phi$ represents the set $A$.
+\]
+In this case we will say that the formula \(\phi\) represents the set \(A\).
 \end{definition}

@@ -23,14 +23,15 @@ Topology}{topology_generated_by_a_basis_(union)_is_a_topology}
             \item By the definition of \(\mathcal{T} _{\mathcal{B}} \) for each
             \(\alpha \) we have \(\mathcal{C}_ {\alpha} \) such that
             \(V_{\alpha} = \bigcup \mathcal{C} _{\alpha} \), therefore
-                \[
-                \bigcup _{\alpha \in I} V_{\alpha} = \bigcup _{\alpha \in I}
-                \left(\bigcup \mathcal{C} _{\alpha}\right) = \bigcup _{\alpha
-                \in I} \left(\bigcup _{X \in \mathcal{C} _{\alpha}} X\right) =
-                \bigcup _{X \in \left(\bigcup _{\alpha \in I} \mathcal{C}
-                _{\alpha}\right)} X = \bigcup \left(\bigcup _{\alpha \in I}
-                \mathcal{C} _{\alpha}\right)
-                \]
+            \begin{align*}
+                \bigcup _{\alpha \in I} V_{\alpha} &= \bigcup _{\alpha \in I}
+                \left(\bigcup \mathcal{C} _{\alpha}\right) \\
+                &=  \bigcup _{\alpha \in I} \left(\bigcup _{X \in \mathcal{C}
+                _{\alpha}} X\right) \\
+                &=  \bigcup _{X \in \left(\bigcup _{\alpha \in I} \mathcal{C}
+                _{\alpha}\right)} X \\
+                &= \bigcup \left(\bigcup _{\alpha \in I} \mathcal{C} _{\alpha}\right)
+            \end{align*}
         \end{itemize}
         \item \(\mathcal{T} _{\mathcal{B}} \) is closed under finite
         intersections, we'll show it's closed under pairwise intersections and
@@ -43,8 +44,8 @@ Topology}{topology_generated_by_a_basis_(union)_is_a_topology}
                 \[
                 U \cap V = \left(\bigcup \mathcal{A}\right) \cap \left(
                 \bigcup \mathcal{C}\right) = \bigcup \left\{A \cap C:
-                \text{where} A \in \mathcal{A}, C \in \mathcal{C}
-                \right\}
+                \enspace \text{where} \enspace A \in \mathcal{A}, C \in
+                \mathcal{C} \right\}
                 \]
                 where the last equality comes from the fact that if a point is
                 in the intersection of \(\bigcup \mathcal{A} \) and \(\bigcup

@@ -9,6 +9,8 @@
 
 \input{topology/definitions/topological_space}
 
+\input{topology/propositions/open_iff_every_point_is_in_another_open_set}
+
 \subsection{Basis}
 
 \input{topology/definitions/basis_for_a_set}
@@ -60,6 +62,67 @@
 \subsection{The Subspace Topology}
 
 \input{topology/definitions/subspace_topology}
+
+\input{topology/propositions/the_subspace_topology_is_a_topology}
+
+\input{topology/propositions/basis_for_the_subspace_topology}
+
+\input{topology/propositions/subspace_topology_transitivity}
+
+\input{topology/propositions/subspace_product_is_same_as_normal_product}
+
+\subsection{Closed Sets and Limit Points}
+
+\input{topology/definitions/closed_set}
+
+\input{topology/propositions/properties_of_closure}
+
+\input{topology/propositions/closed_in_a_subspace}
+
+\input{topology/definitions/interior_of_a_set}
+
+\input{topology/propositions/interior_is_itself}
+
+\input{topology/definitions/closure_of_a_set}
+
+\input{topology/propositions/closure_is_itself}
+
+\input{topology/propositions/subset_relationship_between_interior_and_closure}
+
+\input{topology/propositions/closure_in_a_subspace}
+
+\input{topology/propositions/element_of_closure_characterization}
+
+
+\input{topology/propositions/element_of_closure_basis_characterization}
+
+\input{topology/definitions/neighborhood_of_a_point}
+
+\input{topology/definitions/limit_point}
+
+\input{topology/propositions/closure_as_union_of_original_set_and_limit_points}
+
+\input{topology/propositions/closed_if_it_contains_it's_limit_points}
+
+\input{topology/definitions/convergence}
+
+\input{topology/definitions/t1_space}
+
+\input{topology/definitions/hausdorff_space}
+
+\input{topology/propositions/every_finite_point_set_in_a_t1_space_is_closed}
+
+\input{topology/propositions/t1_space,_limit_point_iff_every_neighborhood_contains_infinitely_many_points}
+
+\input{topology/propositions/hausdorff_yields_unique_convergence}
+
+\subsection{Continuous Functions}
+
+\input{topology/definitions/continuous_function}
+
+\input{topology/propositions/continuous_function_in_terms_of_basis_elements}
+
+\input{topology/propositions/continuity_equivalences}
 
 \subsection{The Product Topology}
 
@@ -200,3 +263,5 @@ A space $X$ is said to be compact if every open covering $A$ of $X$ contains a f
 \begin{lemma}{Covering Yields Finite Covering if and only if Compact}{covering_yields_finite_covering_if_and_only_if_compact}
 Let $Y$ be a subspace of $X$. Then $Y$ is compact if and only if every covering of $Y$ by sets open in $X$ contains a finite subcollection covering $Y$.
 \end{lemma}
+
+\input{topology/propositions/closed_graph_yields_continuity_for_compact_hausdorff_domain}

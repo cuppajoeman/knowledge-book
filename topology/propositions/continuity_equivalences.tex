@@ -1,0 +1,90 @@
+\begin{proposition}{Continuity Equivalences}{continuity_equivalences}
+Let \( X, Y \) be topological spaces; let \( f : X \to Y \) then the following
+are equivalent:
+\begin{enumerate}
+    \item \( f \) is continuous
+    \item For every \( A \subseteq X \) we have that \( f\left( \overline{A}
+    \right) \subseteq \overline{f\left( A \right) }  \) 
+    \item For every closed set \( B \subseteq Y  \), \( f ^{-1} \left( B \right)
+    \) is a closed in \( X \) 
+    \item For each \( x \in  X \) and neighborhood \( V \) of \( f\left( x
+    \right)  \), there exists a neighborhood \( U \) of \( x \) such that \(
+    f\left( U \right) \subseteq V \) 
+\end{enumerate}
+\end{proposition}
+\begin{proof}
+    To show that they are all equivalent we will prove that \( 1 \Rightarrow 2
+    \) , \( 2 \Rightarrow 3 \) , \( 3 \Rightarrow 1 \) and \( 1 \Rightarrow 4
+    \), \( 4 \Rightarrow 1 \), this will show all possible bi-implications as
+    all bi-implications using \( 1, 2, 3 \) are proving using the cycle \( 1
+    \Rightarrow 2 \Rightarrow 3 \Rightarrow 1 \) and for any bi-implication
+    which uses \( 4 \), say \( a \Rightarrow 4 \) then it may be obtained by
+    getting starting from \( a \) getting to \( 1 \) (always possible as \( a \)
+    is in the cycle which contains \( 1 \)) which leads to \( 4 \), to show \( 4
+    \Rightarrow a\) we see it's possible by entering the cycle from \( 4 \)
+    through \( 1 \) .\\
+    \( 1 \Rightarrow 2 \) Suppose that \( f \) is continuous and let \( A
+    \subseteq X \) we must show that if \( k \in  f\left( \overline{A}  \right)
+    \) then we have that \( k \in  \overline{f\left( A \right) }  \), to do that
+    we will use
+    \ref{proposition:element_of_closure_characterization}, supposing that \( k
+    \in  f\left( \overline{A}  \right)  \) then we know that \( k = f\left( x
+    \right)  \) where \( x \in  \overline{A}  \) we want to show that \( k \in
+    \overline{f\left( A \right) } \) so as mentioned let \( U \) be an open set
+    which contains \( k \), we must show that \( U \) intersects \( f\left( A
+    \right)  \) since \( U \) is open in \( Y \) we know that \( f ^{-1} \left(
+    U\right)  \) is open in \( X \) since we assumed that \( f \) is continuous.
+    Recall that \( k \in  U \) and that \( k =  f\left( x \right)  \) so then \(
+     x \in f ^{-1} \left( U \right) \) so \( f ^{-1} \left( U \right)  \) is an
+     open set of \( X \) which contains \( x \in \overline{A}  \) thus since
+     \ref{proposition:element_of_closure_characterization} is an if and only if
+     we know that \( f ^{-1} \left( U \right)  \) must intersect \( \overline{A}
+     \) at some point \( y \) so that \( U  \) intersects \( f\left( A \right)
+     \) at the point \( f\left( y \right)  \) since \( y \in  A \cap f ^{-1}
+     \left( U \right)  \) , therefore by
+     \ref{proposition:element_of_closure_characterization} we know that \( k \in
+     \overline{f\left( A \right) } \) as needed.\\
+     \( 2 \Rightarrow 3 \) Suppose \( 2  \) holds and let \( B \subseteq Y \) be
+     a closed set, we will show that \( f ^{-1} \left( B \right)  \) is closed
+     in \( X \), for convience set \( A =  f ^{-1}  \left( B \right)  \) then
+     we will show that \( A = \overline{A}  \) to satisfy
+     \ref{proposition:closure_is_itself}. We are already aware that \( A
+     \subseteq \overline{A}  \) by
+     \ref{proposition:subset_relationship_between_interior_and_closure} so
+     therefore we just have to show that \( \overline{A} \subseteq  A \) to do
+     this we will show that we will take \( x \in  \overline{A}  \) and therefore we know  
+     \( f\left( x \right) \in  f\left( \overline{A}  \right)   \) from \( 2 \)
+     yielding \( f\left( x \right) \in  f\left( \overline{A}  \right) \subseteq
+     \overline{f\left( A \right) } \subseteq B\)  where the final equality
+     follows from \ref{proposition:image_of_the_inverse_image} and that fact
+     that \( B \) is closed, specifically \( \overline{f\left( A \right) } =
+     \overline{f\left( f ^{-1} \left( B \right)  \right) } \subseteq
+     \overline{B} = B  \), so it holds \( f\left( x \right) \in  B  \)
+     equivalently \( x \in  f ^{-1} \left( B \right) = A \) so \( \overline{A}
+     \subseteq A \) yielding \( \overline{A} = A \). \\
+     \( 3 \Rightarrow 1 \) Let \( V \) be an open set of \( Y \), and let \( B
+     = Y \setminus  V\) therefore by
+     \ref{proposition:inverse_image_respects_set_operations} we can see that 
+     \[
+     f ^{-1} \left( B \right) =  f ^{-1} \left( Y \right) \setminus f ^{-1}
+     \left( V \right) = X \setminus f ^{-1} \left( V \right) 
+     \]
+     where the second equality is being justified by
+     \ref{proposition:inverse_image_of_codomain}. Since \( f ^{-1} \left( B
+     \right)  \) is a closed set of \( X \) due to this one can see that \( X
+     \setminus f ^{-1} \left( V \right)  \) is also closed meaning that \(
+     X \setminus \left( X \setminus f ^{-1} \left( V \right)  \right)   \) is an
+     open set of \( X \) and we note that \( X \setminus \left( X \setminus f
+     ^{-1} \left( V \right)  \right) =  f ^{-1} \left( V \right) \), namely that
+     \( f ^{-1} \left( V \right)  \) is an open set of \( X \) as needed.\\
+     \( 1 \Rightarrow 4 \) Let \( x \in  X \) and suppose \( v \) is a
+     neighborhood of \( f\left( x \right)  \) then \( U = f ^{-1} \left( V
+     \right)  \) is an open set containing \( x \) and thus a neighborhood of \(
+     x\) and by \ref{proposition:image_of_the_inverse_image} one can see that \(
+     f\left( U \right) =  f\left( f ^{-1} \left( V \right)  \right) \subseteq V
+     \) as needed.
+     \( 4 \Rightarrow 1 \) Now suppose the converse so to prove that \( f \) is
+     continuous let \( V \) be an open set of \( Y \) and let \( x \) be a point
+     of \( f ^{-1} \left( V \right)  \), so that \( V \) becomes a neighborhood
+     of \( f\left( x \right)  \) 
+\end{proof}

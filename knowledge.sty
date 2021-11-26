@@ -35,8 +35,13 @@ colorlinks=true,citecolor=blue,linkcolor=blue,linktocpage=true
 % Math
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\usepackage{tikz}
+% diagrams
+\usepackage{tikz}  
 \usetikzlibrary{calc} 
+% plots
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.17}
+% general math tools
 \usepackage{amsfonts}
 \usepackage{amsmath}
 \usepackage{amssymb}
@@ -246,8 +251,18 @@ every listing line={\textcolor{lime}{\small\ttfamily\bfseries user@machine{\text
 % Distinct in
 \newcommand{\din}{\mathrel{\mathpalette\superimpose{{\sqsubset}{-}}}}
 
+% Less than in
+\newcommand{\lin}{\mathrel{\mathpalette\superimpose{{<}{-}}}}
+
 \usepackage{tikzsymbols}
 
 % vertical equality
 \newcommand{\verteq}{\rotatebox{90}{$\,=$}}
+
+% Vector symbol beneath the character
+\usepackage{accents}
+\newcommand\undervec[1]{\underaccent{\vec}{#1}}
+
+% Custom contradiciton symbol
+\newcommand{\cont}{\mbox{\rlap{$\displaystyle\bigtimes$}{$\displaystyle\,\bigtimes$}}}
 

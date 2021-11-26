@@ -1,75 +1,91 @@
-\begin{proposition}{Negation of a Sigma Formula is a Pi Formula}{negation_of_a_sigma_formula_is_a_pi_formula}
-    Suppose $ \sigma  $ is a $ \Sigma  $-formula, then $ \neg \sigma  $ is equivalent 
-a $ \Pi $-formula 
+\begin{proposition}
+{Negation of a Sigma Formula is a Pi Formula}{negation_of_a_sigma_formula_is_a_pi_formula}
+    Suppose \(\sigma \) is a \(\Sigma \)-formula, then \(\neg \sigma \) is equivalent
+a \(\Pi \)-formula
 \end{proposition}
 \begin{proof}
-We will proceed by induction on the complexity of the formula, in other words, 
+We will proceed by induction on the complexity of the formula, in other words,
 we will do structural induction
     \begin{itemize}
         \item Base Case
         \begin{itemize}
-            \item Suppose $ \phi  $ is an atomic $ \Sigma  $-formula, that means
+            \item Suppose \(\phi \) is an atomic \(\Sigma \)-formula, that means
             that it is an atomic formula in the sense of a normal formula,
             therefore it's negation is the negation of an atomic formula and is
-            therefore a $ \Pi   $-formula
-            \item Suppose $ \phi :\equiv \neg \alpha $ where $ \alpha $ is an
+            therefore a \(\Pi \)-formula
+            \item Suppose \(\phi :\equiv \neg \alpha \) where \(\alpha \) is an
             atomic formula then by
             \hyperref[proposition:double_negation_equivalence]{the fact that
-            double negation ``cancels''} we see that $ \phi  $ is equivalent to
-            $ \alpha $ which is an atomic formula, and therefore $ \alpha  $ is
-            a $ \Pi  $-formula
+            double negation ``cancels''} we see that \(\phi \) is equivalent to
+            \(\alpha \) which is an atomic formula, and therefore \(\alpha \) is
+            a \(\Pi \)-formula
         \end{itemize}
         \item Induction Step
-        \begin{itemize} \item Suppose $ \alpha  $ and $ \beta  $ are $ \Sigma
-        $-formulas where the claim holds
+        \begin{itemize}
+\item Suppose \(\alpha \) and \(\beta \) are \(\Sigma
+        \)-formulas where the claim holds
             \begin{itemize}
-                \item $ \phi :\equiv \alpha \lor \beta  $, then $ \neg \phi $ is 
-                equivalent to $ \neg \alpha \land \neg \beta  $ and therefore by
-                our induction hypothesis we know that $ \neg \alpha  $ and $
-                \neg \beta  $ are equivent to some  $ \Pi  $-formulas $ \pi _{
-                \alpha  }  ,  \pi _{ \beta }  $ then $ \phi  $ is equivalent to
-                $ \pi _{ \alpha  } \land \pi _{ \beta  }  $ which is a $ \Pi
-                $-formula by the third clause.  \item $ \phi :\equiv \alpha
-                \land \beta  $ then $ \neg \phi $ is equivalent to $ \neg \alpha
-                \lor \neg \beta  $ and by the same argument above, we can see
-                that this is a $ \Pi  $-formula \item $ \phi :\equiv \left(
-                \forall x < t \right) \alpha $, then it's negation is $ \left(
-                \exists x  \right) \left( x < t \land \neg \alpha  \right)  $ by
-                our induction hypothesis we know that $ \neg \alpha  $ is
-                equivalent to some $ \Pi $-formula $ \pi _{ \neg \alpha  }  $ so $
-                \left( \exists x  \right) \left( x < t \land  \neg \alpha
-                \right)  $is
-                equivalent to $ \left( \exists x  \right) \left( x < t \land \pi
-                _{ \neg \alpha  }    \right) \equiv \left( \exists x < t  \right) \pi
-                _{ \neg \alpha  }     $ and therefore we may say that $ \phi  $ is 
-                equivalent to a $ \Pi  $-formula.
-                \item Suppose $ \phi :\equiv \left( \forall x \le t \right)  $
-                then $ \neg \phi  $ is equivalent to $ \left( \exists x  \right)
-                \neg \left( \left( x < t \lor x = t \right) \rightarrow \alpha
-                \right) :\equiv \left( \exists x  \right) \neg \left( \neg
-                \left( x < t \lor  x=  t\right) \lor \alpha  \right)    $ which
-                is equivalent to $ \left( \exists x  \right) \left( \left( x < t
-                \lor x =  t\right) \land \neg \alpha  \right) :\equiv \left(
-                \exists x \le t  \right) \neg \alpha    $ and since $ \neg
-                \alpha  $ is equivalent to some $ \Pi  $-formula, $ \pi  _{ \neg
-                \alpha }  $  by our inductive hypothesis, we know that $ \left(
-                \exists x \le  t \right) \pi _{ \neg \alpha  }  $ is a $ \Pi
-                $-formula.
-                \item Suppose $ \phi :\equiv \left( \exists x < t  \right)
-                \alpha  $ then the negation is equivalent to $ \left( \forall x
-                \right) \neg \left( \neg \left( x < t \right) \lor \neg \alpha
-                \right) :\equiv \left( \forall x \right) \left( x < t
-                \rightarrow \neg \alpha  \right) :\equiv \left( \forall x < t
-                \right) \neg \alpha  $, and following similar logic as above
-                we can see that $ \left( \forall x < t \right) \neg \alpha  $ is
-                a $ \Pi  $-formula
-                \item $ \phi :\equiv \left( \exists x \le  t  \right) \alpha  $
-                the negation is equivalent to $ \left( \forall x \right) \left(
-                \neg \left( \left( x < t \right) \lor \left( x =  t \right) \lor
-                \neg \alpha \right) \right) :\equiv \left( \forall x \right)
-                \left( \left( x < t \right) \lor \left( x =  t \right) \right)
-                \rightarrow \neg \alpha  :\equiv \left( \forall x \le t \right)
-                \neg \alpha  $ as needed.
+                \item \(\phi :\equiv \alpha \lor \beta \), then \(\neg \phi \) is
+                equivalent to \(\neg \alpha \land \neg \beta \) and therefore by
+                our induction hypothesis we know that \(\neg \alpha \) and \(
+                \neg \beta \) are equivent to some \(\Pi \)-formulas \(\pi _{
+                \alpha}, \pi _{\beta} \) then \(\phi \) is equivalent to
+                \(\pi _{\alpha} \land \pi _{\beta} \) which is a \(\Pi
+                \)-formula by the third clause. \item \(\phi :\equiv \alpha
+                \land \beta \) then \(\neg \phi \) is equivalent to \(\neg \alpha
+                \lor \neg \beta \) and by the same argument above, we can see
+                that this is a \(\Pi \)-formula \item \(\phi :\equiv \left(
+                \forall x < t\right) \alpha \), then it's negation is \(\left(
+                \exists x\right) \left(x < t \land \neg \alpha\right) \) by
+                our induction hypothesis we know that \(\neg \alpha \) is
+                equivalent to some \(\Pi \)-formula \(\pi _{\neg \alpha} \) so \(
+                \left(\exists x\right) \left(x < t \land \neg \alpha \right) \)is
+                equivalent to 
+                \[
+                \left(\exists x\right) \left(x < t \land \pi
+                _{\neg \alpha}\right) :\equiv \left(\exists x < t\right) \pi
+                _{\neg \alpha} 
+                \]
+                and therefore we may say that \(\phi \) is
+                equivalent to a \(\Pi \)-formula.
+                \item Suppose \(\phi :\equiv \left(\forall x \le t\right) \)
+                then \(\neg \phi \) is equivalent to 
+                \[
+                    \left(\exists x\right)
+                    \neg \left(\left(x < t \lor x = t\right) \rightarrow \alpha
+                    \right) :\equiv \left(\exists x\right) \neg \left(\neg
+                    \left(x < t \lor x = t\right) \lor \alpha\right) 
+                \]
+                which
+                is equivalent to \(\left(\exists x\right) \left(\left(x < t
+                \lor x = t\right) \land \neg \alpha\right) :\equiv \left(
+                \exists x \le t\right) \neg \alpha \) and since \(\neg
+                \alpha \) is equivalent to some \(\Pi \)-formula, \(\pi _{\neg
+                \alpha} \) by our inductive hypothesis, we know that \(\left(
+                \exists x \le t\right) \pi _{\neg \alpha} \) is a \(\Pi
+                \)-formula.
+                \item Suppose \(\phi :\equiv \left(\exists x < t\right)
+                \alpha \) then the negation is equivalent to \(\left(\forall x
+                \right) \neg \left(\neg \left(x < t\right) \lor \neg \alpha
+                \right) :\equiv \left(\forall x\right) \left(x < t
+                \rightarrow \neg \alpha\right) :\equiv \left(\forall x < t
+                \right) \neg \alpha \), and following similar logic as above
+                we can see that \(\left(\forall x < t\right) \neg \alpha \) is
+                a \(\Pi \)-formula
+                \item \(\phi :\equiv \left(\exists x \le t\right) \alpha \)
+                the negation is equivalent to 
+                \[
+                \left(\forall x\right) \left(
+                \neg \left(\left(x < t\right) \lor \left(x = t\right) \lor
+                \neg \alpha\right)\right) 
+                \]
+                which is the same as
+                \[
+                \left(\forall x\right)
+                \left(\left(x < t\right) \lor \left(x = t\right)\right)
+                \rightarrow \neg \alpha :\equiv \left(\forall x \le t\right)
+                \neg \alpha 
+                \] as needed.
             \end{itemize}
         \end{itemize}
     \end{itemize}

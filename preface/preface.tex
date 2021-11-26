@@ -1,29 +1,55 @@
 \chapter*{Preface}
-This book contains knowledge that that me or my peers have obtained, the purpose is to explain things fundamentally and in full detail so that someone who has never touched the subject may be able to understand it. It will focus on conveying the ideas that are involved in synthesizing the new knowledge with less of a focus on the results themselves.
+This book contains knowledge that that me or my peers have obtained, the purpose
+is to explain things fundamentally and in full detail so that someone who has
+never touched the subject may be able to understand it. It will focus on
+conveying the ideas that are involved in synthesizing the new knowledge with
+less of a focus on the results themselves.
 
-It differs from a normal textbook in that it is open source and will fall under more continuous development rather than having editions that periodically come out. It also differs in the sense that it welcomes other users to improve the book.
+It differs from a normal textbook in that it is open source and will fall under
+more continuous development rather than having editions that periodically come
+out. It also differs in the sense that it welcomes other users to improve the
+book.
 
-Here is a link to the book: \url{https://raw.githubusercontent.com/cuppajoeman/knowledge-book/main/build/book.pdf}
-
+Here is a link to the book:
+\url{https://raw.githubusercontent.com/cuppajoeman/knowledge-book/main/build/book.pdf}
 
 \section*{Structure of book}
-The book is partitioned into different sections based on the domain it is involved with. There may be shared definitions and theorems throughout the chapters, but in general it will start more elementary and get more advanced.
+The book is partitioned into different sections based on the domain it is
+involved with. There may be shared definitions and theorems throughout the
+chapters, but in general it will start more elementary and get more advanced.
 
 \section*{Knowledge}
 \label{sec:knowledge}
-In this book you will find many results, will will characterize them as being one of the following
+In this book you will find many results, will will characterize them as being
+one of the following
 \begin{itemize}
-    \item Theorems - Results that are of importantance and who's proof is not easily found (maybe using a novel idea)
-  \item Propositions - Results of less importance who's proof could be constructed without a novel idea
-  \item Lemmas - Results that are technical intermediate steps which has no standing as an independent result on first observation \footnote{But sometimes they escape, as their usage becomes more than just an intermediate step,  as Zorn's or Fatou's Lemmas did}
-    \item Corollaries - Results which follow readily  from an existing result of greater importance
+    \item Theorems - Results that are of importantance and who's proof is not
+    easily found (maybe using a novel idea)
+    \item Propositions - Results of less importance who's proof could be
+    constructed without a novel idea
+    \item Lemmas - Results that are technical intermediate steps which has no
+    standing as an independent result on first observation \footnote{But
+    sometimes they escape, as their usage becomes more than just an intermediate
+    step,  as Zorn's or Fatou's Lemmas did}
+    \item Corollaries - Results which follow readily  from an existing result of
+    greater importance
 \end{itemize}
 
 \section*{Recommendations}
-By now you might know that in order to actually get better at mathematics you have to engage with it. This book may be used as a reference at times, but I highly recommend trying to re-prove statements or coming up with your own ideas before instantly looking at the solutions.
+\subsection*{Skill}
+By now you might know that in order to actually get better at mathematics you
+have to engage with it. This book may be used as a reference at times, but I
+highly recommend trying to re-prove statements or coming up with your own ideas
+before instantly looking at the solutions.
+\subsection*{Reading}
+When reading this book, being able to jump back and forth between sections of
+the book will allow you to move through content much more quickly, to this end,
+we recommand the use of the pdf viewer zathura, which emulates vim commands
+allowing a user to completely operate on the pdf with keyboard.
 
 \section*{About the companion website}
-The website\footnote{\url{https://github.com/cuppajoeman/knowledge-book}} for this file contains:
+The website\footnote{\url{https://github.com/cuppajoeman/knowledge-book}} for
+this file contains:
 \begin{itemize}
   \item A link to (freely downlodable) latest version of this document.
   \item Link to download \LaTeX source for this document.
@@ -31,13 +57,26 @@ The website\footnote{\url{https://github.com/cuppajoeman/knowledge-book}} for th
 
 \section*{Acknowledgements}
 \begin{itemize}
-    \item A special word of thanks to professors who wanted to make sure I understood and learned as much as possible Alfonso Gracia-Saz\footnote{\url{https://www.math.toronto.edu/cms/alfonso-memorial/}}, Jean-Baptiste Campesato\footnote{\url{https://math.univ-angers.fr/~campesato/}}, Valentine Chiche-Lapierre and Gal Gross\footnote{\url{https://www.galgr.com/}}
-    \item Thanks to Z-Module, riv, PlanckWalk, franciman, qergle from \#math on \url{https://libera.chat/}.
+    \item A special word of thanks to professors who wanted to make sure I
+    understood and learned as much as possible Alfonso
+    Gracia-Saz\footnote{\url{https://www.math.toronto.edu/cms/alfonso-memorial/}},
+    Jean-Baptiste
+    Campesato\footnote{\url{https://math.univ-angers.fr/~campesato/}}, Valentine
+    Chiche-Lapierre and Gal Gross\footnote{\url{https://www.galgr.com/}}
+    \item Thanks to Z-Module, riv, PlanckWalk, franciman, qergle from \#math on
+    \url{https://libera.chat/}.
 \end{itemize}
+
+\section*{Scaling}
+As this project becomes larger eventually there will be a collision in terms of
+files and how we can reference things with labels, at that point work will have
+to be done to make sure that labls and file names are unique by using UUID's.
+
 
 \chapter*{Contributing}
  
-Contributions to the project are very welcome, let's delve into how to get started with this.
+Contributions to the project are very welcome, let's delve into how to get
+started with this.
 
 Here is a list of things that can be worked on:
 
@@ -63,15 +102,29 @@ Here is a list of things that can be worked on:
 \end{itemize}
 
 \section*{Example}
-I will describe how to do this in detail in the below paragraphs, here is the TLDR of them. Let's say you have a theorem you'd like to add, here is a quick outline of what you have to do. Fork the project,  find the structure that your theorem belongs in, one possible structure could be first order logic, then go ahead and copy the blank \texttt{theorem.tex} file to \texttt{my\_new\_theorem.tex}, after that write up your theorem, include it in that structures content file, compile the project and verify it's there, then push to your forked repository and create a pull request against the main repository on github.
+I will describe how to do this in detail in the below paragraphs, here is the
+TLDR of them. Let's say you have a theorem you'd like to add, here is a quick
+outline of what you have to do. Fork the project,  find the structure that your
+theorem belongs in, one possible structure could be first order logic, then go
+ahead and copy the blank \texttt{theorem.tex} file to
+\texttt{my\_new\_theorem.tex}, after that write up your theorem, include it in
+that structures content file, compile the project and verify it's there, then
+push to your forked repository and create a pull request against the main
+repository on github.
 
 \section*{Setup for Contributing}
-In order to contribute to this project you will need to understand the basics of git, \LaTeX and the structure of the project.
+In order to contribute to this project you will need to understand the basics of
+git, \LaTeX and the structure of the project.
 
 \subsection*{Git}
-If you aren't familiar with what git is, I recommend you watch the videos on the following page \url{https://git-scm.com/doc}, and remember the link to the docs for future reference. 
+If you aren't familiar with what git is, I recommend you watch the videos on the
+following page \url{https://git-scm.com/doc}, and remember the link to the docs
+for future reference. 
 
-Next you can make a github account on \url{github.com}, the way you will get a copy of the project is by forking the project. To do that visit \url{https://github.com/cuppajoeman/knowledge-book} and click fork in the top right corner, once you've forked it we can now download it to our computer.
+Next you can make a github account on \url{github.com}, the way you will get a
+copy of the project is by forking the project. To do that visit
+\url{https://github.com/cuppajoeman/knowledge-book} and click fork in the top
+right corner, once you've forked it we can now download it to our computer.
 
 If you have access to a terminal then you can do the following:
 
@@ -79,21 +132,36 @@ If you have access to a terminal then you can do the following:
 git clone <link gotten from your forked repo>
 \end{term}
 
-From here on out you will make changes to the project and make commits using git. Once you're happy with the changes you've made, you can save your git commits online by running
+From here on out you will make changes to the project and make commits using
+git. Once you're happy with the changes you've made, you can save your git
+commits online by running
 
 \begin{term}
 git push
 \end{term}
 
-Otherwise you can download \url{https://desktop.github.com/}. And after you've made edits to the book, you can push, then finally then go to your forked version of the project and make a pull request into the main project. To do this visit your forked version of the project on github and navigate to the pull requests tab, then make sure the base repository is \texttt{cuppajoeman/knowledge-book} and add relevant info explaining the pull request. Once someone has reviewed your changes it will be merged into the main project.
+Otherwise you can download \url{https://desktop.github.com/}. And after you've
+made edits to the book, you can push, then finally then go to your forked
+version of the project and make a pull request into the main project. To do this
+visit your forked version of the project on github and navigate to the pull
+requests tab, then make sure the base repository is
+\texttt{cuppajoeman/knowledge-book} and add relevant info explaining the pull
+request. Once someone has reviewed your changes it will be merged into the main
+project.
 
 \subsection*{\LaTeX}
 
-This document is entirely written in \LaTeX which is a language which lets us format mathematics and make figures easily.
+This document is entirely written in \LaTeX which is a language which lets us
+format mathematics and make figures easily.
 
-If this system is entirely new to you, then don't worry, you'll be able to pick up most of what you need by looking at examples being used in this project, otherwise take a look at \url{http://www.docs.is.ed.ac.uk/skills/documents/3722/3722-2014.pdf}.
+If this system is entirely new to you, then don't worry, you'll be able to pick
+up most of what you need by looking at examples being used in this project,
+otherwise take a look at
+\url{http://www.docs.is.ed.ac.uk/skills/documents/3722/3722-2014.pdf}.
 
-To be able to \LaTeX up and running, it is dependent on the operating system you are using, but the one thing that remains invariant is that you will need a way to compile it and a way to edit it.
+To be able to \LaTeX up and running, it is dependent on the operating system you
+are using, but the one thing that remains invariant is that you will need a way
+to compile it and a way to edit it.
 
 
 \subsubsection*{Compilers}
@@ -102,21 +170,32 @@ To be able to \LaTeX up and running, it is dependent on the operating system you
     \item \url{https://tug.org/mactex/} - mac
     \item \url{https://www.tug.org/texlive/} - linux 
     \begin{itemize}
-        \item Note this will probably be available in your distributions package repositories.
+        \item Note this will probably be available in your distributions package
+        repositories.
     \end{itemize}
 \end{enumerate}
 
 \subsubsection*{Editors}
 \begin{enumerate}
    \item \url{https://tug.org/texworks/} - minimal
-   \item \url{https://tug.org/texworks/}, \url{https://www.xm1math.net/texmaker/} - more fully featured
+   \item \url{https://tug.org/texworks/},
+   \url{https://www.xm1math.net/texmaker/} - more fully featured
     \item vim, emacs, other terminal based editors
     \begin{itemize}
         \item Allows you to be the most efficient
     \end{itemize}
 \end{enumerate}
 
-Once you've obtained an editor, if it has some type of built-in compiler then you will want to change the output directory to be the build directory. This makes sure that when you compile the document that the root directory of the project isn't filled with irrelevant files. For each editor it will be different, but the general setup will be to get to some sort of configuration panel (or file) and to change the editors compile command to this: \texttt{pdflatex --output-directory=build}. Some editors might have a built in mode for this, for example with tex maker one can tick the ``use build directory for output files", for users who use vim, there is a built in option for vimtex like so:
+Once you've obtained an editor, if it has some type of built-in compiler then
+you will want to change the output directory to be the build directory. This
+makes sure that when you compile the document that the root directory of the
+project isn't filled with irrelevant files. For each editor it will be
+different, but the general setup will be to get to some sort of configuration
+panel (or file) and to change the editors compile command to this:
+\texttt{pdflatex --output-directory=build}. Some editors might have a built in
+mode for this, for example with tex maker one can tick the ``use build directory
+for output files", for users who use vim, there is a built in option for vimtex
+like so:
 
 \begin{lstlisting}
 let g:vimtex_compiler_latexmk = {
@@ -127,17 +206,21 @@ let g:vimtex_compiler_latexmk = {
  
 \section*{Communication}
 
-Feel free to ask any question on the discord server: \url{https://discord.gg/ReceZrGuN6}, it will also be a place for general discussion. Another option we can look at is github discussions.
+Feel free to ask any question on the discord server:
+\url{https://discord.gg/ReceZrGuN6}, it will also be a place for general
+discussion. Another option we can look at is github discussions.
 
 \section*{Content Based}
 
-To understand how to add content to the project, the best step is to understand fundamentally what a structure is.
+To understand how to add content to the project, the best step is to understand
+fundamentally what a structure is.
 
 A \textbf{structure} is a directory which has the following :
 \begin{itemize}
     \item content.tex
     \begin{itemize}
-        \item This file includes all the content in the other directories of this directory
+        \item This file includes all the content in the other directories of
+        this directory
     \end{itemize}
     \item definitions
     \item theorems
@@ -150,11 +233,17 @@ A \textbf{structure} is a directory which has the following :
     \end{itemize}
 \end{itemize}
 
-Note that the other directories; definitions, theorems, lemmas, lemmas, corollaries are non-recursive directories that contain content (Let's call them content directories from now on) \hyperref[sec:knowledge]{see here} for exactly what these directories contain. 
+Note that the other directories; definitions, theorems, lemmas, lemmas,
+corollaries are non-recursive directories that contain content (Let's call them
+content directories from now on) \hyperref[sec:knowledge]{see here} for exactly
+what these directories contain. 
 
-If you want to add a new structure, the best thing to do is to verify with other members of the project if it warrants it's own structure, otherwise it can be added as a substructure of an existing one.
+If you want to add a new structure, the best thing to do is to verify with other
+members of the project if it warrants it's own structure, otherwise it can be
+added as a substructure of an existing one.
 
-Supposing that you are on a unix based operating system, then here is how one could create a new structure:
+Supposing that you are on a unix based operating system, then here is how one
+could create a new structure:
 
 \subsection*{Manually}
 
@@ -176,9 +265,12 @@ git add -A && git commit -m "add my new theorem" && git push
 \end{term}
 
 \subsection*{Using the Script}
-Alternatively for a more streamlined experience we can use some of the scripts we have for creating new content. (Note that right now this script is only for creating new content files, but eventually will create new structures as well)
+Alternatively for a more streamlined experience we can use some of the scripts
+we have for creating new content. (Note that right now this script is only for
+creating new content files, but eventually will create new structures as well)
 
-To get started make sure you have \texttt{fzf} installed and the python package \texttt{pyperclip}.
+To get started make sure you have \texttt{fzf} installed and the python package
+\texttt{pyperclip}.
 
 First to learn about the script run:
 
@@ -192,9 +284,17 @@ And once you have read this we may create a new theorem like
 python scripts/main.py t "My new Theorem" -c 
 \end{term}
 
-Which asks you for which structure the theorem should belong to and creates the file for us, the -c option copies $\texttt{\\input\{\textit{path to new theorem}/my\_new\_theorem\}}$ to the clipboard so that it may be included in the main content file associated with the structure.
+Which asks you for which structure the theorem should belong to and creates the
+file for us, the -c option copies $\texttt{\\input\{\textit{path to new
+theorem}/my\_new\_theorem\}}$ to the clipboard so that it may be included in the
+main content file associated with the structure.
 
 \subsection*{With gui}
-If you're on windows or another operating system without access to terminal, you can always take the directory \texttt{structure} and copy it to a new name. To make new content file, go to the revelent content directory and copy the blank bootsrap file, that is if you wanted to make a new definition you can go to the structures definitions folder and then copy \texttt{definition.tex} to \texttt{my\_new\_definition.tex} and start working on it.
+If you're on windows or another operating system without access to terminal, you
+can always take the directory \texttt{structure} and copy it to a new name. To
+make new content file, go to the revelent content directory and copy the blank
+bootsrap file, that is if you wanted to make a new definition you can go to the
+structures definitions folder and then copy \texttt{definition.tex} to
+\texttt{my\_new\_definition.tex} and start working on it.
 
 

@@ -1,0 +1,20 @@
+\begin{proposition}{Open iff every point is in another Open
+Set}{open_iff_every_point_is_in_another_open_set}
+Given a set \( X \) and a topology \( \mathcal{ T } _{ X }   \), \( U \in
+\mathcal{ T } _{ X }   \) if and only if 
+\[
+\forall x \in  U, \exists V \in  \mathcal{ T } _{ X } \enspace \text{such that}
+\enspace x \in  V \subseteq U
+\]
+\end{proposition}
+\begin{proof}
+\( \Rightarrow  \) Assuming that \( U \) is open, we let \( x \in  U \) and take
+\( V = U \) and surely \( x \in U \subseteq U \), as needed.\\
+\( \Leftarrow  \) Suppose the converse, we'd like to show that \( U \) is open,
+but note that for each \( x \in  U \) we have \( V _{ x } \in  \mathcal{ T } _{
+X}   \) such that \( x \in V _{ x } \subseteq U \), thus \( \bigcup _{ x \in U }
+V _{ x } \subseteq U \) but additionally every \( x \in U \) is also in the
+union, therefore \( U = \bigcup _{ x \in  U } V _{ x }  \), that is to say that
+\( U \) is an arbitrary union of open sets, thus it is open as well by the
+definition of a topology.
+\end{proof}

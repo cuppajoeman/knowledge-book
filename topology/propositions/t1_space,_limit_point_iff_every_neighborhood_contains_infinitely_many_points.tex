@@ -1,0 +1,35 @@
+\begin{proposition}{T1 Space, Limit Point iff Every Neighborhood contains
+Infinitely Many
+Points}{t1_space,_limit_point_iff_every_neighborhood_contains_infinitely_many_points}
+Let \( X \) be a space satisfying the \( T _{ 1 }  \) axiom, and \( A \) a
+subset of \( X \), then the point \( x \) is a limit point of \( A \) if and
+only if every neighborhood of \( x \) contains infinitely many points of \( A \) 
+\end{proposition}
+\begin{proof}
+    \( \Leftarrow  \) If every neighborhood of \( x \) contains infinitely many
+    points of \( A \), then it intersects \( A \) in some point other than \( x
+    \) so therefore \( x \in A ^{ \prime  } \) by definition.\\
+    \( \Rightarrow  \) Supposing that \( x \in A ^{ \prime  }  \) and for the
+    sake of contradiction that some neighborhood \( U \) of \( x \) intersects
+    \( A \) in only finitely many points, then also \( U \setminus \left\{ x
+    \right\}  \) intersects \( A \) in only finitely many points, so let \(
+    \left( U \setminus \left\{ x \right\} \cap A \right) = \left\{ x_{1} , x_{2}
+    , \dotsc , x_{n} \right\}  \), but then since  \( \left\{ x_{1} , x_{2}
+    , \dotsc , x_{n} \right\} \) is a finite point set in a \( T _{ 1 }  \)
+    space, we know that it is closed so that \( X \setminus \left\{ x_{1} ,
+    x_{2} , \dotsc , x_{n} \right\}  \) is open (and note that \( x \in  X
+    \setminus \left\{ x_{1} , x_{2} , \dotsc , x_{n} \right\}  \) since \( x
+    \not\in U \cap \left( A \setminus \left\{ x \right\}  \right) = \left\{
+    x_{1} , x_{2} , \dotsc , x_{n} \right\} \)). Thus \( U \cap X \setminus
+    \left\{ x_{1} , x_{2} , \dotsc , x_{n} \right\}  \) is an open set
+    containing \( x \) and therefore a neighborhood of \( x \), but note that
+    this set doesn't intersect \( A \setminus \left\{ x \right\}  \) because if
+    \( k \in U \cap \left( X \setminus \left\{ x_{1} , x_{2} , \dotsc , x_{n}
+    \right\} \right)    \) then \( k \not\in \left\{ x_{1} , x_{2} , \dotsc ,
+    x_{n} \right\}  \) so \( k \not\in A \setminus \left\{ x \right\}  \), this
+    is a contradiction with the fact that \( x \) was a limit point, because
+    when that's true every neighborhood of \( x \) intersects \( A \setminus
+    \left\{ x \right\}  \). Thus we conclude that every neighborhood of \( x \)
+    contains infinitely many points of \( A \).
+\end{proof}
+

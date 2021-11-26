@@ -1,0 +1,22 @@
+\begin{proposition}{Element of Closure
+Characterization}{element_of_closure_characterization}
+Let \( A \) be a subset of a topological space \( X \), then
+\( x \in  \overline{A}  \) if and only if every open set \( U \) containing \( x
+\) intersects \( A \) 
+\end{proposition}
+\begin{proof}
+    To prove \( A \Leftrightarrow B \) one may equivalently prove \( \neg A
+    \Leftrightarrow \neg B \), we perform the latter.\\
+    Suppose \( x \not\in \overline{A}  \) let us show that there is some open
+    set \( U \) containing \( x \) which doesn't intersect \( A \). By
+    considering the set \( U = X \setminus \overline{A}  \) then \( x \in  U \)
+    and \( A \cap  U = \varnothing  \) (since \( A \subseteq \overline{A}  \))
+    so they do not interesect.\\
+    Conversely, if we have an open set \( U \) containing \( x \) which doesn't
+    intersect with \( A\), then \( X \setminus U \) is a closed set of \( X \)
+    which contains \( A \), since \( \overline{A}  \) is the intersection of all
+    closed sets which contain \( A \) then we can see that \( \overline{A}
+    \subseteq X \setminus U \) now since \( x \in U \) then \( x \not\in X
+    \setminus U \) and since \( \overline{A} \subseteq X \setminus U \) then
+    also \( x \not\in \overline{A}  \) which is what we needed to prove.
+\end{proof}

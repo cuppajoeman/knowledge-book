@@ -1,0 +1,27 @@
+\begin{proposition}{Closure as Union of Original Set and Limit
+Points}{closure_as_union_of_original_set_and_limit_points}
+Let \( A \) be a subset of a topological space \( X \) and let \( A ^{ \prime  }
+\) denote the limit points of \( A \) then: 
+\[
+\overline{A} = A \cup  A ^{ \prime  } 
+\]
+\end{proposition}
+\begin{proof}
+    If \( x \in  A ^{ \prime  } \) then by definition every neighborhood \( U \)
+    of \( x \) has that \( U  \cap \left( A \setminus \left\{ x \right\}
+    \right) \neq \varnothing \) thus by
+    \ref{proposition:element_of_closure_characterization} we can see that \( x
+    \in  \overline{A}  \), that is \( A ^{ \prime  } \subseteq \overline{A}  \),
+    now one should not forget that \( A \subseteq \overline{A}  \)
+    (\ref{proposition:subset_relationship_between_interior_and_closure}) thus
+    having both in tandem yields \( A ^{ \prime  }  \cup  A \subseteq
+    \overline{A} \).\\
+    For the reverse inclusion, let \( x \in  \overline{A}  \) and we'll prove
+    that \( x \in  A ^{ \prime  } \cup  A \), but if \( x \in A \) then surely
+    it's true, thus we may assume that \( x \not\in A \). Due to the fact that
+    \( x \in \overline{A}  \) we know that every neighborhood \( U \) of \( x \)
+    intersects \( A \), but \( x \not\in A \) so the intersection point is not
+    \( x \), in other words we have that \( U \cap  \left( A \setminus \left\{ x
+    \right\}  \right) \neq \varnothing  \) and so \( x \in A ^{ \prime  }  \)
+    which tells us \( x \in A \cup A ^{ \prime  }  \).
+\end{proof}

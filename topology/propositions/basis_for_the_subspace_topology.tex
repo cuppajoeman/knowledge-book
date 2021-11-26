@@ -1,0 +1,19 @@
+\begin{proposition}{Basis for the Subspace
+Topology}{basis_for_the_subspace_topology}
+If \( \mathcal{ B }   \) is a basis for the topology of \( X \), then 
+\[
+\mathcal{ B } _{ Y } = \left\{ B \cap Y: B \in  \mathcal{ B }   \right\}  
+\]
+is a basis for the subspace topology on \( Y \).
+\end{proposition}
+\begin{proof}
+    We will proceed by attempting to satisfy the
+    \hyperref[lemma:basis_criterion]{basis criterion}, so let \( U \) be an open
+    set of \( X \) and consider \( y \in U \cap  Y \) since \( y \in U \) and \(
+    \mathcal{ B }  \) generates the topology on \( X \), then by the basis
+    existance definition, we get \( B \in \mathcal{ B }   \) such that \( y \in
+    B \subseteq U\) since \( y \in Y \) we can say the following \( y \in B \cap
+    Y \subseteq U \cap Y\) therefore we've found an element of \( \mathcal{ B }
+    _{ Y } \)  contained within our open set \( U \cap Y \) as needed, thus \(
+    \mathcal{ B } _{ Y }   \) is a basis for \( \mathcal{ T } _{ Y }   \) .
+\end{proof}

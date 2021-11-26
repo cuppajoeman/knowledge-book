@@ -1,0 +1,37 @@
+\begin{example}{An Unrepresentable Function}{an_unrepresentable_function}
+Recall  the set \( R \) of representable functions from \( \mathbb{N}  \) to
+\( \mathbb{N}  \), since it's countable, we can enumerate it so we have \( E =
+\left\{ f _{ n } : n \in \mathbb{N}  \right\}  \). Consider a new function \(
+h\left( n \right) = f _{ n } \left( n \right)  \), we claim this function is not
+representable
+\end{example}
+\begin{proof}
+   Suppose for the sake of contradiction that this function is representable,
+   we'll show that the function \( h +  1 \)  is also representable and derive a
+   contradiction. Since \( h \) is representable it means that there is some
+   formula \( \phi \) where  \( \forall a, b\in  \mathbb{N} \) :
+   \begin{gather*}
+       h\left( a \right) =  b \enspace \text{implies} \enspace  N \vdash \phi
+       \left( a, b \right) \\
+       h\left( a \right) \neq   b \enspace \text{implies} \enspace  N \vdash \neg \phi
+       \left( a, b \right) \\
+   \end{gather*}
+   Consider the new formula \( \psi \left( x, y \right) :\equiv \phi \left( x, y
+   -  1\right)  \), we will show this represents \( h + 1 \), so let \( j, k \in
+   \mathbb{N} \), 
+   \begin{itemize}
+       \item In the case that \( h\left( j \right) +  1 = k  \), then we know
+       that \( h\left( j \right) = k - 1 \) holds, thus by assumption we see
+       that \( N \vdash  \phi \left( j, k - 1 \right)  \) meaning that \( N
+       \vdash \psi \left( j, k \right)  \) holds.
+       \item Otherwise we know that \( h\left( j \right) +  1 \neq k \) and so
+       \( h\left( j \right) \neq k - 1 \) so similarly we have \( N \vdash \neg
+       \phi \left( j, k - 1 \right) \) meaning that \( N \vdash \psi \left( j, k \right)  \) 
+   \end{itemize}
+   Now since we've shown that \( h +  1 \) is representable, that means that
+   there is some function \( f _{ n }  \in R \) such that for all \( x \in
+   \mathbb{N}, h\left( x \right) + 1 = f _{ n } \left( x \right)   \), but then
+   \( h\left( n \right) =  f _{ n } \left( n \right) =  h\left( n \right)  + 1
+   \) which would imply that \(  1 = 0 \cont \), thus \( h \) cannot be
+   representable.
+\end{proof}

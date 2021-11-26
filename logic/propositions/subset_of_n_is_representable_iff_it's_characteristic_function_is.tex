@@ -1,0 +1,58 @@
+\begin{proposition}
+{Subset of N is Representable iff it's Characteristic
+Function is}{subset_of_n_is_representable_iff_it's_characteristic_function_is}
+Prove that a subset \(A\) of the natural numbers is representable if, and only
+if, its characteristic function \(\chi_{A}: \mathbf{N} \rightarrow \mathbf{N}\)
+is representable.
+\end{proposition}
+\begin{proof}
+    \( \Rightarrow \) Suppose that the subset \( A \) is representable, so we
+    have some formula \( \phi  \) such that 
+    \begin{gather*}
+        \forall a \in  A, N \vdash \phi \left( a \right) \\
+        \forall a \not\in   A, N \vdash \neg \phi \left( a \right)
+    \end{gather*}
+    We want to prove that \( A \)'s characteristic function is representable so
+    consider the following formula
+    \[
+        \psi :\equiv \left( \phi \left( x \right) \land \left( y = 1 \right)
+        \right)   \lor \left( \neg \phi \left( x \right) \land \left( y = 0 \right)   \right) 
+    \]
+    \begin{enumerate}
+        \item Suppose \( a \in A \), in that case \( \chi _{ A } \left( a
+        \right) = 1  \) and \( N \vdash \phi \left( a \right) \) 
+        \begin{itemize}
+            \item In this case  \( \chi _{ A } \left( a \right) = 1 \) then we
+            can see that \( \psi  \)  holds via the fact that we have a
+            deduction of \( \phi \left( a \right)  \) and that we can always
+            deduce \( 1 = 1 \).
+            \item We know that \( \chi _{ A } \left( a \right) \neq 0 \) and so
+            we check that \( N \vdash \neg \psi  \) which follows from the fact
+            that we have a deduction of \( \phi \left( a \right)  \) but \( y =
+            0\) thus in terms of logic we can see that \( \phi \left( a \right)
+            \land 0 = 1\), \( \neg \phi \left( a \right) \land 0 = 0  \) are
+            both false, well in that case \( \neg \psi  \) follows from
+            propositional consequence.
+        \end{itemize}
+        \item Suppose \( a \not\in  A \), in that case \( \chi _{ A } \left( a
+        \right) = 0  \) and \( N \vdash \neg \phi \left( a \right) \) 
+        \begin{itemize}
+            \item The proof is identical to the above where we simply note that
+            when \( \chi _{ A } \left( a \right) = 0   \) the same logic we
+            used with \( \left( \phi \left( x \right) \land \left( y = 1 \right)
+            \right)  \) will work for \( \left( \neg \phi \left( x \right) \land
+            \left( y = 0 \right) \right)  \) and that \( \chi _{ A } \left( a
+        \right) \neq 1 \) and then as before \( \neg \psi  \) will hold
+        \end{itemize}
+    \end{enumerate}
+    \( \Leftarrow  \) We suppose that \( \chi _{ A }  \) is representable and we
+    want to show that the set \( A \) is representable, we will consider the
+    formula \( \psi \left( x \right)  :\equiv \phi \left( x, 1 \right)  \) .
+    Let \( a \in \mathbb{N}  \), if \( a \in A \) then we need to verify that \(
+    N \vdash \psi \left( a \right) \), that's certainly true since \( N \vdash
+    \phi \left( a, 1 \right)  \). Then suppose that \( a \not\in  A \),
+    therefore \( \chi _{ A } \left( a  \right) = 0 \) and thus since \( \chi _{
+    A} \left( a \right) \neq 1 \) we can see that \( N \vdash  \neg \phi \left(
+    a, 1\right)  \) or namely \( \mathbb{N} \vdash \neg \psi \left( a \right)   \) 
+\end{proof}
+

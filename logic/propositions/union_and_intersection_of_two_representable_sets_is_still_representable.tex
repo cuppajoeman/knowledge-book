@@ -1,0 +1,49 @@
+\begin{proposition}{Union and Intersection of two Representable Sets is still
+Representable}{union_and_intersection_of_two_representable_sets_is_still_representable}
+Suppose that \( A \) and \( B \) are representable sets, then \( A \cup B \) and
+\( A \cap B \) are representable sets.
+\end{proposition}
+\begin{proof}
+    Suppose that \( A \) and \( B \) are represented by \( \phi , \psi  \)
+    respectively, then \( \phi \lor \psi  \) represents \( A \cup B \).
+    Let \( a \in  A \cup  B \), we'll show that \( N \vdash \phi \left(
+    \overline{a} \right) \lor \psi \left( \overline{a}  \right)  \) if \( \cdot
+    a \in  A\) then we know that \( N \vdash \phi \left( \overline{a}  \right)
+    \) in that case \( \phi \left( \overline{a}  \right) \lor \psi \left(
+    \overline{a}  \right)  \) follows by PC. Note that if \( a \not\in A \) then
+    it's in \( B \) and the \( \phi \left( \overline{a}  \right) \lor \psi
+    \left( \overline{a}  \right)  \) follows in the exact same way, in all cases
+    we've seen that \( N \vdash \phi \left( \overline{a}  \right) \lor \psi
+    \left( \overline{a}  \right)   \) .
+    So now we can suppose that \( a \not\in A \cup  B \) and we must show that \( N
+    \vdash  \neg  \left[ \phi \left( \overline{a}  \right) \lor \psi \left(
+    \overline{a}  \right) \right]   \) since \( a \not\in A \) and \( a \not\in
+    B\), we know that we have both \( N \vdash \neg  \phi \left(
+    \overline{a}  \right)  \land \neg \psi \left( \overline{a}  \right)  \)
+    which is logically equivalent to \( \neg \left( \phi \left( \overline{a}
+    \right) \lor \psi \left( \overline{a}  \right)  \right)  \) thus we have a
+    deduction of it via PC.\\
+    The proof of \( A \cap B \) is quite similar, so we'll move quicker, we're
+    going to show that  \( \phi \land \psi  \) is the representation of \( A
+    \cap B \) Suppose \( a \in  A \land B  \) then similarly (in an opposite
+    way) to the second case of the above we can see that \( N \vdash \phi \left(
+    \overline{a} \right) \land  \phi \left( \overline{a}  \right)  \) holds, for
+    when we have \( a \not\in A \land B \) we get the same case work, so that if
+    \( a \not\in A \) then \( N \vdash \neg \phi \left( \overline{a}  \right)
+    \) making it possible to deduce \( \neg \left( \phi \left( \overline{a}
+    \right) \land \psi \left( \overline{a}  \right)  \right)  \) by PC, the case
+    for when \( a \not\in B \) is the same. \\
+    For the converse, let's consider the set of all subsets of the naturals,
+    namely \( \mathcal{ P }  \left( \mathbb{N}\right)  \), since this set has
+    uncountably many elements and the fact that two different sets require two
+    at least two different formulas, this set is not representable as if it were
+    we would have uncountably many formulas which is a contradiction. Thus there
+    is some subset \( X \subseteq N \) which isn't representable, and here we'll
+    note that \( \mathbb{N} \setminus X \) is neither representable, for it if
+    it was we could derive that \( X \) is representable by using the negation
+    of the formula which represented \( \mathbb{N} \setminus X \), now \( X \)
+    and \( \mathbb{N} \setminus X \) are not representable, but \( X \cup N
+    \setminus X =  \mathbb{N}  \) and \( \mathbb{N}  \) is representable,
+    additionally \( X \cap \mathbb{N} \setminus X = \varnothing  \) is
+    representable so the converse doesn't hold.
+\end{proof}

@@ -1,0 +1,20 @@
+\begin{proposition}{Closure in a Subspace}{closure_in_a_subspace}
+Let \( Y \) be a subspace of \( X \) and let \( A \) be a subset of \( Y \)
+then with \( \overline{A}  \) being the closure of \( A \) in \( X \), then the
+closure of \( A \)  in \( Y \) is \( \overline{A}  \cap Y \) 
+\end{proposition}
+\begin{proof}
+    Let \( B \) be the closure of \( A \) in \( Y \). Since \( \overline{A}  \)
+    is closed in \( X \) then \( \overline{A} \cap Y \) is closed in \( Y \) as
+    it an intersection of a closed set of \( X \) with \( Y \) (see
+    \ref{proposition:closed_in_a_subspace}). By the definition of closure \( B
+    \) is the intersection of all closed subsets of \( Y \) which contain \( A
+    \) and thus \( B \subseteq \left( \overline{A} \cap Y \right)  \). Also
+    since \( B \) is closed in \( Y \) then it equals \( C \cap  Y \) for some
+    set \( C \) which is closed in \( X \) (by
+    \ref{proposition:closed_in_a_subspace} again), recall that \( \overline{A}
+    \) is closed in \( X \) and thus by it's definition we get that \(
+    \overline{A} \subseteq C \) which yields \( \overline{A} \cap Y \subseteq C
+    \cap Y = B\) so we've shown that \( \overline{A} \cap Y \subseteq B
+    \subseteq \overline{A} \cap Y\) and so \( B = \overline{A} \cap Y \) .
+\end{proof}

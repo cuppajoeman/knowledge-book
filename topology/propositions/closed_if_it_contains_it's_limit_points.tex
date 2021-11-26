@@ -1,0 +1,16 @@
+\begin{proposition}{Closed if it Contains it's Limit Points}{closed_if_it_contains_it's_limit_points}
+A subset \( A \) of of a topological space \( X \) is closed if and only if it
+contains all of it's limit points, that is 
+\[
+A ^{ \prime  } \subseteq A
+\]
+\end{proposition}
+\begin{proof}
+    \( A \) is closed if and only if \( A = \overline{A}  \), by
+    \ref{proposition:closure_as_union_of_original_set_and_limit_points} we see
+    that \( A =  A \cup  A ^{ \prime  } \), this holds if and only if \( A ^{
+    \prime  } \subseteq A \) because if \( A ^{ \prime  }  \) contains an
+    element which is not an element of \( A \) we get a contradiction since \( A
+    =  A ^{ \prime  } \cup  A\)  therefore every element of \( A ^{ \prime  }
+    \) is an element of \( A \), namely \( A ^{ \prime  } \subseteq A \) 
+\end{proof}

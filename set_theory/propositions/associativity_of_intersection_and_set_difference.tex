@@ -1,0 +1,26 @@
+\begin{proposition}{Associativity of Intersection and Set
+Difference}{associativity_of_intersection_and_set_difference}
+Let \( X \) be a set and let \( C, Y \subseteq X \) then
+\[
+\left( X \setminus C \right) \cap Y =  Y \setminus \left( C \cap Y \right) 
+\]
+\end{proposition}
+\begin{proof}
+    \begin{gather*}
+        x \in  \left( X \setminus C \right) \cap Y \\
+        \Updownarrow \\
+        x \in  X \land x \not\in C \land x \in Y\\
+        \Updownarrow \left( \alpha  \right) \\
+        x \in  X \land x \not\in C \cap Y \land   x \in  Y\\
+        \Updownarrow \\
+        x \in Y \setminus \left( C \cap Y \right) \land x \in  X\\
+        \Updownarrow \left( \beta  \right) \\
+        x \in  Y \setminus C \cap  Y
+    \end{gather*}
+    \( \alpha : \)We know that \( x \in Y \) therefore  \( x \not\in C \) if
+    and only if \( x \not\in C \cap  Y \). \\
+    \( \beta : \) If \( x \in  Y \setminus \left( C \cap  Y \right)  \) then
+    it's also true that \( x \in X \) since \( Y \subseteq X \) for the other
+    direction we remove \( x \in X \) which is fine as it's still encoded in \(
+    x \in Y \setminus \left( C \cap Y \right) \) as we just noted.
+\end{proof}

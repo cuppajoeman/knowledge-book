@@ -1,0 +1,49 @@
+\begin{definition}
+{Gödel Numbering}{gödel_numbering} The function \(\ulcorner \cdot \urcorner\), with
+domain the collection of finite strings of \(\mathcal{L}_{N T}\)-symbols and
+codomain \(\mathbb{N}\), is defined as follows: 
+\[
+\ulcorner s\urcorner =
+\begin{cases} 
+\langle 1,\ulcorner\alpha\urcorner\rangle & \enspace \text{if}
+\enspace s \enspace \text{is} \enspace(\neg \alpha), \enspace \text{where}
+\enspace \alpha \enspace \text{is an} \enspace \mathcal{L}_{N T} \enspace
+\text{-formula} \enspace \\ \langle
+3,\ulcorner\alpha\urcorner,\ulcorner\beta\urcorner\rangle & \enspace
+\text{if} \enspace s \enspace \text {is} \enspace(\alpha \vee \beta),
+\enspace \text{where}
+\enspace \alpha \enspace \text{and} \enspace \beta \text { are}
+\mathcal{L}_{N T} \enspace \text{-formulas} \enspace \\ \left\langle
+5,\left\ulcorner v_{i}\right\urcorner,\ulcorner\alpha\urcorner\right\rangle &
+\enspace \text{if} \enspace s \enspace \text{is} \enspace\left(\forall
+v_{i}\right)(\alpha), \enspace \text{where} \enspace \alpha \text { is an}
+\mathcal{L}_{N T} \enspace \text{-formula} \enspace \\ \left\langle
+7,\left\ulcorner t_{1}\right\urcorner,\left\ulcorner
+t_{2}\right\urcorner\right\rangle & \text { if} s \enspace \text{is} \enspace =
+t_{1} t_{2}, \enspace \text{where} \enspace t_{1} \enspace \text{and} \enspace
+t_{2} \text {are terms} \\ \langle 9\rangle & \enspace \text{if} \enspace s
+\enspace \text{is} \enspace 0 \\ \langle 11,\ulcorner t\urcorner\rangle &
+\enspace \text{if} \enspace s \enspace \text{is} \enspace S t, \enspace
+\text{with} \enspace t \enspace \text{a term} \enspace \\ \left\langle
+13,\left\ulcorner t_{1}\right\urcorner,\left\ulcorner
+t_{2}\right\urcorner\right\rangle & \text { if} s \enspace \text{is}
+\enspace+t_{1} t_{2}, \enspace \text{where} \enspace t_{1} \enspace \text{and}
+\enspace t_{2} \text {are terms} \\ \left\langle 15,\left\ulcorner
+t_{1}\right\urcorner,\left\ulcorner t_{2}\right\urcorner\right\rangle & \text {
+if} s \enspace \text{is} \enspace \cdot t_{1} t_{2}, \enspace \text{where}
+\enspace t_{1} \enspace \text{and} \enspace t_{2} \enspace \text{are terms}
+\enspace \\ \left\langle 17,\left\ulcorner t_{1}\right\urcorner,\left\ulcorner
+t_{2}\right\urcorner\right\rangle & \text { if} s \enspace \text{is} \enspace E
+t_{1} t_{2}, \enspace \text{where} \enspace t_{1} \enspace \text{and} \enspace
+t_{2} \enspace \text{are terms} \enspace \\ \left\langle 19,\left\ulcorner
+t_{1}\right\urcorner,\left\ulcorner t_{2}\right\urcorner\right\rangle & \text {
+if} s \enspace \text{is} \enspace<t_{1} t_{2}, \enspace \text{where} \enspace
+t_{1} \enspace \text{and} \enspace t_{2} \text {are terms} \\ \langle 2 i\rangle
+                                                                      & \enspace
+\text{if} \enspace s \enspace \text{is the variable} \enspace v_{i} \\ 3 &
+\enspace \text{otherwise.} \enspace
+\end{cases}
+\]
+
+
+\end{definition}

@@ -1,0 +1,52 @@
+\begin{proposition}{Inverse Image Respects set
+Operations}{inverse_image_respects_set_operations}
+Let \( f : A \to B \) and \( S _{ \alpha  }, \alpha \in \mathcal{ J }   \) be
+subsets of \( B \), then for \( \texttt{X} \in  \left\{ \bigcup , \bigcap  \right\}  \) 
+\[
+ \underset{ \alpha \in  \mathcal{ J }   }{ \texttt{ X }  }  f ^{-1} \left( S _{
+ \alpha  }  \right) = f ^{-1} \left( \underset{ \alpha \in \mathcal{ J }   }{
+ \texttt{ X }  }  S _{ \alpha  }  \right) 
+\]
+It also respects set difference so that for any \( X, Y \subseteq B \) we have
+\[
+f ^{-1} \left( X \setminus Y \right) =  f ^{-1} \left( X \right) \setminus f
+^{-1} \left( Y \right) 
+\]
+\end{proposition}
+\begin{proof}
+    Consider the following string:\\
+    \( S\left( \texttt{ X } , \texttt{ Y }  \right) = \) ``
+    \begin{gather*}
+        x \in \underset{ \alpha \in \mathcal{ J }   }{ \texttt{ X }  }  f ^{-1} \left( S _{ \alpha  }
+        \right) \\
+        \Updownarrow \\
+        \underset{ \alpha \in \mathcal{ J }   }{ \texttt{ Y }  } x \in  f ^{-1} \left( S _{ \alpha
+        }  \right)  \\
+        \Updownarrow \\
+        \underset{ \alpha \in \mathcal{ J }   }{ \texttt{ Y }  } f  \left( x \right) \in  S _{
+        \alpha } \\
+        \Updownarrow \\
+        f  \left( x \right) \in  \underset{ \alpha \in \mathcal{ J }   }{
+        \texttt{ X }  }  \\
+        \Updownarrow \\
+        x \in  f ^{-1} \left( \underset{\alpha \in \mathcal{ J }}{\texttt{ X } } \right) 
+    \end{gather*}
+    ''\\
+    Notice that  \( S\left( \bigcup , \bigvee  \right)  \) is a proof of \( \bigcup
+    _{ \alpha  \in \mathcal{ J }   } f ^{-1} \left( S _{ \alpha  }  \right) = f
+    ^{-1} \left( \bigcup _{ \alpha  \in  \mathcal{ J }   } S _{ \alpha  }
+    \right) \) and \( S\left( \bigcap , \bigwedge  \right)  \) is a proof of \( \bigcap
+    _{ \alpha  \in \mathcal{ J }   } f ^{-1} \left( S _{ \alpha  }  \right) = f
+    ^{-1} \left( \bigcap _{ \alpha  \in  \mathcal{ J }   } S _{ \alpha  }
+    \right) \)\\
+    As for set difference consider \( k \in f ^{-1} \left( X \setminus Y \right)
+    \) that's true if and only if \( f\left( k \right) \in X \setminus Y\) if
+    and only if  \( f\left( k \right) \in  X \) and \( f\left( k \right) \not\in
+    Y \) equivalently that is \( k \in f ^{-1} \left( X \right)  \) and \( k \in
+    f ^{-1} \left( Y \right)  \) so then \( k \in  f ^{-1} \left( X \right)
+    \setminus f ^{-1} \left( Y \right)  \) so that \( k \in  f ^{-1} \left( X
+    \setminus Y \right) \) if and only if  \(  k \in f ^{-1} \left( X \right)
+    \setminus f ^{-1} \left( Y \right)  \) so \( f ^{-1} \left( X \setminus Y
+    \right) = f ^{-1} \left( X \right)  \setminus f ^{-1} \left( Y \right)  \),
+    as needed.
+\end{proof}

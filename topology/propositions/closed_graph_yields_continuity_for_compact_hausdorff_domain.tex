@@ -1,0 +1,42 @@
+\begin{proposition}
+{Closed Graph Yields Continuity for Compact Hausdorff
+Domain}{closed_graph_yields_continuity_for_compact_hausdorff_domain}
+Let \(f: X \to  Y\) be a map from a topological space \(X\) to a
+compact Hausdorff space \(Y\). Show that if the graph of \(f\) is closed in \(X
+\times Y\), then \(f\) is continuous.
+\end{proposition}
+\begin{proof}
+    We know that \( \Gamma \left( f \right)  \) is closed in \( X \times Y \),
+    additionally since \( X \) and \( C \) are also closed in \( X \) and \( Y
+    \) respectively, we can see that \(  X \times  C \) is closed in \( X \times
+    Y\), therefore the set \( \Gamma \left( f \right) \cap X \times C \) is 
+    closed in \( X \times Y \). We also note that compact subsets of hausdorff
+    spaces are closed, and that closed subspaces of compact spaces are compact,
+    so that in a hausdorff space intersections of compact spaces are compact.
+    Due to this we may deduce that  \( X \times C \) is compact, and that \(
+    \Gamma \left( f \right) \cap \left( X \times C \right)   \) is compact. Now
+    we consider the projection mapping \( \pi _{ X }  : X \times Y \to X  \)
+    since the continuous image of a compact space compact we can see that the
+    set \( \pi _{ X } \left( \Gamma \left( f \right) \land  \left( X \times C
+    \right)   \right)  \) is a compact set, therefore since \( X \) is
+    hausdorff it's also a closed set. Now if the following happened to be true
+    the proof would be complete:
+    \[
+    f ^{-1} \left( C \right) = \pi _{ X } \left( \Gamma \left( C \right) \cap
+    \left( X \times C \right)  \right) 
+    \]
+    it does happen to be true, and we'll prove it. \( \subseteq  \) Let \( x \in
+    f ^{-1} \left( C \right) \) so that \( f\left( x \right) \in  C \), we must
+    show that \( x \in  \pi _{ X } \left( \Gamma \left( C \right) \cap \left( X
+    \times C \right)  \right) \), that is \( x =  \pi _{ X } \left( \left( a, b
+    \right)  \right)  \) where \( \left( a, b \right)  \in \Gamma \left( C \right) \cap \left( X
+    \times C\right)  \) so we require that \( b = f\left( a \right)  \) and
+    that \( f\left( a \right) \in  C \), all in all we require \( x =  \pi _{ X } \left(
+    \left( a, f\left( a \right)  \right)  \right) = a \) for some \( a \in  X
+    \), this simply works if we let \( a =  x \) as we have noted that \(
+    f\left( x \right) \in  C \) . \( \supseteq  \) Suppose now that \( x \in
+    \Gamma \left( f \right) \cap \left( X \times C \right)  \) in this case we
+    know that \( x = \pi _{ X } \left( a, f\left( a \right) \in C  \right) = a  \) for
+    some \( a \in  X \) then \( f\left( x \right) = f\left( a \right) \in C \)
+    as needed.
+\end{proof}

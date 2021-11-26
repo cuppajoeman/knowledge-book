@@ -12,7 +12,7 @@ def setup_creator_parser():
 
     parser.add_argument(
         "type",
-        choices=["d", "t", "l", "p", "c"],
+        choices=["d", "t", "l", "p", "c", "e"],
         help="the type of content you want to create, can be  a definition, theorem, lemma, proposition or corollary",
     )
 

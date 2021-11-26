@@ -1,0 +1,20 @@
+\begin{definition}
+{Code Concatenation}{code_concatenation}
+The function \(^\frown: \mathbb{N} \times \mathbb{N} \rightarrow \mathbb{N}\) is
+defined by
+\[
+a^{\frown} b = \left\{
+\begin{array}
+{cc}
+\left\langle a_{1}, \ldots, a_{k}, b_{1}, \ldots, b_{l}\right\rangle & \text
+{if} a = \left\langle a_{1}, \ldots, a_{k}\right\rangle \text {and} b =
+\left\langle b_{1}, \ldots, b_{l}\right\rangle \\
+& \text {with}\left(a_{1}, \ldots, a_{k}\right) \in \mathbb{N} ^{<\mathbb{N}} \\
+& \left(b_{1}, \ldots, b_{l}\right) \in \mathbb{N} ^{<\mathbb{N}} \\
+0 & \text {otherwise}
+\end{array}
+\right.
+\]
+So given two code numbers this is the code number of the two sequences
+concatenated together.
+\end{definition}

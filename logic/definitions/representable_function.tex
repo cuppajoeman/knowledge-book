@@ -1,7 +1,15 @@
-\begin{definition}{Representable Function}{representable_function}
-    Suppose that $f: \mathbb{N}^{k} \rightarrow \mathbb{N}$ is a total function. We will say that $f$ is a representable function (in $N$ ) if there is an $\mathcal{L}_{N T}$ formula $\phi\left(x_{1}, \ldots, x_{k+1}\right)$ such that, for all $a_{1}, a_{2}, \ldots a_{k+1} \in \mathbb{N}$
-    \begin{itemize}
-        \item If $f\left(a_{1}, \ldots, a_{k}\right)=a_{k+1}$, then $N \vdash \phi\left(\overline{a_{1}}, \ldots, \overline{a_{k+1}}\right)$
-        \item If $f\left(a_{1}, \ldots, a_{k}\right) \neq a_{k+1}$, then $N \vdash \neg \phi\left(\overline{a_{1}}, \ldots, \overline{a_{k+1}}\right)$
-    \end{itemize}
+\begin{definition}
+{Representable Function}{representable_function}
+Suppose that \(f: \mathbb{N}^{k} \rightarrow \mathbb{N}\) is a total function.
+We will say that \(f\) is a representable function (in \(N\)) if there is an
+\(\mathcal{L}_{N T}\) formula \(\phi\left(x_{1}, \ldots, x_{k+1}\right)\) such
+that, for all \(a_{1}, a_{2}, \ldots a_{k+1} \in \mathbb{N}\)
+\begin{gather*}
+    \text{If} \enspace f\left(a_{1}, \ldots, a_{k}\right) = a_{k+1}, \enspace
+    \text{then} \enspace N \vdash \phi\left(\overline{a_{1}}, \ldots,
+    \overline{a_{k+1}}\right) \\
+    \text{If} \enspace f\left(a_{1}, \ldots, a_{k}\right) \neq a_{k+1}, \enspace
+    \text{then} \enspace   N \vdash \neg
+    \phi\left(\overline{a_{1}}, \ldots, \overline{a_{k+1}}\right)
+\end{gather*}
 \end{definition}

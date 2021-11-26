@@ -11,6 +11,7 @@ TYPE_TO_FULL_TYPE = {
     "l": "lemma",
     "p": "proposition",
     "c": "corollary",
+    "e": "example",
 }
 
 TYPE_TO_DIRECTORY = {
@@ -19,4 +20,5 @@ TYPE_TO_DIRECTORY = {
     "l": "lemmas",
     "p": "propositions",
     "c": "corollaries",
+    "e": "examples",
 }

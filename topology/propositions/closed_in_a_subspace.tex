@@ -1,0 +1,21 @@
+\begin{proposition}{Closed in a Subspace}{closed_in_a_subspace}
+Suppose \( Y \) is a subspace of \( X \), then \( A \) is closed in \( Y \) if
+and only if it equals the intersection of a closed set of \( X \) with \( Y \) 
+\end{proposition}
+\begin{proof}
+    \( \Leftarrow  \), assume that \( A =  C \cap  Y \) with \( C \) closed in
+    \( X \), then \( X \setminus C \) is open in \( X \). Thus \( \left( X - C
+    \right) \cap Y \in \mathcal{ T } _{ Y }   \) by
+    \ref{definition:subspace_topology} by
+    \ref{proposition:associativity_of_intersection_and_set_difference} we get
+    that \( \left( X \setminus C \right) \cap  Y = Y \setminus A \) so \( Y
+    \setminus  \) is open in \( Y \) which means \( A \) is closed in \( Y \)
+    .\\
+    \( \Rightarrow  \)  Assuming that \( A \) is closed in \( Y \) so then \( Y
+    \setminus A\) is open in \( Y \) by the definition of the subspace topology
+    that means that \( Y \setminus A = U \cap Y \) where \( U  \) is open in \(
+    X\), setting \( A =  Y \cap  \left( X \setminus U \right)  \) satisfies the
+    given equation by \ref{proposition:intersection_as_set_difference} and thus
+    \( A \) is equal to the intersection a closed set of \( X \) with \( Y \)
+    since \( U  \) was open in \( X \) making \( X \setminus U \) closed.
+\end{proof}

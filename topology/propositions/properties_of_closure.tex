@@ -1,0 +1,30 @@
+\begin{proposition}{Properties of Closure}{properties_of_closure}
+Suppose \( X \) is a topological space, then the following holds:
+\begin{enumerate}
+    \item \( \varnothing , X \) are closed
+    \item Arbitrary intersections of closed sets are closed
+    \item Finite unions of closed sets are closed
+\end{enumerate}
+\end{proposition}
+\begin{proof}
+    \begin{enumerate}
+        \item \( X \setminus \varnothing = X \) and \( X \setminus X =
+        \varnothing  \) and since \( X \) is a topology we know that \(
+        \varnothing , X \in  \mathcal{ T }   _{ X }  \) 
+        \item Suppose \( \left\{ A _{ \alpha  }  \right\} _{ \alpha \in
+        \mathcal{ J }   }  \) are closed sets, then from
+        \hyperref[theorem:demorgan's_laws]{DeMorgan's Laws} we know that 
+        \[
+        X \setminus \bigcap _{ \alpha \in \mathcal{ J }   } = \bigcup _{ \alpha
+        \in \mathcal{ J }  } \left( X -  A _{ \alpha  }  \right) 
+        \]
+        which is an aribtrary union of open sets and is therefore open.
+        \item Suppose that \( A _{ i }  \) is closed for \( i \in  \left[ n
+        \right] \) then again from DeMorgan we have
+        \[
+        X \setminus  \bigcup _{ i = 1 } ^{ n } A _{ i } = \bigcap _{ i = 1 }^{ n
+        } \left( X \setminus A _{ i }  \right) 
+        \]
+        thus it's open as it's equal to a finite intersection of open sets.
+    \end{enumerate}
+\end{proof}

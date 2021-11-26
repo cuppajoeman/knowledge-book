@@ -1,0 +1,49 @@
+\begin{proposition}{Intersection Factors}{intersection_factors}
+Let \( \mathcal{ J }   \) be an index set, then
+\[
+\bigcap _{ \alpha \in \mathcal{ J }   } \left( X _{ \alpha  } \cap M \right) =
+\left( \bigcap _{ \alpha \in \mathcal{ J }   } X _{ \alpha  }  \right) \cap M
+\]
+And 
+\[
+\bigcup _{ \alpha \in \mathcal{ J }   } \left( X _{ \alpha  } \cap M \right)  =
+\left( \bigcup _{ \alpha \in \mathcal{
+J}   } X _{ \alpha  }  \right) \cap M
+\]
+\end{proposition}
+\begin{proof}
+    For the first: 
+    \begin{gather*}
+         x \in \bigcap _{ \alpha \in \mathcal{ J }   } \left( X _{ \alpha  } \cap
+        M\right)  \\
+        \Updownarrow \\
+        x \in X _{ \alpha  } \cap M  \enspace \text{for every} \enspace \alpha
+        \in \mathcal{ J } \\
+        \Updownarrow \\
+        x \in X _{ \alpha  } \enspace \text{and} \enspace  x \in  M \enspace
+        \text{for every} \enspace    \alpha \in \mathcal{ J }    \\
+        \Updownarrow \\
+        x \in  \bigcap _{ \alpha \in \mathcal{ J }   } X _{ \alpha  }  \enspace
+        \text{and} \enspace x \in  M \\
+        \Updownarrow \\
+         x \in  \left( \bigcap _{ \alpha \in \mathcal{ J }   } X _{ \alpha  }
+         \right) \cap M 
+    \end{gather*}
+    For the second
+    \begin{gather*}
+        x \in \bigcup _{ \alpha \in \mathcal{ J }   } \left( X _{ \alpha  } \cap
+        M\right) \\
+        \Updownarrow \\
+        x \in X _{ \alpha  } \cap M \enspace \text{for at least one} \enspace
+        \alpha \in \mathcal{ J }  \\
+        \Updownarrow \\
+        x \in  X _{ \alpha  } \enspace \text{for at least one} \enspace \alpha
+        \in  \mathcal{ J } \enspace \text{and} \enspace x \in  M  \\
+        \Updownarrow \\
+        x \in \bigcup _{ \alpha \in \mathcal{ J }   } X _{ \alpha  } \enspace
+        \text{and} \enspace x \in  M \\
+        \Updownarrow \\
+        x \in  \left( \bigcup _{ \alpha \in \mathcal{ J }   } X _{ \alpha  }
+        \right) \cap  M
+    \end{gather*}
+\end{proof}
